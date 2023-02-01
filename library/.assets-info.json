@@ -1,0 +1,2866 @@
+{
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material": {
+    "time": 1675091131977.1143,
+    "uuid": "bcb14f34-8131-435f-a8f5-29612c45af59",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model": {
+    "time": 1675091131956.1077,
+    "uuid": "1ddc11ba-ecbd-4472-841c-f3777cb248da",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/scene": {
+    "time": 1675091131954.5137,
+    "uuid": "b0a4abb1-db32-49c3-9e09-a45b922a2094",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/skybox": {
+    "time": 1675091131952.1318,
+    "uuid": "9e344b1f-8681-4ddf-bcc6-bb014c332bb8",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld": {
+    "time": 1675091131970.473,
+    "uuid": "11a1d348-a622-41b2-89f3-ed24657e5f84",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass": {
+    "time": 1675091131972.8926,
+    "uuid": "e00862a8-c500-427c-b76f-bbe5203f19cc",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material.meta": {
+    "time": 1675091131973.3872
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model.meta": {
+    "time": 1675091131955.4194
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/scene.meta": {
+    "time": 1675091131953.5134
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/skybox.meta": {
+    "time": 1675091131950.787
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld.meta": {
+    "time": 1675091131955.9187
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass.meta": {
+    "time": 1675091131970.3015
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/hdcSky.mtl": {
+    "time": 1675091145157.1665,
+    "uuid": "482a5162-dad9-446c-b548-8486c7598ee1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/plane.mtl": {
+    "time": 1675091145157.2114,
+    "uuid": "23e988d0-7168-4fe2-9d46-f29c114e9e33",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/seafloor.mtl": {
+    "time": 1675091145157.3025,
+    "uuid": "70d33758-1c1e-424d-b0ab-eac7410559bf",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/shield.mtl": {
+    "time": 1675091145157.1924,
+    "uuid": "8e047178-f61c-4322-a2f6-d1adb28b6ae2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/soldier.mtl": {
+    "time": 1675091145157.2612,
+    "uuid": "8a58ddec-f437-40b9-8ec0-1fc87de97fb5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/stone.mtl": {
+    "time": 1675091145165.266,
+    "uuid": "a155f93b-7769-4ca4-b75f-b13e52193859",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/tree.mtl": {
+    "time": 1675091145173.9714,
+    "uuid": "7bf9df40-4bc9-4e25-8cb0-9a500f949102",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/scene/main.scene": {
+    "time": 1675091145364.3228,
+    "uuid": "7c3e7fab-7b1e-4865-ba84-3cf81b48b9fb",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/skybox/sunnySkyBox.jpg": {
+    "time": 1675091131953.2092,
+    "uuid": "5af201b5-5951-4e2c-a81f-ac4aad9132cb",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/hdcSky.FBX": {
+    "time": 1675091131969.797,
+    "uuid": "929e58ce-66a4-4e04-9036-4244456a1220",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/hdcSky.prefab": {
+    "time": 1675091145727.294,
+    "uuid": "f0512d7a-e4f6-4209-8dc0-ed1de7149c85",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/islands.FBX": {
+    "time": 1675091131968.7368,
+    "uuid": "0ab3142a-6968-4073-95af-026bc3b23623",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/islands.prefab": {
+    "time": 1675091145737.9172,
+    "uuid": "ccc3a755-7d3d-4304-aa3b-ca4792d79d9f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/seafloor.jpg": {
+    "time": 1675091131966.7322,
+    "uuid": "4f4c4a34-2d08-4a4d-9169-834d7ce82cee",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/shield.jpg": {
+    "time": 1675091131965.3772,
+    "uuid": "95e5b02a-e338-423c-bdbb-17486db1d9eb",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/sky.png": {
+    "time": 1675091131964.2295,
+    "uuid": "dc4a96c7-321a-48af-81e5-1127ad3ae432",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/soldier.FBX": {
+    "time": 1675091131962.2322,
+    "uuid": "e3553cad-2f15-4293-859a-8f43c780f289",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/soldier.png": {
+    "time": 1675091131961.09,
+    "uuid": "6f891a7b-5a08-48e6-9841-ddb364ac86b1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/soldier.prefab": {
+    "time": 1675091145938.4019,
+    "uuid": "cfc53c4e-7956-482b-aebc-3fb1dcd36eef",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/stone.jpg": {
+    "time": 1675091131958.5747,
+    "uuid": "0718d996-39bf-4ab4-bb63-496666fef467",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/tree.png": {
+    "time": 1675091131957.4922,
+    "uuid": "c5083e75-ad2e-4ea9-8b33-dee748995b00",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.FBX": {
+    "time": 1675091131973.091,
+    "uuid": "aade09ee-8f9d-413c-a9e8-8c686ea5e160",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.mtl": {
+    "time": 1675091146095.1475,
+    "uuid": "b698e55a-b00b-4987-a8b4-af83cddc59f7",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.png": {
+    "time": 1675091131972.0842,
+    "uuid": "ae18deea-c6e0-4a3d-bf70-ee5533f9ba87",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.prefab": {
+    "time": 1675091146119.1086,
+    "uuid": "ebe68402-4803-40d3-b0a2-ca696e3f7c60",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grassGoup.prefab": {
+    "time": 1675091146140.9028,
+    "uuid": "5e4d48c4-0e34-45af-a268-89485197e8bc",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/hdcSky.mtl.meta": {
+    "time": 1675091145165.3406
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/plane.mtl.meta": {
+    "time": 1675091145169.5989
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/shield.mtl.meta": {
+    "time": 1675091145170.2783
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/soldier.mtl.meta": {
+    "time": 1675091145170.4084
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/seafloor.mtl.meta": {
+    "time": 1675091145171.7412
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/stone.mtl.meta": {
+    "time": 1675091145176.9707
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/tree.mtl.meta": {
+    "time": 1675091145363.379
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/scene/main.scene.meta": {
+    "time": 1675091145728.1238
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/hdcSky.prefab.meta": {
+    "time": 1675091145735.3784
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/islands.prefab.meta": {
+    "time": 1675091145739.9363
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/seafloor.jpg.meta": {
+    "time": 1675091145744.065
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/shield.jpg.meta": {
+    "time": 1675091145746.6814
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/sky.png.meta": {
+    "time": 1675091145931.8425
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/soldier.png.meta": {
+    "time": 1675091145935.2441
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/soldier.prefab.meta": {
+    "time": 1675091145941.7532
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/skybox/sunnySkyBox.jpg.meta": {
+    "time": 1675091145943.7432
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/stone.jpg.meta": {
+    "time": 1675091145944.6663
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/tree.png.meta": {
+    "time": 1675091146081.9915
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.mtl.meta": {
+    "time": 1675091146103.644
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.png.meta": {
+    "time": 1675091146113.8223
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.prefab.meta": {
+    "time": 1675091146121.4397
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/hdcSky.FBX.meta": {
+    "time": 1675091146140.7258
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grassGoup.prefab.meta": {
+    "time": 1675091146148.2795
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/islands.FBX.meta": {
+    "time": 1675091146227.416
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.FBX.meta": {
+    "time": 1675091146487.0715
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/soldier.FBX.meta": {
+    "time": 1675091146497.0989
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture.meta": {
+    "time": 1675087721018.8884
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst.meta": {
+    "time": 1675087721019.069
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ctrl.meta": {
+    "time": 1675087721020.3982
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door.meta": {
+    "time": 1675087721020.9563
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton.meta": {
+    "time": 1675087721022.337
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player.meta": {
+    "time": 1675087721025.8845
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke.meta": {
+    "time": 1675087721049.0842
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes.meta": {
+    "time": 1675087721051.421
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/tile.meta": {
+    "time": 1675087721060.2678
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton.meta": {
+    "time": 1675087721060.781
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/attack.meta": {
+    "time": 1675087721019.1643
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/death.meta": {
+    "time": 1675087721019.6025
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/idle.meta": {
+    "time": 1675087721020.0557
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/death.meta": {
+    "time": 1675087721021.049
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle.meta": {
+    "time": 1675087721021.502
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death.meta": {
+    "time": 1675087721022.4368
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle.meta": {
+    "time": 1675087721024.2651
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath.meta": {
+    "time": 1675087721025.9756
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack.meta": {
+    "time": 1675087721027.7292
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback.meta": {
+    "time": 1675087721029.4368
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront.meta": {
+    "time": 1675087721030.977
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft.meta": {
+    "time": 1675087721032.8772
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright.meta": {
+    "time": 1675087721034.979
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft.meta": {
+    "time": 1675087721037.0952
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright.meta": {
+    "time": 1675087721039.1506
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death.meta": {
+    "time": 1675087721041.0503
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle.meta": {
+    "time": 1675087721043.0813
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft.meta": {
+    "time": 1675087721045.0647
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright.meta": {
+    "time": 1675087721047.1062
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/death.meta": {
+    "time": 1675087721049.2117
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle.meta": {
+    "time": 1675087721049.6091
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour.meta": {
+    "time": 1675087721051.5327
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone.meta": {
+    "time": 1675087721054.245
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree.meta": {
+    "time": 1675087721055.5056
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo.meta": {
+    "time": 1675087721058.4758
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack.meta": {
+    "time": 1675087721060.893
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death.meta": {
+    "time": 1675087721062.7449
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle.meta": {
+    "time": 1675087721064.6072
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/left.meta": {
+    "time": 1675087721021.6047
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/top.meta": {
+    "time": 1675087721021.9941
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/bottom.meta": {
+    "time": 1675087721022.537
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/left.meta": {
+    "time": 1675087721023.013
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/right.meta": {
+    "time": 1675087721023.4424
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/top.meta": {
+    "time": 1675087721023.8623
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/bottom.meta": {
+    "time": 1675087721024.3755
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/left.meta": {
+    "time": 1675087721024.7898
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/right.meta": {
+    "time": 1675087721025.1455
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/top.meta": {
+    "time": 1675087721025.5188
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/bottom.meta": {
+    "time": 1675087721026.071
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/left.meta": {
+    "time": 1675087721026.504
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/right.meta": {
+    "time": 1675087721026.9307
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/top.meta": {
+    "time": 1675087721027.31
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/bottom.meta": {
+    "time": 1675087721027.82
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/left.meta": {
+    "time": 1675087721028.2515
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/right.meta": {
+    "time": 1675087721028.636
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/top.meta": {
+    "time": 1675087721029.048
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/bottom.meta": {
+    "time": 1675087721029.5334
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/left.meta": {
+    "time": 1675087721029.9165
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/right.meta": {
+    "time": 1675087721030.2764
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/top.meta": {
+    "time": 1675087721030.6309
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/bottom.meta": {
+    "time": 1675087721031.0679
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/left.meta": {
+    "time": 1675087721031.465
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/right.meta": {
+    "time": 1675087721031.8708
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/top.meta": {
+    "time": 1675087721032.4062
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/bottom.meta": {
+    "time": 1675087721033.015
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/left.meta": {
+    "time": 1675087721033.522
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/right.meta": {
+    "time": 1675087721033.9956
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/top.meta": {
+    "time": 1675087721034.4949
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/bottom.meta": {
+    "time": 1675087721035.122
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/left.meta": {
+    "time": 1675087721035.6072
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/right.meta": {
+    "time": 1675087721036.109
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/top.meta": {
+    "time": 1675087721036.5918
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/bottom.meta": {
+    "time": 1675087721037.2234
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/left.meta": {
+    "time": 1675087721037.7202
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/right.meta": {
+    "time": 1675087721038.2153
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/top.meta": {
+    "time": 1675087721038.7039
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/bottom.meta": {
+    "time": 1675087721039.2673
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/left.meta": {
+    "time": 1675087721039.7375
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/right.meta": {
+    "time": 1675087721040.1313
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/top.meta": {
+    "time": 1675087721040.578
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/bottom.meta": {
+    "time": 1675087721041.1812
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/left.meta": {
+    "time": 1675087721041.6274
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/right.meta": {
+    "time": 1675087721042.1194
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/top.meta": {
+    "time": 1675087721042.5544
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/bottom.meta": {
+    "time": 1675087721043.213
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/left.meta": {
+    "time": 1675087721043.6926
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/right.meta": {
+    "time": 1675087721044.1453
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/top.meta": {
+    "time": 1675087721044.6235
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/bottom.meta": {
+    "time": 1675087721045.2063
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/left.meta": {
+    "time": 1675087721045.662
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/right.meta": {
+    "time": 1675087721046.1743
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/top.meta": {
+    "time": 1675087721046.6184
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/bottom.meta": {
+    "time": 1675087721047.242
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/left.meta": {
+    "time": 1675087721047.7083
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/right.meta": {
+    "time": 1675087721048.1753
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/top.meta": {
+    "time": 1675087721048.6409
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/bottom.meta": {
+    "time": 1675087721049.721
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/left.meta": {
+    "time": 1675087721050.182
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/right.meta": {
+    "time": 1675087721050.6094
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/top.meta": {
+    "time": 1675087721051.0234
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/five.meta": {
+    "time": 1675087721051.6438
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/four.meta": {
+    "time": 1675087721052.122
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/one.meta": {
+    "time": 1675087721052.5874
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/three.meta": {
+    "time": 1675087721053.022
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/two.meta": {
+    "time": 1675087721053.4272
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/zero.meta": {
+    "time": 1675087721053.8247
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/one.meta": {
+    "time": 1675087721054.3567
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/two.meta": {
+    "time": 1675087721054.741
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/zero.meta": {
+    "time": 1675087721055.1296
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/four.meta": {
+    "time": 1675087721055.6165
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/one.meta": {
+    "time": 1675087721056.015
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/three.meta": {
+    "time": 1675087721057.3005
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/two.meta": {
+    "time": 1675087721057.699
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/zero.meta": {
+    "time": 1675087721058.093
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/one.meta": {
+    "time": 1675087721058.61
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/three.meta": {
+    "time": 1675087721059.0034
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/two.meta": {
+    "time": 1675087721059.4128
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/zero.meta": {
+    "time": 1675087721059.8403
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/bottom.meta": {
+    "time": 1675087721061.021
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/left.meta": {
+    "time": 1675087721061.4473
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/right.meta": {
+    "time": 1675087721061.9172
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/top.meta": {
+    "time": 1675087721062.3318
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/bottom.meta": {
+    "time": 1675087721062.8557
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/left.meta": {
+    "time": 1675087721063.2808
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/right.meta": {
+    "time": 1675087721063.7585
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/top.meta": {
+    "time": 1675087721064.1753
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/bottom.meta": {
+    "time": 1675087721064.7146
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/left.meta": {
+    "time": 1675087721065.0928
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/right.meta": {
+    "time": 1675087721065.5007
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/top.meta": {
+    "time": 1675087721065.8706
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture": {
+    "time": 1675087721060.8188,
+    "uuid": "ff79dbae-2137-46b1-9b34-96575b8c7a1a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst": {
+    "time": 1675087721020.087,
+    "uuid": "df257117-8531-41c3-8c8a-a44312158c84",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ctrl": {
+    "time": 1675087721020.8647,
+    "uuid": "5050dd89-3ec6-4bda-9c10-1b1a9f83475f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door": {
+    "time": 1675087721021.5325,
+    "uuid": "729ae195-06d0-47b4-86ae-01cf0c384566",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton": {
+    "time": 1675087721024.2979,
+    "uuid": "d1e1b3ca-b9c8-406e-91aa-fe14e8369598",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player": {
+    "time": 1675087721047.1528,
+    "uuid": "5fcf402f-b037-42d9-a060-bfb749efe53f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke": {
+    "time": 1675087721049.6482,
+    "uuid": "d1ff8d9a-4a24-41c0-9608-5a1fa1deae4a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes": {
+    "time": 1675087721058.513,
+    "uuid": "238dc72e-2bc4-4c2c-9f23-796e96301990",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/tile": {
+    "time": 1675087721060.6804,
+    "uuid": "0d59cd85-088c-4ac0-bdec-bb43ceeb1d2f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton": {
+    "time": 1675087721064.6443,
+    "uuid": "82ef35d9-2da1-45e6-a4ed-13cc24b2bec8",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/attack": {
+    "time": 1675087721019.4932,
+    "uuid": "c98f94a2-8352-4226-a441-88b2d86a433e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/death": {
+    "time": 1675087721019.962,
+    "uuid": "b2b8b42e-f3c4-4db3-ae83-a002c045ac20",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/idle": {
+    "time": 1675087721020.309,
+    "uuid": "076b54a0-4480-4a0c-8b3f-58f3a7b82cad",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/death": {
+    "time": 1675087721021.4116,
+    "uuid": "0ca565a1-71d6-4530-9feb-6989fe2dac7a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle": {
+    "time": 1675087721022.024,
+    "uuid": "f4ef8dae-553c-4955-aafa-825ed14a9aca",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death": {
+    "time": 1675087721023.8928,
+    "uuid": "b1d79fab-b0da-4829-b77b-8f4d02992772",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle": {
+    "time": 1675087721025.56,
+    "uuid": "25974c6c-b3a5-4d3e-a9c6-5a56793bd2d0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath": {
+    "time": 1675087721027.339,
+    "uuid": "3115cf21-0714-46c3-90d8-77f6e61be247",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack": {
+    "time": 1675087721029.0776,
+    "uuid": "fa80a6f2-ddbe-4586-8931-1ab48c8ddb7f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback": {
+    "time": 1675087721030.6597,
+    "uuid": "ba805e19-0d1e-420a-8bad-d5a38bd589fd",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront": {
+    "time": 1675087721032.4495,
+    "uuid": "94a244c5-821f-41a1-a902-7899f84d43a7",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft": {
+    "time": 1675087721034.5322,
+    "uuid": "46aebad8-9ced-4788-aab1-dff5aa1850c9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright": {
+    "time": 1675087721036.6353,
+    "uuid": "f2a2d28d-14e4-446a-be9b-46aa8d850238",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft": {
+    "time": 1675087721038.7449,
+    "uuid": "586f179b-feb9-4a85-8f0c-5e5ed38b0c3a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright": {
+    "time": 1675087721040.6182,
+    "uuid": "92066f26-c601-4ebe-8b2f-517bd91c5f21",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death": {
+    "time": 1675087721042.5925,
+    "uuid": "1e4df7e0-14d6-4877-8e36-92651801376d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle": {
+    "time": 1675087721044.664,
+    "uuid": "a77d4a37-3543-4d63-a7d2-740c89adc7fc",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft": {
+    "time": 1675087721046.6616,
+    "uuid": "3ed08d29-54ba-48d7-bb47-1cdf66349d0a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright": {
+    "time": 1675087721048.6846,
+    "uuid": "0520cd6f-3427-4c2d-addc-2b7f67cb5696",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/death": {
+    "time": 1675087721049.5134,
+    "uuid": "05a0c693-3de0-47d0-bdca-50307156e5e9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle": {
+    "time": 1675087721051.057,
+    "uuid": "4838f403-bf9d-4dd0-86bd-3380693f6a00",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour": {
+    "time": 1675087721053.864,
+    "uuid": "ca351f44-e0a1-4471-a6e1-1ed7e9255ea1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone": {
+    "time": 1675087721055.1665,
+    "uuid": "16dcfc89-7679-4a21-9d2d-0ad3e18d25a3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree": {
+    "time": 1675087721058.1284,
+    "uuid": "b7831d1f-3074-4538-8c95-ba25bb5100ee",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo": {
+    "time": 1675087721059.8755,
+    "uuid": "ba66875d-9aa4-4d68-b287-0f7241c3793c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack": {
+    "time": 1675087721062.3665,
+    "uuid": "e06fe29e-926a-41c4-9aff-69fd272b350e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death": {
+    "time": 1675087721064.2102,
+    "uuid": "07165659-07f8-4e9e-872a-050248ef7271",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle": {
+    "time": 1675087721065.9075,
+    "uuid": "79994793-2393-4f97-b151-3e748c240efa",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/left": {
+    "time": 1675087721021.8635,
+    "uuid": "14c6c0c8-72c9-490f-b8a0-2845e12e7c65",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/top": {
+    "time": 1675087721022.2517,
+    "uuid": "71357945-8e8f-44dc-9b8b-1e27bc30b1fc",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/bottom": {
+    "time": 1675087721022.9006,
+    "uuid": "1c48effc-52f3-4dea-b049-fac6bf2f4582",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/left": {
+    "time": 1675087721023.3442,
+    "uuid": "98665758-f0ba-48c0-aa0b-5a898bb4a554",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/right": {
+    "time": 1675087721023.7632,
+    "uuid": "fb14c060-ccd0-4749-826d-2e05ddcd0f9b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/top": {
+    "time": 1675087721024.1628,
+    "uuid": "c0c123ba-bead-4b72-bd06-91c99b725f58",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/bottom": {
+    "time": 1675087721024.691,
+    "uuid": "78b91f3f-2b5e-4861-86fe-b9a040cbe151",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/left": {
+    "time": 1675087721025.0574,
+    "uuid": "fa47b15f-0dce-45ac-94c2-90b67c9e1209",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/right": {
+    "time": 1675087721025.4124,
+    "uuid": "dd1ab0cf-e2d8-4a18-8d7f-37d9d7bf2ee9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/top": {
+    "time": 1675087721025.7957,
+    "uuid": "1f44276b-9dee-43ed-8bea-58e51efc03e3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/bottom": {
+    "time": 1675087721026.4058,
+    "uuid": "7d4c46a3-e369-4c8f-93ee-3a003745dccb",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/left": {
+    "time": 1675087721026.8416,
+    "uuid": "dd5a21c4-ec96-460b-a361-1dcf25432c76",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/right": {
+    "time": 1675087721027.2258,
+    "uuid": "f4bfdf4a-3ee3-4c31-a83a-eab7e3089a7e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/top": {
+    "time": 1675087721027.617,
+    "uuid": "c426ef32-2ebc-4f85-90cc-3b7a4c916296",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/bottom": {
+    "time": 1675087721028.166,
+    "uuid": "0dbeef88-8855-4d01-a70e-91f286936cf8",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/left": {
+    "time": 1675087721028.5444,
+    "uuid": "22f5a935-663a-40ad-b0a8-f165ab222c12",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/right": {
+    "time": 1675087721028.962,
+    "uuid": "c842e3a8-45ae-4ed1-b9f5-caadbc2c5db3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/top": {
+    "time": 1675087721029.332,
+    "uuid": "d5ef1d71-1394-4659-a10c-098af1c3d54f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/bottom": {
+    "time": 1675087721029.8293,
+    "uuid": "24b82bd7-1a3b-4d5f-8396-4258a0e7e639",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/left": {
+    "time": 1675087721030.1816,
+    "uuid": "00393a04-8db8-4cb6-a6a6-d9d6e4a3f0e1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/right": {
+    "time": 1675087721030.546,
+    "uuid": "ace69bd2-6c2d-46ba-837f-de7f22d78db7",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/top": {
+    "time": 1675087721030.889,
+    "uuid": "4505fd0e-320b-43d2-b558-d64df60e9b0d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/bottom": {
+    "time": 1675087721031.3618,
+    "uuid": "1ed4bd47-4952-441a-a9de-f8abd83fb26a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/left": {
+    "time": 1675087721031.764,
+    "uuid": "87c8ffa7-b5c9-4af9-a3ce-b39574d01efa",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/right": {
+    "time": 1675087721032.24,
+    "uuid": "63f8d7b5-5d12-4930-91fd-8f0b28804e1a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/top": {
+    "time": 1675087721032.7612,
+    "uuid": "11bb1570-d389-4fd9-aa92-941666d4bc9d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/bottom": {
+    "time": 1675087721033.4038,
+    "uuid": "9f6e87c8-2699-4aa0-9452-f96de051e3ed",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/left": {
+    "time": 1675087721033.8784,
+    "uuid": "893a8f6e-d0ea-4591-a170-503d7b262c47",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/right": {
+    "time": 1675087721034.3936,
+    "uuid": "ab390129-5ea0-4be7-825a-4945a1030562",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/top": {
+    "time": 1675087721034.8357,
+    "uuid": "0c2c780a-d01f-461c-9f35-4e5347b6c3f0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/bottom": {
+    "time": 1675087721035.4783,
+    "uuid": "21a258cc-dad1-4f15-aeaf-e05d9ac6cd43",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/left": {
+    "time": 1675087721035.9827,
+    "uuid": "a3816462-fb93-48d6-a553-dea2e46aeead",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/right": {
+    "time": 1675087721036.4736,
+    "uuid": "bc8b45e8-2c04-47b5-b248-b632ccf679da",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/top": {
+    "time": 1675087721036.971,
+    "uuid": "851ef456-9965-4c4b-9d57-48e2abc6ce04",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/bottom": {
+    "time": 1675087721037.579,
+    "uuid": "a849e685-7261-410a-9c27-8aa9aafa6915",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/left": {
+    "time": 1675087721038.0671,
+    "uuid": "e7f4db32-50e2-47c7-8701-ef946baf6673",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/right": {
+    "time": 1675087721038.5496,
+    "uuid": "3cf74f09-753f-40d5-81ae-20e68f27cba6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/top": {
+    "time": 1675087721039.0476,
+    "uuid": "12b2aca4-0fa0-4fbd-8198-caf11d4bff15",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/bottom": {
+    "time": 1675087721039.6372,
+    "uuid": "1f03ed0a-ff35-44b3-a61d-8aa12291d788",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/left": {
+    "time": 1675087721040.03,
+    "uuid": "5dfa765b-dfad-4536-befb-77a8fbec126b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/right": {
+    "time": 1675087721040.468,
+    "uuid": "486042f6-228f-4d7a-985c-167c72ad4dcf",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/top": {
+    "time": 1675087721040.9353,
+    "uuid": "0f3bd01c-1601-402e-9100-3d85d2547baf",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/bottom": {
+    "time": 1675087721041.504,
+    "uuid": "ecb690cd-9a94-41aa-ae0f-26339e9ac6d0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/left": {
+    "time": 1675087721042.0095,
+    "uuid": "e2d76522-3721-40a7-9ee5-f58e87fb9b8c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/right": {
+    "time": 1675087721042.455,
+    "uuid": "cbe44f8f-5868-4d30-8171-cd359d348ef3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/top": {
+    "time": 1675087721042.9707,
+    "uuid": "45083301-0bdc-4dea-8275-c4103df17c41",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/bottom": {
+    "time": 1675087721043.5815,
+    "uuid": "0c251cb4-7c8f-4f38-a996-6f0239a6eeca",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/left": {
+    "time": 1675087721044.025,
+    "uuid": "30ea9f17-6510-493c-91f7-88a1ecc3849a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/right": {
+    "time": 1675087721044.5142,
+    "uuid": "da7f2a09-2442-423a-bd8c-e18748d962c3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/top": {
+    "time": 1675087721044.946,
+    "uuid": "c791d3c1-972b-4cca-ad59-22fcb1a3c1ed",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/bottom": {
+    "time": 1675087721045.5637,
+    "uuid": "b1f76e37-124c-41e4-85f5-8b7d2bac89c5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/left": {
+    "time": 1675087721046.0479,
+    "uuid": "e9ce2b17-4882-40e4-a8e1-27b0ccaa360d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/right": {
+    "time": 1675087721046.511,
+    "uuid": "8c51013e-f8a2-4583-97ee-0bc506edcb48",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/top": {
+    "time": 1675087721046.989,
+    "uuid": "8e81c95e-7bb3-45ae-a97f-f1e992c37ae2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/bottom": {
+    "time": 1675087721047.5986,
+    "uuid": "f7a60e34-cb3c-4e3f-99ee-e6a80ac48f6a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/left": {
+    "time": 1675087721048.0686,
+    "uuid": "29cfca8c-a101-4e4b-ac19-89bfce8bff3a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/right": {
+    "time": 1675087721048.5317,
+    "uuid": "9619e63f-9322-410e-93ef-8887bb7a6cee",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/top": {
+    "time": 1675087721048.99,
+    "uuid": "88dbfc96-6922-4d16-aa15-1a59ceced645",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/bottom": {
+    "time": 1675087721050.0588,
+    "uuid": "f07384e1-a3c4-44f5-9847-496e41c9df09",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/left": {
+    "time": 1675087721050.4973,
+    "uuid": "86449a77-3e87-4ce2-a558-e5b62ef5522e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/right": {
+    "time": 1675087721050.9248,
+    "uuid": "46313550-11f9-42d9-b049-4004e4f842ed",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/top": {
+    "time": 1675087721051.3176,
+    "uuid": "7ab1901e-ce23-4ba7-92a7-d71bab4f00d7",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/five": {
+    "time": 1675087721051.993,
+    "uuid": "03942af1-b13e-424b-adcc-6d8e7c6682d5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/four": {
+    "time": 1675087721052.4756,
+    "uuid": "dc5ea1ba-a331-4879-be78-6c4a8cc62ad3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/one": {
+    "time": 1675087721052.8997,
+    "uuid": "572cad2b-eff9-4603-a374-db555cbb7539",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/three": {
+    "time": 1675087721053.328,
+    "uuid": "af702ab0-bd92-4aa6-b2ea-51292a6c2b39",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/two": {
+    "time": 1675087721053.7258,
+    "uuid": "77df9a62-9c87-477b-a720-40ec91db79d2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/zero": {
+    "time": 1675087721054.1245,
+    "uuid": "b04905ef-7cae-4b35-8155-489c984574ab",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/one": {
+    "time": 1675087721054.6426,
+    "uuid": "28257742-c782-4d25-88f7-86de273a6c1c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/two": {
+    "time": 1675087721055.0305,
+    "uuid": "4154b157-8e6e-4275-abb6-ba88bc8d5ffc",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/zero": {
+    "time": 1675087721055.4045,
+    "uuid": "7dd91bbd-0225-4cbe-8836-dbfe289b0832",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/four": {
+    "time": 1675087721055.9094,
+    "uuid": "7c428e26-e129-4ce7-be23-91df7a9d29db",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/one": {
+    "time": 1675087721057.2014,
+    "uuid": "d194d677-dcac-4a97-b487-8001de2f62d3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/three": {
+    "time": 1675087721057.5935,
+    "uuid": "19951031-c86a-4488-aa21-8e84e56a0e0f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/two": {
+    "time": 1675087721057.9966,
+    "uuid": "c76da16f-5913-4fc7-b821-941ee2e5ac4c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/zero": {
+    "time": 1675087721058.3782,
+    "uuid": "38647b70-dda9-4572-a896-208338964b79",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/one": {
+    "time": 1675087721058.9058,
+    "uuid": "07b4bd8b-eda5-422b-9890-171d73d40671",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/three": {
+    "time": 1675087721059.3013,
+    "uuid": "0473c0fd-dbe5-4c0a-946c-f16b9b328c38",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/two": {
+    "time": 1675087721059.722,
+    "uuid": "8b64fdeb-761d-46ac-89e5-23f483bfe579",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/zero": {
+    "time": 1675087721060.1414,
+    "uuid": "21204d10-466d-4e8d-8929-d623798fb614",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/bottom": {
+    "time": 1675087721061.3584,
+    "uuid": "02bb207e-e5b1-4e68-9e23-c064c6223420",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/left": {
+    "time": 1675087721061.8032,
+    "uuid": "ab4a8135-4556-46e9-9a51-2add21f81235",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/right": {
+    "time": 1675087721062.2363,
+    "uuid": "4df2765e-ed87-4ce1-a68d-ed357e62cd27",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/top": {
+    "time": 1675087721062.644,
+    "uuid": "15745871-a84a-46ca-910a-faad4a84b725",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/bottom": {
+    "time": 1675087721063.171,
+    "uuid": "420da276-a164-40c4-9bd2-ac4566ffbfd5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/left": {
+    "time": 1675087721063.6577,
+    "uuid": "b54c1029-b698-4f57-906b-3988195d6431",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/right": {
+    "time": 1675087721064.0767,
+    "uuid": "75d55cc6-35e4-468e-b27b-89c3a6c3ac1d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/top": {
+    "time": 1675087721064.5107,
+    "uuid": "629abe2e-0114-4b55-b279-e677466ebdd6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/bottom": {
+    "time": 1675087721064.998,
+    "uuid": "8a6e655c-c3b4-4830-a9ba-5f5e66612bda",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/left": {
+    "time": 1675087721065.3833,
+    "uuid": "46f29900-d229-40b2-92b4-18404f4a2cf9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/right": {
+    "time": 1675087721065.7705,
+    "uuid": "3d91cc32-0987-48c1-9792-d052334017cd",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/top": {
+    "time": 1675087721066.166,
+    "uuid": "101e8188-473b-40b5-906a-b3acb08833c9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ctrl/ctrl.plist.meta": {
+    "time": 1675091214797.1875
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ctrl/ctrl.png.meta": {
+    "time": 1675091214780.8945
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/tile/tile.plist.meta": {
+    "time": 1675091214830.8381
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/tile/tile.png.meta": {
+    "time": 1675091214780.261
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/attack/idle.plist.meta": {
+    "time": 1675091214779.367
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/attack/idle.png.meta": {
+    "time": 1675091214789.0498
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/death/idle.plist.meta": {
+    "time": 1675091214795.2156
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/death/idle.png.meta": {
+    "time": 1675091214789.353
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/idle/idle.plist.meta": {
+    "time": 1675091214796.1743
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/idle/idle.png.meta": {
+    "time": 1675091214797.5417
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/death/death.plist.meta": {
+    "time": 1675091214799.733
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/death/death.png.meta": {
+    "time": 1675091214801.8855
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/left/idle.plist.meta": {
+    "time": 1675091214800.9207
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/left/idle.png.meta": {
+    "time": 1675091214802.1646
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/top/idle.plist.meta": {
+    "time": 1675091214807.2786
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/top/idle.png.meta": {
+    "time": 1675091214808.9663
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/bottom/death.plist.meta": {
+    "time": 1675091214836.6895
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/bottom/death.png.meta": {
+    "time": 1675091214811.477
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/left/death.plist.meta": {
+    "time": 1675091214844.0503
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/left/death.png.meta": {
+    "time": 1675091214818.7566
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/right/death.plist.meta": {
+    "time": 1675091214847.5576
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/right/death.png.meta": {
+    "time": 1675091214827.6228
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/top/death.plist.meta": {
+    "time": 1675091214864.6577
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/top/death.png.meta": {
+    "time": 1675091214841.3079
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/bottom/idle.plist.meta": {
+    "time": 1675091214854.9282
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/bottom/idle.png.meta": {
+    "time": 1675091214852.5933
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/left/idle.plist.meta": {
+    "time": 1675091214859.3826
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/left/idle.png.meta": {
+    "time": 1675091214857.556
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/right/idle.plist.meta": {
+    "time": 1675091214867.0945
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/right/idle.png.meta": {
+    "time": 1675091214863.2263
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/top/idle.plist.meta": {
+    "time": 1675091214872.3025
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/top/idle.png.meta": {
+    "time": 1675091214868.724
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/bottom/death.plist.meta": {
+    "time": 1675091214885.9866
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/bottom/death.png.meta": {
+    "time": 1675091214875.1296
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/left/death.plist.meta": {
+    "time": 1675091214891.667
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/left/death.png.meta": {
+    "time": 1675091214875.7417
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/right/death.plist.meta": {
+    "time": 1675091214896.3635
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/right/death.png.meta": {
+    "time": 1675091214881.633
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/top/death.plist.meta": {
+    "time": 1675091214899.6226
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/top/death.png.meta": {
+    "time": 1675091214886.927
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/bottom/attack.plist.meta": {
+    "time": 1675091214906.4658
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/bottom/attack.png.meta": {
+    "time": 1675091214897.284
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/left/attack.plist.meta": {
+    "time": 1675091214909.4192
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/left/attack.png.meta": {
+    "time": 1675091214902.8118
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/right/attack.plist.meta": {
+    "time": 1675091214912.8025
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/right/attack.png.meta": {
+    "time": 1675091214907.268
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/top/attack.plist.meta": {
+    "time": 1675091214921.561
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/top/attack.png.meta": {
+    "time": 1675091214912.1333
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/bottom/blockback.plist.meta": {
+    "time": 1675091214916.84
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/bottom/blockback.png.meta": {
+    "time": 1675091214915.669
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/left/blockback.plist.meta": {
+    "time": 1675091214925.389
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/left/blockback.png.meta": {
+    "time": 1675091214921.2
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/right/blockback.plist.meta": {
+    "time": 1675091214929.2834
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/right/blockback.png.meta": {
+    "time": 1675091214926.169
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/top/blockback.plist.meta": {
+    "time": 1675091214931.6294
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/top/blockback.png.meta": {
+    "time": 1675091214928.2683
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/bottom/blockfront.plist.meta": {
+    "time": 1675091214935.2031
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/bottom/blockfront.png.meta": {
+    "time": 1675091214932.3772
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/left/blockfront.plist.meta": {
+    "time": 1675091214937.6863
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/left/blockfront.png.meta": {
+    "time": 1675091214934.745
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/right/blockfront.plist.meta": {
+    "time": 1675091214941.2754
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/right/blockfront.png.meta": {
+    "time": 1675091214938.906
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/top/blockfront.plist.meta": {
+    "time": 1675091214945.5984
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/top/blockfront.png.meta": {
+    "time": 1675091214941.8472
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/bottom/blockleft.plist.meta": {
+    "time": 1675091214948.3599
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/bottom/blockleft.png.meta": {
+    "time": 1675091214944.8743
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/left/blockleft.plist.meta": {
+    "time": 1675091214952.2834
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/left/blockleft.png.meta": {
+    "time": 1675091214949.064
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/right/blockleft.plist.meta": {
+    "time": 1675091214959.1013
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/right/blockleft.png.meta": {
+    "time": 1675091214953.9614
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/top/blockleft.plist.meta": {
+    "time": 1675091214962.215
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/top/blockleft.png.meta": {
+    "time": 1675091214958.749
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/bottom/blockright.plist.meta": {
+    "time": 1675091214966.6562
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/bottom/blockright.png.meta": {
+    "time": 1675091214963.278
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/left/blockright.plist.meta": {
+    "time": 1675091214970.4014
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/left/blockright.png.meta": {
+    "time": 1675091214965.984
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/right/blockright.plist.meta": {
+    "time": 1675091214974.2004
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/right/blockright.png.meta": {
+    "time": 1675091214971.0823
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/top/blockright.plist.meta": {
+    "time": 1675091214977.5469
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/top/blockright.png.meta": {
+    "time": 1675091214975.2793
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/bottom/blockturnleft.plist.meta": {
+    "time": 1675091214980.4807
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/bottom/blockturnleft.png.meta": {
+    "time": 1675091214978.0078
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/left/blockturnleft.plist.meta": {
+    "time": 1675091214983.505
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/left/blockturnleft.png.meta": {
+    "time": 1675091214981.0173
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/right/blockturnleft.plist.meta": {
+    "time": 1675091214986.2114
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/right/blockturnleft.png.meta": {
+    "time": 1675091214983.2478
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/top/blockturnleft.plist.meta": {
+    "time": 1675091214989.7642
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/top/blockturnleft.png.meta": {
+    "time": 1675091214986.883
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/bottom/blockturnright.plist.meta": {
+    "time": 1675091214992.8977
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/bottom/blockturnright.png.meta": {
+    "time": 1675091214990.0813
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/left/blockturnright.plist.meta": {
+    "time": 1675091214997.8086
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/left/blockturnright.png.meta": {
+    "time": 1675091214993.2456
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/right/blockturnright.plist.meta": {
+    "time": 1675091215001.2134
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/right/blockturnright.png.meta": {
+    "time": 1675091214995.5225
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/top/blockturnright.plist.meta": {
+    "time": 1675091215005.6963
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/top/blockturnright.png.meta": {
+    "time": 1675091215001.9553
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/bottom/death.plist.meta": {
+    "time": 1675091215021.3135
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/bottom/death.png.meta": {
+    "time": 1675091215006.4536
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/left/death.plist.meta": {
+    "time": 1675091215025.2483
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/left/death.png.meta": {
+    "time": 1675091215009.2744
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/right/death.plist.meta": {
+    "time": 1675091215029.031
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/right/death.png.meta": {
+    "time": 1675091215013.6636
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/top/death.plist.meta": {
+    "time": 1675091215032.5835
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/top/death.png.meta": {
+    "time": 1675091215018.741
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/bottom/idle.plist.meta": {
+    "time": 1675091215028.6282
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/bottom/idle.png.meta": {
+    "time": 1675091215027.1357
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/left/idle.plist.meta": {
+    "time": 1675091215036.267
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/left/idle.png.meta": {
+    "time": 1675091215033.2598
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/right/idle.plist.meta": {
+    "time": 1675091215039.2793
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/right/idle.png.meta": {
+    "time": 1675091215034.6453
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/top/idle.plist.meta": {
+    "time": 1675091215042.719
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/top/idle.png.meta": {
+    "time": 1675091215039.956
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/bottom/turnleft.plist.meta": {
+    "time": 1675091215042.9548
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/bottom/turnleft.png.meta": {
+    "time": 1675091215042.1755
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/left/turnleft.plist.meta": {
+    "time": 1675091215047.3594
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/left/turnleft.png.meta": {
+    "time": 1675091215045.8955
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/right/turnleft.plist.meta": {
+    "time": 1675091215050.581
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/right/turnleft.png.meta": {
+    "time": 1675091215047.9958
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/top/turnleft.plist.meta": {
+    "time": 1675091215050.8237
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/top/turnleft.png.meta": {
+    "time": 1675091215051.5415
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/bottom/turnright.plist.meta": {
+    "time": 1675091215056.396
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/bottom/turnright.png.meta": {
+    "time": 1675091215055.2476
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/left/turnright.plist.meta": {
+    "time": 1675091215060.5415
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/left/turnright.png.meta": {
+    "time": 1675091215058.836
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/right/turnright.plist.meta": {
+    "time": 1675091215061.129
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/right/turnright.png.meta": {
+    "time": 1675091215062.6577
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/top/turnright.plist.meta": {
+    "time": 1675091215065.6655
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/top/turnright.png.meta": {
+    "time": 1675091215066.136
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/bottom/idle.plist.meta": {
+    "time": 1675091215077.9084
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/bottom/idle.png.meta": {
+    "time": 1675091215069.8218
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/left/idle.plist.meta": {
+    "time": 1675091215078.8188
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/left/idle.png.meta": {
+    "time": 1675091215071.2397
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/right/idle.plist.meta": {
+    "time": 1675091215083.1917
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/right/idle.png.meta": {
+    "time": 1675091215075.6926
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/top/idle.plist.meta": {
+    "time": 1675091215087.0444
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/top/idle.png.meta": {
+    "time": 1675091215081.9275
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/five/five.plist.meta": {
+    "time": 1675091215088.1838
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/five/five.png.meta": {
+    "time": 1675091215084.5195
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/four/four.plist.meta": {
+    "time": 1675091215088.5222
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/four/four.png.meta": {
+    "time": 1675091215089.7058
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/one/one.plist.meta": {
+    "time": 1675091215091.1125
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/one/one.png.meta": {
+    "time": 1675091215093.055
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/three/three.plist.meta": {
+    "time": 1675091215092.5962
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/three/three.png.meta": {
+    "time": 1675091215092.842
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/two/two.plist.meta": {
+    "time": 1675091215093.726
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/two/two.png.meta": {
+    "time": 1675091215095.7478
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/zero/zero.plist.meta": {
+    "time": 1675091215097.0847
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/zero/zero.png.meta": {
+    "time": 1675091215098.7996
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/one/one.plist.meta": {
+    "time": 1675091215097.557
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/one/one.png.meta": {
+    "time": 1675091215098.2947
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/two/two.plist.meta": {
+    "time": 1675091215104.4038
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/two/two.png.meta": {
+    "time": 1675091215102.7866
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/zero/zero.plist.meta": {
+    "time": 1675091215102.6096
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/zero/zero.png.meta": {
+    "time": 1675091215103.5688
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/four/four.plist.meta": {
+    "time": 1675091215107.25
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/four/four.png.meta": {
+    "time": 1675091215108.7427
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/one/one.plist.meta": {
+    "time": 1675091215108.1
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/one/one.png.meta": {
+    "time": 1675091215109.2683
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/three/three.plist.meta": {
+    "time": 1675091215108.5579
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/three/three.png.meta": {
+    "time": 1675091215112.5698
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/two/two.plist.meta": {
+    "time": 1675091215112.1738
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/two/two.png.meta": {
+    "time": 1675091215113.4602
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/zero/zero.plist.meta": {
+    "time": 1675091215113.2927
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/zero/zero.png.meta": {
+    "time": 1675091215113.9546
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/one/one.plist.meta": {
+    "time": 1675091215116.5264
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/one/one.png.meta": {
+    "time": 1675091215118.951
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/three/three.plist.meta": {
+    "time": 1675091215122.3335
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/three/three.png.meta": {
+    "time": 1675091215118.3347
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/two/two.plist.meta": {
+    "time": 1675091215117.8818
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/two/two.png.meta": {
+    "time": 1675091215123.047
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/zero/zero.plist.meta": {
+    "time": 1675091215123.8857
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/zero/zero.png.meta": {
+    "time": 1675091215125.4893
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/bottom/attack.plist.meta": {
+    "time": 1675091215133.5012
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/bottom/attack.png.meta": {
+    "time": 1675091215127.661
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/left/attack.plist.meta": {
+    "time": 1675091215138.6392
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/left/attack.png.meta": {
+    "time": 1675091215129.9692
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/right/attack.plist.meta": {
+    "time": 1675091215143.5398
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/right/attack.png.meta": {
+    "time": 1675091215133.9907
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/top/attack.plist.meta": {
+    "time": 1675091215146.436
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/top/attack.png.meta": {
+    "time": 1675091215139.995
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/bottom/death.plist.meta": {
+    "time": 1675091215176.9724
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/bottom/death.png.meta": {
+    "time": 1675091215144.56
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/left/death.plist.meta": {
+    "time": 1675091215183.9192
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/left/death.png.meta": {
+    "time": 1675091215150.0845
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/right/death.plist.meta": {
+    "time": 1675091215188.608
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/right/death.png.meta": {
+    "time": 1675091215158.4358
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/top/death.plist.meta": {
+    "time": 1675091215196.7725
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/top/death.png.meta": {
+    "time": 1675091215176.1714
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/bottom/idle.plist.meta": {
+    "time": 1675091215187.2212
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/bottom/idle.png.meta": {
+    "time": 1675091215183.0864
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/left/idle.plist.meta": {
+    "time": 1675091215195.3513
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/left/idle.png.meta": {
+    "time": 1675091215191.8591
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/right/idle.plist.meta": {
+    "time": 1675091215202.8513
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/right/idle.png.meta": {
+    "time": 1675091215196.2285
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/top/idle.plist.meta": {
+    "time": 1675091215206.3337
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/top/idle.png.meta": {
+    "time": 1675091215205.102
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/attack/idle.plist": {
+    "time": 1675087721019.3042,
+    "uuid": "078d1b30-1aa1-4e17-8e39-f97fc48d93e1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/tile/tile.png": {
+    "time": 1675087721060.639,
+    "uuid": "b2612a55-d2ad-47a0-a34d-517bcbd2386c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ctrl/ctrl.png": {
+    "time": 1675087721020.8257,
+    "uuid": "b46e6855-bf0d-4343-97d8-b5d4b6323501",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/attack/idle.png": {
+    "time": 1675087721019.463,
+    "uuid": "c852154a-1ded-4a74-bb83-3a43d8ba63dd",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/death/idle.png": {
+    "time": 1675087721019.9312,
+    "uuid": "1a079863-215f-4b7c-83d9-2633f2412fd5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/death/idle.plist": {
+    "time": 1675087721019.705,
+    "uuid": "919797f5-657b-43b7-9db8-8761687824d6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/idle/idle.plist": {
+    "time": 1675087721020.1511,
+    "uuid": "372a30b9-2c2c-400a-9907-bc667a7aaba6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ctrl/ctrl.plist": {
+    "time": 1675087721020.5618,
+    "uuid": "0d4bbcc3-f346-4cac-9424-63144a385768",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/idle/idle.png": {
+    "time": 1675087721020.282,
+    "uuid": "9706a534-7eb7-4e65-b307-239d405c6b04",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/death/death.plist": {
+    "time": 1675087721021.1858,
+    "uuid": "bb79db3e-f3f1-4996-903f-a1e79103bc3c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/left/idle.plist": {
+    "time": 1675087721021.7026,
+    "uuid": "96817283-01f9-43f6-9dc5-d31b8ed67581",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/death/death.png": {
+    "time": 1675087721021.3809,
+    "uuid": "a881ee54-5281-40fc-b7c8-692273b006c5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/left/idle.png": {
+    "time": 1675087721021.8328,
+    "uuid": "81e0e0ff-10db-40b6-9fc4-0a08ca2fe0a2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/top/idle.plist": {
+    "time": 1675087721022.1008,
+    "uuid": "a0291cb4-d737-4dbc-bcc8-1a34c8303be6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/top/idle.png": {
+    "time": 1675087721022.2212,
+    "uuid": "36e0d14e-931f-4821-8665-33c46251a1fa",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/bottom/death.png": {
+    "time": 1675087721022.8706,
+    "uuid": "48ee5939-6cb8-43e4-b2fa-a314a3146e62",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/left/death.png": {
+    "time": 1675087721023.316,
+    "uuid": "5ebc1fdf-a5db-47b8-be13-22d29caa8b43",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/right/death.png": {
+    "time": 1675087721023.7324,
+    "uuid": "546ae41d-f7be-4100-be38-4925bc87dbcf",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/tile/tile.plist": {
+    "time": 1675087721060.389,
+    "uuid": "e1fd0b7b-557b-4916-954d-e28193cff620",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/bottom/death.plist": {
+    "time": 1675087721022.6467,
+    "uuid": "f80ccb3a-7489-48a9-8eac-3adc79053c8d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/top/death.png": {
+    "time": 1675087721024.1323,
+    "uuid": "54cbe7e0-e376-404d-b3eb-4577dc08e008",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/left/death.plist": {
+    "time": 1675087721023.1155,
+    "uuid": "968946d9-1032-43f6-939b-381ff0089b08",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/right/death.plist": {
+    "time": 1675087721023.5364,
+    "uuid": "391786df-2c8b-417e-aeb5-94f507af2c96",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/bottom/idle.png": {
+    "time": 1675087721024.6626,
+    "uuid": "b09cc749-ea22-45d6-9a46-b2efd1b25532",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/bottom/idle.plist": {
+    "time": 1675087721024.514,
+    "uuid": "264a1d6b-e3fd-4f3d-8ecf-aec682c35b76",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/left/idle.png": {
+    "time": 1675087721025.028,
+    "uuid": "0cff2e2c-a415-46e2-b835-c9468a6dfdb5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/left/idle.plist": {
+    "time": 1675087721024.8887,
+    "uuid": "9fccc2ff-7e15-4834-8598-19ec37e981f4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/right/idle.png": {
+    "time": 1675087721025.3838,
+    "uuid": "7f61e510-929f-4d74-890a-7af04c794162",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/top/death.plist": {
+    "time": 1675087721023.9597,
+    "uuid": "5e0cb268-95b1-4c83-992b-5b7c3a411575",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/right/idle.plist": {
+    "time": 1675087721025.2417,
+    "uuid": "b86f2fe8-f77c-4abc-a10e-997c438b502e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/top/idle.png": {
+    "time": 1675087721025.76,
+    "uuid": "6e0191e9-f28b-4e0a-8cb6-5a0f564118cd",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/top/idle.plist": {
+    "time": 1675087721025.6335,
+    "uuid": "54c5d79c-3fe7-42be-b986-9d60af12fb66",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/bottom/death.png": {
+    "time": 1675087721026.375,
+    "uuid": "8d3022df-573e-4da7-8776-b3ff10ae00c5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/left/death.png": {
+    "time": 1675087721026.8071,
+    "uuid": "ae347201-a021-48b2-b264-8efb6eb74ed3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/right/death.png": {
+    "time": 1675087721027.193,
+    "uuid": "a6badd2b-4e29-4369-bc21-4d1da7f73826",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/bottom/death.plist": {
+    "time": 1675087721026.1924,
+    "uuid": "6efd3e74-91db-4088-af06-c9dad16a1247",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/top/death.png": {
+    "time": 1675087721027.5825,
+    "uuid": "c8777e1e-ae58-4e55-9940-ee8d87cbcff5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/left/death.plist": {
+    "time": 1675087721026.6096,
+    "uuid": "8450e845-67c0-441d-9694-ea535fe8f781",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/right/death.plist": {
+    "time": 1675087721027.0244,
+    "uuid": "ea65ea39-46d2-43aa-abbb-ade1da899f80",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/bottom/attack.png": {
+    "time": 1675087721028.1343,
+    "uuid": "bbea5a53-0128-4bc9-8424-dfb8285a9f80",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/top/death.plist": {
+    "time": 1675087721027.4097,
+    "uuid": "4f388892-e630-4d43-9a03-fe96cd2ef513",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/left/attack.png": {
+    "time": 1675087721028.5015,
+    "uuid": "bc31bf02-13e5-4c9c-9918-928072ec6c2c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/bottom/attack.plist": {
+    "time": 1675087721027.9424,
+    "uuid": "5772e697-94b3-4422-a73c-9474864d26d9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/right/attack.png": {
+    "time": 1675087721028.9307,
+    "uuid": "a2ea894a-b1a5-4c1c-bdcc-c0b9929f3528",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/left/attack.plist": {
+    "time": 1675087721028.3438,
+    "uuid": "504b6b50-bd7c-41ec-901d-69a5763257ce",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/top/attack.png": {
+    "time": 1675087721029.2993,
+    "uuid": "a3003a24-e744-4d74-bba7-236cd4841d17",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/right/attack.plist": {
+    "time": 1675087721028.748,
+    "uuid": "c31a0229-cb68-4b1f-91be-457a7d2ccdbc",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/bottom/blockback.png": {
+    "time": 1675087721029.7993,
+    "uuid": "a5a006a0-45ff-4e6e-879e-1cb6181cc8d8",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/bottom/blockback.plist": {
+    "time": 1675087721029.645,
+    "uuid": "cccee566-5bea-4d23-9ad8-687de0e648c9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/left/blockback.png": {
+    "time": 1675087721030.1519,
+    "uuid": "979f9c3d-f5e7-457b-b4f5-e6bdb043d77b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/top/attack.plist": {
+    "time": 1675087721029.1487,
+    "uuid": "2b32f8be-e1b8-4ed3-8c7a-6b85f0f34b89",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/left/blockback.plist": {
+    "time": 1675087721030.013,
+    "uuid": "a9b7933a-f445-462d-a9a0-80c2b0d20ba0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/right/blockback.png": {
+    "time": 1675087721030.5176,
+    "uuid": "02b7f1a6-8026-49c7-9196-905ee5608527",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/top/blockback.png": {
+    "time": 1675087721030.8613,
+    "uuid": "e0831215-bdf6-4c32-8a23-37a2f8d59d5d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/right/blockback.plist": {
+    "time": 1675087721030.3735,
+    "uuid": "3b47725d-bc33-4b7a-b6f8-3b98d3b4f92b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/top/blockback.plist": {
+    "time": 1675087721030.7192,
+    "uuid": "d129ed3f-1efb-4048-a0bf-32c903328aed",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/bottom/blockfront.png": {
+    "time": 1675087721031.3271,
+    "uuid": "ada6ed76-870b-45b1-87ba-1248bc77fc52",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/left/blockfront.png": {
+    "time": 1675087721031.7288,
+    "uuid": "fe9fc5cc-4144-4024-b360-1ab1ecfa3239",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/bottom/blockfront.plist": {
+    "time": 1675087721031.1748,
+    "uuid": "9ae79d13-4776-47d9-87e2-dccb9a494890",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/left/blockfront.plist": {
+    "time": 1675087721031.5776,
+    "uuid": "e170cabd-21ba-4df2-a985-dac3fd2a882a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/right/blockfront.png": {
+    "time": 1675087721032.167,
+    "uuid": "5bd5d291-01d7-443c-86f9-d2e49582bc82",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/right/blockfront.plist": {
+    "time": 1675087721031.9895,
+    "uuid": "aee7b7bd-a225-48fc-b306-c6f8f2e0143b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/top/blockfront.png": {
+    "time": 1675087721032.7205,
+    "uuid": "b97f1dd2-1de1-494a-a015-362df68db4e9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/bottom/blockleft.png": {
+    "time": 1675087721033.3645,
+    "uuid": "5027fda5-b4fd-43d9-aca5-10ee5a05ca84",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/top/blockfront.plist": {
+    "time": 1675087721032.5405,
+    "uuid": "e9463f94-9cf7-48af-8b5f-e37b7c704f97",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/bottom/blockleft.plist": {
+    "time": 1675087721033.1746,
+    "uuid": "4203adb1-d14e-4d44-bf17-c6b2b6de384b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/left/blockleft.png": {
+    "time": 1675087721033.8372,
+    "uuid": "c01864bb-6fe1-48f9-a1a8-9a1548201969",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/left/blockleft.plist": {
+    "time": 1675087721033.6526,
+    "uuid": "c22fd300-193f-479b-bdf4-117c878bfe12",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/right/blockleft.png": {
+    "time": 1675087721034.356,
+    "uuid": "6536a28f-cd59-46bf-9f3d-619fbbbc5519",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/top/blockleft.png": {
+    "time": 1675087721034.7964,
+    "uuid": "b0be4892-479e-4ca4-8397-0c1dc426b4c2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/right/blockleft.plist": {
+    "time": 1675087721034.1313,
+    "uuid": "8744551f-9253-46b2-aebd-ce43c9840e2d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/top/blockleft.plist": {
+    "time": 1675087721034.6162,
+    "uuid": "dd6b8b41-59ff-4f5d-8c1c-172189e12227",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/bottom/blockright.png": {
+    "time": 1675087721035.4329,
+    "uuid": "2843127c-f8c4-4ff9-9066-d1399d87c5bf",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/left/blockright.png": {
+    "time": 1675087721035.9355,
+    "uuid": "ac5ce64d-cecc-4f39-8a06-f0d6b3128928",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/bottom/blockright.plist": {
+    "time": 1675087721035.273,
+    "uuid": "d05ba9c1-ca05-4844-aef7-4914ddeb7f62",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/left/blockright.plist": {
+    "time": 1675087721035.7544,
+    "uuid": "d3589225-366a-45c6-92a0-5b46ec8afc7a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/right/blockright.png": {
+    "time": 1675087721036.4365,
+    "uuid": "4ea8a053-cd59-4093-a430-947f3b373cd5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/right/blockright.plist": {
+    "time": 1675087721036.26,
+    "uuid": "36fb2bd0-e4e8-4f12-8529-d934c37c1008",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/top/blockright.png": {
+    "time": 1675087721036.9263,
+    "uuid": "671107b3-483a-4fcc-8e70-2222e1273f65",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/top/blockright.plist": {
+    "time": 1675087721036.7583,
+    "uuid": "200f2a96-da21-4286-933c-0437182e21d1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/bottom/blockturnleft.png": {
+    "time": 1675087721037.5383,
+    "uuid": "37f5e633-e502-4bcc-a52e-f8a919eff6a6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/bottom/blockturnleft.plist": {
+    "time": 1675087721037.357,
+    "uuid": "7418d2ae-ae75-42b2-8df0-645d43a45f23",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/left/blockturnleft.png": {
+    "time": 1675087721038.0273,
+    "uuid": "216a84b9-d67d-462d-88f6-453d9842810d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/right/blockturnleft.png": {
+    "time": 1675087721038.5088,
+    "uuid": "ad6fd80b-fa8c-40f2-a5ce-3d315a272bb3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/left/blockturnleft.plist": {
+    "time": 1675087721037.8477,
+    "uuid": "4bcb2c70-ebf4-41a8-b258-f07efbb2b24e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/right/blockturnleft.plist": {
+    "time": 1675087721038.3362,
+    "uuid": "d52de85c-2bf3-41bb-a8a2-fe8935749f42",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/top/blockturnleft.png": {
+    "time": 1675087721039.01,
+    "uuid": "065fff35-8338-4de8-b2dd-26afc40abf36",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/top/blockturnleft.plist": {
+    "time": 1675087721038.8284,
+    "uuid": "9f3e4f03-0ca4-4e46-a632-aba1504ead55",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/bottom/blockturnright.png": {
+    "time": 1675087721039.5967,
+    "uuid": "b6682a2e-2894-4aa8-b920-7f387f775376",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/bottom/blockturnright.plist": {
+    "time": 1675087721039.3938,
+    "uuid": "fd374ded-9bbc-42b8-83e1-f1da94f26457",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/left/blockturnright.png": {
+    "time": 1675087721039.9954,
+    "uuid": "7ca52dbb-d34c-4fdb-aa5f-3764d7aa11b9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/right/blockturnright.png": {
+    "time": 1675087721040.4246,
+    "uuid": "b72e0c11-216d-48f5-b6a5-a471429d4c86",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/left/blockturnright.plist": {
+    "time": 1675087721039.84,
+    "uuid": "e2425347-8f52-4c12-9692-a0ac04233fe5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/right/blockturnright.plist": {
+    "time": 1675087721040.243,
+    "uuid": "dbf0e53e-65ea-4993-b9a6-8902c6ca68b3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/top/blockturnright.png": {
+    "time": 1675087721040.8918,
+    "uuid": "0d274969-ea23-4b60-9dc4-c1ae30cf57a4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/top/blockturnright.plist": {
+    "time": 1675087721040.6978,
+    "uuid": "fe28e12f-9460-4208-88c7-0847e493bf86",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/bottom/death.png": {
+    "time": 1675087721041.4707,
+    "uuid": "3600c9da-8f96-4584-9859-68574dec749a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/left/death.png": {
+    "time": 1675087721041.972,
+    "uuid": "93128878-b5d4-40a7-b633-5a6fccbff58e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/right/death.png": {
+    "time": 1675087721042.4185,
+    "uuid": "dfd957f6-2918-4e10-a191-ce64ef4f9578",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/top/death.png": {
+    "time": 1675087721042.934,
+    "uuid": "b087f45f-22ee-4035-87d2-731cce96046f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/bottom/death.plist": {
+    "time": 1675087721041.322,
+    "uuid": "90ea1211-e30e-4772-9369-ab7369f3429c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/left/death.plist": {
+    "time": 1675087721041.7576,
+    "uuid": "071f6e03-71ad-47b4-b0c8-1a5ea7ebde3b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/bottom/idle.png": {
+    "time": 1675087721043.5442,
+    "uuid": "c185edc2-c3a7-4bed-b43b-9b8626335cb4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/bottom/idle.plist": {
+    "time": 1675087721043.3894,
+    "uuid": "0394b5c9-8e68-4869-984a-77f0e105ed6f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/right/death.plist": {
+    "time": 1675087721042.251,
+    "uuid": "9fd83283-24e5-4239-8232-b60bd91dff9e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/top/death.plist": {
+    "time": 1675087721042.6792,
+    "uuid": "0c940be2-d9e2-4ce4-a5e1-8bbc49b8e801",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/left/idle.png": {
+    "time": 1675087721043.9907,
+    "uuid": "4587d893-cdca-4964-b6cd-5e3d6c4ed5c1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/right/idle.png": {
+    "time": 1675087721044.474,
+    "uuid": "ee1b3846-0a46-4746-b7c6-37f024eb8c95",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/left/idle.plist": {
+    "time": 1675087721043.8152,
+    "uuid": "b7b564bd-77e5-4ef2-95be-6c92f4862592",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/right/idle.plist": {
+    "time": 1675087721044.2751,
+    "uuid": "c439fcf9-34e4-4750-a0b3-03b568388616",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/top/idle.png": {
+    "time": 1675087721044.908,
+    "uuid": "dde7c784-70a5-4d40-a95b-39f3085e4acf",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/bottom/turnleft.png": {
+    "time": 1675087721045.5261,
+    "uuid": "1f133f1d-fe97-4062-ab1e-f188bf8cf896",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/top/idle.plist": {
+    "time": 1675087721044.7498,
+    "uuid": "e266ec6f-22fc-44a7-ab34-2091dc3b96b4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/bottom/turnleft.plist": {
+    "time": 1675087721045.3425,
+    "uuid": "62848eb2-58ba-44b7-b74d-94f42c183624",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/left/turnleft.png": {
+    "time": 1675087721046.0083,
+    "uuid": "34de8fc7-ebc4-4cc8-ad0c-ecb85451bf68",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/left/turnleft.plist": {
+    "time": 1675087721045.8225,
+    "uuid": "93f05d33-587c-4883-955a-68599c99af6a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/right/turnleft.png": {
+    "time": 1675087721046.4717,
+    "uuid": "e1f884e2-9cd1-4d13-90c3-67d52c9446aa",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/right/turnleft.plist": {
+    "time": 1675087721046.2993,
+    "uuid": "13623d20-f12e-432f-99af-e15676a96866",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/top/turnleft.plist": {
+    "time": 1675087721046.7766,
+    "uuid": "0e9215fb-316d-4c7a-b95a-f840280eec6d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/top/turnleft.png": {
+    "time": 1675087721046.9456,
+    "uuid": "c4f2ef87-25e1-4db9-ad42-257623bdde2c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/bottom/turnright.png": {
+    "time": 1675087721047.5586,
+    "uuid": "b13a7f31-9ebf-4085-8dc2-12f094b9776a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/bottom/turnright.plist": {
+    "time": 1675087721047.385,
+    "uuid": "8cbc63bc-63d2-4ead-a03c-3aa1b2814358",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/left/turnright.png": {
+    "time": 1675087721048.0237,
+    "uuid": "1e95cb83-767a-48a6-9b5b-56f02346379c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/left/turnright.plist": {
+    "time": 1675087721047.837,
+    "uuid": "d5b48725-75ae-4168-8629-cb479e276978",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/right/turnright.plist": {
+    "time": 1675087721048.3237,
+    "uuid": "9148e96f-fb29-44e2-94b9-447b6f68efd4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/right/turnright.png": {
+    "time": 1675087721048.497,
+    "uuid": "168e0668-32ae-467b-b27b-ed9731258a03",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/top/turnright.plist": {
+    "time": 1675087721048.7698,
+    "uuid": "0b4373d5-fc3d-47b1-8ab4-1448669078c6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/top/turnright.png": {
+    "time": 1675087721048.9487,
+    "uuid": "459f7f63-0e4d-4e44-a23e-61284c50de9a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/bottom/idle.png": {
+    "time": 1675087721050.0183,
+    "uuid": "1b5e7928-e56d-4eaf-9a0e-a3e996b2f6ef",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/left/idle.png": {
+    "time": 1675087721050.46,
+    "uuid": "731824c1-432a-42c1-acf7-467703ff0261",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/right/idle.png": {
+    "time": 1675087721050.8901,
+    "uuid": "46786279-203f-4398-ac84-2c129bb7c712",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/bottom/idle.plist": {
+    "time": 1675087721049.844,
+    "uuid": "763b6698-6865-4049-a14a-0e46f997d7c5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/left/idle.plist": {
+    "time": 1675087721050.2964,
+    "uuid": "54c17eb3-38f4-4ace-aa5d-5ccc3bce3bf9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/top/idle.png": {
+    "time": 1675087721051.2834,
+    "uuid": "b676cd00-a168-4810-a7d1-e4cf46dbe32f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/right/idle.plist": {
+    "time": 1675087721050.7349,
+    "uuid": "6103501e-2905-4ebb-8f4e-c55f19178f22",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/five/five.png": {
+    "time": 1675087721051.9573,
+    "uuid": "54b36b6e-f97b-4dae-9898-6ce06342ed33",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/top/idle.plist": {
+    "time": 1675087721051.1353,
+    "uuid": "f7a996dd-26f7-4ad9-8a6e-2a7b5a4c4f0c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/five/five.plist": {
+    "time": 1675087721051.7734,
+    "uuid": "53707ab8-7929-4c73-87e4-9328a7b247e5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/four/four.plist": {
+    "time": 1675087721052.2441,
+    "uuid": "298190fd-f483-4c1e-9376-829921331aa0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/four/four.png": {
+    "time": 1675087721052.4363,
+    "uuid": "5783895e-2802-4abc-a97e-58745a73358f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/one/one.plist": {
+    "time": 1675087721052.7156,
+    "uuid": "0e197964-f8f7-4304-bbd3-d49463b259bb",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/three/three.plist": {
+    "time": 1675087721053.1345,
+    "uuid": "3a25a98f-0898-4d18-b3c4-a2992269c742",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/three/three.png": {
+    "time": 1675087721053.2922,
+    "uuid": "653cfe47-3199-4f5f-837c-00a55bb0f0f1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/one/one.png": {
+    "time": 1675087721052.8657,
+    "uuid": "32fe68cc-665b-4545-99d3-b79214a83021",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/two/two.plist": {
+    "time": 1675087721053.54,
+    "uuid": "97a8fbbc-1ca6-468d-a9db-c0afdfa48096",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/two/two.png": {
+    "time": 1675087721053.6912,
+    "uuid": "5ddb2fd4-5a2f-4b22-85ab-aeeb0642e1ae",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/zero/zero.plist": {
+    "time": 1675087721053.9502,
+    "uuid": "6083b165-d32f-43ff-aae1-525860bae16d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/one/one.plist": {
+    "time": 1675087721054.4775,
+    "uuid": "82ba1c19-c874-401b-84d8-f1fb6a7e25b6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/one/one.png": {
+    "time": 1675087721054.611,
+    "uuid": "7c80c3bc-9cb9-4bd3-90bf-6cd0473196d7",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/zero/zero.png": {
+    "time": 1675087721054.0894,
+    "uuid": "9fad8ffd-b5e6-408f-93a8-e23887ed61ca",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/zero/zero.plist": {
+    "time": 1675087721055.2415,
+    "uuid": "d8c93eb0-a32f-43d0-b4c9-f5ca3f8e1d7b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/two/two.png": {
+    "time": 1675087721054.9983,
+    "uuid": "616391f1-2ede-4d23-a2fa-d70c5fefa322",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/zero/zero.png": {
+    "time": 1675087721055.3713,
+    "uuid": "e8549e00-cd66-4099-97be-b6af28cc8006",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/two/two.plist": {
+    "time": 1675087721054.8608,
+    "uuid": "c7ffdd4d-48d6-4f30-86a3-609e17aa3689",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/four/four.plist": {
+    "time": 1675087721055.7327,
+    "uuid": "7b0ca2a0-1fd0-403e-8117-6234698a877f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/one/one.plist": {
+    "time": 1675087721057.0254,
+    "uuid": "3260810e-eb95-4757-b469-b9021dc9a3c6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/three/three.plist": {
+    "time": 1675087721057.4146,
+    "uuid": "d3dc4196-bb83-43e2-b7dc-839e5f629a0e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/four/four.png": {
+    "time": 1675087721055.875,
+    "uuid": "5f1a8cf6-62f9-4f60-9fd6-20d6cb4343c5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/one/one.png": {
+    "time": 1675087721057.1682,
+    "uuid": "07d752fe-fed5-413d-90f7-865e76294e62",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/two/two.plist": {
+    "time": 1675087721057.817,
+    "uuid": "d1c1e4e4-8f21-4c59-b333-b354a20e87c1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/three/three.png": {
+    "time": 1675087721057.559,
+    "uuid": "0b248f91-56c9-4115-8282-9927f3dd07a4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/zero/zero.plist": {
+    "time": 1675087721058.2021,
+    "uuid": "e80f5554-1dc8-4111-9d3d-fd9ee2891a15",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/two/two.png": {
+    "time": 1675087721057.9612,
+    "uuid": "c2eea861-11c7-40ba-87c1-eaa1d5e6427c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/zero/zero.png": {
+    "time": 1675087721058.3418,
+    "uuid": "cc0a5460-6056-4b15-b095-f6694c327b9d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/one/one.plist": {
+    "time": 1675087721058.7317,
+    "uuid": "ae4387ff-6e76-4feb-8085-5e71ec54f92f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/two/two.plist": {
+    "time": 1675087721059.5354,
+    "uuid": "9077f514-31f3-4fac-9bad-e73091049b8b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/three/three.png": {
+    "time": 1675087721059.2627,
+    "uuid": "6eb39132-5388-4f03-a649-0cf23bbc6b95",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/one/one.png": {
+    "time": 1675087721058.8735,
+    "uuid": "40d9acdc-cdc6-467e-9892-3c10d32db80f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/three/three.plist": {
+    "time": 1675087721059.1162,
+    "uuid": "90a66264-e6e4-437b-b4ac-4df509220270",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/two/two.png": {
+    "time": 1675087721059.6875,
+    "uuid": "04b97190-e458-45e7-b088-caf2cc7e41d2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/zero/zero.plist": {
+    "time": 1675087721059.952,
+    "uuid": "e93fd8b9-51f6-4e0f-8f0d-3f563a0762a2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/zero/zero.png": {
+    "time": 1675087721060.0994,
+    "uuid": "89bdadaa-c90d-43bb-a52a-12e2052a16bf",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/bottom/attack.png": {
+    "time": 1675087721061.324,
+    "uuid": "ab0649bf-5ac0-4641-9bdb-7e5dda923fb8",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/left/attack.png": {
+    "time": 1675087721061.7634,
+    "uuid": "abb40c9d-1c6f-4f5b-8f32-e6048bc21281",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/bottom/attack.plist": {
+    "time": 1675087721061.158,
+    "uuid": "429757a5-5a24-4609-b452-fe06c64bfcd0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/right/attack.png": {
+    "time": 1675087721062.2007,
+    "uuid": "3fa2153f-a602-41e1-b310-7139e83eb2b4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/left/attack.plist": {
+    "time": 1675087721061.5579,
+    "uuid": "86460bec-5a19-4b34-9d81-dcbf1d527cf0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/top/attack.png": {
+    "time": 1675087721062.6106,
+    "uuid": "d4b07579-b865-4f6b-abf3-d6b5f2c65a0d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/right/attack.plist": {
+    "time": 1675087721062.0308,
+    "uuid": "d2099569-1814-481f-81d0-95e41089f1a6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/bottom/death.png": {
+    "time": 1675087721063.1362,
+    "uuid": "2318785d-7256-455d-8e98-c1e12c32a010",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/top/attack.plist": {
+    "time": 1675087721062.4436,
+    "uuid": "8e739a04-dde6-4147-832a-e41fd67b4faa",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/left/death.png": {
+    "time": 1675087721063.6228,
+    "uuid": "237de2ed-b615-482c-a1bb-4e9dbf3dbd3f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/right/death.png": {
+    "time": 1675087721064.0415,
+    "uuid": "2002c059-8f01-42e3-b5b8-3fcb1288473a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/top/death.png": {
+    "time": 1675087721064.478,
+    "uuid": "1647bfd1-0923-48da-8219-4749cedfbaaa",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/bottom/death.plist": {
+    "time": 1675087721062.9712,
+    "uuid": "eee40743-c8bc-4041-9856-0b875f7383a2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/bottom/idle.png": {
+    "time": 1675087721064.963,
+    "uuid": "d1606578-8a03-4522-984f-63bc89378f76",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/left/death.plist": {
+    "time": 1675087721063.3916,
+    "uuid": "993ad0d4-5eb0-4029-b507-e5bee7eb6554",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/bottom/idle.plist": {
+    "time": 1675087721064.8198,
+    "uuid": "e99c4e0e-802b-4620-8ba3-e7b04974e33e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/right/death.plist": {
+    "time": 1675087721063.8696,
+    "uuid": "8c76321e-353d-4854-8696-1f4bf4c731b4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/left/idle.png": {
+    "time": 1675087721065.3464,
+    "uuid": "3c87b97e-538c-4609-82a3-a370e1c11ee0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/left/idle.plist": {
+    "time": 1675087721065.2024,
+    "uuid": "ecaa3cbf-5441-4985-b50f-467c99bad203",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/right/idle.png": {
+    "time": 1675087721065.7358,
+    "uuid": "0df8ca16-80dc-4bd2-8e52-21c87073fd28",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/top/death.plist": {
+    "time": 1675087721064.287,
+    "uuid": "640a418f-2782-4b1a-8604-294223377771",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/right/idle.plist": {
+    "time": 1675087721065.61,
+    "uuid": "a631f8e2-a67c-4013-a0c4-e9aca4ba6f6a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/top/idle.png": {
+    "time": 1675087721066.1306,
+    "uuid": "294ce9bb-3c88-4d1d-ac73-07f17133d5a0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/top/idle.plist": {
+    "time": 1675087721065.9783,
+    "uuid": "9ed6355f-b42a-45bf-89b3-0a254ede5008",
+    "missing": false
+  }
+}

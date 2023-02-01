@@ -1,0 +1,333 @@
+{
+  "uuid": {
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/hdcSky.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/shield.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/plane.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/soldier.mtl": [
+      "a7612b54-35e3-4238-a1a9-4a7b54635839"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/seafloor.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/stone.mtl": [
+      "a7612b54-35e3-4238-a1a9-4a7b54635839"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/material/tree.mtl": [
+      "a7612b54-35e3-4238-a1a9-4a7b54635839"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ]
+  },
+  "path": {
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.FBX@9787f": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/grass/grass.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/islands.FBX@2df3a": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/seafloor.jpg"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/soldier.FBX@f3caa": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/model/helloWorld/soldier.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/attack/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/attack/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/idle/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/idle/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/death/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/burst/death/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ctrl/ctrl.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ctrl/ctrl.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/death/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/death/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/left/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/left/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/top/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/door/idle/top/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/tile/tile.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/tile/tile.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/bottom/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/bottom/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/left/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/left/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/right/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/right/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/top/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/death/top/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/bottom/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/bottom/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/left/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/left/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/right/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/right/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/top/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/ironskeleton/idle/top/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/bottom/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/bottom/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/left/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/left/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/right/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/right/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/top/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/airdeath/top/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/bottom/attack.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/bottom/attack.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/left/attack.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/left/attack.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/right/attack.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/right/attack.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/bottom/blockback.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/bottom/blockback.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/top/attack.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/attack/top/attack.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/left/blockback.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/left/blockback.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/right/blockback.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/right/blockback.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/top/blockback.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockback/top/blockback.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/bottom/blockfront.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/bottom/blockfront.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/left/blockfront.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/left/blockfront.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/right/blockfront.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/right/blockfront.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/top/blockfront.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockfront/top/blockfront.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/bottom/blockleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/bottom/blockleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/left/blockleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/left/blockleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/right/blockleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/right/blockleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/top/blockleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockleft/top/blockleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/bottom/blockright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/bottom/blockright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/left/blockright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/left/blockright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/right/blockright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/right/blockright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/top/blockright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockright/top/blockright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/bottom/blockturnleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/bottom/blockturnleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/left/blockturnleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/left/blockturnleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/right/blockturnleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/right/blockturnleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/top/blockturnleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnleft/top/blockturnleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/bottom/blockturnright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/bottom/blockturnright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/left/blockturnright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/left/blockturnright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/right/blockturnright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/right/blockturnright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/top/blockturnright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/blockturnright/top/blockturnright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/bottom/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/bottom/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/left/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/left/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/right/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/right/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/bottom/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/bottom/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/top/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/death/top/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/left/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/left/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/right/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/right/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/top/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/idle/top/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/bottom/turnleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/bottom/turnleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/left/turnleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/left/turnleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/right/turnleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/right/turnleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/top/turnleft.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnleft/top/turnleft.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/left/turnright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/left/turnright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/bottom/turnright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/bottom/turnright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/right/turnright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/right/turnright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/top/turnright.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/player/turnright/top/turnright.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/bottom/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/bottom/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/left/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/left/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/top/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/top/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/right/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/smoke/idle/right/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/five/five.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/five/five.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/four/four.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/four/four.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/three/three.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/three/three.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/one/one.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/one/one.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/one/one.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/one/one.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/two/two.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/two/two.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/zero/zero.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesfour/zero/zero.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/zero/zero.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/zero/zero.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/one/one.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/one/one.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/two/two.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesone/two/two.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/four/four.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/four/four.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/three/three.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/three/three.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/two/two.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/two/two.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/zero/zero.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikesthree/zero/zero.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/one/one.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/one/one.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/two/two.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/two/two.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/three/three.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/three/three.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/zero/zero.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/spikes/spikestwo/zero/zero.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/bottom/attack.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/bottom/attack.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/left/attack.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/left/attack.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/right/attack.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/right/attack.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/top/attack.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/attack/top/attack.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/bottom/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/bottom/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/bottom/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/bottom/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/left/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/left/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/right/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/right/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/top/death.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/death/top/death.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/left/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/left/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/right/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/right/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/top/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeath/assets/texture/woodenskeleton/idle/top/idle.png"
+    ]
+  }
+}
