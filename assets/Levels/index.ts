@@ -10,7 +10,7 @@ export interface ILevel {
     mapInfo: Array<Array<ITitle>>
 }
 
-const levels = {
+const levels: Record<string, ILevel> = {
     level1
 };
 
