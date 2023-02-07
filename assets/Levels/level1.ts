@@ -424,6 +424,9 @@ const mapInfo = [
     ],
 ];
 
+// const test2dArr: Array<Array<any>> = new Array<Array<any>>()
+// const test2dArr: Array<Array<number>> = [[12, 22], [, 44, 33]]
+
 const level: ILevel = {
     mapInfo
 };

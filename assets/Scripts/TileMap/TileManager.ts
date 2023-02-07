@@ -7,11 +7,13 @@ const TILE_HEIGHT = 55
 const { ccclass, property } = _decorator;
 @ccclass('TileManager')
 export class TileManager extends Component {
-    start() {
+    init(sp: SpriteFrame, { i, j }: any) {
+        const sprite = this.addComponent(Sprite)
+        sprite.spriteFrame = sp
 
-    }
+        const transfrom = this.getComponent(UITransform)
+        transfrom.setContentSize(TILE_WIDTH, TILE_HEIGHT)
 
-    init(sp: SpriteFrame, { x, y }: any) {
-
+        this.node.setPosition(i * TILE_WIDTH, -j * TILE_HEIGHT)
     }
 }

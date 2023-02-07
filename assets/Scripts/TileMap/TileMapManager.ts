@@ -1,8 +1,8 @@
 import { Component, _decorator, Node, resources, SpriteFrame, Sprite, UITransform, Layers, SpriteAtlas } from "cc";
 import levels from "../../Levels";
-
-const TILE_WIDTH = 55
-const TILE_HEIGHT = 55
+import { DataManagerInstance } from "../Runtime/DataManager";
+import { createNewNode } from "../Utils";
+import { TileManager } from "./TileManager";
 
 const { ccclass, property } = _decorator;
 @ccclass('TileMapManager')
@@ -13,28 +13,23 @@ export class TileMapManager extends Component {
 
     async init() {
         const spriteAtlas = await this.loadRes()
-        const { mapInfo } = levels[`level${1}`]
+        const { mapInfo } = DataManagerInstance
 
-        for (let index = 0; index < mapInfo.length; index++) {
-            const colnum = mapInfo[index];
+        for (let i = 0; i < mapInfo.length; i++) {
+            const colnum = mapInfo[i];
             for (let j = 0; j < colnum.length; j++) {
                 const item = colnum[j];
                 if (item.src === null || item.type === null) {
                     continue
                 }
 
-                const node = new Node()
-                const sprite = node.addComponent(Sprite)
+                const node = createNewNode()
                 const imgSrc = `tile (${item.src})`
                 const sp = spriteAtlas.spriteFrames[imgSrc]
-                sprite.spriteFrame = sp
                 // sprite.spriteFrame = spriteFrames.find(v => v.name === imgSrc) || spriteFrames[0]    
 
-                const transfrom = node.addComponent(UITransform)
-                transfrom.setContentSize(TILE_WIDTH, TILE_HEIGHT)
-
-                node.layer = 1 << Layers.nameToLayer('UI_2D')
-                node.setPosition(index * TILE_WIDTH, -j * TILE_HEIGHT)
+                const tileManager = node.addComponent(TileManager)
+                tileManager.init(sp, { i, j })
                 node.setParent(this.node)
             }
         }
