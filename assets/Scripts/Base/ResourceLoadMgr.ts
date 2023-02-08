@@ -1,4 +1,4 @@
-import { Component, resources, SpriteAtlas } from "cc";
+import { Component, resources, SpriteAtlas, Texture2D } from "cc";
 import { ILevel, ITitle } from "../../Levels"
 import Singleton from "./Singleton"
 
@@ -8,8 +8,8 @@ export default class ResourceLoadMgr extends Singleton {
         return super.getInstance<ResourceLoadMgr>()
     }
 
-    loadRes(path: string[], type = SpriteAtlas) {
-        return new Promise<SpriteAtlas[]>((resolve, reject) => {
+    loadRes(path: string, type = SpriteAtlas) {
+        return new Promise<SpriteAtlas>((resolve, reject) => {
             // resources.loadDir("texture/tile/tile", SpriteFrame, function (err, assets) {
             //     if (!err) {
             //         resolve(assets)

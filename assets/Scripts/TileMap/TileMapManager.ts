@@ -1,4 +1,4 @@
-import { Component, _decorator, Node, resources, SpriteFrame, Sprite, UITransform, Layers, SpriteAtlas } from "cc";
+import { Component, _decorator, Node, resources, SpriteFrame, Sprite, UITransform, Layers, SpriteAtlas, Texture2D } from "cc";
 import levels from "../../Levels";
 import ResourceLoadMgr from "../Base/ResourceLoadMgr";
 import DataManager from "../Runtime/DataManager";
@@ -14,7 +14,7 @@ export class TileMapManager extends Component {
     }
 
     async init() {
-        const spriteAtlas = await ResourceLoadMgr.Instance.loadRes(['texture/tile/tile'], SpriteAtlas)
+        const spriteAtlas = await ResourceLoadMgr.Instance.loadRes('texture/tile/tile', SpriteAtlas)
         const { mapInfo } = DataManager.Instance
 
         for (let i = 0; i < mapInfo.length; i++) {
@@ -29,10 +29,10 @@ export class TileMapManager extends Component {
                 if ((num === 1 || num === 5 || num === 9) && (i % 2 === 0 && j % 2 === 0)) {
                     num += randomTileByrange(0, 4)
                 }
-                console.log('num', num)
+                // console.log('num', num)
                 const node = createNewNode()
                 const imgSrc = `tile (${num})`
-                const sp = spriteAtlas[0].spriteFrames[imgSrc]
+                const sp = spriteAtlas.spriteFrames[imgSrc]
                 // sprite.spriteFrame = spriteFrames.find(v => v.name === imgSrc) || spriteFrames[0]    
 
                 const tileManager = node.addComponent(TileManager)

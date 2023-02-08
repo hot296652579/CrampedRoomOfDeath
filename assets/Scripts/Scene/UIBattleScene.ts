@@ -2,6 +2,7 @@ import { Component, _decorator, Node } from "cc";
 import { ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
+import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
@@ -36,7 +37,8 @@ export class UIBattleScene extends Component {
             DataManager.Instance.mapRowCount = level.mapInfo.length
         }
 
-        this.generateTileMap()
+        // this.generateTileMap()
+        this.generatePlayer()
         this.fitPos()
     }
 
@@ -61,6 +63,13 @@ export class UIBattleScene extends Component {
         tileMapNode.setParent(this.stage)
         const tileMapManager = tileMapNode.addComponent(TileMapManager)
         tileMapManager.init()
+    }
+
+    generatePlayer() {
+        const playerNode = createNewNode()
+        playerNode.setParent(this.stage)
+        const playerManager = playerNode.addComponent(PlayerMrg)
+        playerManager.init()
     }
 
     fitPos() {
