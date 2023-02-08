@@ -24,7 +24,7 @@ export default class EventMgr extends Singleton {
         }
     }
 
-    unEventListen(evt: string, fun: Function, cxt?: unknown) {
+    unEventListen(evt: string, fun: Function) {
         if (this.eventDir.has(evt)) {
             const index = this.eventDir.get(evt).findIndex(i => i.fun == fun)
             index > -1 && this.eventDir.get(evt).splice(index, 1)

@@ -1,5 +1,7 @@
 import { Component, _decorator, Node } from "cc";
+import { ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
+import EventMgr from "../Base/EventMgr";
 import DataManager from "../Runtime/DataManager";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
@@ -13,21 +15,39 @@ export class UIBattleScene extends Component {
     level: ILevel
     stage: Node
     start() {
-        this.initLevel()
         this.generateStage()
-        this.generateTileMap()
-        this.fitPos()
+        this.initLevel()
+    }
+
+    onLoad() {
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_NEXTLEVEL, this.nextLevelMap, this)
+    }
+
+    onDestry() {
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_NEXTLEVEL, this.nextLevelMap)
     }
 
     initLevel() {
-        const level = levels[`level${1}`]
-
+        this.clearLevelMap()
+        const level = levels[`level${DataManager.Instance.levelIndex}`]
         if (level) {
-            this.level = level
             DataManager.Instance.mapInfo = level.mapInfo
             DataManager.Instance.mapColumCount = level.mapInfo[0].length //列
             DataManager.Instance.mapRowCount = level.mapInfo.length
         }
+
+        this.generateTileMap()
+        this.fitPos()
+    }
+
+    nextLevelMap() {
+        DataManager.Instance.levelIndex++
+        this.initLevel()
+    }
+
+    clearLevelMap() {
+        this.stage.removeAllChildren()
+        DataManager.Instance.reset()
     }
 
     generateStage() {

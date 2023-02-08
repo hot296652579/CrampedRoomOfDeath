@@ -10706,5 +10706,21 @@
   "96d7c5ea-8a7d-41b3-971b-56898e1bb14d": {
     "url": "db://assets/Scripts/Base/ResourceLoadMgr.ts",
     "value": {}
+  },
+  "d6f593f8-0157-4eef-9e4b-ad9a6c2dcc20": {
+    "url": "db://assets/Levels/level2.ts",
+    "value": {}
+  },
+  "236e9e69-cf40-46dc-bd16-ed423099c2bf": {
+    "url": "db://assets/Scripts/UI",
+    "value": {}
+  },
+  "da039ca5-8501-43af-82d6-336cc3f51724": {
+    "url": "db://assets/Scripts/Base/EventMgr.ts",
+    "value": {}
+  },
+  "a90ee0d7-274a-4ecc-92ca-82ed72181fcc": {
+    "url": "db://assets/Scripts/UI/BottomControl.ts",
+    "value": {}
   }
 }
