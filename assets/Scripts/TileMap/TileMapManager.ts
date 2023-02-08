@@ -1,7 +1,9 @@
 import { Component, _decorator, Node, resources, SpriteFrame, Sprite, UITransform, Layers, SpriteAtlas } from "cc";
 import levels from "../../Levels";
-import { DataManagerInstance } from "../Runtime/DataManager";
-import { createNewNode } from "../Utils";
+import ResourceLoadMgr from "../Base/ResourceLoadMgr";
+import DataManager from "../Runtime/DataManager";
+// import { DataManagerInstance } from "../Runtime/DataManager";
+import { createNewNode, randomTileByrange } from "../Utils";
 import { TileManager } from "./TileManager";
 
 const { ccclass, property } = _decorator;
@@ -12,8 +14,8 @@ export class TileMapManager extends Component {
     }
 
     async init() {
-        const spriteAtlas = await this.loadRes()
-        const { mapInfo } = DataManagerInstance
+        const spriteAtlas = await ResourceLoadMgr.Instance.loadRes(['texture/tile/tile'], SpriteAtlas)
+        const { mapInfo } = DataManager.Instance
 
         for (let i = 0; i < mapInfo.length; i++) {
             const colnum = mapInfo[i];
@@ -23,9 +25,14 @@ export class TileMapManager extends Component {
                     continue
                 }
 
+                let num = item.src
+                if ((num === 1 || num === 5 || num === 9) && (i % 2 === 0 && j % 2 === 0)) {
+                    num += randomTileByrange(0, 4)
+                }
+                console.log('num', num)
                 const node = createNewNode()
-                const imgSrc = `tile (${item.src})`
-                const sp = spriteAtlas.spriteFrames[imgSrc]
+                const imgSrc = `tile (${num})`
+                const sp = spriteAtlas[0].spriteFrames[imgSrc]
                 // sprite.spriteFrame = spriteFrames.find(v => v.name === imgSrc) || spriteFrames[0]    
 
                 const tileManager = node.addComponent(TileManager)
@@ -33,28 +40,5 @@ export class TileMapManager extends Component {
                 node.setParent(this.node)
             }
         }
-    }
-
-    loadRes() {
-        return new Promise<SpriteAtlas>((resolve, reject) => {
-            // resources.loadDir("texture/tile/tile", SpriteFrame, function (err, assets) {
-            //     if (!err) {
-            //         resolve(assets)
-            //         return
-            //     } else {
-            //         console.log(err)
-            //         reject(false)
-            //     }
-            // });
-            resources.load("texture/tile/tile", SpriteAtlas, (err, atlas) => {
-                if (!err) {
-                    resolve(atlas)
-                    return
-                } else {
-                    console.log(err)
-                    reject(false)
-                }
-            });
-        })
     }
 }

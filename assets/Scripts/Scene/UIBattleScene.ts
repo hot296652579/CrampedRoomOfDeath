@@ -1,6 +1,7 @@
 import { Component, _decorator, Node } from "cc";
 import levels, { ILevel } from "../../Levels";
-import { DataManagerInstance } from "../Runtime/DataManager";
+import DataManager from "../Runtime/DataManager";
+// import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
 
@@ -23,9 +24,9 @@ export class UIBattleScene extends Component {
 
         if (level) {
             this.level = level
-            DataManagerInstance.mapInfo = level.mapInfo
-            DataManagerInstance.mapColumCount = level.mapInfo[0].length //列
-            DataManagerInstance.mapRowCount = level.mapInfo.length
+            DataManager.Instance.mapInfo = level.mapInfo
+            DataManager.Instance.mapColumCount = level.mapInfo[0].length //列
+            DataManager.Instance.mapRowCount = level.mapInfo.length
         }
     }
 
@@ -43,7 +44,7 @@ export class UIBattleScene extends Component {
     }
 
     fitPos() {
-        const { mapColumCount, mapRowCount } = DataManagerInstance
+        const { mapColumCount, mapRowCount } = DataManager.Instance
         const disX = TILE_WIDTH * mapRowCount / 2
         const disY = TILE_HEIGHT * mapColumCount / 2 + 100
         this.stage.setPosition(-disX, disY)

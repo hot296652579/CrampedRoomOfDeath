@@ -10694,5 +10694,17 @@
   "622c6e3b-59e8-4bf9-b1c0-7266fbb7aa46": {
     "url": "db://assets/Scripts/Runtime/DataManager.ts",
     "value": {}
+  },
+  "82b76866-f043-4a84-8ee6-f788797f60d0": {
+    "url": "db://assets/Scripts/Base",
+    "value": {}
+  },
+  "af5683f3-de0d-4626-96cc-ca31e28caea8": {
+    "url": "db://assets/Scripts/Base/Singleton.ts",
+    "value": {}
+  },
+  "96d7c5ea-8a7d-41b3-971b-56898e1bb14d": {
+    "url": "db://assets/Scripts/Base/ResourceLoadMgr.ts",
+    "value": {}
   }
 }
