@@ -12,5 +12,15 @@ export enum TILE_TYPE_ENUM {
 }
 
 export enum ENUM_EVENT {
-    ENUM_NEXTLEVEL = 'ENUM_NEXTLEVEL'
+    ENUM_NEXTLEVEL = 'ENUM_NEXTLEVEL',
+    ENUM_MOVE_PLAYER = 'ENUM_MOVE_PLAYER'
+}
+
+export enum ENUM_MOVE {
+    TOP = 'TOP',
+    BOTTOM = 'BOTTOM',
+    LEFT = 'LEFT',
+    RIGHT = 'RIGHT',
+    TURNLEFT = 'TOP',
+    TURNRIGHT = 'TOP'
 }

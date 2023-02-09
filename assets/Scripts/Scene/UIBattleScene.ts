@@ -37,7 +37,7 @@ export class UIBattleScene extends Component {
             DataManager.Instance.mapRowCount = level.mapInfo.length
         }
 
-        // this.generateTileMap()
+        this.generateTileMap()
         this.generatePlayer()
         this.fitPos()
     }
