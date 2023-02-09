@@ -3,24 +3,9 @@ import { ENUM_EVENT, ENUM_MOVE, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_TYPE } from ".
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
-import { StateMachine } from "./SateMachine";
-import Sate from "./State";
+import { getParamsInitValue, StateMachine } from "./SateMachine";
 import State from "./State";
 
-
-type ParamsTypeValue = boolean | number
-
-export interface IParamsVaule {
-    type: FSM_PARAMS_TYPE_ENUM,
-    value: ParamsTypeValue
-}
-
-export const getParamsInitValue = () => {
-    return {
-        type: FSM_PARAMS_TYPE_ENUM.TRIGGER,
-        value: false
-    }
-}
 
 const { ccclass, property } = _decorator;
 @ccclass('PlayerStateMachine')
@@ -41,8 +26,8 @@ export class PlayerStateMachine extends StateMachine {
     }
 
     initSateMachine() {
-        this.stateMachine.set(PARAMS_NAME_TYPE.IDEL, new Sate(this, 'texture/player/idle/top/idle', AnimationClip.WrapMode.Loop))
-        this.stateMachine.set(PARAMS_NAME_TYPE.TURNLEFT, new Sate(this, 'texture/player/turnleft/top/turnleft'))
+        this.stateMachine.set(PARAMS_NAME_TYPE.IDEL, new State(this, 'texture/player/idle/top/idle', AnimationClip.WrapMode.Loop))
+        this.stateMachine.set(PARAMS_NAME_TYPE.TURNLEFT, new State(this, 'texture/player/turnleft/top/turnleft'))
     }
 
     addAnimationEvent() {
