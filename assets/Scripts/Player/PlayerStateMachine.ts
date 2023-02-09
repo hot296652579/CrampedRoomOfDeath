@@ -3,6 +3,7 @@ import { ENUM_EVENT, ENUM_MOVE, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_TYPE } from ".
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
+import { StateMachine } from "./SateMachine";
 import Sate from "./State";
 import State from "./State";
 
@@ -23,42 +24,13 @@ export const getParamsInitValue = () => {
 
 const { ccclass, property } = _decorator;
 @ccclass('PlayerStateMachine')
-export class PlayerStateMachine extends Component {
-    private _currentSate: State = null
-    params: Map<string, IParamsVaule> = new Map() //参数列表
-    stateMachine: Map<string, State> = new Map()  //动画state列表
-
-    animationCom: Animation = null
-
-    waitList: Array<Promise<SpriteAtlas>> = []
-
-
-    getParams(paramsName: string) {
-        if (this.params.has(paramsName)) {
-            return this.params.get(paramsName)
-        }
-    }
-
-    setParams(paramsName: string, value: ParamsTypeValue) {
-        if (this.params.has(paramsName)) {
-            this.params.get(paramsName).value = value
-            this.run()
-        }
-    }
-
-    get currentSate() {
-        return this._currentSate
-    }
-
-    set currentSate(newSate) {
-        this._currentSate = newSate
-        this._currentSate.run()
-    }
+export class PlayerStateMachine extends StateMachine {
     async init() {
         this.animationCom = this.addComponent(Animation)
 
         this.initParams()
         this.initSateMachine()
+        this.addAnimationEvent()
 
         await Promise.all(this.waitList)
     }
@@ -73,15 +45,25 @@ export class PlayerStateMachine extends Component {
         this.stateMachine.set(PARAMS_NAME_TYPE.TURNLEFT, new Sate(this, 'texture/player/turnleft/top/turnleft'))
     }
 
+    addAnimationEvent() {
+        this.animationCom.on(Animation.EventType.FINISHED, () => {
+            const animationName = this.animationCom.defaultClip.name
+            const list = ['turn']
+
+            if (list.some(v => animationName.includes(v))) {
+                this.setParams(PARAMS_NAME_TYPE.IDEL, true)
+            }
+        })
+    }
+
     run() {
         switch (this.currentSate) {
             case this.stateMachine.get(PARAMS_NAME_TYPE.TURNLEFT):
 
-                break;
             case this.stateMachine.get(PARAMS_NAME_TYPE.IDEL):
-                if (this.params.get(PARAMS_NAME_TYPE.TURNLEFT)) {
+                if (this.params.get(PARAMS_NAME_TYPE.TURNLEFT).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.TURNLEFT)
-                } else if (this.params.get(PARAMS_NAME_TYPE.IDEL)) {
+                } else if (this.params.get(PARAMS_NAME_TYPE.IDEL).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDEL)
                 }
                 break;

@@ -1,6 +1,7 @@
 import { animation, AnimationClip, Sprite, SpriteAtlas, SpriteFrame } from "cc";
 import ResourceLoadMgr from "../Base/ResourceLoadMgr";
 import { PlayerStateMachine } from "./PlayerStateMachine";
+import { StateMachine } from "./SateMachine";
 
 const ANIMATION_SPEED = 1 / 8
 
@@ -8,7 +9,7 @@ const ANIMATION_SPEED = 1 / 8
 /**真正播动画的地方*/
 export default class Sate {
     animationClip: AnimationClip
-    constructor(private fsm: PlayerStateMachine, private path: string, private isLoop: AnimationClip.WrapMode = AnimationClip.WrapMode.Normal) {
+    constructor(private fsm: StateMachine, private path: string, private isLoop: AnimationClip.WrapMode = AnimationClip.WrapMode.Normal) {
         this.init()
     }
 
@@ -37,6 +38,7 @@ export default class Sate {
 
         // // 最后将轨道添加到动画剪辑以应用
         this.animationClip.addTrack(track)
+        this.animationClip.name = this.path
         this.animationClip.wrapMode = this.isLoop
         this.animationClip.duration = frams.length * ANIMATION_SPEED; // 整个动画剪辑的周期
     }

@@ -10723,5 +10723,9 @@
   "4a63ae42-e026-4041-a3e2-ab907a0386f2": {
     "url": "db://assets/Scripts/Player/State.ts",
     "value": {}
+  },
+  "8fed27c9-7564-4dea-b1a0-ee9a41ae9c71": {
+    "url": "db://assets/Scripts/Player/SateMachine.ts",
+    "value": {}
   }
 }
