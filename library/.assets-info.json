@@ -2884,7 +2884,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
-    "time": 1675912568861.2424,
+    "time": 1675926904261.0457,
     "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125",
     "missing": false
   },
@@ -2979,7 +2979,7 @@
     "time": 1675257364769.9006
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene/Battle.scene": {
-    "time": 1675914043500.785,
+    "time": 1675926926893.6624,
     "uuid": "c326e8c1-9770-4ea8-808d-1fffa0c92930",
     "missing": false
   },
@@ -5750,13 +5750,29 @@
     "time": 1675840824556.3577
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player": {
-    "time": 1675840824554.8125,
+    "time": 1675926270570.2253,
     "uuid": "11b6ba66-da95-4006-89db-09d4c4affc88",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1675913973487.6653,
+    "time": 1675926817443.0115,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerStateMachine.ts.meta": {
+    "time": 1675926270572.3137
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/State.ts.meta": {
+    "time": 1675926270572.555
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerStateMachine.ts": {
+    "time": 1675926812438.1165,
+    "uuid": "6883aeea-6bbe-4956-a804-e2c66c7c94fe",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/State.ts": {
+    "time": 1675926960055.03,
+    "uuid": "4a63ae42-e026-4041-a3e2-ab907a0386f2",
     "missing": false
   }
 }

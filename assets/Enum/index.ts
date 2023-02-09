@@ -21,6 +21,16 @@ export enum ENUM_MOVE {
     BOTTOM = 'BOTTOM',
     LEFT = 'LEFT',
     RIGHT = 'RIGHT',
-    TURNLEFT = 'TOP',
-    TURNRIGHT = 'TOP'
+    TURNLEFT = 'TURNLEFT',
+    TURNRIGHT = 'TURNRIGHT'
+}
+
+export enum FSM_PARAMS_TYPE_ENUM {
+    TRIGGER = 'TRIGGER',
+    NUMBER = 'NUMBER'
+}
+
+export enum PARAMS_NAME_TYPE {
+    IDEL = 'IDLE',
+    TURNLEFT = 'TURNLEFT'
 }

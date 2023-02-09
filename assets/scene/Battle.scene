@@ -656,8 +656,8 @@
     },
     "component": "",
     "_componentId": "a90eeDXJ0pOzJLKgu1yGB/M",
-    "handler": "handlerNextLevelClick",
-    "customEventData": ""
+    "handler": "handlerClickDirection",
+    "customEventData": "TURNLEFT"
   },
   {
     "__type__": "cc.Node",

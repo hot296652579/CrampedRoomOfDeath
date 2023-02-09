@@ -10715,5 +10715,13 @@
   "6761177b-5cea-42f0-a394-ceabfe6d7548": {
     "url": "db://assets/Scripts/Player/PlayerMgr.ts",
     "value": {}
+  },
+  "6883aeea-6bbe-4956-a804-e2c66c7c94fe": {
+    "url": "db://assets/Scripts/Player/PlayerStateMachine.ts",
+    "value": {}
+  },
+  "4a63ae42-e026-4041-a3e2-ab907a0386f2": {
+    "url": "db://assets/Scripts/Player/State.ts",
+    "value": {}
   }
 }
