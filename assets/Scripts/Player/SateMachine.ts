@@ -13,10 +13,17 @@ export interface IParamsVaule {
     value: ParamsTypeValue
 }
 
-export const getParamsInitValue = () => {
+export const getParamsInitTrigger = () => {
     return {
         type: FSM_PARAMS_TYPE_ENUM.TRIGGER,
         value: false
+    }
+}
+
+export const getParamsInitNumber = () => {
+    return {
+        type: FSM_PARAMS_TYPE_ENUM.NUMBER,
+        value: 0
     }
 }
 

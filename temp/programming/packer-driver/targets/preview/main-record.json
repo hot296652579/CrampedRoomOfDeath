@@ -556,7 +556,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 20525008.108000003,
+      "mTimestamp": 31378785.136958003,
       "chunkId": "9648ccf095d53cc6ca2c7ac2e859e5c3dc37571c",
       "imports": [
         {
@@ -923,10 +923,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
       "mTimestamp": {
-        "mtime": 1675926904261.0457,
+        "mtime": 1675942054710.5806,
         "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125"
       },
-      "chunkId": "2da1d1053178898ac6e56e9d4518f5435de20890",
+      "chunkId": "842fac19f4cc431c2ef9eebfd194379be572deb6",
       "imports": [
         {
           "value": "cc"
@@ -2261,10 +2261,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
       "mTimestamp": {
-        "mtime": 1675926817443.0115,
+        "mtime": 1675942010775.087,
         "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548"
       },
-      "chunkId": "fb825d87ef63e930cd2617a6eb412bc3cdd17ca1",
+      "chunkId": "e21c7462dcf5de065a2add1ee08458e47dd5081c",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2295,11 +2295,11 @@
           "loc": {
             "start": {
               "line": 2,
-              "column": 56
+              "column": 113
             },
             "end": {
               "line": 2,
-              "column": 68
+              "column": 125
             }
           }
         },
@@ -2408,10 +2408,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerStateMachine.ts": {
       "mTimestamp": {
-        "mtime": 1675931225051.9722,
+        "mtime": 1675942072319.2278,
         "uuid": "6883aeea-6bbe-4956-a804-e2c66c7c94fe"
       },
-      "chunkId": "c07c03f2f86a50a9f0516ac9adb8db6686e653a1",
+      "chunkId": "1923a1fbf541268b61be7a364ce0f2a6967053db",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2456,11 +2456,11 @@
           "loc": {
             "start": {
               "line": 6,
-              "column": 49
+              "column": 72
             },
             "end": {
               "line": 6,
-              "column": 64
+              "column": 87
             }
           }
         },
@@ -2618,10 +2618,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/SateMachine.ts": {
       "mTimestamp": {
-        "mtime": 1675931177712.014,
+        "mtime": 1675941078255.756,
         "uuid": "8fed27c9-7564-4dea-b1a0-ee9a41ae9c71"
       },
-      "chunkId": "fa2a34a89a5839ee68d071880da688027a79f62c",
+      "chunkId": "9b10677b826154c7335a9e9b2029f04743afc83a",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

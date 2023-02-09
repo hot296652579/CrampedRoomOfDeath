@@ -3,7 +3,7 @@ import { ENUM_EVENT, ENUM_MOVE, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_TYPE } from ".
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
-import { getParamsInitValue, StateMachine } from "./SateMachine";
+import { getParamsInitNumber, getParamsInitTrigger, StateMachine } from "./SateMachine";
 import State from "./State";
 
 
@@ -21,12 +21,13 @@ export class PlayerStateMachine extends StateMachine {
     }
 
     initParams() {
-        this.params.set(PARAMS_NAME_TYPE.IDEL, getParamsInitValue())
-        this.params.set(PARAMS_NAME_TYPE.TURNLEFT, getParamsInitValue())
+        this.params.set(PARAMS_NAME_TYPE.IDLE, getParamsInitTrigger())
+        this.params.set(PARAMS_NAME_TYPE.TURNLEFT, getParamsInitTrigger())
+        this.params.set(PARAMS_NAME_TYPE.DIRECTION, getParamsInitNumber())
     }
 
     initSateMachine() {
-        this.stateMachine.set(PARAMS_NAME_TYPE.IDEL, new State(this, 'texture/player/idle/top/idle', AnimationClip.WrapMode.Loop))
+        this.stateMachine.set(PARAMS_NAME_TYPE.IDLE, new State(this, 'texture/player/idle/top/idle', AnimationClip.WrapMode.Loop))
         this.stateMachine.set(PARAMS_NAME_TYPE.TURNLEFT, new State(this, 'texture/player/turnleft/top/turnleft'))
     }
 
@@ -36,7 +37,7 @@ export class PlayerStateMachine extends StateMachine {
             const list = ['turn']
 
             if (list.some(v => animationName.includes(v))) {
-                this.setParams(PARAMS_NAME_TYPE.IDEL, true)
+                this.setParams(PARAMS_NAME_TYPE.IDLE, true)
             }
         })
     }
@@ -45,16 +46,16 @@ export class PlayerStateMachine extends StateMachine {
         switch (this.currentSate) {
             case this.stateMachine.get(PARAMS_NAME_TYPE.TURNLEFT):
 
-            case this.stateMachine.get(PARAMS_NAME_TYPE.IDEL):
+            case this.stateMachine.get(PARAMS_NAME_TYPE.IDLE):
                 if (this.params.get(PARAMS_NAME_TYPE.TURNLEFT).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.TURNLEFT)
-                } else if (this.params.get(PARAMS_NAME_TYPE.IDEL).value) {
-                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDEL)
+                } else if (this.params.get(PARAMS_NAME_TYPE.IDLE).value) {
+                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDLE)
                 }
                 break;
 
             default:
-                this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDEL)
+                this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDLE)
                 break;
         }
     }

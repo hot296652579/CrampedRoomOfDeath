@@ -2884,7 +2884,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
-    "time": 1675926904261.0457,
+    "time": 1675942054710.5806,
     "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125",
     "missing": false
   },
@@ -5755,7 +5755,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1675926817443.0115,
+    "time": 1675942010775.087,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
@@ -5766,7 +5766,7 @@
     "time": 1675926270572.555
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerStateMachine.ts": {
-    "time": 1675931225051.9722,
+    "time": 1675942072319.2278,
     "uuid": "6883aeea-6bbe-4956-a804-e2c66c7c94fe",
     "missing": false
   },
@@ -5779,7 +5779,7 @@
     "time": 1675930929076.8057
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/SateMachine.ts": {
-    "time": 1675931177712.014,
+    "time": 1675941078255.756,
     "uuid": "8fed27c9-7564-4dea-b1a0-ee9a41ae9c71",
     "missing": false
   }
