@@ -55,3 +55,7 @@ export enum DIRECTION_ORDER_ENUM {
     LEFT = 2,
     RIGHT = 3,
 }
+
+export enum ENITIY_TYPE_ENUM {
+    PLAYER = 'PLAYER'
+}

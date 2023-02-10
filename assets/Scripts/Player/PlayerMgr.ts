@@ -1,5 +1,5 @@
 import { Component, _decorator, Node, Sprite, UITransform, Animation, SpriteAtlas, AnimationClip, animation, SpriteFrame, Texture2D, math } from "cc";
-import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_MOVE, PARAMS_NAME_TYPE } from "../../Enum";
+import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_MOVE, PARAMS_NAME_TYPE } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import ResourceLoadMgr from "../Base/ResourceLoadMgr";
@@ -9,50 +9,28 @@ import { TILE_HEIGHT, TILE_WIDTH } from "../TileMap/TileManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
 import { PlayerStateMachine } from "../Base/PlayerStateMachine";
+import { EnitiyMgr } from "../Base/EnitiyMgr";
 
 export const MOVE_SPEED = 1 / 10
 
 const { ccclass, property } = _decorator;
 @ccclass('PlayerMrg')
-export class PlayerMrg extends Component {
-    x: number = 0
-    y: number = 0
+export class PlayerMrg extends EnitiyMgr {
 
     tartgetX: number = 0
     tartgetY: number = 0
 
-    fsm: PlayerStateMachine = null
-
-    private _direction: DIRECTION_ENUM
-    private _state: ENTITY_STATE_ENUM
-
-    get direction() {
-        return this._direction
-    }
-    set direction(newDirection) {
-        this._direction = newDirection
-        this.fsm.setParams(PARAMS_NAME_TYPE.DIRECTION, DIRECTION_ORDER_ENUM[this._direction])
-    }
-
-    get state() {
-        return this._state
-    }
-    set state(newState) {
-        this._state = newState
-        this.fsm.setParams(this.state, true)
-    }
-
     async init() {
-        const sprite = this.addComponent(Sprite)
-        sprite.sizeMode = Sprite.SizeMode.CUSTOM
-        const transform = this.node.getComponent(UITransform)
-        transform.setContentSize(TILE_WIDTH * 4, TILE_HEIGHT * 4)
-
         this.fsm = this.addComponent(PlayerStateMachine)
         await this.fsm.init()
-        // this.fsm.setParams(PARAMS_NAME_TYPE.IDEL, true)
-        this.direction = DIRECTION_ENUM.TOP
-        this.state = ENTITY_STATE_ENUM.IDLE
+
+        super.init({
+            x: 0,
+            y: 0,
+            type: ENITIY_TYPE_ENUM.PLAYER,
+            state: ENTITY_STATE_ENUM.IDLE,
+            direction: DIRECTION_ENUM.TOP
+        })
     }
 
     onLoad() {
@@ -65,7 +43,7 @@ export class PlayerMrg extends Component {
 
     update() {
         this.updateXY()
-        this.node.setPosition(this.x * TILE_WIDTH - TILE_WIDTH * 1.5, -this.y * TILE_HEIGHT + TILE_HEIGHT * 1.5)
+        super.update()
     }
 
     updateXY() {

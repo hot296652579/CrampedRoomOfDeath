@@ -1,6 +1,14 @@
-import { TILE_TYPE_ENUM } from '../Enum';
+import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, TILE_TYPE_ENUM } from '../Enum';
 import level1 from './level1';
 import level2 from './level2';
+
+export interface IEnitiy {
+    x: number
+    y: number
+    state: ENTITY_STATE_ENUM
+    direction: DIRECTION_ENUM
+    type: ENITIY_TYPE_ENUM
+}
 
 export interface ITitle {
     src: number | null,

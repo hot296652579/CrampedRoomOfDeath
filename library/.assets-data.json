@@ -10739,5 +10739,13 @@
   "547f48af-1aa0-4140-aedd-757065dd048a": {
     "url": "db://assets/Scripts/Player/IdleSubStateMachine.ts",
     "value": {}
+  },
+  "daead2f4-1649-4374-be72-20cbb59169f8": {
+    "url": "db://assets/Scripts/Base/DirectionSubStateMachine.ts",
+    "value": {}
+  },
+  "694a631e-90ac-4d5e-9010-9d1dea03e4b0": {
+    "url": "db://assets/Scripts/Base/EnitiyMgr.ts",
+    "value": {}
   }
 }
