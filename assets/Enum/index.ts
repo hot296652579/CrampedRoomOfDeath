@@ -1,3 +1,6 @@
+/**
+ * 瓦片10种类型 wall墙壁 cliff悬崖 floor地板 
+ */
 export enum TILE_TYPE_ENUM {
     WALL_LEFT_TOP = 'WALL_LEFT_TOP',
     WALL_COLUMN = 'WALL_COLUMN',

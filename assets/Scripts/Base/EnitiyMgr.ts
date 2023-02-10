@@ -1,5 +1,5 @@
 import { Component, _decorator, Node, Sprite, UITransform, Animation, SpriteAtlas, AnimationClip, animation, SpriteFrame, Texture2D, math } from "cc";
-import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_MOVE, PARAMS_NAME_TYPE } from "../../Enum";
+import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_MOVE, PARAMS_NAME_TYPE } from "../../Enum";
 import levels, { IEnitiy, ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import ResourceLoadMgr from "../Base/ResourceLoadMgr";
@@ -22,6 +22,7 @@ export class EnitiyMgr extends Component {
 
     private _direction: DIRECTION_ENUM
     private _state: ENTITY_STATE_ENUM
+    private _type: ENITIY_TYPE_ENUM
 
     get direction() {
         return this._direction
@@ -49,6 +50,7 @@ export class EnitiyMgr extends Component {
         this.y = params.y
         this.direction = params.direction
         this.state = params.state
+        this._type = params.type
     }
 
     onLoad() { }

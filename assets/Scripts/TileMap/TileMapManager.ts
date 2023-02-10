@@ -15,10 +15,12 @@ export class TileMapManager extends Component {
 
     async init() {
         const spriteAtlas = await ResourceLoadMgr.Instance.loadRes('texture/tile/tile', SpriteAtlas)
-        const { mapInfo } = DataManager.Instance
+        let { mapInfo } = DataManager.Instance
+        DataManager.Instance.tileMgrInfo = []
 
         for (let i = 0; i < mapInfo.length; i++) {
             const colnum = mapInfo[i];
+            DataManager.Instance.tileMgrInfo[i] = []
             for (let j = 0; j < colnum.length; j++) {
                 const item = colnum[j];
                 if (item.src === null || item.type === null) {
@@ -26,6 +28,7 @@ export class TileMapManager extends Component {
                 }
 
                 let num = item.src
+                let type = item.type
                 if ((num === 1 || num === 5 || num === 9) && (i % 2 === 0 && j % 2 === 0)) {
                     num += randomTileByrange(0, 4)
                 }
@@ -36,7 +39,8 @@ export class TileMapManager extends Component {
                 // sprite.spriteFrame = spriteFrames.find(v => v.name === imgSrc) || spriteFrames[0]    
 
                 const tileManager = node.addComponent(TileManager)
-                tileManager.init(sp, { i, j })
+                DataManager.Instance.tileMgrInfo[i][j] = tileManager
+                tileManager.init(type, sp, { i, j })
                 node.setParent(this.node)
             }
         }

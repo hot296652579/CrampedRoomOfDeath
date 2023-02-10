@@ -64,6 +64,7 @@ export class PlayerMrg extends EnitiyMgr {
     }
 
     handlerMove(direction: ENUM_MOVE) {
+        console.log(DataManager.Instance.tileMgrInfo)
         switch (direction) {
             case ENUM_MOVE.TOP:
                 this.tartgetY -= 1

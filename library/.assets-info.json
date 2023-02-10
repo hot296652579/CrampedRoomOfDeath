@@ -2884,7 +2884,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
-    "time": 1676009415750.7917,
+    "time": 1676013388671.3308,
     "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125",
     "missing": false
   },
@@ -5643,7 +5643,7 @@
     "time": 1675737450764.229
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/TileMap/TileMapManager.ts": {
-    "time": 1675844533536.3025,
+    "time": 1676014784156.801,
     "uuid": "f4a8fe6f-6121-4320-a231-5db2b917a832",
     "missing": false
   },
@@ -5651,7 +5651,7 @@
     "time": 1675768574466.775
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/TileMap/TileManager.ts": {
-    "time": 1675845538361.836,
+    "time": 1676013963257.7612,
     "uuid": "3f343f43-ed43-4e3f-89f2-a5b1e2cc2f0c",
     "missing": false
   },
@@ -5683,7 +5683,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime/DataManager.ts": {
-    "time": 1675837314016.5505,
+    "time": 1676014590088.8657,
     "uuid": "622c6e3b-59e8-4bf9-b1c0-7266fbb7aa46",
     "missing": false
   },
@@ -5755,7 +5755,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1676010227803.9297,
+    "time": 1676014538845.79,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
@@ -5785,7 +5785,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/State.ts": {
-    "time": 1675996261244.4502,
+    "time": 1676012914002.0525,
     "uuid": "4a63ae42-e026-4041-a3e2-ab907a0386f2",
     "missing": false
   },
@@ -5819,7 +5819,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/EnitiyMgr.ts": {
-    "time": 1676009637310.1528,
+    "time": 1676013082164.2905,
     "uuid": "694a631e-90ac-4d5e-9010-9d1dea03e4b0",
     "missing": false
   }

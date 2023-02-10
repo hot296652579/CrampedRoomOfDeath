@@ -7,7 +7,7 @@ const ANIMATION_SPEED = 1 / 8
 
 
 /**真正播动画的地方*/
-export default class Sate {
+export default class State {
     animationClip: AnimationClip
     constructor(private fsm: StateMachine, private path: string, private isLoop: AnimationClip.WrapMode = AnimationClip.WrapMode.Normal) {
         this.init()
