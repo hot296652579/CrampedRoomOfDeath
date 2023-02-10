@@ -2979,7 +2979,7 @@
     "time": 1675257364769.9006
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene/Battle.scene": {
-    "time": 1675929726350.517,
+    "time": 1675998838823.5083,
     "uuid": "c326e8c1-9770-4ea8-808d-1fffa0c92930",
     "missing": false
   },
@@ -5694,7 +5694,7 @@
     "time": 1675822487912.8696
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base": {
-    "time": 1675837981103.921,
+    "time": 1675996913383.0786,
     "uuid": "82b76866-f043-4a84-8ee6-f788797f60d0",
     "missing": false
   },
@@ -5750,37 +5750,61 @@
     "time": 1675840824556.3577
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player": {
-    "time": 1675930929075.114,
+    "time": 1675997447457.7131,
     "uuid": "11b6ba66-da95-4006-89db-09d4c4affc88",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1675942010775.087,
+    "time": 1675997908783.514,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerStateMachine.ts.meta": {
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/PlayerStateMachine.ts.meta": {
     "time": 1675926270572.3137
   },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/State.ts.meta": {
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/SateMachine.ts.meta": {
+    "time": 1675930929076.8057
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/State.ts.meta": {
     "time": 1675926270572.555
   },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerStateMachine.ts": {
-    "time": 1675942072319.2278,
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/SubStateMachine.ts.meta": {
+    "time": 1675996913388.5637
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/TurnLeftSubStateMachine.ts.meta": {
+    "time": 1675996913389.1443
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/PlayerStateMachine.ts": {
+    "time": 1675998006184.0242,
     "uuid": "6883aeea-6bbe-4956-a804-e2c66c7c94fe",
     "missing": false
   },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/State.ts": {
-    "time": 1675930924492.0232,
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/SateMachine.ts": {
+    "time": 1675997836409.558,
+    "uuid": "8fed27c9-7564-4dea-b1a0-ee9a41ae9c71",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/State.ts": {
+    "time": 1675996261244.4502,
     "uuid": "4a63ae42-e026-4041-a3e2-ab907a0386f2",
     "missing": false
   },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/SateMachine.ts.meta": {
-    "time": 1675930929076.8057
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/SubStateMachine.ts": {
+    "time": 1675998133819.2153,
+    "uuid": "24e9a0e9-6687-434a-91d0-4df4d5e6e320",
+    "missing": false
   },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/SateMachine.ts": {
-    "time": 1675941078255.756,
-    "uuid": "8fed27c9-7564-4dea-b1a0-ee9a41ae9c71",
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/TurnLeftSubStateMachine.ts": {
+    "time": 1675999014843.597,
+    "uuid": "eba8ffb8-f8f2-41f8-9855-ded91d057131",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/IdleSubStateMachine.ts.meta": {
+    "time": 1675997447459.0024
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/IdleSubStateMachine.ts": {
+    "time": 1675998920776.1663,
+    "uuid": "547f48af-1aa0-4140-aedd-757065dd048a",
     "missing": false
   }
 }

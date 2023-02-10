@@ -10717,15 +10717,27 @@
     "value": {}
   },
   "6883aeea-6bbe-4956-a804-e2c66c7c94fe": {
-    "url": "db://assets/Scripts/Player/PlayerStateMachine.ts",
+    "url": "db://assets/Scripts/Base/PlayerStateMachine.ts",
     "value": {}
   },
   "4a63ae42-e026-4041-a3e2-ab907a0386f2": {
-    "url": "db://assets/Scripts/Player/State.ts",
+    "url": "db://assets/Scripts/Base/State.ts",
     "value": {}
   },
   "8fed27c9-7564-4dea-b1a0-ee9a41ae9c71": {
-    "url": "db://assets/Scripts/Player/SateMachine.ts",
+    "url": "db://assets/Scripts/Base/SateMachine.ts",
+    "value": {}
+  },
+  "24e9a0e9-6687-434a-91d0-4df4d5e6e320": {
+    "url": "db://assets/Scripts/Base/SubStateMachine.ts",
+    "value": {}
+  },
+  "eba8ffb8-f8f2-41f8-9855-ded91d057131": {
+    "url": "db://assets/Scripts/Player/TurnLeftSubStateMachine.ts",
+    "value": {}
+  },
+  "547f48af-1aa0-4140-aedd-757065dd048a": {
+    "url": "db://assets/Scripts/Player/IdleSubStateMachine.ts",
     "value": {}
   }
 }

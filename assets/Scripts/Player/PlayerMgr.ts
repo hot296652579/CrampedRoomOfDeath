@@ -8,7 +8,7 @@ import { TILE_HEIGHT, TILE_WIDTH } from "../TileMap/TileManager";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
-import { PlayerStateMachine } from "./PlayerStateMachine";
+import { PlayerStateMachine } from "../Base/PlayerStateMachine";
 
 export const MOVE_SPEED = 1 / 10
 
@@ -51,6 +51,7 @@ export class PlayerMrg extends Component {
         this.fsm = this.addComponent(PlayerStateMachine)
         await this.fsm.init()
         // this.fsm.setParams(PARAMS_NAME_TYPE.IDEL, true)
+        this.direction = DIRECTION_ENUM.TOP
         this.state = ENTITY_STATE_ENUM.IDLE
     }
 
