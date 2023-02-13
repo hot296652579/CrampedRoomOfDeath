@@ -8,8 +8,8 @@ export const TILE_HEIGHT = 55
 const { ccclass, property } = _decorator;
 @ccclass('TileManager')
 export class TileManager extends Component {
-    private canMove: boolean
-    private canTurn: boolean
+    canMove: boolean
+    canTurn: boolean
     type: TILE_TYPE_ENUM
 
     init(type: TILE_TYPE_ENUM, sp: SpriteFrame, { i, j }: any) {

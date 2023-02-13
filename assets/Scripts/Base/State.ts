@@ -33,7 +33,7 @@ export default class State {
                 index++
             }
         }
-        console.log(frams)
+        // console.log(frams)
         track.channel.curve.assignSorted(frams)
 
         // // 最后将轨道添加到动画剪辑以应用

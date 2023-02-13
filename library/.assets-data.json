@@ -10747,5 +10747,9 @@
   "694a631e-90ac-4d5e-9010-9d1dea03e4b0": {
     "url": "db://assets/Scripts/Base/EnitiyMgr.ts",
     "value": {}
+  },
+  "c7fa6f7f-6a96-469c-ab7e-08edc30b4d01": {
+    "url": "db://assets/Scripts/Player/PlayerManager97.ts",
+    "value": {}
   }
 }
