@@ -1,4 +1,4 @@
-import { Component, _decorator, Node, UITransform, Layers } from "cc";
+import { Component, _decorator, Node, UITransform, Layers, SpriteFrame, math, sp } from "cc";
 export const createNewNode = (name: string = '') => {
     const node = new Node()
     const transfrom = node.addComponent(UITransform)
@@ -10,4 +10,19 @@ export const createNewNode = (name: string = '') => {
 
 export const randomTileByrange = (start: number, end: number) => {
     return Math.floor(Math.random() * (start + (end - start)))
+}
+
+
+const getNumByName = (spname) => {
+    const reg = /\((\d+)\)/
+    return parseInt(spname.match(reg)[1]) || 0
+}
+
+export const sortSpriteFrame = (spFrames) => {
+    let arr = []
+    for (const key in spFrames) {
+        spFrames[key].name = key
+        arr.push(spFrames[key])
+    }
+    return arr.sort((a, b) => getNumByName(a.name) - getNumByName(b.name))
 }

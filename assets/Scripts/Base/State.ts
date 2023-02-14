@@ -2,6 +2,8 @@ import { animation, AnimationClip, Sprite, SpriteAtlas, SpriteFrame } from "cc";
 import ResourceLoadMgr from "./ResourceLoadMgr";
 import { PlayerStateMachine } from "./PlayerStateMachine";
 import { StateMachine } from "./SateMachine";
+import { sortSpriteFrame } from "../Utils";
+// import { sortSpriteFrame } from "../Utils";
 
 const ANIMATION_SPEED = 1 / 8
 
@@ -26,9 +28,10 @@ export default class State {
         const frams: Array<[number, SpriteFrame]> = []
 
         let index = 0
-        for (const key in spFrames) {
-            if (Object.prototype.hasOwnProperty.call(spFrames, key)) {
-                const element = spFrames[key];
+        let sortSpFrames = sortSpriteFrame(spFrames)
+        for (const key in sortSpFrames) {
+            if (Object.prototype.hasOwnProperty.call(sortSpFrames, key)) {
+                const element = sortSpFrames[key];
                 frams.push([ANIMATION_SPEED * index, element])
                 index++
             }

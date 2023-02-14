@@ -341,3 +341,1023 @@ myProp = 0;
 2023-02-14T02:43:05.840Z - log: [Scene] Cocos Creator v3.6.0
 2023-02-14T02:43:05.840Z - info: [Scene] Forward render pipeline initialized.
 2023-02-14T02:43:06.184Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-02-14T06:02:35.424Z - error: getImSetting failed
+2023-02-14T11:47:43.274Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.276Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.277Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.295Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.426Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.452Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.489Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.491Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.508Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.522Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.539Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.561Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.562Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.602Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.642Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.644Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.687Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.689Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.702Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.703Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.722Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.747Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.770Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:47:43.773Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.033Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.036Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.064Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.081Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.087Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.136Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.252Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.253Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.304Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.335Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.339Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.351Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.388Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.389Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.404Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.426Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.431Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.432Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.470Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.487Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.521Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.541Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.543Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:48:06.548Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:49:20.904Z - error: [Preview]TypeError: spFrames.sort is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.351Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.469Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.485Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.506Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.547Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.566Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.584Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.607Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.628Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.647Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.666Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.684Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.727Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.741Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.763Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.783Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.800Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.819Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.842Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.843Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.861Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.874Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.901Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:50.902Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:57.556Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:57.576Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:57.935Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:57.995Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.011Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.129Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.170Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.263Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.362Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.401Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.488Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.520Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.568Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.620Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.669Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.880Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.987Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:58.997Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:59.062Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:59.084Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:59.090Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:59.118Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:59.153Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:53:59.156Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.227Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.257Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.273Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.299Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.328Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.346Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.352Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.438Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.439Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.470Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.488Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.489Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.514Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.515Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.587Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.589Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.605Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.606Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.623Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.639Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.639Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.664Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.672Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:55:53.693Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.380Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.458Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.518Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.521Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.603Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.617Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.678Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.686Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.711Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.718Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.719Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.721Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.722Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.727Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.758Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.789Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.902Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.903Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.904Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.924Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.926Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.927Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.927Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:14.964Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:56:36.435Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:08.742Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:08.743Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:08.759Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:08.773Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:08.815Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.458Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.471Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.542Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.599Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.607Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.610Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.636Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.640Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.660Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:09.709Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:57:32.664Z - error: [Preview]TypeError: spFrames is not iterableerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.681Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.717Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.724Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.748Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.784Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.862Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.884Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.909Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.910Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.947Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.948Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:32.987Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.008Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.009Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.009Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.027Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.028Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.047Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.073Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.111Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.111Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.126Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.130Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:33.150Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:58:59.299Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:04.912Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:04.931Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:04.958Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.006Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.088Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.171Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.217Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.258Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.286Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.333Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.399Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.464Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.647Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.655Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.720Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.850Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.864Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.910Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:05.954Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:06.080Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:06.110Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:06.112Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T11:59:06.116Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:00.980Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:00.993Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.010Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.039Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.046Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.067Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.080Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.081Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.116Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.209Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.252Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.268Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.294Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.334Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.335Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.337Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.351Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.391Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.392Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.417Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.419Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.469Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.472Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:00:01.489Z - error: [Preview]TypeError: spFrames.forEach is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:42.981Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.026Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.028Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.060Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.064Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.097Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.111Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.130Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.242Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.305Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.311Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.315Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.340Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.341Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.380Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.391Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.414Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.415Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.430Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.446Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.474Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.493Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.507Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:06:43.509Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'math')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:06.967Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:06.971Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.007Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.010Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.010Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.028Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.049Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.084Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.099Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.177Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.231Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.231Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.256Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.294Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.312Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.333Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.334Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.372Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.394Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.395Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.414Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.431Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.447Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:07:07.456Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:08:21.118Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.291Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.302Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.371Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.379Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.394Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.400Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.411Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.413Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.427Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.447Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.549Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.550Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.565Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.595Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.614Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.615Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.615Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.632Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.633Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.633Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.648Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.682Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.698Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:09:05.701Z - error: [Preview]TypeError: spname.math is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-14T12:10:59.227Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.250Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.263Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.277Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.305Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.314Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.328Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.345Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.363Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.389Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.397Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.421Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.427Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.444Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.462Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.488Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.506Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.514Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.536Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.544Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.561Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.579Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.604Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.622Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.638Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.645Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.661Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.689Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.705Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.718Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.727Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.744Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.761Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.788Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.805Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.812Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.838Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.855Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.872Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.885Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.905Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.918Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.938Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.955Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.971Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.989Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:10:59.993Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.021Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.038Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.055Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.072Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.081Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.105Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.113Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.139Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.155Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.171Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.184Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.205Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.217Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.238Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.255Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.272Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.290Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.305Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.310Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.339Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.355Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.369Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.388Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.405Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.421Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.439Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.447Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.471Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.488Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.493Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.521Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.539Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.555Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.572Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.588Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.597Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.622Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.626Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:00.644Z - error: [Preview]Cannot read properties of undefined (reading '0')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '0')
+    at Object.updateUVs (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209449:24)
+    at Object.updateRenderData (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:209320:16)
+    at Sprite.updateRenderer (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:68865:29)
+    at UIRendererManager.updateAllDirtyRenderers (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:66829:31)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-14T12:11:51.908Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:51.957Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:51.961Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:51.961Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:51.973Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:51.989Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.025Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.061Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.063Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.094Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.158Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.205Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.225Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.226Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.259Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.275Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.276Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.294Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.315Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.339Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.357Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.360Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.362Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''
+2023-02-14T12:11:52.394Z - error: [Preview]TypeError: Cannot read properties of null (reading '1')errorInfo.stack ? '/n ' : ''

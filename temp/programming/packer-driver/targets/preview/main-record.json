@@ -556,7 +556,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 2734281.5071670003,
+      "mTimestamp": 34352818.049417004,
       "chunkId": "44e2fabe13c16d8b87bdac45c211f4bb452a36ec",
       "imports": [
         {
@@ -2047,10 +2047,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Utils/index.ts": {
       "mTimestamp": {
-        "mtime": 1675823980339.2388,
+        "mtime": 1676376860621.0635,
         "uuid": "4e9f7ce0-6f78-444f-8a08-c99e6e5d21a6"
       },
-      "chunkId": "2da547d4731951230b744d9682fdd8e9fffe8647",
+      "chunkId": "4738ba486a3fe61a570e79787dc4da8ce7b058c9",
       "imports": [
         {
           "value": "cc"
@@ -2063,11 +2063,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 65
+              "column": 88
             },
             "end": {
               "line": 1,
-              "column": 69
+              "column": 92
             }
           }
         }
@@ -2482,10 +2482,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
       "mTimestamp": {
-        "mtime": 1676345301924.0337,
+        "mtime": 1676345360513.735,
         "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548"
       },
-      "chunkId": "3e91d83aed1ed5237a9b00bbd2a54614220286fb",
+      "chunkId": "1733ace07b60863040f61bec1cad00a9a77516de",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3280,10 +3280,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/State.ts": {
       "mTimestamp": {
-        "mtime": 1676129755412.3953,
+        "mtime": 1676376915404.8953,
         "uuid": "4a63ae42-e026-4041-a3e2-ab907a0386f2"
       },
-      "chunkId": "54bc3aa836f5a756b8e120b29f0d46cc86cd9e4f",
+      "chunkId": "a5d55f71d50f56ea353feef535b6bfaab7fa5a15",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3319,6 +3319,20 @@
             "end": {
               "line": 2,
               "column": 47
+            }
+          }
+        },
+        {
+          "value": "../Utils",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 32
+            },
+            "end": {
+              "line": 5,
+              "column": 42
             }
           }
         }
@@ -3357,6 +3371,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/ResourceLoadMgr.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Utils/index.ts"
           },
           "messages": []
         }
