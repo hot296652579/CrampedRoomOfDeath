@@ -1,5 +1,5 @@
 import { Component, _decorator, Node } from "cc";
-import { ENUM_EVENT, ENUM_MOVE } from "../../Enum";
+import { ENUM_BOTTOM_CONTROLLER, ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import DataManager from "../Runtime/DataManager";
@@ -14,7 +14,7 @@ export class BottomControl extends Component {
         // EventMgr.Instance.emit(ENUM_EVENT.ENUM_NEXTLEVEL)
     }
 
-    handlerClickDirection(evt: Event, data: ENUM_MOVE) {
+    handlerClickDirection(evt: Event, data: ENUM_BOTTOM_CONTROLLER) {
         EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_PLAYER, data)
     }
 }

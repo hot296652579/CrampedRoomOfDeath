@@ -129,7 +129,7 @@ export class PlayerMrg extends EnitiyMgr {
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 //判断是否超出地图
-                if (playerNextY <= 1) {
+                if (playerNextY <= 0) {
                     this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
                     return true
                 }
@@ -150,7 +150,7 @@ export class PlayerMrg extends EnitiyMgr {
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
                 //判断是否超出地图
-                if (playerNextY <= 1) {
+                if (playerNextY <= 0) {
                     this.state = ENTITY_STATE_ENUM.BLOCKLEFT
                     return true
                 }
@@ -175,7 +175,7 @@ export class PlayerMrg extends EnitiyMgr {
             //玩家方向——向上
             if (direction === DIRECTION_ENUM.TOP) {
                 //判断是否超出地图
-                if (playerNextX <= 1) {
+                if (playerNextX <= 0) {
                     this.state = ENTITY_STATE_ENUM.BLOCKLEFT
 
                     return true
@@ -521,7 +521,16 @@ export class PlayerMrg extends EnitiyMgr {
                 this.state = ENTITY_STATE_ENUM.TURNLEFT
                 break;
             case ENUM_BOTTOM_CONTROLLER.TURNRIGHT:
-
+                if (this.direction === DIRECTION_ENUM.TOP) {
+                    this.direction = DIRECTION_ENUM.RIGHT
+                } else if (this.direction === DIRECTION_ENUM.BOTTOM) {
+                    this.direction = DIRECTION_ENUM.LEFT
+                } else if (this.direction === DIRECTION_ENUM.LEFT) {
+                    this.direction = DIRECTION_ENUM.TOP
+                } else if (this.direction === DIRECTION_ENUM.RIGHT) {
+                    this.direction = DIRECTION_ENUM.BOTTOM
+                }
+                this.state = ENTITY_STATE_ENUM.TURNRIGHT
                 break;
 
             default:

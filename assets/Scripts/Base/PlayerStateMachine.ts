@@ -2,8 +2,10 @@ import { Component, _decorator, Node, AnimationClip, Animation, SpriteFrame, Spr
 import { ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_TYPE, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM } from "../../Enum";
 import BlockFrontSubStateMachine from "../Player/BlockFrontSubStateMachine";
 import BlockTurnLeftSubStateMachine from "../Player/BlockTurnLeftSubStateMachine";
+import BlockTurnRightSubStateMachine from "../Player/BlockTurnRightSubStateMachine";
 import IdleSubStateMachine from "../Player/IdleSubStateMachine";
 import TurnLeftSubStateMachine from "../Player/TurnLeftSubStateMachine";
+import TurnRightSubStateMachine from "../Player/TurnRightSubStateMachine";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
@@ -28,9 +30,11 @@ export class PlayerStateMachine extends StateMachine {
     initParams() {
         this.params.set(PARAMS_NAME_TYPE.IDLE, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.TURNLEFT, getParamsInitTrigger())
+        this.params.set(PARAMS_NAME_TYPE.TURNRIGHT, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.DIRECTION, getParamsInitNumber())
         this.params.set(PARAMS_NAME_TYPE.BLOCKFRONT, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.BLOCKTURNLEFT, getParamsInitTrigger())
+        this.params.set(PARAMS_NAME_TYPE.BLOCKTURNRIGHT, getParamsInitTrigger())
     }
 
     initSateMachine() {
@@ -38,8 +42,10 @@ export class PlayerStateMachine extends StateMachine {
         // this.stateMachine.set(PARAMS_NAME_TYPE.TURNLEFT, new State(this, 'texture/player/turnleft/top/turnleft'))
         this.stateMachine.set(PARAMS_NAME_TYPE.IDLE, new IdleSubStateMachine(this))
         this.stateMachine.set(PARAMS_NAME_TYPE.TURNLEFT, new TurnLeftSubStateMachine(this))
+        this.stateMachine.set(PARAMS_NAME_TYPE.TURNRIGHT, new TurnRightSubStateMachine(this))
         this.stateMachine.set(PARAMS_NAME_TYPE.BLOCKFRONT, new BlockFrontSubStateMachine(this))
         this.stateMachine.set(PARAMS_NAME_TYPE.BLOCKTURNLEFT, new BlockTurnLeftSubStateMachine(this))
+        this.stateMachine.set(PARAMS_NAME_TYPE.BLOCKTURNRIGHT, new BlockTurnRightSubStateMachine(this))
     }
 
     addAnimationEvent() {
@@ -63,8 +69,12 @@ export class PlayerStateMachine extends StateMachine {
             case this.stateMachine.get(PARAMS_NAME_TYPE.IDLE):
                 if (this.params.get(PARAMS_NAME_TYPE.BLOCKFRONT).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKFRONT)
+                } else if (this.params.get(PARAMS_NAME_TYPE.BLOCKTURNRIGHT).value) {
+                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKTURNRIGHT)
                 } else if (this.params.get(PARAMS_NAME_TYPE.TURNLEFT).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.TURNLEFT)
+                } else if (this.params.get(PARAMS_NAME_TYPE.TURNRIGHT).value) {
+                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.TURNRIGHT)
                 } else if (this.params.get(PARAMS_NAME_TYPE.BLOCKTURNLEFT).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKTURNLEFT)
                 }
