@@ -10751,5 +10751,17 @@
   "c7fa6f7f-6a96-469c-ab7e-08edc30b4d01": {
     "url": "db://assets/Scripts/Player/PlayerManager97.ts",
     "value": {}
+  },
+  "ee30f327-c059-4e5a-825e-0ca871279993": {
+    "url": "db://assets/Scripts/Player/BlockFontSubStateMachine.ts",
+    "value": {}
+  },
+  "9ac3d12b-d1c9-4560-81cf-66516ebe3327": {
+    "url": "db://assets/Scripts/Player/BlockFrontSubStateMachine.ts",
+    "value": {}
+  },
+  "e91c7524-d7e6-458c-838f-5b1ded2ff8aa": {
+    "url": "db://assets/Scripts/Player/BlockTurnLeftSubStateMachine.ts",
+    "value": {}
   }
 }
