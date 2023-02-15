@@ -46,12 +46,16 @@ export class WoodenMgr extends EnitiyMgr {
     }
 
     checkAttack() {
-        const { x: playerX, y: playerY } = DataManager.Instance.playerInfo
+        const { x: playerX, y: playerY, state: playerState } = DataManager.Instance.playerInfo
         const disX = Math.abs(this.x - playerX)
         const disY = Math.abs(this.y - playerY)
+        console.log('玩家当前 playerState', playerState)
+        if (playerState == ENTITY_STATE_ENUM.DEATH || playerState == ENTITY_STATE_ENUM.AIRDEATH)
+            return
 
         if ((this.x === playerX && disY <= 1) || (this.y === playerY && disX <= 1)) {
             this.state = ENTITY_STATE_ENUM.ATTACK
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_PLAYER_DEATH, ENTITY_STATE_ENUM.DEATH)
         } else {
             this.state = ENTITY_STATE_ENUM.IDLE
         }

@@ -3,6 +3,7 @@ import { ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_T
 import BlockFrontSubStateMachine from "../Player/BlockFrontSubStateMachine";
 import BlockTurnLeftSubStateMachine from "../Player/BlockTurnLeftSubStateMachine";
 import BlockTurnRightSubStateMachine from "../Player/BlockTurnRightSubStateMachine";
+import DeathSubStateMachine from "../Player/DeathSubStateMachine";
 import IdleSubStateMachine from "../Player/IdleSubStateMachine";
 import TurnLeftSubStateMachine from "../Player/TurnLeftSubStateMachine";
 import TurnRightSubStateMachine from "../Player/TurnRightSubStateMachine";
@@ -35,6 +36,7 @@ export class PlayerStateMachine extends StateMachine {
         this.params.set(PARAMS_NAME_TYPE.BLOCKFRONT, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.BLOCKTURNLEFT, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.BLOCKTURNRIGHT, getParamsInitTrigger())
+        this.params.set(PARAMS_NAME_TYPE.DEATH, getParamsInitTrigger())
     }
 
     initSateMachine() {
@@ -46,6 +48,7 @@ export class PlayerStateMachine extends StateMachine {
         this.stateMachine.set(PARAMS_NAME_TYPE.BLOCKFRONT, new BlockFrontSubStateMachine(this))
         this.stateMachine.set(PARAMS_NAME_TYPE.BLOCKTURNLEFT, new BlockTurnLeftSubStateMachine(this))
         this.stateMachine.set(PARAMS_NAME_TYPE.BLOCKTURNRIGHT, new BlockTurnRightSubStateMachine(this))
+        this.stateMachine.set(PARAMS_NAME_TYPE.DEATH, new DeathSubStateMachine(this))
     }
 
     addAnimationEvent() {
@@ -80,7 +83,10 @@ export class PlayerStateMachine extends StateMachine {
                 }
                 else if (this.params.get(PARAMS_NAME_TYPE.IDLE).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDLE)
-                } else {
+                } else if (this.params.get(PARAMS_NAME_TYPE.DEATH).value) {
+                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.DEATH)
+                }
+                else {
                     this.currentSate = this.currentSate
                 }
                 break;

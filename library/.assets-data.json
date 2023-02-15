@@ -10791,5 +10791,9 @@
   "0e5db6ee-d548-4e76-a16f-09ee6fde8cf9": {
     "url": "db://assets/Scripts/Enemy/AttackWoondenSubStateMachine.ts",
     "value": {}
+  },
+  "1c46e9c1-c7f2-4bef-8499-c1a5f3291918": {
+    "url": "db://assets/Scripts/Player/DeathSubStateMachine.ts",
+    "value": {}
   }
 }

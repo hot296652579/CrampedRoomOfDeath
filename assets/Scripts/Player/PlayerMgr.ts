@@ -39,10 +39,12 @@ export class PlayerMrg extends EnitiyMgr {
 
     onLoad() {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_PLAYER, this.inputHanlder, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_PLAYER_DEATH, this.onDeathHanlder, this)
     }
 
     onDestry() {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_PLAYER, this.inputHanlder)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_PLAYER_DEATH, this.onDeathHanlder)
     }
 
     update() {
@@ -71,12 +73,22 @@ export class PlayerMrg extends EnitiyMgr {
     }
 
     inputHanlder(inputDirection: ENUM_BOTTOM_CONTROLLER) {
+        if (this.state === ENTITY_STATE_ENUM.DEATH || this.state === ENTITY_STATE_ENUM.AIRDEATH)
+            return
+
+        if (this.isMoving)
+            return
+
         if (this.willBlock(inputDirection)) {
             console.log('block!!!!')
             return
         }
 
         this.handlerMove(inputDirection)
+    }
+
+    onDeathHanlder(type: ENTITY_STATE_ENUM) {
+        this.state = type
     }
 
     willBlock(inputDirection: ENUM_BOTTOM_CONTROLLER) {
