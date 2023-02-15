@@ -7,7 +7,7 @@ import DataManager from "../Runtime/DataManager";
 import { TILE_HEIGHT, TILE_WIDTH } from "../TileMap/TileManager";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
-import { createNewNode } from "../Utils";
+import { createNewNode, randomNameByLen } from "../Utils";
 import { PlayerStateMachine } from "../Base/PlayerStateMachine";
 
 export const MOVE_SPEED = 1 / 10
@@ -15,6 +15,7 @@ export const MOVE_SPEED = 1 / 10
 const { ccclass, property } = _decorator;
 @ccclass('EnitiyMgr')
 export class EnitiyMgr extends Component {
+    id: string = randomNameByLen(12)
     x: number = 0
     y: number = 0
 

@@ -26,3 +26,7 @@ export const sortSpriteFrame = (spFrames) => {
     }
     return arr.sort((a, b) => getNumByName(a.name) - getNumByName(b.name))
 }
+
+export const randomNameByLen = (len: number) => {
+    return Array.from({ length: len }).reduce<string>((total, item) => total + Math.floor(Math.random() * 10), '')
+}

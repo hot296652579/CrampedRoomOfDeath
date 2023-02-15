@@ -17,8 +17,8 @@ export class WoodenMgr extends EnitiyMgr {
         await this.fsm.init()
 
         super.init({
-            x: 7,
-            y: 7,
+            x: 2,
+            y: 4,
             type: ENITIY_TYPE_ENUM.PLAYER,
             state: ENTITY_STATE_ENUM.IDLE,
             direction: DIRECTION_ENUM.TOP
@@ -28,6 +28,8 @@ export class WoodenMgr extends EnitiyMgr {
 
     handlerPlayerMoveEnd() {
         if (!DataManager.Instance.playerInfo)
+            return
+        if (this.state === ENTITY_STATE_ENUM.DEATH || !DataManager.Instance.playerInfo)
             return
 
         const { x: playerX, y: playerY } = DataManager.Instance.playerInfo
@@ -46,10 +48,14 @@ export class WoodenMgr extends EnitiyMgr {
     }
 
     checkAttack() {
+        console.log('当前state', this.state)
+        if (this.state === ENTITY_STATE_ENUM.DEATH || !DataManager.Instance.playerInfo)
+            return
+
         const { x: playerX, y: playerY, state: playerState } = DataManager.Instance.playerInfo
         const disX = Math.abs(this.x - playerX)
         const disY = Math.abs(this.y - playerY)
-        console.log('玩家当前 playerState', playerState)
+
         if (playerState == ENTITY_STATE_ENUM.DEATH || playerState == ENTITY_STATE_ENUM.AIRDEATH)
             return
 
@@ -61,16 +67,25 @@ export class WoodenMgr extends EnitiyMgr {
         }
     }
 
+    onDeath(id: string) {
+        if (this.id === id) {
+            this.state = ENTITY_STATE_ENUM.DEATH
+            console.log('怪物死亡 状态改变')
+        }
+    }
+
     onLoad() {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.handlerPlayerMoveEnd, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.handlerPlayerMoveEnd, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkAttack, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_ENEMY_DEATH, this.onDeath, this)
     }
 
     onDestry() {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.handlerPlayerMoveEnd)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.handlerPlayerMoveEnd)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkAttack)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_ENEMY_DEATH, this.onDeath)
     }
 
 

@@ -3,6 +3,7 @@ import ResourceLoadMgr from "./ResourceLoadMgr";
 import { PlayerStateMachine } from "./PlayerStateMachine";
 import { StateMachine } from "./SateMachine";
 import { sortSpriteFrame } from "../Utils";
+import { TEST } from "cc/env";
 // import { sortSpriteFrame } from "../Utils";
 
 const ANIMATION_SPEED = 1 / 8
@@ -47,7 +48,7 @@ export default class State {
     }
 
     run() {
-        if (!this.fsm.animationCom && this.fsm.animationCom.defaultClip.name === this.animationClip.name)
+        if (this.fsm.animationCom?.defaultClip?.name === this.animationClip.name)
             return
 
         this.fsm.animationCom.defaultClip = this.animationClip

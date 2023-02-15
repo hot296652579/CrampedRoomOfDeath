@@ -73,7 +73,7 @@ export class PlayerMrg extends EnitiyMgr {
     }
 
     inputHanlder(inputDirection: ENUM_BOTTOM_CONTROLLER) {
-        if (this.state === ENTITY_STATE_ENUM.DEATH || this.state === ENTITY_STATE_ENUM.AIRDEATH)
+        if (this.state === ENTITY_STATE_ENUM.DEATH || this.state === ENTITY_STATE_ENUM.AIRDEATH || this.state === ENTITY_STATE_ENUM.ATTACK)
             return
 
         if (this.isMoving)
@@ -84,7 +84,9 @@ export class PlayerMrg extends EnitiyMgr {
             return
         }
 
-        if (this.willAttack(inputDirection)) {
+        const enemyId = this.willAttack(inputDirection)
+        if (enemyId) {
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_ENEMY_DEATH, enemyId)
             return
         }
 
@@ -512,26 +514,27 @@ export class PlayerMrg extends EnitiyMgr {
     }
 
     willAttack(inputDirection: ENUM_BOTTOM_CONTROLLER) {
-        const { enemies } = DataManager.Instance
+        // let enemies = DataManager.Instance.enemies.filter(enemy => enemy.state != ENTITY_STATE_ENUM.DEATH)
+        let enemies = DataManager.Instance.enemies.filter((enemy) => { return enemy.state != ENTITY_STATE_ENUM.DEATH })
 
         for (let index = 0; index < enemies.length; index++) {
-            const { x: enemyX, y: enemyY } = enemies[index];
+            const { x: enemyX, y: enemyY, id } = enemies[index];
             if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP && this.direction === DIRECTION_ENUM.TOP && enemyX == this.x && enemyY == this.y - 2) {
                 this.state = ENTITY_STATE_ENUM.ATTACK
-                return true
+                return id
             } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM && this.direction === DIRECTION_ENUM.BOTTOM && enemyX == this.x && enemyY == this.y + 2) {
                 this.state = ENTITY_STATE_ENUM.ATTACK
-                return true
+                return id
             } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.LEFT && this.direction === DIRECTION_ENUM.LEFT && enemyX == this.x - 2 && enemyY == this.y) {
                 this.state = ENTITY_STATE_ENUM.ATTACK
-                return true
+                return id
             } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.RIGHT && this.direction === DIRECTION_ENUM.RIGHT && enemyX == this.x + 2 && enemyY == this.y) {
                 this.state = ENTITY_STATE_ENUM.ATTACK
-                return true
+                return id
             }
         }
 
-        return false
+        return ''
     }
 
     handlerMove(direction: ENUM_BOTTOM_CONTROLLER) {
