@@ -39,8 +39,8 @@ export class UIBattleScene extends Component {
         }
 
         this.generateTileMap()
-        this.generatePlayer()
         this.generateEnemy()
+        this.generatePlayer()
         this.fitPos()
     }
 
@@ -60,25 +60,28 @@ export class UIBattleScene extends Component {
         this.stage = stageNode
     }
 
-    generateTileMap() {
+    async generateTileMap() {
         const tileMapNode = createNewNode()
         tileMapNode.setParent(this.stage)
         const tileMapManager = tileMapNode.addComponent(TileMapManager)
-        tileMapManager.init()
+        await tileMapManager.init()
     }
 
-    generatePlayer() {
+    async generatePlayer() {
         const playerNode = createNewNode()
         playerNode.setParent(this.stage)
         const playerManager = playerNode.addComponent(PlayerMrg)
-        playerManager.init()
+        await playerManager.init()
+        DataManager.Instance.playerInfo = playerManager
+        EventMgr.Instance.emit(ENUM_EVENT.ENUM_PLAYER_BORN)
     }
 
-    generateEnemy() {
+    async generateEnemy() {
         const woodenNode = createNewNode()
         woodenNode.setParent(this.stage)
         const woodenManager = woodenNode.addComponent(WoodenMgr)
-        woodenManager.init()
+        await woodenManager.init()
+        DataManager.Instance.enemies.push(woodenManager)
     }
 
     fitPos() {

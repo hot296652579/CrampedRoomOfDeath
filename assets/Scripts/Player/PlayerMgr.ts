@@ -19,6 +19,7 @@ export class PlayerMrg extends EnitiyMgr {
 
     tartgetX: number = 0
     tartgetY: number = 0
+    isMoving: boolean = false
 
     async init() {
         this.fsm = this.addComponent(PlayerStateMachine)
@@ -26,7 +27,7 @@ export class PlayerMrg extends EnitiyMgr {
 
         super.init({
             x: 2,
-            y: 8,
+            y: 7,
             type: ENITIY_TYPE_ENUM.PLAYER,
             state: ENTITY_STATE_ENUM.IDLE,
             direction: DIRECTION_ENUM.TOP
@@ -60,9 +61,12 @@ export class PlayerMrg extends EnitiyMgr {
             this.y += MOVE_SPEED
         }
 
-        if (Math.abs(this.tartgetX - this.x) <= 0.1 && Math.abs(this.tartgetY - this.y) <= 0.1) {
+        if (Math.abs(this.tartgetX - this.x) <= 0.1 && Math.abs(this.tartgetY - this.y) <= 0.1 && this.isMoving) {
+            this.isMoving = false
             this.x = this.tartgetX
             this.y = this.tartgetY
+
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
         }
     }
 
@@ -495,15 +499,19 @@ export class PlayerMrg extends EnitiyMgr {
         console.log(DataManager.Instance.tileMgrInfo)
         switch (direction) {
             case ENUM_BOTTOM_CONTROLLER.TOP:
+                this.isMoving = true
                 this.tartgetY -= 1
                 break;
             case ENUM_BOTTOM_CONTROLLER.BOTTOM:
+                this.isMoving = true
                 this.tartgetY += 1
                 break;
             case ENUM_BOTTOM_CONTROLLER.LEFT:
+                this.isMoving = true
                 this.tartgetX -= 1
                 break;
             case ENUM_BOTTOM_CONTROLLER.RIGHT:
+                this.isMoving = true
                 this.tartgetX += 1
                 break;
             case ENUM_BOTTOM_CONTROLLER.TURNLEFT:

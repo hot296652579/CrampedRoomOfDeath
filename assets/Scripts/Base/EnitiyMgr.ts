@@ -53,9 +53,13 @@ export class EnitiyMgr extends Component {
         this._type = params.type
     }
 
-    onLoad() { }
+    onLoad() {
 
-    onDestry() { }
+    }
+
+    onDestry() {
+
+    }
 
     update() {
         this.node.setPosition(this.x * TILE_WIDTH - TILE_WIDTH * 1.5, -this.y * TILE_HEIGHT + TILE_HEIGHT * 1.5)

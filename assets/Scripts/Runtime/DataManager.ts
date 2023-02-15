@@ -1,5 +1,6 @@
 import { ILevel, ITitle } from "../../Levels"
 import Singleton from "../Base/Singleton"
+import { PlayerMrg } from "../Player/PlayerMgr"
 import { TileManager } from "../TileMap/TileManager"
 
 export default class DataManager extends Singleton {
@@ -8,6 +9,8 @@ export default class DataManager extends Singleton {
     mapRowCount: number = 0
     mapColumCount: number = 0
     levelIndex: number = 1
+    playerInfo: PlayerMrg = null
+    enemies = []
 
     static get Instance() {
         // super()
@@ -17,6 +20,8 @@ export default class DataManager extends Singleton {
     reset() {
         this.mapInfo = []
         this.tileMgrInfo = []
+        this.playerInfo = null
+        this.enemies = []
         this.mapRowCount = 0
         this.mapColumCount = 0
     }
