@@ -17,8 +17,8 @@ export class WoodenMgr extends EnitiyMgr {
         await this.fsm.init()
 
         super.init({
-            x: 7,
-            y: 7,
+            x: 2,
+            y: 4,
             type: ENITIY_TYPE_ENUM.PLAYER,
             state: ENTITY_STATE_ENUM.IDLE,
             direction: DIRECTION_ENUM.TOP
@@ -45,14 +45,28 @@ export class WoodenMgr extends EnitiyMgr {
         }
     }
 
+    checkAttack() {
+        const { x: playerX, y: playerY } = DataManager.Instance.playerInfo
+        const disX = Math.abs(this.x - playerX)
+        const disY = Math.abs(this.y - playerY)
+
+        if ((this.x === playerX && disY <= 1) || (this.y === playerY && disX <= 1)) {
+            this.state = ENTITY_STATE_ENUM.ATTACK
+        } else {
+            this.state = ENTITY_STATE_ENUM.IDLE
+        }
+    }
+
     onLoad() {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.handlerPlayerMoveEnd, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.handlerPlayerMoveEnd, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkAttack, this)
     }
 
     onDestry() {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.handlerPlayerMoveEnd)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.handlerPlayerMoveEnd)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkAttack)
     }
 
 

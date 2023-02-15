@@ -10787,5 +10787,9 @@
   "f3faa662-0b98-4191-ab83-1c196fa2da4d": {
     "url": "db://assets/Scripts/Enemy/WoodenStateMachine.ts",
     "value": {}
+  },
+  "0e5db6ee-d548-4e76-a16f-09ee6fde8cf9": {
+    "url": "db://assets/Scripts/Enemy/AttackWoondenSubStateMachine.ts",
+    "value": {}
   }
 }

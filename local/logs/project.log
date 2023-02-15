@@ -578,3 +578,4 @@ myProp = 0;
 2023-02-15T03:14:53.380Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
 2023-02-15T04:51:21.124Z - error: [Preview]TypeError: Cannot destructure property 'x' of '(intermediate value)(intermediate value)(intermediate value).Instance.playerInfo' as it is null.errorInfo.stack ? '/n ' : ''
 2023-02-15T05:08:04.025Z - error: getImSetting failed
+2023-02-15T05:29:43.931Z - error: getImSetting failed

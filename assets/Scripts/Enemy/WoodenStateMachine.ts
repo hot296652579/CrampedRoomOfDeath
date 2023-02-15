@@ -4,6 +4,7 @@ import { ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_T
 import { EnitiyMgr } from "../Base/EnitiyMgr";
 import { getParamsInitNumber, getParamsInitTrigger, StateMachine } from "../Base/SateMachine";
 import State from "../Base/State";
+import AttackWoodenSubStateMachine from "./AttackWoondenSubStateMachine";
 import IdleWoodenSubStateMachine from "./IdleWoodenSubStateMachine";
 
 
@@ -22,22 +23,24 @@ export class WoodenStateMachine extends StateMachine {
 
     initParams() {
         this.params.set(PARAMS_NAME_TYPE.IDLE, getParamsInitTrigger())
+        this.params.set(PARAMS_NAME_TYPE.ATTACK, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.DIRECTION, getParamsInitNumber())
     }
 
     initSateMachine() {
         this.stateMachine.set(PARAMS_NAME_TYPE.IDLE, new IdleWoodenSubStateMachine(this))
+        this.stateMachine.set(PARAMS_NAME_TYPE.ATTACK, new AttackWoodenSubStateMachine(this))
     }
 
     addAnimationEvent() {
         this.animationCom.on(Animation.EventType.FINISHED, () => {
-            // const animationName = this.animationCom.defaultClip.name
-            // const list = ['block', 'turn']
+            const animationName = this.animationCom.defaultClip.name
+            const list = ['attack']
 
-            // if (list.some(v => animationName.includes(v))) {
-            //     // this.setParams(PARAMS_NAME_TYPE.IDLE, true)
-            //     this.node.getComponent(EnitiyMgr).state = ENTITY_STATE_ENUM.IDLE
-            // }
+            if (list.some(v => animationName.includes(v))) {
+                // this.setParams(PARAMS_NAME_TYPE.IDLE, true)
+                this.node.getComponent(EnitiyMgr).state = ENTITY_STATE_ENUM.IDLE
+            }
         })
     }
 
@@ -50,7 +53,10 @@ export class WoodenStateMachine extends StateMachine {
             case this.stateMachine.get(PARAMS_NAME_TYPE.IDLE):
                 if (this.params.get(PARAMS_NAME_TYPE.IDLE).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDLE)
-                } else {
+                } else if (this.params.get(PARAMS_NAME_TYPE.ATTACK).value) {
+                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.ATTACK)
+                }
+                else {
                     this.currentSate = this.currentSate
                 }
                 break;
