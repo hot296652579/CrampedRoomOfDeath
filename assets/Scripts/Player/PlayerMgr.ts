@@ -84,6 +84,10 @@ export class PlayerMrg extends EnitiyMgr {
             return
         }
 
+        if (this.willAttack(inputDirection)) {
+            return
+        }
+
         this.handlerMove(inputDirection)
     }
 
@@ -500,6 +504,29 @@ export class PlayerMrg extends EnitiyMgr {
                 // empty
             } else {
                 this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
+                return true
+            }
+        }
+
+        return false
+    }
+
+    willAttack(inputDirection: ENUM_BOTTOM_CONTROLLER) {
+        const { enemies } = DataManager.Instance
+
+        for (let index = 0; index < enemies.length; index++) {
+            const { x: enemyX, y: enemyY } = enemies[index];
+            if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP && this.direction === DIRECTION_ENUM.TOP && enemyX == this.x && enemyY == this.y - 2) {
+                this.state = ENTITY_STATE_ENUM.ATTACK
+                return true
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM && this.direction === DIRECTION_ENUM.BOTTOM && enemyX == this.x && enemyY == this.y + 2) {
+                this.state = ENTITY_STATE_ENUM.ATTACK
+                return true
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.LEFT && this.direction === DIRECTION_ENUM.LEFT && enemyX == this.x - 2 && enemyY == this.y) {
+                this.state = ENTITY_STATE_ENUM.ATTACK
+                return true
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.RIGHT && this.direction === DIRECTION_ENUM.RIGHT && enemyX == this.x + 2 && enemyY == this.y) {
+                this.state = ENTITY_STATE_ENUM.ATTACK
                 return true
             }
         }

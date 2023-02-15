@@ -47,6 +47,9 @@ export default class State {
     }
 
     run() {
+        if (!this.fsm.animationCom && this.fsm.animationCom.defaultClip.name === this.animationClip.name)
+            return
+
         this.fsm.animationCom.defaultClip = this.animationClip
         this.fsm.animationCom.play()
     }

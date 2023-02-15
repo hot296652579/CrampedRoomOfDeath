@@ -10795,5 +10795,9 @@
   "1c46e9c1-c7f2-4bef-8499-c1a5f3291918": {
     "url": "db://assets/Scripts/Player/DeathSubStateMachine.ts",
     "value": {}
+  },
+  "ff7df0ff-e443-4c6a-98bf-6737db04b933": {
+    "url": "db://assets/Scripts/Player/AttackSubStateMachine.ts",
+    "value": {}
   }
 }

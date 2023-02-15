@@ -17,8 +17,8 @@ export class WoodenMgr extends EnitiyMgr {
         await this.fsm.init()
 
         super.init({
-            x: 2,
-            y: 4,
+            x: 7,
+            y: 7,
             type: ENITIY_TYPE_ENUM.PLAYER,
             state: ENTITY_STATE_ENUM.IDLE,
             direction: DIRECTION_ENUM.TOP

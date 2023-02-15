@@ -5750,12 +5750,12 @@
     "time": 1675840824556.3577
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player": {
-    "time": 1676442564703.2944,
+    "time": 1676461887073.4373,
     "uuid": "11b6ba66-da95-4006-89db-09d4c4affc88",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1676443981406.41,
+    "time": 1676462467596.1125,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
@@ -5775,7 +5775,7 @@
     "time": 1675996913389.1443
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/PlayerStateMachine.ts": {
-    "time": 1676442562681.8384,
+    "time": 1676462231233.66,
     "uuid": "6883aeea-6bbe-4956-a804-e2c66c7c94fe",
     "missing": false
   },
@@ -5785,7 +5785,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/State.ts": {
-    "time": 1676376915404.8953,
+    "time": 1676462611069.3484,
     "uuid": "4a63ae42-e026-4041-a3e2-ab907a0386f2",
     "missing": false
   },
@@ -5866,7 +5866,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/WoodenMgr.ts": {
-    "time": 1676444280097.292,
+    "time": 1676462638899.7864,
     "uuid": "12a30731-c52f-4694-8f99-27844b01e426",
     "missing": false
   },
@@ -5901,6 +5901,14 @@
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/DeathSubStateMachine.ts": {
     "time": 1676444538977.4822,
     "uuid": "1c46e9c1-c7f2-4bef-8499-c1a5f3291918",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/AttackSubStateMachine.ts.meta": {
+    "time": 1676461887076.035
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/AttackSubStateMachine.ts": {
+    "time": 1676461879490.8328,
+    "uuid": "ff7df0ff-e443-4c6a-98bf-6737db04b933",
     "missing": false
   }
 }
