@@ -71,5 +71,6 @@ export enum DIRECTION_ORDER_ENUM {
 }
 
 export enum ENITIY_TYPE_ENUM {
-    PLAYER = 'PLAYER'
+    PLAYER = 'PLAYER',
+    ENEMY = 'ENEMY'
 }

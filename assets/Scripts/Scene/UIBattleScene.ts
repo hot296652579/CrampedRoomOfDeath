@@ -2,6 +2,7 @@ import { Component, _decorator, Node } from "cc";
 import { ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
+import { WoodenMgr } from "../Enemy/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
 // import { DataManager.Instance } from "../Runtime/DataManager";
@@ -39,6 +40,7 @@ export class UIBattleScene extends Component {
 
         this.generateTileMap()
         this.generatePlayer()
+        this.generateEnemy()
         this.fitPos()
     }
 
@@ -70,6 +72,13 @@ export class UIBattleScene extends Component {
         playerNode.setParent(this.stage)
         const playerManager = playerNode.addComponent(PlayerMrg)
         playerManager.init()
+    }
+
+    generateEnemy() {
+        const woodenNode = createNewNode()
+        woodenNode.setParent(this.stage)
+        const woodenManager = woodenNode.addComponent(WoodenMgr)
+        woodenManager.init()
     }
 
     fitPos() {
