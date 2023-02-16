@@ -1,5 +1,6 @@
 import { ILevel, ITitle } from "../../Levels"
 import Singleton from "../Base/Singleton"
+import { DoorMgr } from "../Door/DoorMgr"
 import { PlayerMrg } from "../Player/PlayerMgr"
 import { TileManager } from "../TileMap/TileManager"
 
@@ -10,6 +11,7 @@ export default class DataManager extends Singleton {
     mapColumCount: number = 0
     levelIndex: number = 1
     playerInfo: PlayerMrg = null
+    doorInfo: DoorMgr = null
     enemies = []
 
     static get Instance() {
@@ -21,6 +23,7 @@ export default class DataManager extends Singleton {
         this.mapInfo = []
         this.tileMgrInfo = []
         this.playerInfo = null
+        this.doorInfo = null
         this.enemies = []
         this.mapRowCount = 0
         this.mapColumCount = 0

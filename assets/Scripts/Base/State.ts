@@ -1,6 +1,6 @@
 import { animation, AnimationClip, Sprite, SpriteAtlas, SpriteFrame } from "cc";
 import ResourceLoadMgr from "./ResourceLoadMgr";
-import { PlayerStateMachine } from "./PlayerStateMachine";
+import { PlayerStateMachine } from "../Player/PlayerStateMachine";
 import { StateMachine } from "./SateMachine";
 import { sortSpriteFrame } from "../Utils";
 import { TEST } from "cc/env";

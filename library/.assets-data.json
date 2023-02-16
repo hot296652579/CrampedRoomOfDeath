@@ -10717,7 +10717,7 @@
     "value": {}
   },
   "6883aeea-6bbe-4956-a804-e2c66c7c94fe": {
-    "url": "db://assets/Scripts/Base/PlayerStateMachine.ts",
+    "url": "db://assets/Scripts/Player/PlayerStateMachine.ts",
     "value": {}
   },
   "4a63ae42-e026-4041-a3e2-ab907a0386f2": {
@@ -10802,6 +10802,26 @@
   },
   "824843d6-860e-4d0b-99e6-345f022d2261": {
     "url": "db://assets/Scripts/Enemy/DeathWoodenSubStateMachine.ts",
+    "value": {}
+  },
+  "4643b15c-6006-483e-9bb1-1b9eef2b21a0": {
+    "url": "db://assets/Scripts/Door",
+    "value": {}
+  },
+  "4c17a6b0-bc80-4f61-bd19-8356deff9ec4": {
+    "url": "db://assets/Scripts/Door/DoorMgr.ts",
+    "value": {}
+  },
+  "e3d273c7-7558-4e61-9a85-93559731fe9c": {
+    "url": "db://assets/Scripts/Door/DoorStateMachine.ts",
+    "value": {}
+  },
+  "c32cebf2-68fa-4878-a44a-4070a4563384": {
+    "url": "db://assets/Scripts/Door/IdleSubStateMachine.ts",
+    "value": {}
+  },
+  "bdbb2bd7-f923-4571-b7c7-b8036208e209": {
+    "url": "db://assets/Scripts/Door/DeathSubStateMachine.ts",
     "value": {}
   }
 }

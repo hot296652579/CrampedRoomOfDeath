@@ -2,7 +2,7 @@ import { Component, _decorator, Node, Sprite, UITransform, Animation, SpriteAtla
 import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, PARAMS_NAME_TYPE } from "../../Enum";
 import { EnitiyMgr } from "../Base/EnitiyMgr";
 import EventMgr from "../Base/EventMgr";
-import { PlayerStateMachine } from "../Base/PlayerStateMachine";
+import { PlayerStateMachine } from "../Player/PlayerStateMachine";
 import DataManager from "../Runtime/DataManager";
 import { WoodenStateMachine } from "./WoodenStateMachine";
 
@@ -19,7 +19,7 @@ export class WoodenMgr extends EnitiyMgr {
         super.init({
             x: 2,
             y: 4,
-            type: ENITIY_TYPE_ENUM.PLAYER,
+            type: ENITIY_TYPE_ENUM.WOODEN,
             state: ENTITY_STATE_ENUM.IDLE,
             direction: DIRECTION_ENUM.TOP
         })

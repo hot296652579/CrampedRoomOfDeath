@@ -1,38 +1,38 @@
-2023-02-15T02:22:27.730Z - log: [Package] menu@1.0.0 enable
-2023-02-15T02:22:27.733Z - log: [Package] profile@1.0.0 enable
-2023-02-15T02:22:27.738Z - log: [Package] project@1.0.2 enable
-2023-02-15T02:22:27.742Z - log: [Package] messages@1.0.0 enable
-2023-02-15T02:22:27.743Z - log: [Package] program@1.0.0 enable
-2023-02-15T02:22:27.748Z - log: [Package] tester@1.0.0 enable
-2023-02-15T02:22:27.752Z - log: [Package] preferences@1.0.0 enable
-2023-02-15T02:22:30.769Z - log: [Package] engine@1.0.6 enable
-2023-02-15T02:22:31.690Z - log: [Package] programming@1.0.0 enable
-2023-02-15T02:22:31.737Z - warn: 
-2023-02-15T02:22:31.762Z - warn: 
-2023-02-15T02:22:31.963Z - log: [Package] device@1.0.1 enable
-2023-02-15T02:22:31.989Z - log: [Package] ui-kit@1.0.1 enable
-2023-02-15T02:22:32.012Z - log: [Package] engine-extends@1.0.0 enable
-2023-02-15T02:22:32.066Z - log: [Package] asset-db@1.0.0 enable
-2023-02-15T02:22:32.066Z - warn: 
-2023-02-15T02:22:32.101Z - log: [Package] scene@1.0.0 enable
-2023-02-15T02:22:32.241Z - log: [Package] server@1.0.0 enable
-2023-02-15T02:22:32.269Z - log: [Package] utils@1.0.0 enable
-2023-02-15T02:22:32.990Z - warn: Browserslist: caniuse-lite is outdated. Please run:
+2023-02-16T03:16:24.666Z - log: [Package] menu@1.0.0 enable
+2023-02-16T03:16:24.667Z - log: [Package] profile@1.0.0 enable
+2023-02-16T03:16:24.671Z - log: [Package] project@1.0.2 enable
+2023-02-16T03:16:24.673Z - log: [Package] messages@1.0.0 enable
+2023-02-16T03:16:24.674Z - log: [Package] program@1.0.0 enable
+2023-02-16T03:16:24.678Z - log: [Package] tester@1.0.0 enable
+2023-02-16T03:16:24.680Z - log: [Package] preferences@1.0.0 enable
+2023-02-16T03:16:26.637Z - log: [Package] engine@1.0.6 enable
+2023-02-16T03:16:27.324Z - log: [Package] programming@1.0.0 enable
+2023-02-16T03:16:27.374Z - warn: 
+2023-02-16T03:16:27.400Z - warn: 
+2023-02-16T03:16:27.584Z - log: [Package] device@1.0.1 enable
+2023-02-16T03:16:27.609Z - log: [Package] ui-kit@1.0.1 enable
+2023-02-16T03:16:27.635Z - log: [Package] engine-extends@1.0.0 enable
+2023-02-16T03:16:27.683Z - log: [Package] asset-db@1.0.0 enable
+2023-02-16T03:16:27.683Z - warn: 
+2023-02-16T03:16:27.724Z - log: [Package] scene@1.0.0 enable
+2023-02-16T03:16:27.821Z - log: [Package] server@1.0.0 enable
+2023-02-16T03:16:27.846Z - log: [Package] utils@1.0.0 enable
+2023-02-16T03:16:28.325Z - warn: Browserslist: caniuse-lite is outdated. Please run:
 npx browserslist@latest --update-db
 
 Why you should do it regularly:
 https://github.com/browserslist/browserslist#browsers-data-updating
-2023-02-15T02:22:35.465Z - warn: 
-2023-02-15T02:22:35.466Z - warn: 
-2023-02-15T02:22:35.466Z - warn: 
-2023-02-15T02:22:35.512Z - warn: 
-2023-02-15T02:22:35.512Z - warn: 
-2023-02-15T02:22:35.513Z - warn: 
-2023-02-15T02:22:36.595Z - warn: 
-2023-02-15T02:22:36.644Z - log: [Package] preview@1.0.1 enable
-2023-02-15T02:22:36.676Z - log: [Package] animator@1.0.0 enable
-2023-02-15T02:22:36.712Z - log: pluginManager init: 0.136ms
-2023-02-15T02:22:36.697Z - warn: [Programming] Browserslist: caniuse-lite is outdated. Please run:
+2023-02-16T03:16:29.974Z - warn: 
+2023-02-16T03:16:29.974Z - warn: 
+2023-02-16T03:16:29.974Z - warn: 
+2023-02-16T03:16:30.014Z - warn: 
+2023-02-16T03:16:30.014Z - warn: 
+2023-02-16T03:16:30.014Z - warn: 
+2023-02-16T03:16:30.728Z - warn: 
+2023-02-16T03:16:30.762Z - log: [Package] preview@1.0.1 enable
+2023-02-16T03:16:30.791Z - log: [Package] animator@1.0.0 enable
+2023-02-16T03:16:30.822Z - log: pluginManager init: 0.08ms
+2023-02-16T03:16:30.838Z - warn: [Programming] Browserslist: caniuse-lite is outdated. Please run:
   npx update-browserslist-db@latest
   Why you should do it regularly: https://github.com/browserslist/update-db#readme[Programming] Browserslist: caniuse-lite is outdated. Please run:
   npx update-browserslist-db@latest
@@ -45,74 +45,75 @@ at resolveTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Con
 at getTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/helper-compilation-targets/lib/index.js:210:27)  
 at getLocalTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/preset-env/lib/index.js:227:48)  
 at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/preset-env/lib/index.js:288:15
-2023-02-15T02:22:37.465Z - warn: 
-2023-02-15T02:22:37.466Z - warn: 
-2023-02-15T02:22:37.466Z - warn: 
-2023-02-15T02:22:37.640Z - log: [Package] builder@1.3.3 enable
-2023-02-15T02:22:37.670Z - log: [Package] shortcuts@1.0.1 enable
-2023-02-15T02:22:37.700Z - log: [Package] animation-graph@1.0.0 enable
-2023-02-15T02:22:37.729Z - log: [Package] about@1.0.0 enable
-2023-02-15T02:22:37.760Z - log: [Package] assets@1.0.0 enable
-2023-02-15T02:22:37.788Z - log: [Package] console@1.0.0 enable
-2023-02-15T02:22:37.936Z - log: [Package] extension@3.0.16 enable
-2023-02-15T02:22:37.964Z - log: [Package] hierarchy@1.0.0 enable
-2023-02-15T02:22:37.993Z - log: [Package] inspector@1.0.0 enable
-2023-02-15T02:22:38.022Z - log: [Package] lightmap@1.0.4 enable
-2023-02-15T02:22:38.368Z - log: [Package] localization-editor@1.0.0 enable
-2023-02-15T02:22:38.376Z - log: [Build-plugin] register pkg localization-editor: 5.831ms
-2023-02-15T02:22:38.400Z - log: [Package] node-library@1.0.1 enable
-2023-02-15T02:22:38.422Z - log: [Package] package-asset@1.0.0 enable
-2023-02-15T02:22:38.449Z - log: [Package] process@1.0.0 enable
-2023-02-15T02:22:38.476Z - log: [Package] reference-image@1.0.0 enable
-2023-02-15T02:22:38.499Z - log: [Package] alipay-mini-game@1.0.1 enable
-2023-02-15T02:22:38.499Z - log: [Build-plugin] register pkg alipay-mini-game: 0.685ms
-2023-02-15T02:22:38.526Z - log: [Package] android@1.0.1 enable
-2023-02-15T02:22:38.530Z - log: [Build-plugin] register pkg android: 4.51ms
-2023-02-15T02:22:38.557Z - log: [Package] baidu-mini-game@1.0.1 enable
-2023-02-15T02:22:38.560Z - log: [Build-plugin] register pkg baidu-mini-game: 2.697ms
-2023-02-15T02:22:38.616Z - log: [Package] bytedance-mini-game@1.0.2 enable
-2023-02-15T02:22:38.618Z - log: [Build-plugin] register pkg bytedance-mini-game: 1.728ms
-2023-02-15T02:22:38.639Z - log: [Package] certificate@1.0.0 enable
-2023-02-15T02:22:38.666Z - log: [Package] channel-upload-tools@1.0.0 enable
-2023-02-15T02:22:38.690Z - log: [Package] cocos-play@1.0.1 enable
-2023-02-15T02:22:38.693Z - log: [Build-plugin] register pkg cocos-play: 3.173ms
-2023-02-15T02:22:38.717Z - log: [Package] huawei-agc@1.0.0 enable
-2023-02-15T02:22:38.720Z - log: [Build-plugin] register pkg huawei-agc: 2.645ms
-2023-02-15T02:22:38.747Z - log: [Package] huawei-quick-game@1.0.1 enable
-2023-02-15T02:22:38.750Z - log: [Build-plugin] register pkg huawei-quick-game: 3.02ms
-2023-02-15T02:22:38.984Z - log: [Package] ios@1.0.0 enable
-2023-02-15T02:22:38.988Z - log: [Build-plugin] register pkg ios: 3.342ms
-2023-02-15T02:22:39.013Z - log: [Package] linux@1.0.0 enable
-2023-02-15T02:22:39.014Z - log: [Build-plugin] register pkg linux: 0.646ms
-2023-02-15T02:22:39.041Z - log: [Package] mac@1.0.0 enable
-2023-02-15T02:22:39.045Z - log: [Build-plugin] register pkg mac: 3.565ms
-2023-02-15T02:22:39.131Z - log: [Package] native@1.0.2 enable
-2023-02-15T02:22:39.134Z - log: [Build-plugin] register pkg native: 2.283ms
-2023-02-15T02:22:39.159Z - log: [Package] ohos@1.0.0 enable
-2023-02-15T02:22:39.162Z - log: [Build-plugin] register pkg ohos: 2.528ms
-2023-02-15T02:22:39.188Z - log: [Package] open-harmonyos@1.0.0 enable
-2023-02-15T02:22:39.189Z - log: [Build-plugin] register pkg open-harmonyos: 0.644ms
-2023-02-15T02:22:39.213Z - log: [Package] oppo-mini-game@1.0.1 enable
-2023-02-15T02:22:39.216Z - log: [Build-plugin] register pkg oppo-mini-game: 2.917ms
-2023-02-15T02:22:39.243Z - log: [Package] runtime-dev-tools@1.0.0 enable
-2023-02-15T02:22:39.270Z - log: [Package] vivo-mini-game@1.0.1 enable
-2023-02-15T02:22:39.273Z - log: [Build-plugin] register pkg vivo-mini-game: 3.21ms
-2023-02-15T02:22:39.315Z - log: [Package] web-desktop@1.0.1 enable
-2023-02-15T02:22:39.318Z - log: [Build-plugin] register pkg web-desktop: 2.606ms
-2023-02-15T02:22:39.346Z - log: [Package] web-mobile@1.0.1 enable
-2023-02-15T02:22:39.349Z - log: [Build-plugin] register pkg web-mobile: 2.584ms
-2023-02-15T02:22:39.379Z - log: [Package] wechatgame@1.0.2 enable
-2023-02-15T02:22:39.382Z - log: [Build-plugin] register pkg wechatgame: 2.728ms
-2023-02-15T02:22:39.405Z - log: [Package] windows@1.0.1 enable
-2023-02-15T02:22:39.407Z - log: [Build-plugin] register pkg windows: 2.452ms
-2023-02-15T02:22:39.432Z - log: [Package] xiaomi-quick-game@1.0.1 enable
-2023-02-15T02:22:39.435Z - log: [Build-plugin] register pkg xiaomi-quick-game: 2.908ms
-2023-02-15T02:22:39.647Z - log: [Package] cocos-service@3.0.5 enable
-2023-02-15T02:22:39.649Z - log: [Build-plugin] register pkg cocos-service: 1.535ms
-2023-02-15T02:22:39.677Z - log: [Package] importer@1.0.0 enable
-2023-02-15T02:22:39.869Z - log: [Im-plugin] Check im-plugin version.
-2023-02-15T02:22:39.873Z - log: [Package] im-plugin@3.0.9 enable
-2023-02-15T02:22:42.192Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+2023-02-16T03:16:31.124Z - warn: 
+2023-02-16T03:16:31.124Z - warn: 
+2023-02-16T03:16:31.124Z - warn: 
+2023-02-16T03:16:31.421Z - log: [Package] builder@1.3.3 enable
+2023-02-16T03:16:31.448Z - log: [Package] shortcuts@1.0.1 enable
+2023-02-16T03:16:31.475Z - log: [Package] animation-graph@1.0.0 enable
+2023-02-16T03:16:31.500Z - log: [Package] about@1.0.0 enable
+2023-02-16T03:16:31.527Z - log: [Package] assets@1.0.0 enable
+2023-02-16T03:16:31.553Z - log: [Package] console@1.0.0 enable
+2023-02-16T03:16:31.657Z - log: [Package] extension@3.0.16 enable
+2023-02-16T03:16:31.682Z - log: [Package] hierarchy@1.0.0 enable
+2023-02-16T03:16:31.710Z - log: [Package] inspector@1.0.0 enable
+2023-02-16T03:16:31.736Z - log: [Package] lightmap@1.0.4 enable
+2023-02-16T03:16:31.958Z - log: [Package] localization-editor@1.0.0 enable
+2023-02-16T03:16:31.962Z - log: [Build-plugin] register pkg localization-editor: 2.604ms
+2023-02-16T03:16:31.986Z - log: [Package] node-library@1.0.1 enable
+2023-02-16T03:16:32.010Z - log: [Package] package-asset@1.0.0 enable
+2023-02-16T03:16:32.035Z - log: [Package] process@1.0.0 enable
+2023-02-16T03:16:32.062Z - log: [Package] reference-image@1.0.0 enable
+2023-02-16T03:16:32.086Z - log: [Package] alipay-mini-game@1.0.1 enable
+2023-02-16T03:16:32.087Z - log: [Build-plugin] register pkg alipay-mini-game: 0.466ms
+2023-02-16T03:16:32.113Z - log: [Package] android@1.0.1 enable
+2023-02-16T03:16:32.116Z - log: [Build-plugin] register pkg android: 3.016ms
+2023-02-16T03:16:32.139Z - log: [Package] baidu-mini-game@1.0.1 enable
+2023-02-16T03:16:32.140Z - log: [Build-plugin] register pkg baidu-mini-game: 1.807ms
+2023-02-16T03:16:32.187Z - log: [Package] bytedance-mini-game@1.0.2 enable
+2023-02-16T03:16:32.188Z - log: [Build-plugin] register pkg bytedance-mini-game: 1.162ms
+2023-02-16T03:16:32.210Z - log: [Package] certificate@1.0.0 enable
+2023-02-16T03:16:32.235Z - log: [Package] channel-upload-tools@1.0.0 enable
+2023-02-16T03:16:32.262Z - log: [Package] cocos-play@1.0.1 enable
+2023-02-16T03:16:32.264Z - log: [Build-plugin] register pkg cocos-play: 2.091ms
+2023-02-16T03:16:32.290Z - log: [Package] huawei-agc@1.0.0 enable
+2023-02-16T03:16:32.292Z - log: [Build-plugin] register pkg huawei-agc: 1.699ms
+2023-02-16T03:16:32.318Z - log: [Package] huawei-quick-game@1.0.1 enable
+2023-02-16T03:16:32.320Z - log: [Build-plugin] register pkg huawei-quick-game: 1.944ms
+2023-02-16T03:16:32.566Z - log: [Package] ios@1.0.0 enable
+2023-02-16T03:16:32.569Z - log: [Build-plugin] register pkg ios: 2.348ms
+2023-02-16T03:16:32.592Z - log: [Package] linux@1.0.0 enable
+2023-02-16T03:16:32.592Z - log: [Build-plugin] register pkg linux: 0.457ms
+2023-02-16T03:16:32.618Z - log: [Package] mac@1.0.0 enable
+2023-02-16T03:16:32.620Z - log: [Build-plugin] register pkg mac: 2.343ms
+2023-02-16T03:16:32.687Z - log: [Package] native@1.0.2 enable
+2023-02-16T03:16:32.688Z - log: [Build-plugin] register pkg native: 1.516ms
+2023-02-16T03:16:32.714Z - log: [Package] ohos@1.0.0 enable
+2023-02-16T03:16:32.716Z - log: [Build-plugin] register pkg ohos: 1.738ms
+2023-02-16T03:16:32.740Z - log: [Package] open-harmonyos@1.0.0 enable
+2023-02-16T03:16:32.740Z - log: [Build-plugin] register pkg open-harmonyos: 0.422ms
+2023-02-16T03:16:32.761Z - log: [Package] oppo-mini-game@1.0.1 enable
+2023-02-16T03:16:32.763Z - log: [Build-plugin] register pkg oppo-mini-game: 1.679ms
+2023-02-16T03:16:32.790Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2023-02-16T03:16:32.814Z - log: [Package] vivo-mini-game@1.0.1 enable
+2023-02-16T03:16:32.816Z - log: [Build-plugin] register pkg vivo-mini-game: 1.877ms
+2023-02-16T03:16:32.851Z - log: [Package] web-desktop@1.0.1 enable
+2023-02-16T03:16:32.853Z - log: [Build-plugin] register pkg web-desktop: 1.725ms
+2023-02-16T03:16:32.878Z - log: [Package] web-mobile@1.0.1 enable
+2023-02-16T03:16:32.880Z - log: [Build-plugin] register pkg web-mobile: 1.69ms
+2023-02-16T03:16:32.905Z - log: [Package] wechatgame@1.0.2 enable
+2023-02-16T03:16:32.907Z - log: [Build-plugin] register pkg wechatgame: 1.807ms
+2023-02-16T03:16:32.928Z - log: [Package] windows@1.0.1 enable
+2023-02-16T03:16:32.930Z - log: [Build-plugin] register pkg windows: 1.629ms
+2023-02-16T03:16:32.956Z - log: [Package] xiaomi-quick-game@1.0.1 enable
+2023-02-16T03:16:32.958Z - log: [Build-plugin] register pkg xiaomi-quick-game: 2.039ms
+2023-02-16T03:16:33.117Z - log: [Package] cocos-service@3.0.5 enable
+2023-02-16T03:16:33.119Z - log: [Build-plugin] register pkg cocos-service: 1.053ms
+2023-02-16T03:16:33.143Z - log: [Package] importer@1.0.0 enable
+2023-02-16T03:16:33.288Z - log: [Im-plugin] Check im-plugin version.
+2023-02-16T03:16:33.290Z - log: [Package] im-plugin@3.0.9 enable
+2023-02-16T03:16:34.132Z - log: [Im-plugin] No online info of im-plugin.
+2023-02-16T03:16:34.865Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
 
  
 // Before:
@@ -121,7 +122,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.211Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+2023-02-16T03:16:34.878Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
 
  
 // Before:
@@ -130,7 +131,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.211Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+2023-02-16T03:16:34.878Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
 
  
 // Before:
@@ -139,7 +140,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.211Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+2023-02-16T03:16:34.879Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
 
  
 // Before:
@@ -148,9 +149,9 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.214Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
-2023-02-15T02:22:42.214Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
-2023-02-15T02:22:42.225Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+2023-02-16T03:16:34.881Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-02-16T03:16:34.881Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-02-16T03:16:34.889Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
 
  
 // Before:
@@ -159,7 +160,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.226Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+2023-02-16T03:16:34.889Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
 
  
 // Before:
@@ -168,7 +169,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.226Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+2023-02-16T03:16:34.889Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
 
  
 // Before:
@@ -177,7 +178,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.226Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+2023-02-16T03:16:34.890Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
 
  
 // Before:
@@ -186,7 +187,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.227Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+2023-02-16T03:16:34.890Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
 
  
 // Before:
@@ -195,7 +196,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.227Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+2023-02-16T03:16:34.890Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
 
  
 // Before:
@@ -204,7 +205,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.227Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+2023-02-16T03:16:34.891Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
 
  
 // Before:
@@ -213,7 +214,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.227Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+2023-02-16T03:16:34.891Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
 
  
 // Before:
@@ -222,7 +223,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.227Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+2023-02-16T03:16:34.891Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
 
  
 // Before:
@@ -231,7 +232,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.227Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+2023-02-16T03:16:34.891Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
 
  
 // Before:
@@ -240,7 +241,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.227Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+2023-02-16T03:16:34.891Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
 
  
 // Before:
@@ -249,7 +250,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+2023-02-16T03:16:34.891Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
 
  
 // Before:
@@ -258,7 +259,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+2023-02-16T03:16:34.892Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
 
  
 // Before:
@@ -267,7 +268,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+2023-02-16T03:16:34.892Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
 
  
 // Before:
@@ -276,7 +277,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+2023-02-16T03:16:34.892Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
 
  
 // Before:
@@ -285,7 +286,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+2023-02-16T03:16:34.892Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
 
  
 // Before:
@@ -294,7 +295,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+2023-02-16T03:16:34.892Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
 
  
 // Before:
@@ -303,7 +304,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+2023-02-16T03:16:34.892Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
 
  
 // Before:
@@ -312,7 +313,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+2023-02-16T03:16:34.892Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
 
  
 // Before:
@@ -321,7 +322,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.228Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+2023-02-16T03:16:34.892Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
 
  
 // Before:
@@ -330,265 +331,244 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-15T02:22:42.259Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
-2023-02-15T02:22:42.292Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
-2023-02-15T02:22:42.292Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
-2023-02-15T02:22:42.292Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
-2023-02-15T02:22:42.292Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
-2023-02-15T02:22:42.379Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-02-15T02:22:42.389Z - info: [Scene] [PHYSICS]: using builtin.
-2023-02-15T02:22:42.489Z - log: [Scene] Cocos Creator v3.6.0
-2023-02-15T02:22:42.490Z - info: [Scene] Forward render pipeline initialized.
-2023-02-15T02:22:42.799Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
-2023-02-15T02:22:53.213Z - log: [Im-plugin] No online info of im-plugin.
-2023-02-15T02:31:08.133Z - error: [Preview]TypeError: Cannot destructure property 'value' of 'this.fsm.getParams(...)' as it is undefined.errorInfo.stack ? '/n ' : ''
-2023-02-15T02:33:34.971Z - error: [Preview]TypeError: Cannot destructure property 'value' of 'this.fsm.getParams(...)' as it is undefined.errorInfo.stack ? '/n ' : ''
-2023-02-15T02:38:33.130Z - error: [Preview]TypeError: Cannot destructure property 'value' of 'this.fsm.getParams(...)' as it is undefined.errorInfo.stack ? '/n ' : ''
-2023-02-15T02:42:06.411Z - error: [Preview]TypeError: Cannot destructure property 'value' of 'this.fsm.getParams(...)' as it is undefined.errorInfo.stack ? '/n ' : ''
-2023-02-15T02:49:57.558Z - error: [Preview]TypeError: Cannot destructure property 'value' of 'this.fsm.getParams(...)' as it is undefined.errorInfo.stack ? '/n ' : ''
-2023-02-15T03:08:04.018Z - error: getImSetting failed
-2023-02-15T03:14:50.752Z - warn: 
-2023-02-15T03:14:52.779Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.798Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.800Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.800Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.803Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
-2023-02-15T03:14:52.803Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
-2023-02-15T03:14:52.814Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.814Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.814Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.815Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.815Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.815Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.816Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.816Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.816Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.816Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.816Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.816Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.817Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.817Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.817Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.817Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.817Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.817Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.817Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.817Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
-
- 
-// Before:
-@property(...)
-myProp;
-// After:
-@property(...)
-myProp = 0;
-2023-02-15T03:14:52.848Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
-2023-02-15T03:14:52.885Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
-2023-02-15T03:14:52.885Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
-2023-02-15T03:14:52.885Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
-2023-02-15T03:14:52.885Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
-2023-02-15T03:14:52.966Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-02-15T03:14:52.975Z - info: [Scene] [PHYSICS]: using builtin.
-2023-02-15T03:14:53.067Z - log: [Scene] Cocos Creator v3.6.0
-2023-02-15T03:14:53.068Z - info: [Scene] Forward render pipeline initialized.
-2023-02-15T03:14:53.380Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
-2023-02-15T04:51:21.124Z - error: [Preview]TypeError: Cannot destructure property 'x' of '(intermediate value)(intermediate value)(intermediate value).Instance.playerInfo' as it is null.errorInfo.stack ? '/n ' : ''
-2023-02-15T05:08:04.025Z - error: getImSetting failed
-2023-02-15T05:29:43.931Z - error: getImSetting failed
-2023-02-15T07:04:45.401Z - error: getImSetting failed
-2023-02-15T07:31:11.898Z - error: getImSetting failed
-2023-02-15T10:18:13.834Z - error: getImSetting failed
-2023-02-15T11:09:00.233Z - error: getImSetting failed
-2023-02-15T11:14:00.203Z - error: getImSetting failed
-2023-02-15T11:19:00.180Z - error: getImSetting failed
-2023-02-15T11:24:00.181Z - error: getImSetting failed
-2023-02-15T11:29:00.187Z - error: getImSetting failed
-2023-02-15T11:34:00.205Z - error: getImSetting failed
-2023-02-15T12:01:33.358Z - error: [Preview]TypeError: Cannot read properties of null (reading 'name')errorInfo.stack ? '/n ' : ''
-2023-02-15T12:01:33.468Z - error: [Preview]TypeError: Cannot read properties of null (reading 'name')errorInfo.stack ? '/n ' : ''
-2023-02-15T12:02:17.333Z - error: [Preview]TypeError: Cannot read properties of null (reading 'name')errorInfo.stack ? '/n ' : ''
-2023-02-15T12:02:17.346Z - error: [Preview]TypeError: Cannot read properties of null (reading 'name')errorInfo.stack ? '/n ' : ''
+2023-02-16T03:16:34.917Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-02-16T03:16:34.943Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-02-16T03:16:34.943Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-02-16T03:16:34.943Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-02-16T03:16:34.943Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-02-16T03:16:35.001Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-16T03:16:35.007Z - info: [Scene] [PHYSICS]: using builtin.
+2023-02-16T03:16:35.097Z - log: [Scene] Cocos Creator v3.6.0
+2023-02-16T03:16:35.097Z - info: [Scene] Forward render pipeline initialized.
+2023-02-16T03:16:35.281Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-02-16T03:39:06.434Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-02-16T03:39:06.448Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorMgr.ts 为起点找不到模块 "./WoodenStateMachine"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorMgr.ts 为起点找不到模块 "./WoodenStateMachine"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:8:13
+2023-02-16T03:39:06.450Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-02-16T03:39:06.450Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorStateMachine.ts 为起点找不到模块 "./DeathWoodenSubStateMachine"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorStateMachine.ts 为起点找不到模块 "./DeathWoodenSubStateMachine"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1f/cce:/internal/x/prerequisite-imports:8:13
+2023-02-16T03:40:35.572Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-02-16T03:40:35.573Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorMgr.ts 为起点找不到模块 "./WoodenStateMachine"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorMgr.ts 为起点找不到模块 "./WoodenStateMachine"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+2023-02-16T03:40:35.573Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-02-16T03:40:35.573Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorStateMachine.ts 为起点找不到模块 "./DeathWoodenSubStateMachine"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorStateMachine.ts 为起点找不到模块 "./DeathWoodenSubStateMachine"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+2023-02-16T03:40:35.670Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-02-16T03:40:35.670Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorMgr.ts 为起点找不到模块 "./WoodenStateMachine"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorMgr.ts 为起点找不到模块 "./WoodenStateMachine"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+2023-02-16T03:40:35.671Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-02-16T03:40:35.671Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorStateMachine.ts 为起点找不到模块 "./DeathWoodenSubStateMachine"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Door/DoorStateMachine.ts 为起点找不到模块 "./DeathWoodenSubStateMachine"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b8/cce:/internal/x/prerequisite-imports:8:13
+2023-02-16T03:47:49.870Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:47:49.903Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:47:49.904Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:47:49.905Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:47:49.905Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:41.819Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:41.828Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:41.828Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:41.829Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:41.829Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:46.720Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:46.787Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:46.787Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:46.787Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T03:48:46.788Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''

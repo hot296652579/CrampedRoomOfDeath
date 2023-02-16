@@ -2,6 +2,7 @@ import { Component, _decorator, Node } from "cc";
 import { ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
+import { DoorMgr } from "../Door/DoorMgr";
 import { WoodenMgr } from "../Enemy/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
@@ -40,6 +41,7 @@ export class UIBattleScene extends Component {
 
         this.generateTileMap()
         this.generateEnemy()
+        this.generateDoor()
         this.generatePlayer()
         this.fitPos()
     }
@@ -82,6 +84,14 @@ export class UIBattleScene extends Component {
         const woodenManager = woodenNode.addComponent(WoodenMgr)
         await woodenManager.init()
         DataManager.Instance.enemies.push(woodenManager)
+    }
+
+    async generateDoor() {
+        const doorNode = createNewNode()
+        doorNode.setParent(this.stage)
+        const doorManager = doorNode.addComponent(DoorMgr)
+        await doorManager.init()
+        DataManager.Instance.doorInfo = doorManager
     }
 
     fitPos() {

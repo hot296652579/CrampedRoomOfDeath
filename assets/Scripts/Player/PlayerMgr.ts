@@ -8,7 +8,7 @@ import { TILE_HEIGHT, TILE_WIDTH } from "../TileMap/TileManager";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
-import { PlayerStateMachine } from "../Base/PlayerStateMachine";
+import { PlayerStateMachine } from "./PlayerStateMachine";
 import { EnitiyMgr } from "../Base/EnitiyMgr";
 
 export const MOVE_SPEED = 1 / 10
@@ -87,6 +87,7 @@ export class PlayerMrg extends EnitiyMgr {
         const enemyId = this.willAttack(inputDirection)
         if (enemyId) {
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_ENEMY_DEATH, enemyId)
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_OPEN_DOOR)
             return
         }
 

@@ -8,7 +8,7 @@ import { TILE_HEIGHT, TILE_WIDTH } from "../TileMap/TileManager";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode, randomNameByLen } from "../Utils";
-import { PlayerStateMachine } from "../Base/PlayerStateMachine";
+import { PlayerStateMachine } from "../Player/PlayerStateMachine";
 
 export const MOVE_SPEED = 1 / 10
 
