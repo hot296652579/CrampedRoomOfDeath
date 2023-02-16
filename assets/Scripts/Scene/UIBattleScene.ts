@@ -3,6 +3,7 @@ import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT } from 
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import { DoorMgr } from "../Door/DoorMgr";
+import { IronMgr } from "../Enemy/Iron/IronMgr";
 import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
@@ -40,7 +41,8 @@ export class UIBattleScene extends Component {
         }
 
         this.generateTileMap()
-        this.generateEnemy()
+        this.generateWooden()
+        this.generateIron()
         this.generateDoor()
         this.generatePlayer()
         this.fitPos()
@@ -73,12 +75,18 @@ export class UIBattleScene extends Component {
         const playerNode = createNewNode()
         playerNode.setParent(this.stage)
         const playerManager = playerNode.addComponent(PlayerMrg)
-        await playerManager.init()
+        await playerManager.init({
+            x: 2,
+            y: 7,
+            type: ENITIY_TYPE_ENUM.PLAYER,
+            state: ENTITY_STATE_ENUM.IDLE,
+            direction: DIRECTION_ENUM.TOP
+        })
         DataManager.Instance.playerInfo = playerManager
         EventMgr.Instance.emit(ENUM_EVENT.ENUM_PLAYER_BORN)
     }
 
-    async generateEnemy() {
+    async generateWooden() {
         const woodenNode = createNewNode()
         woodenNode.setParent(this.stage)
         const woodenManager = woodenNode.addComponent(WoodenMgr)
@@ -90,6 +98,20 @@ export class UIBattleScene extends Component {
             direction: DIRECTION_ENUM.TOP
         })
         DataManager.Instance.enemies.push(woodenManager)
+    }
+
+    async generateIron() {
+        const ironNode = createNewNode()
+        ironNode.setParent(this.stage)
+        const ironManager = ironNode.addComponent(IronMgr)
+        await ironManager.init({
+            x: 2,
+            y: 4,
+            type: ENITIY_TYPE_ENUM.WOODEN,
+            state: ENTITY_STATE_ENUM.IDLE,
+            direction: DIRECTION_ENUM.BOTTOM
+        })
+        DataManager.Instance.enemies.push(ironManager)
     }
 
     async generateDoor() {

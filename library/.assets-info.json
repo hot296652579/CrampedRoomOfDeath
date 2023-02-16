@@ -2884,7 +2884,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
-    "time": 1676518576400.6287,
+    "time": 1676525708893.0522,
     "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125",
     "missing": false
   },
@@ -5635,7 +5635,7 @@
     "time": 1675737450764.051
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
-    "time": 1676525113174.6223,
+    "time": 1676525805309.375,
     "uuid": "69201876-1da9-4a52-b678-87472f04db9f",
     "missing": false
   },
@@ -5683,7 +5683,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime/DataManager.ts": {
-    "time": 1676519229867.441,
+    "time": 1676525508053.7212,
     "uuid": "622c6e3b-59e8-4bf9-b1c0-7266fbb7aa46",
     "missing": false
   },
@@ -5755,7 +5755,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1676519105200.1736,
+    "time": 1676525610102.358,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
@@ -5941,7 +5941,7 @@
     "time": 1676427755512.181
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron": {
-    "time": 1676520463642.2961,
+    "time": 1676525528682.47,
     "uuid": "fb18f154-8020-48ee-b6ed-931e83817d10",
     "missing": false
   },
@@ -5981,6 +5981,38 @@
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/EnemyMgr.ts": {
     "time": 1676525056074.5923,
     "uuid": "86a899b4-6fcb-4a9b-a26c-527072cfdcd6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/IdleIronSubStateMachine.ts.meta": {
+    "time": 1676525409403.3535
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/IronMgr.ts.meta": {
+    "time": 1676525409403.5957
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/IronStateMachine.ts.meta": {
+    "time": 1676525409403.7524
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/IdleIronSubStateMachine.ts": {
+    "time": 1676525398721.1516,
+    "uuid": "d39beb96-bdb2-48de-bfe3-c512bc14778d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/IronMgr.ts": {
+    "time": 1676525475274.9988,
+    "uuid": "2401c3fd-15bb-4fea-bd63-4194d84b3ae9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/IronStateMachine.ts": {
+    "time": 1676525485601.7346,
+    "uuid": "af322d52-0e72-4c8c-82aa-9f85dfb2cc55",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/DeathIronSubStateMachine.ts.meta": {
+    "time": 1676525528683.2104
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/DeathIronSubStateMachine.ts": {
+    "time": 1676525466394.9246,
+    "uuid": "b250c595-db0a-4c66-b73e-63953236da6e",
     "missing": false
   }
 }

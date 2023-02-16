@@ -84,5 +84,6 @@ export enum DIRECTION_ORDER_ENUM {
 export enum ENITIY_TYPE_ENUM {
     PLAYER = 'PLAYER',
     WOODEN = 'WOODEN',
+    IRON = 'IRON',
     DOOR = 'DOOR'
 }

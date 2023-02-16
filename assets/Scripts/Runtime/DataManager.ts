@@ -1,4 +1,5 @@
 import { ILevel, ITitle } from "../../Levels"
+import { EnemyMgr } from "../Base/EnemyMgr"
 import Singleton from "../Base/Singleton"
 import { DoorMgr } from "../Door/DoorMgr"
 import { PlayerMrg } from "../Player/PlayerMgr"
@@ -12,7 +13,7 @@ export default class DataManager extends Singleton {
     levelIndex: number = 1
     playerInfo: PlayerMrg = null
     doorInfo: DoorMgr = null
-    enemies = []
+    enemies: EnemyMgr[]
 
     static get Instance() {
         // super()
