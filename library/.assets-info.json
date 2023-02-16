@@ -5635,7 +5635,7 @@
     "time": 1675737450764.051
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
-    "time": 1676525805309.375,
+    "time": 1676535349154.3523,
     "uuid": "69201876-1da9-4a52-b678-87472f04db9f",
     "missing": false
   },
@@ -5750,12 +5750,12 @@
     "time": 1675840824556.3577
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player": {
-    "time": 1676518398117.1265,
+    "time": 1676532316427.2336,
     "uuid": "11b6ba66-da95-4006-89db-09d4c4affc88",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1676525610102.358,
+    "time": 1676535493479.3267,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
@@ -5966,7 +5966,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Wooden/WoodenMgr.ts": {
-    "time": 1676525049068.448,
+    "time": 1676535418425.4824,
     "uuid": "12a30731-c52f-4694-8f99-27844b01e426",
     "missing": false
   },
@@ -6013,6 +6013,14 @@
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/DeathIronSubStateMachine.ts": {
     "time": 1676525466394.9246,
     "uuid": "b250c595-db0a-4c66-b73e-63953236da6e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/Player97.ts.meta": {
+    "time": 1676532316428.7368
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/Player97.ts": {
+    "time": 1676530741179.3467,
+    "uuid": "4f0dcd83-0ef8-4dee-bc3d-920fbc43eae7",
     "missing": false
   }
 }

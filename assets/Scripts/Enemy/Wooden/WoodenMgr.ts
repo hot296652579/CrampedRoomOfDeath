@@ -22,7 +22,6 @@ export class WoodenMgr extends EnemyMgr {
     }
 
     checkAttack() {
-        console.log('当前state', this.state)
         if (this.state === ENTITY_STATE_ENUM.DEATH || !DataManager.Instance.playerInfo)
             return
 

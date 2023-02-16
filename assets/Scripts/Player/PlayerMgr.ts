@@ -10,6 +10,7 @@ import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
 import { PlayerStateMachine } from "./PlayerStateMachine";
 import { EnitiyMgr } from "../Base/EnitiyMgr";
+import { EnemyMgr } from "../Base/EnemyMgr";
 
 export const MOVE_SPEED = 1 / 10
 
@@ -73,15 +74,15 @@ export class PlayerMrg extends EnitiyMgr {
         if (this.isMoving)
             return
 
-        if (this.willBlock(inputDirection)) {
-            console.log('block!!!!')
-            return
-        }
 
         const enemyId = this.willAttack(inputDirection)
         if (enemyId) {
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_ENEMY_DEATH, enemyId)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_OPEN_DOOR)
+            return
+        }
+
+        if (this.willBlock(inputDirection)) {
             return
         }
 
@@ -95,12 +96,15 @@ export class PlayerMrg extends EnitiyMgr {
     willBlock(inputDirection: ENUM_BOTTOM_CONTROLLER) {
         const { tartgetX: x, tartgetY: y, direction } = this
         const { tileMgrInfo, mapColumCount, mapRowCount } = DataManager.Instance
+        const { x: doorX, y: doorY, state: doorState } = DataManager.Instance.doorInfo
+        const enemies: EnemyMgr[] = DataManager.Instance.enemies.filter(enemy => enemy.state != ENTITY_STATE_ENUM.DEATH)
 
         console.log('y', y)
 
         //先判断输入上时候
         if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP) {
             const playerNextY = y - 1
+            const playerNextX = x - 1
 
             //玩家方向——向上
             if (direction === DIRECTION_ENUM.TOP) {
@@ -123,10 +127,18 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
+                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
                 //判断是否超出地图
-                if (playerNextY <= 1) {
+                if (playerNextY <= 0) {
                     this.state = ENTITY_STATE_ENUM.BLOCKBACK
                     return true
                 }
@@ -142,6 +154,14 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKBACK
                     return true
                 }
+
+                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
 
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
@@ -164,6 +184,14 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKRIGHT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKRIGHT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
                 //判断是否超出地图
@@ -185,8 +213,18 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKLEFT
                     return true
                 }
+
+
+                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
             }
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.LEFT) {
+            const playerNextY = y - 1
             const playerNextX = x - 1
 
             //玩家方向——向上
@@ -211,6 +249,14 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
                 //判断是否超出地图
@@ -233,6 +279,14 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 //判断是否超出地图
@@ -253,6 +307,13 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKFRONT
                     return true
                 }
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
 
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
@@ -274,6 +335,14 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKBACK
                     return true
                 }
+
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
             }
 
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.RIGHT) {
@@ -299,6 +368,13 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
                     return true
                 }
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
 
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
@@ -321,6 +397,14 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 if (playerNextX > mapColumCount - 1) {
@@ -341,6 +425,14 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
                 if (playerNextX > mapColumCount - 1) {
@@ -360,6 +452,15 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKFRONT
                     return true
                 }
+
+                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
             }
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
             const playerNextY = y + 1
@@ -404,6 +505,14 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
+                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 if (playerNextY > mapColumCount - 1) {
@@ -425,6 +534,14 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
+                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
+
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
                 if (playerNextY > mapColumCount - 1) {
@@ -445,6 +562,14 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
                     return true
                 }
+
+                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkDoor)
+                    return checkDoor
+
+                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
+                if (checkEnemy)
+                    return checkEnemy
             }
 
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNLEFT) {
@@ -475,6 +600,37 @@ export class PlayerMrg extends EnitiyMgr {
                 this.state = ENTITY_STATE_ENUM.BLOCKTURNLEFT
                 return true
             }
+
+            //判断门
+            if (
+                ((doorX === x && doorY === nextY) ||
+                    (doorX === nextX && doorY === y) ||
+                    (doorX === nextX && doorY === nextY)) &&
+                doorState !== ENTITY_STATE_ENUM.DEATH
+            ) {
+                this.state = ENTITY_STATE_ENUM.BLOCKTURNLEFT
+                return true
+            }
+
+            //判断敌人
+            for (let i = 0; i < enemies.length; i++) {
+                const enemy = enemies[i]
+                const { x: enemyX, y: enemyY } = enemy
+
+                if (enemyX === nextX && enemyY === y) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKTURNLEFT
+
+                    return true
+                } else if (enemyX === nextX && enemyY === nextY) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKTURNLEFT
+
+                    return true
+                } else if (enemyX === x && enemyY === nextY) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKTURNLEFT
+
+                    return true
+                }
+            }
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNRIGHT) {
             let nextX, nextY
             if (direction === DIRECTION_ENUM.TOP) {
@@ -502,6 +658,87 @@ export class PlayerMrg extends EnitiyMgr {
             } else {
                 this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
                 return true
+            }
+
+            //判断门
+            if (
+                ((doorX === x && doorY === nextY) ||
+                    (doorX === nextX && doorY === y) ||
+                    (doorX === nextX && doorY === nextY)) &&
+                doorState !== ENTITY_STATE_ENUM.DEATH
+            ) {
+                this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
+                return true
+            }
+
+            //判断敌人
+            for (let i = 0; i < enemies.length; i++) {
+                const enemy = enemies[i]
+                const { x: enemyX, y: enemyY } = enemy
+
+                if (enemyX === nextX && enemyY === y) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
+
+                    return true
+                } else if (enemyX === nextX && enemyY === nextY) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
+
+                    return true
+                } else if (enemyX === x && enemyY === nextY) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
+
+                    return true
+                }
+            }
+        }
+
+        return false
+    }
+
+    checkCollisionDoor(playerNext, weaponNext, state: ENTITY_STATE_ENUM, inputDirection: ENUM_BOTTOM_CONTROLLER) {
+        const { tartgetX: x, tartgetY: y, direction } = this
+        const { x: doorX, y: doorY, state: doorState } = DataManager.Instance.doorInfo
+
+        if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP || inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
+            //判断上下门
+            if (
+                ((doorX === x && doorY === playerNext) || (doorX === x && doorY === weaponNext)) &&
+                doorState !== ENTITY_STATE_ENUM.DEATH
+            ) {
+                this.state = state
+                console.log('撞到了门')
+                return true
+            }
+        } else {
+            if (
+                ((doorX === playerNext && doorY === y) || (doorX === weaponNext && doorY === weaponNext)) &&
+                doorState !== ENTITY_STATE_ENUM.DEATH
+            ) {
+                this.state = state
+                console.log('撞到了门')
+                return true
+            }
+        }
+
+        //判断左右门
+
+        return false
+    }
+
+    checkCollisionEnenies(playerNext, weaponNext, state: ENTITY_STATE_ENUM, inputDirection: ENUM_BOTTOM_CONTROLLER) {
+        const { tartgetX: x, tartgetY: y, direction } = this
+        const enemies: EnemyMgr[] = DataManager.Instance.enemies.filter(enemy => enemy.state != ENTITY_STATE_ENUM.DEATH)
+
+        if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP || inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
+            for (let i = 0; i < enemies.length; i++) {
+                const enemy = enemies[i]
+                const { x: enemyX, y: enemyY } = enemy
+
+                if ((enemyX === x && enemyY === weaponNext) || (enemyX === x && enemyY === playerNext)) {
+                    this.state = state
+                    console.log('撞到了敌人')
+                    return true
+                }
             }
         }
 

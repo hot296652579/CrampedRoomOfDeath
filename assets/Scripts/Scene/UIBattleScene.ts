@@ -76,11 +76,11 @@ export class UIBattleScene extends Component {
         playerNode.setParent(this.stage)
         const playerManager = playerNode.addComponent(PlayerMrg)
         await playerManager.init({
-            x: 2,
-            y: 7,
+            x: 7,
+            y: 4,
             type: ENITIY_TYPE_ENUM.PLAYER,
             state: ENTITY_STATE_ENUM.IDLE,
-            direction: DIRECTION_ENUM.TOP
+            direction: DIRECTION_ENUM.BOTTOM
         })
         DataManager.Instance.playerInfo = playerManager
         EventMgr.Instance.emit(ENUM_EVENT.ENUM_PLAYER_BORN)

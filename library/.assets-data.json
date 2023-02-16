@@ -10851,5 +10851,9 @@
   "b250c595-db0a-4c66-b73e-63953236da6e": {
     "url": "db://assets/Scripts/Enemy/Iron/DeathIronSubStateMachine.ts",
     "value": {}
+  },
+  "4f0dcd83-0ef8-4dee-bc3d-920fbc43eae7": {
+    "url": "db://assets/Scripts/Player/Player97.ts",
+    "value": {}
   }
 }
