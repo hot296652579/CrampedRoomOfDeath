@@ -1,9 +1,9 @@
 import { Component, _decorator, Node, Sprite, UITransform, Animation, SpriteAtlas, AnimationClip, animation, SpriteFrame, Texture2D, math } from "cc";
-import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, PARAMS_NAME_TYPE } from "../../Enum";
-import { EnitiyMgr } from "../Base/EnitiyMgr";
-import EventMgr from "../Base/EventMgr";
-import { PlayerStateMachine } from "../Player/PlayerStateMachine";
-import DataManager from "../Runtime/DataManager";
+import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, PARAMS_NAME_TYPE } from "../../../Enum";
+import { EnitiyMgr } from "../../Base/EnitiyMgr";
+import EventMgr from "../../Base/EventMgr";
+import { PlayerStateMachine } from "../../Player/PlayerStateMachine";
+import DataManager from "../../Runtime/DataManager";
 import { WoodenStateMachine } from "./WoodenStateMachine";
 
 export const MOVE_SPEED = 1 / 10

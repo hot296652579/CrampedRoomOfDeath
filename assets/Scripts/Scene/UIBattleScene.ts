@@ -3,7 +3,7 @@ import { ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import { DoorMgr } from "../Door/DoorMgr";
-import { WoodenMgr } from "../Enemy/WoodenMgr";
+import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
 // import { DataManager.Instance } from "../Runtime/DataManager";

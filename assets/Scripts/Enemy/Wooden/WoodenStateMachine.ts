@@ -1,9 +1,9 @@
 import { Component, _decorator, Node, AnimationClip, Animation, SpriteFrame, SpriteAtlas } from "cc";
-import { ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_TYPE, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM } from "../../Enum";
+import { ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_TYPE, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM } from "../../../Enum";
 // import { DataManager.Instance } from "../Runtime/DataManager";
-import { EnitiyMgr } from "../Base/EnitiyMgr";
-import { getParamsInitNumber, getParamsInitTrigger, StateMachine } from "../Base/SateMachine";
-import State from "../Base/State";
+import { EnitiyMgr } from "../../Base/EnitiyMgr";
+import { getParamsInitNumber, getParamsInitTrigger, StateMachine } from "../../Base/SateMachine";
+import State from "../../Base/State";
 import AttackWoodenSubStateMachine from "./AttackWoondenSubStateMachine";
 import DeathWoodenSubStateMachine from "./DeathWoodenSubStateMachine";
 import IdleWoodenSubStateMachine from "./IdleWoodenSubStateMachine";
