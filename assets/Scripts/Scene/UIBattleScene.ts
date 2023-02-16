@@ -2,6 +2,7 @@ import { Component, _decorator, Node } from "cc";
 import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
+import { BurstMgr } from "../Burst/BurstMgr";
 import { DoorMgr } from "../Door/DoorMgr";
 import { IronMgr } from "../Enemy/Iron/IronMgr";
 import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
@@ -41,6 +42,7 @@ export class UIBattleScene extends Component {
         }
 
         this.generateTileMap()
+        this.generateBurst()
         this.generateWooden()
         this.generateIron()
         this.generateDoor()
@@ -77,7 +79,7 @@ export class UIBattleScene extends Component {
         const playerManager = playerNode.addComponent(PlayerMrg)
         await playerManager.init({
             x: 7,
-            y: 4,
+            y: 2,
             type: ENITIY_TYPE_ENUM.PLAYER,
             state: ENTITY_STATE_ENUM.IDLE,
             direction: DIRECTION_ENUM.BOTTOM
@@ -98,6 +100,20 @@ export class UIBattleScene extends Component {
             direction: DIRECTION_ENUM.TOP
         })
         DataManager.Instance.enemies.push(woodenManager)
+    }
+
+    async generateBurst() {
+        const burstNode = createNewNode()
+        burstNode.setParent(this.stage)
+        const burstManager = burstNode.addComponent(BurstMgr)
+        await burstManager.init({
+            x: 7,
+            y: 5,
+            type: ENITIY_TYPE_ENUM.BURST,
+            state: ENTITY_STATE_ENUM.IDLE,
+            direction: DIRECTION_ENUM.TOP
+        })
+        DataManager.Instance.bursts.push(burstManager)
     }
 
     async generateIron() {

@@ -1,6 +1,7 @@
 import { ILevel, ITitle } from "../../Levels"
 import { EnemyMgr } from "../Base/EnemyMgr"
 import Singleton from "../Base/Singleton"
+import { BurstMgr } from "../Burst/BurstMgr"
 import { DoorMgr } from "../Door/DoorMgr"
 import { PlayerMrg } from "../Player/PlayerMgr"
 import { TileManager } from "../TileMap/TileManager"
@@ -14,6 +15,7 @@ export default class DataManager extends Singleton {
     playerInfo: PlayerMrg = null
     doorInfo: DoorMgr = null
     enemies: EnemyMgr[]
+    bursts: BurstMgr[]
 
     static get Instance() {
         // super()
@@ -26,6 +28,7 @@ export default class DataManager extends Singleton {
         this.playerInfo = null
         this.doorInfo = null
         this.enemies = []
+        this.bursts = []
         this.mapRowCount = 0
         this.mapColumCount = 0
     }

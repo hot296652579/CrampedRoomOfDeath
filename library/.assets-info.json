@@ -2884,7 +2884,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
-    "time": 1676525708893.0522,
+    "time": 1676550097000.8464,
     "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125",
     "missing": false
   },
@@ -2894,7 +2894,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Levels/level1.ts": {
-    "time": 1675770733759.9663,
+    "time": 1676549734428.5928,
     "uuid": "0faf8317-b0d9-4ee0-b55e-e14b677468af",
     "missing": false
   },
@@ -5617,7 +5617,7 @@
     "time": 1675737450763.3838
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts": {
-    "time": 1676520429523.8481,
+    "time": 1676547447865.6863,
     "uuid": "bb13ed86-6b93-416f-96bf-5728e9e14043",
     "missing": false
   },
@@ -5635,7 +5635,7 @@
     "time": 1675737450764.051
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
-    "time": 1676535349154.3523,
+    "time": 1676550254608.2366,
     "uuid": "69201876-1da9-4a52-b678-87472f04db9f",
     "missing": false
   },
@@ -5683,7 +5683,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime/DataManager.ts": {
-    "time": 1676525508053.7212,
+    "time": 1676546984940.2583,
     "uuid": "622c6e3b-59e8-4bf9-b1c0-7266fbb7aa46",
     "missing": false
   },
@@ -5750,12 +5750,12 @@
     "time": 1675840824556.3577
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player": {
-    "time": 1676532316427.2336,
+    "time": 1676550358441.2083,
     "uuid": "11b6ba66-da95-4006-89db-09d4c4affc88",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1676535493479.3267,
+    "time": 1676551880860.2693,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
@@ -5907,7 +5907,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerStateMachine.ts": {
-    "time": 1676518400309.0828,
+    "time": 1676551908132.4177,
     "uuid": "6883aeea-6bbe-4956-a804-e2c66c7c94fe",
     "missing": false
   },
@@ -6015,12 +6015,36 @@
     "uuid": "b250c595-db0a-4c66-b73e-63953236da6e",
     "missing": false
   },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/Player97.ts.meta": {
-    "time": 1676532316428.7368
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Burst.meta": {
+    "time": 1676547447867.001
   },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/Player97.ts": {
-    "time": 1676530741179.3467,
-    "uuid": "4f0dcd83-0ef8-4dee-bc3d-920fbc43eae7",
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Burst/BurstMgr.ts.meta": {
+    "time": 1676547447867.5671
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Burst/BurstStateMachine.ts.meta": {
+    "time": 1676547447867.8389
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Burst": {
+    "time": 1676547447866.2126,
+    "uuid": "353100a3-f086-4798-b567-81ce8f3a6722",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Burst/BurstMgr.ts": {
+    "time": 1676550660486.801,
+    "uuid": "de89a183-6bb3-4baa-9698-5018d861ff95",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Burst/BurstStateMachine.ts": {
+    "time": 1676548477251.314,
+    "uuid": "dd5117b2-0a3c-41d0-b9da-8f7189dd0a5e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/AirDeathSubStateMachine.ts.meta": {
+    "time": 1676550358442.333
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/AirDeathSubStateMachine.ts": {
+    "time": 1676551284281.466,
+    "uuid": "8ee7d930-6940-45cc-8ac1-01da9f986e8b",
     "missing": false
   }
 }

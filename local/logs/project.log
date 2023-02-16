@@ -572,3 +572,14 @@ myProp = 0;
 2023-02-16T03:48:46.787Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
 2023-02-16T03:48:46.787Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
 2023-02-16T03:48:46.788Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-16T12:44:32.188Z - error: [Preview]Cannot destructure property 'x' of '(intermediate value)(intermediate value)(intermediate value).Instance.doorInfo' as it is null.errorInfo.stack ? '/n TypeError: Cannot destructure property 'x' of '(intermediate value)(intermediate value)(intermediate value).Instance.doorInfo' as it is null.
+    at PlayerMrg.willBlock (http://localhost:7456/scripting/x/chunks/e6/e60bfab9943dc479914582042c414de963aafafb.js:232:16)
+    at PlayerMrg.inputHanlder (http://localhost:7456/scripting/x/chunks/e6/e60bfab9943dc479914582042c414de963aafafb.js:206:20)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at BottomControl.handlerClickDirection (http://localhost:7456/scripting/x/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js:51:46)
+    at EventHandler.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:93295:19)
+    at Function.emitEvents (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:93239:19)
+    at Button._onTouchEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:41679:35)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)' : ''

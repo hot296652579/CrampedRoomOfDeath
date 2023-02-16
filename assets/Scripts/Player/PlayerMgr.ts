@@ -11,6 +11,7 @@ import { createNewNode } from "../Utils";
 import { PlayerStateMachine } from "./PlayerStateMachine";
 import { EnitiyMgr } from "../Base/EnitiyMgr";
 import { EnemyMgr } from "../Base/EnemyMgr";
+import { BurstMgr } from "../Burst/BurstMgr";
 
 export const MOVE_SPEED = 1 / 10
 
@@ -34,11 +35,13 @@ export class PlayerMrg extends EnitiyMgr {
 
     onLoad() {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_PLAYER, this.inputHanlder, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_ATTACK_PLAYER, this.onDeathHanlder, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_PLAYER_DEATH, this.onDeathHanlder, this)
     }
 
     onDestry() {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_PLAYER, this.inputHanlder)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_ATTACK_PLAYER, this.onDeathHanlder)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_PLAYER_DEATH, this.onDeathHanlder)
     }
 
@@ -134,6 +137,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
                 if (checkEnemy)
                     return checkEnemy
+
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (checkBurst)
+                    return checkBurst
 
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
@@ -513,6 +520,11 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (checkBurst)
+                    return checkBurst
+
+
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 if (playerNextY > mapColumCount - 1) {
@@ -570,6 +582,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
                 if (checkEnemy)
                     return checkEnemy
+
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (checkBurst)
+                    return checkBurst
             }
 
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNLEFT) {
@@ -710,6 +726,7 @@ export class PlayerMrg extends EnitiyMgr {
                 return true
             }
         } else {
+            //判断左右门
             if (
                 ((doorX === playerNext && doorY === y) || (doorX === weaponNext && doorY === weaponNext)) &&
                 doorState !== ENTITY_STATE_ENUM.DEATH
@@ -720,7 +737,7 @@ export class PlayerMrg extends EnitiyMgr {
             }
         }
 
-        //判断左右门
+
 
         return false
     }
@@ -743,6 +760,22 @@ export class PlayerMrg extends EnitiyMgr {
         }
 
         return false
+    }
+
+    //判断地裂陷阱
+    checkBurstCollision(playerNext, nextWeaponTile, inputDirection: ENUM_BOTTOM_CONTROLLER) {
+        const { tartgetX: x, tartgetY: y, direction } = this
+        const bursts: BurstMgr[] = DataManager.Instance.bursts.filter(
+            (burst: BurstMgr) => burst.state !== ENTITY_STATE_ENUM.DEATH,
+        )
+
+        if (
+            bursts.some(burst => burst.x === x && burst.y === playerNext) &&
+            (!nextWeaponTile || nextWeaponTile.turnable)
+        ) {
+            return false
+        }
+
     }
 
     willAttack(inputDirection: ENUM_BOTTOM_CONTROLLER) {
@@ -801,6 +834,7 @@ export class PlayerMrg extends EnitiyMgr {
                     this.direction = DIRECTION_ENUM.TOP
                 }
                 this.state = ENTITY_STATE_ENUM.TURNLEFT
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
                 break;
             case ENUM_BOTTOM_CONTROLLER.TURNRIGHT:
                 if (this.direction === DIRECTION_ENUM.TOP) {
@@ -813,6 +847,7 @@ export class PlayerMrg extends EnitiyMgr {
                     this.direction = DIRECTION_ENUM.BOTTOM
                 }
                 this.state = ENTITY_STATE_ENUM.TURNRIGHT
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
                 break;
 
             default:

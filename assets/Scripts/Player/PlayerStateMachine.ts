@@ -14,6 +14,7 @@ import { createNewNode } from "../Utils";
 import { EnitiyMgr } from "../Base/EnitiyMgr";
 import { getParamsInitNumber, getParamsInitTrigger, StateMachine } from "../Base/SateMachine";
 import State from "../Base/State";
+import AirDeathSubStateMachine from "./AirDeathSubStateMachine";
 
 
 const { ccclass, property } = _decorator;
@@ -38,6 +39,7 @@ export class PlayerStateMachine extends StateMachine {
         this.params.set(PARAMS_NAME_TYPE.BLOCKTURNLEFT, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.BLOCKTURNRIGHT, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.DEATH, getParamsInitTrigger())
+        this.params.set(PARAMS_NAME_TYPE.AIRDEATH, getParamsInitTrigger())
         this.params.set(PARAMS_NAME_TYPE.ATTACK, getParamsInitTrigger())
     }
 
@@ -51,6 +53,7 @@ export class PlayerStateMachine extends StateMachine {
         this.stateMachine.set(PARAMS_NAME_TYPE.BLOCKTURNLEFT, new BlockTurnLeftSubStateMachine(this))
         this.stateMachine.set(PARAMS_NAME_TYPE.BLOCKTURNRIGHT, new BlockTurnRightSubStateMachine(this))
         this.stateMachine.set(PARAMS_NAME_TYPE.DEATH, new DeathSubStateMachine(this))
+        this.stateMachine.set(PARAMS_NAME_TYPE.AIRDEATH, new AirDeathSubStateMachine(this))
         this.stateMachine.set(PARAMS_NAME_TYPE.ATTACK, new AttackSubStateMachine(this))
     }
 
@@ -69,10 +72,10 @@ export class PlayerStateMachine extends StateMachine {
     run() {
         switch (this.currentSate) {
             case this.stateMachine.get(PARAMS_NAME_TYPE.TURNLEFT):
+            case this.stateMachine.get(PARAMS_NAME_TYPE.TURNRIGHT):
             case this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKFRONT):
             case this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKTURNLEFT):
             case this.stateMachine.get(PARAMS_NAME_TYPE.DEATH):
-            case this.stateMachine.get(PARAMS_NAME_TYPE.AIRDEATH):
 
             case this.stateMachine.get(PARAMS_NAME_TYPE.IDLE):
                 if (this.params.get(PARAMS_NAME_TYPE.BLOCKFRONT).value) {
@@ -90,6 +93,8 @@ export class PlayerStateMachine extends StateMachine {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDLE)
                 } else if (this.params.get(PARAMS_NAME_TYPE.DEATH).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.DEATH)
+                } else if (this.params.get(PARAMS_NAME_TYPE.AIRDEATH).value) {
+                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.AIRDEATH)
                 } else if (this.params.get(PARAMS_NAME_TYPE.ATTACK).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.ATTACK)
                 }

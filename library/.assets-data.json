@@ -10855,5 +10855,21 @@
   "4f0dcd83-0ef8-4dee-bc3d-920fbc43eae7": {
     "url": "db://assets/Scripts/Player/Player97.ts",
     "value": {}
+  },
+  "353100a3-f086-4798-b567-81ce8f3a6722": {
+    "url": "db://assets/Scripts/Burst",
+    "value": {}
+  },
+  "de89a183-6bb3-4baa-9698-5018d861ff95": {
+    "url": "db://assets/Scripts/Burst/BurstMgr.ts",
+    "value": {}
+  },
+  "dd5117b2-0a3c-41d0-b9da-8f7189dd0a5e": {
+    "url": "db://assets/Scripts/Burst/BurstStateMachine.ts",
+    "value": {}
+  },
+  "8ee7d930-6940-45cc-8ac1-01da9f986e8b": {
+    "url": "db://assets/Scripts/Player/AirDeathSubStateMachine.ts",
+    "value": {}
   }
 }
