@@ -9,6 +9,7 @@ import { TILE_HEIGHT, TILE_WIDTH } from "../TileMap/TileManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode, randomNameByLen } from "../Utils";
 import { PlayerStateMachine } from "../Player/PlayerStateMachine";
+import { StateMachine } from "./SateMachine";
 
 export const MOVE_SPEED = 1 / 10
 
@@ -19,7 +20,7 @@ export class EnitiyMgr extends Component {
     x: number = 0
     y: number = 0
 
-    fsm: PlayerStateMachine = null
+    fsm: StateMachine = null
 
     private _direction: DIRECTION_ENUM
     private _state: ENTITY_STATE_ENUM

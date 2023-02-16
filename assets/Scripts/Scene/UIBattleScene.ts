@@ -1,5 +1,5 @@
 import { Component, _decorator, Node } from "cc";
-import { ENUM_EVENT } from "../../Enum";
+import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import { DoorMgr } from "../Door/DoorMgr";
@@ -82,7 +82,13 @@ export class UIBattleScene extends Component {
         const woodenNode = createNewNode()
         woodenNode.setParent(this.stage)
         const woodenManager = woodenNode.addComponent(WoodenMgr)
-        await woodenManager.init()
+        await woodenManager.init({
+            x: 7,
+            y: 7,
+            type: ENITIY_TYPE_ENUM.WOODEN,
+            state: ENTITY_STATE_ENUM.IDLE,
+            direction: DIRECTION_ENUM.TOP
+        })
         DataManager.Instance.enemies.push(woodenManager)
     }
 

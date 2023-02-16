@@ -10831,5 +10831,9 @@
   "10277971-5380-4d0b-b2e1-37bc8d2a1dad": {
     "url": "db://assets/Scripts/Enemy/Wooden",
     "value": {}
+  },
+  "86a899b4-6fcb-4a9b-a26c-527072cfdcd6": {
+    "url": "db://assets/Scripts/Base/EnemyMgr.ts",
+    "value": {}
   }
 }
