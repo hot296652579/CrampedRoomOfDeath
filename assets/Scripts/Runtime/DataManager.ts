@@ -1,4 +1,4 @@
-import { ILevel, ITitle } from "../../Levels"
+import { IEnitiy, ILevel, ITitle } from "../../Levels"
 import { EnemyMgr } from "../Base/EnemyMgr"
 import Singleton from "../Base/Singleton"
 import { BurstMgr } from "../Burst/BurstMgr"

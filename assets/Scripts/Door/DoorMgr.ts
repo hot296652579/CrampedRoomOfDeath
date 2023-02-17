@@ -1,5 +1,6 @@
 import { Component, _decorator, Node, Sprite, UITransform, Animation, SpriteAtlas, AnimationClip, animation, SpriteFrame, Texture2D, math, TiledUserNodeData } from "cc";
 import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, PARAMS_NAME_TYPE } from "../../Enum";
+import { IEnitiy } from "../../Levels";
 import { EnitiyMgr } from "../Base/EnitiyMgr";
 import EventMgr from "../Base/EventMgr";
 import { PlayerStateMachine } from "../Player/PlayerStateMachine";
@@ -12,18 +13,11 @@ const { ccclass, property } = _decorator;
 @ccclass('DoorMgr')
 export class DoorMgr extends EnitiyMgr {
 
-    async init() {
+    async init(params: IEnitiy) {
         this.fsm = this.addComponent(DoorStateMachine)
         await this.fsm.init()
 
-        super.init({
-            x: 7,
-            y: 8,
-            type: ENITIY_TYPE_ENUM.DOOR,
-            state: ENTITY_STATE_ENUM.IDLE,
-            direction: DIRECTION_ENUM.TOP
-        })
-
+        super.init(params)
     }
 
     onOpen() {
