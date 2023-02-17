@@ -61,13 +61,35 @@ export class SpikesMgr extends Component {
         this.totalCount = SPIKES_TYPE_MAP_TOTAL_COUNT_ENUM[this._type]
         this.count = params.count
     }
+    onChangeCount() {
+        if (this.count === this.totalCount) {
+            this.count = 1
+        } else {
+            this.count++
+        }
 
+        this.onAttack()
+    }
+
+    countToZero() {
+        this.count = 0
+    }
+
+    onAttack() {
+        if (!DataManager.Instance.playerInfo)
+            return
+
+        const { x: playerX, y: playerY } = DataManager.Instance.playerInfo
+        if (this.x === playerX && this.y === playerY && this.count === this.totalCount) {
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_PLAYER_DEATH, ENTITY_STATE_ENUM.DEATH)
+        }
+    }
     onLoad() {
-
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.onChangeCount, this)
     }
 
     onDestry() {
-
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.onChangeCount)
     }
 
     update() {

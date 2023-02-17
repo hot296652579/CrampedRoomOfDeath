@@ -3,6 +3,7 @@ import { ENITIY_TYPE_ENUM, ENITIY_TYPE_SPIKES_ENUM, PARAMS_NAME_TYPE, SPIKES_TYP
 import { EnitiyMgr } from "../Base/EnitiyMgr";
 import { getParamsInitNumber, StateMachine } from "../Base/SateMachine";
 import SpikesFourSubStateMachine from "./SpikesFourStateMahine";
+import { SpikesMgr } from "./SpikesMgr";
 import SpikesOneSubStateMachine from "./SpikesOneSubStateMachine";
 import SpikesThreeSubStateMachine from "./SpikesThreeStateMachine";
 import SpikesTwoSubStateMachine from "./SpikesTwoSubStateMachine";
@@ -35,15 +36,17 @@ export class SpikeStateMachine extends StateMachine {
     }
 
     addAnimationEvent() {
-        // this.animationCom.on(Animation.EventType.FINISHED, () => {
-        //     const animationName = this.animationCom.defaultClip.name
-        //     const list = ['attack']
-
-        //     if (list.some(v => animationName.includes(v))) {
-        //         // this.setParams(PARAMS_NAME_TYPE.IDLE, true)
-        //         this.node.getComponent(EnitiyMgr).state = ENTITY_STATE_ENUM.IDLE
-        //     }
-        // })
+        this.animationCom.on(Animation.EventType.FINISHED, () => {
+            const animationName = this.animationCom.defaultClip.name
+            const value = this.getParams(PARAMS_NAME_TYPE.SPIKES_TOTAL_COUNT).value
+            if (value === SPIKES_TYPE_MAP_TOTAL_COUNT_ENUM.SPIKES_ONE && animationName.includes('two/two') ||
+                value === SPIKES_TYPE_MAP_TOTAL_COUNT_ENUM.SPIKES_TWO && animationName.includes('three/three') ||
+                value === SPIKES_TYPE_MAP_TOTAL_COUNT_ENUM.SPIKES_THREE && animationName.includes('four/four') ||
+                value === SPIKES_TYPE_MAP_TOTAL_COUNT_ENUM.SPIKES_FOUR && animationName.includes('five/five')
+            ) {
+                this.node.getComponent(SpikesMgr).countToZero()
+            }
+        })
     }
 
     run() {
