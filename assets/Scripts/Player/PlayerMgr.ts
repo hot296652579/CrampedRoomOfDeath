@@ -313,7 +313,7 @@ export class PlayerMrg extends EnitiyMgr {
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 //判断是否超出地图
-                if (playerNextX <= 1) {
+                if (playerNextX <= 0) {
                     this.state = ENTITY_STATE_ENUM.BLOCKFRONT
 
                     return true
@@ -345,7 +345,7 @@ export class PlayerMrg extends EnitiyMgr {
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
                 //判断是否超出地图
-                if (playerNextX <= 1) {
+                if (playerNextX <= 0) {
                     this.state = ENTITY_STATE_ENUM.BLOCKBACK
 
                     return true
