@@ -10871,5 +10871,21 @@
   "8ee7d930-6940-45cc-8ac1-01da9f986e8b": {
     "url": "db://assets/Scripts/Player/AirDeathSubStateMachine.ts",
     "value": {}
+  },
+  "33ef0409-9cd9-4439-b213-3455c4d07291": {
+    "url": "db://assets/Scripts/Spikes",
+    "value": {}
+  },
+  "c0c9f42b-fb49-441d-aa1a-c39598c2e23f": {
+    "url": "db://assets/Scripts/Spikes/SpikeStateMachine.ts",
+    "value": {}
+  },
+  "1e98f3da-8415-4a6b-b505-46ad307f4fdf": {
+    "url": "db://assets/Scripts/Spikes/SpikesMgr.ts",
+    "value": {}
+  },
+  "c92f7efc-c105-447e-b1a6-0835a5cbeed3": {
+    "url": "db://assets/Scripts/Spikes/SpikesOneSubStateMachine.ts",
+    "value": {}
   }
 }

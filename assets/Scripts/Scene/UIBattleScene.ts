@@ -1,5 +1,5 @@
 import { Component, _decorator, Node } from "cc";
-import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT } from "../../Enum";
+import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENITIY_TYPE_SPIKES_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import { BurstMgr } from "../Burst/BurstMgr";
@@ -8,6 +8,7 @@ import { IronMgr } from "../Enemy/Iron/IronMgr";
 import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
+import { SpikesMgr } from "../Spikes/SpikesMgr";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
 import { createNewNode } from "../Utils";
@@ -42,9 +43,10 @@ export class UIBattleScene extends Component {
         }
 
         this.generateTileMap()
-        this.generateBurst()
-        this.generateWooden()
-        this.generateIron()
+        // this.generateBurst()
+        // this.generateWooden()
+        // this.generateIron()
+        this.generateSpikes()
         this.generateDoor()
         this.generatePlayer()
         this.fitPos()
@@ -114,6 +116,19 @@ export class UIBattleScene extends Component {
             direction: DIRECTION_ENUM.TOP
         })
         DataManager.Instance.bursts.push(burstManager)
+    }
+
+    async generateSpikes() {
+        const spikesNode = createNewNode()
+        spikesNode.setParent(this.stage)
+        const spikesManager = spikesNode.addComponent(SpikesMgr)
+        await spikesManager.init({
+            x: 7,
+            y: 5,
+            type: ENITIY_TYPE_SPIKES_ENUM.SPIKES_ONE,
+            count: 0
+        })
+        DataManager.Instance.spikes.push(spikesManager)
     }
 
     async generateIron() {

@@ -51,7 +51,9 @@ export enum PARAMS_NAME_TYPE {
     BLOCKTURNRIGHT = 'BLOCKTURNRIGHT',
     ATTACK = 'ATTACK',
     DEATH = 'DEATH',
-    AIRDEATH = 'AIRDEATH'
+    AIRDEATH = 'AIRDEATH',
+    SPIKES_CUR_COUNT = 'SPIKES_CUR_COUNT',
+    SPIKES_TOTAL_COUNT = 'SPIKES_TOTAL_COUNT'
 }
 /**四个方向枚举 TOP BOTTOM LEFT RIGHT*/
 export enum DIRECTION_ENUM {
@@ -89,4 +91,36 @@ export enum ENITIY_TYPE_ENUM {
     IRON = 'IRON',
     DOOR = 'DOOR',
     BURST = 'BURST'
+}
+
+export enum ENITIY_TYPE_SPIKES_ENUM {
+    SPIKES_ONE = 'SPIKES_ONE',
+    SPIKES_TWO = 'SPIKES_TWO',
+    SPIKES_THREE = 'SPIKES_THREE',
+    SPIKES_FOUR = 'SPIKES_FOUR',
+}
+
+export enum SPIKES_TYPE_MAP_TOTAL_COUNT_ENUM {
+    SPIKES_ONE = 2,
+    SPIKES_TWO = 3,
+    SPIKES_THREE = 4,
+    SPIKES_FOUR = 5,
+}
+
+export enum SPIKE_COUNT_ENUM {
+    ZERO = 'ZERO',
+    ONE = 'ONE',
+    TWO = 'TWO',
+    THREE = 'THREE',
+    FOUR = 'FOUR',
+    FIVE = 'FIVE'
+}
+
+export enum SPIKES_COUNT_MAP_NUMBER_ENUM {
+    ZERO = 0,
+    ONE = 1,
+    TWO = 2,
+    THREE = 3,
+    FOUR = 4,
+    FIVE = 5
 }
