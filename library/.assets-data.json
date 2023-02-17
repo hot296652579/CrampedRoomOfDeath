@@ -10887,5 +10887,21 @@
   "c92f7efc-c105-447e-b1a6-0835a5cbeed3": {
     "url": "db://assets/Scripts/Spikes/SpikesOneSubStateMachine.ts",
     "value": {}
+  },
+  "1ad28977-03a6-497e-aba5-8eb23e8e40a5": {
+    "url": "db://assets/Scripts/Spikes/SpikesFourStateMahine.ts",
+    "value": {}
+  },
+  "7138d520-fb88-4b99-8ea8-0a5a048d05e5": {
+    "url": "db://assets/Scripts/Spikes/SpikesSubStateMahine.ts",
+    "value": {}
+  },
+  "71d59124-ed40-4a8e-92bf-01ce92d2b374": {
+    "url": "db://assets/Scripts/Spikes/SpikesThreeStateMachine.ts",
+    "value": {}
+  },
+  "f8f54fa3-c133-499d-9749-0e16fae286cf": {
+    "url": "db://assets/Scripts/Spikes/SpikesTwoSubStateMachine.ts",
+    "value": {}
   }
 }

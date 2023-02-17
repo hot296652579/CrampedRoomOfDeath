@@ -7,13 +7,15 @@ import SpikesSubStateMachine from "./SpikesSubStateMahine";
 
 
 
-const BASE_URL = 'texture/spikes/spikesone/'
-export default class SpikesOneSubStateMachine extends SpikesSubStateMachine {
+const BASE_URL = 'texture/spikes/spikesthree/'
+export default class SpikesThreeSubStateMachine extends SpikesSubStateMachine {
     constructor(fsm: StateMachine) {
         super(fsm)
 
         this.stateMachine.set(SPIKE_COUNT_ENUM.ZERO, new State(fsm, `${BASE_URL}zero/zero`))
         this.stateMachine.set(SPIKE_COUNT_ENUM.ONE, new State(fsm, `${BASE_URL}one/one`))
         this.stateMachine.set(SPIKE_COUNT_ENUM.TWO, new State(fsm, `${BASE_URL}two/two`))
+        this.stateMachine.set(SPIKE_COUNT_ENUM.THREE, new State(fsm, `${BASE_URL}three/three`))
+        this.stateMachine.set(SPIKE_COUNT_ENUM.FOUR, new State(fsm, `${BASE_URL}four/four`))
     }
 }

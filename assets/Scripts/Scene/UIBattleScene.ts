@@ -125,7 +125,7 @@ export class UIBattleScene extends Component {
         await spikesManager.init({
             x: 7,
             y: 5,
-            type: ENITIY_TYPE_SPIKES_ENUM.SPIKES_ONE,
+            type: ENITIY_TYPE_SPIKES_ENUM.SPIKES_FOUR,
             count: 0
         })
         DataManager.Instance.spikes.push(spikesManager)

@@ -5635,7 +5635,7 @@
     "time": 1675737450764.051
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
-    "time": 1676598538709.389,
+    "time": 1676600289452.97,
     "uuid": "69201876-1da9-4a52-b678-87472f04db9f",
     "missing": false
   },
@@ -6057,12 +6057,12 @@
     "time": 1676597388829.7075
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes": {
-    "time": 1676597608920.9814,
+    "time": 1676600218536.6504,
     "uuid": "33ef0409-9cd9-4439-b213-3455c4d07291",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts": {
-    "time": 1676598735396.0005,
+    "time": 1676600514806.5022,
     "uuid": "c0c9f42b-fb49-441d-aa1a-c39598c2e23f",
     "missing": false
   },
@@ -6075,8 +6075,40 @@
     "time": 1676597608921.9014
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesOneSubStateMachine.ts": {
-    "time": 1676598962101.2913,
+    "time": 1676600277905.5103,
     "uuid": "c92f7efc-c105-447e-b1a6-0835a5cbeed3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesFourStateMahine.ts.meta": {
+    "time": 1676600218537.819
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesSubStateMahine.ts.meta": {
+    "time": 1676600218538.129
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesThreeStateMachine.ts.meta": {
+    "time": 1676600218538.3247
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesTwoSubStateMachine.ts.meta": {
+    "time": 1676600218538.5405
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesFourStateMahine.ts": {
+    "time": 1676600352224.982,
+    "uuid": "1ad28977-03a6-497e-aba5-8eb23e8e40a5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesSubStateMahine.ts": {
+    "time": 1676600014643.139,
+    "uuid": "7138d520-fb88-4b99-8ea8-0a5a048d05e5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesThreeStateMachine.ts": {
+    "time": 1676600270326.1196,
+    "uuid": "71d59124-ed40-4a8e-92bf-01ce92d2b374",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesTwoSubStateMachine.ts": {
+    "time": 1676600114152.1086,
+    "uuid": "f8f54fa3-c133-499d-9749-0e16fae286cf",
     "missing": false
   }
 }
