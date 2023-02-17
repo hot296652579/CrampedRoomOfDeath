@@ -535,7 +535,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 19856609.547666,
+      "mTimestamp": 20922554.65425,
       "chunkId": "176f33dbc2e750543a93b500581ac112a0d5aada",
       "imports": [
         {
@@ -1827,10 +1827,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Levels/index.ts": {
       "mTimestamp": {
-        "mtime": 1676612061503.4607,
+        "mtime": 1676614689031.852,
         "uuid": "3babafea-a65a-4a66-9aba-4b347e2f9358"
       },
-      "chunkId": "96961f70f0797ced9f5076444e9fb3d4a8dcd8cc",
+      "chunkId": "ab7209c992b6aa0be8909256ea67ad4081a1c4f5",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1866,6 +1866,34 @@
               "column": 29
             }
           }
+        },
+        {
+          "value": "./level3",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 19
+            },
+            "end": {
+              "line": 4,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "./level4",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 19
+            },
+            "end": {
+              "line": 5,
+              "column": 29
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1895,6 +1923,20 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Levels/level2.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Levels/level3.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Levels/level4.ts"
           },
           "messages": []
         }
@@ -2299,10 +2341,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
       "mTimestamp": {
-        "mtime": 1676613810208.0518,
+        "mtime": 1676614781282.5789,
         "uuid": "69201876-1da9-4a52-b678-87472f04db9f"
       },
-      "chunkId": "f6c23e7ed242ce0672539ef80bf45279aeccc0ef",
+      "chunkId": "ddbc8ec419b4f4635c01041bcd5d1ec79efda192",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3280,10 +3322,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
       "mTimestamp": {
-        "mtime": 1676553998670.3987,
+        "mtime": 1676614882076.278,
         "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548"
       },
-      "chunkId": "d23700dce5c0bfbc68900b8f9b5aaf9e86f90f6b",
+      "chunkId": "5d6add9497a8fbf97d56959171e7fcebe79b7257",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -9657,10 +9699,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Levels/level3.ts": {
       "mTimestamp": {
-        "mtime": 1676612144789.5085,
+        "mtime": 1676614351774.3035,
         "uuid": "bbd54848-af3d-4c54-b483-9b74b5dcd2fe"
       },
-      "chunkId": "bcbaec62708946933a1422b52d22d86553d2b681",
+      "chunkId": "533db371f38589219aec1ec0b836dc5b19a114c6",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -9675,11 +9717,11 @@
           "loc": {
             "start": {
               "line": 2,
-              "column": 84
+              "column": 109
             },
             "end": {
               "line": 2,
-              "column": 93
+              "column": 118
             }
           }
         }
@@ -9711,10 +9753,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Levels/level4.ts": {
       "mTimestamp": {
-        "mtime": 1676612147610.9797,
+        "mtime": 1676614558192.0713,
         "uuid": "dbdcddbb-bb17-40a4-ac22-0eb5e0408f17"
       },
-      "chunkId": "2060eb55b34605aae8aebd945a4b2a2a6fd23049",
+      "chunkId": "43f7a5959f8ca40d56365fd2261a5e3ffb7f3f94",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -9728,11 +9770,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 2,
+              "line": 1,
               "column": 84
             },
             "end": {
-              "line": 2,
+              "line": 1,
               "column": 93
             }
           }

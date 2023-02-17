@@ -21,7 +21,7 @@ export class UIBattleScene extends Component {
     level: ILevel
     stage: Node
     start() {
-        DataManager.Instance.levelIndex = 1
+        DataManager.Instance.levelIndex = 2
         this.generateStage()
         this.initLevel()
     }
