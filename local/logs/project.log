@@ -449,3 +449,4 @@ myProp = 0;
     at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
     at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
     at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/7e/cce:/internal/x/prerequisite-imports:8:13
+2023-02-17T06:32:32.725Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'name')errorInfo.stack ? '/n ' : ''
