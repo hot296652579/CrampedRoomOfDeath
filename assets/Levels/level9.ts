@@ -1,6 +1,5 @@
 import { IEnitiy, ILevel, ISpikes } from '.';
 import { TILE_TYPE_ENUM, DIRECTION_ENUM, ENTITY_STATE_ENUM, ENITIY_TYPE_ENUM } from '../Enum';
-
 const mapInfo = [
     [
         {
@@ -423,6 +422,7 @@ const mapInfo = [
         },
     ],
 ];
+
 const player: IEnitiy = {
     x: 2,
     y: 8,
