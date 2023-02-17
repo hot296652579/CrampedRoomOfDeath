@@ -28,10 +28,12 @@ export class UIBattleScene extends Component {
 
     onLoad() {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_NEXTLEVEL, this.nextLevelMap, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkArrived, this)
     }
 
     onDestry() {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_NEXTLEVEL, this.nextLevelMap)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkArrived)
     }
 
     initLevel() {
@@ -44,10 +46,9 @@ export class UIBattleScene extends Component {
         }
 
         this.generateTileMap()
-        // this.generateBurst()
+        this.generateBurst()
         this.generateEnemies()
-        // this.generateIron()
-        // this.generateSpikes()
+        this.generateSpikes()
         this.generateDoor()
         this.generatePlayer()
         this.fitPos()
@@ -61,6 +62,16 @@ export class UIBattleScene extends Component {
     clearLevelMap() {
         this.stage.removeAllChildren()
         DataManager.Instance.reset()
+    }
+
+    checkArrived() {
+        const { x: playerX, y: playerY } = DataManager.Instance.playerInfo
+        const { x: doorX, y: doorY, state: doorState } = DataManager.Instance.doorInfo
+
+        if (playerX === doorX && playerY === doorY &&
+            doorState === ENTITY_STATE_ENUM.DEATH) {
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_NEXTLEVEL)
+        }
     }
 
     generateStage() {
