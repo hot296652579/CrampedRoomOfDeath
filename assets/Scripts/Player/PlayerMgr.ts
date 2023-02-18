@@ -856,18 +856,22 @@ export class PlayerMrg extends EnitiyMgr {
         switch (direction) {
             case ENUM_BOTTOM_CONTROLLER.TOP:
                 this.isMoving = true
+                this.onSmokeHandler(direction)
                 this.tartgetY -= 1
                 break;
             case ENUM_BOTTOM_CONTROLLER.BOTTOM:
                 this.isMoving = true
+                this.onSmokeHandler(direction)
                 this.tartgetY += 1
                 break;
             case ENUM_BOTTOM_CONTROLLER.LEFT:
                 this.isMoving = true
+                this.onSmokeHandler(direction)
                 this.tartgetX -= 1
                 break;
             case ENUM_BOTTOM_CONTROLLER.RIGHT:
                 this.isMoving = true
+                this.onSmokeHandler(direction)
                 this.tartgetX += 1
                 break;
             case ENUM_BOTTOM_CONTROLLER.TURNLEFT:
@@ -902,5 +906,9 @@ export class PlayerMrg extends EnitiyMgr {
             default:
                 break;
         }
+    }
+
+    onSmokeHandler(type: ENUM_BOTTOM_CONTROLLER) {
+        EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHOW_SMOKE, this.x, this.y, type)
     }
 }

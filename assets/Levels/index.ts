@@ -12,6 +12,13 @@ export interface IEnitiy {
     type: ENITIY_TYPE_ENUM
 }
 
+export interface ISmoke {
+    x: number
+    y: number
+    type: ENITIY_TYPE_SPIKES_ENUM
+    state: ENTITY_STATE_ENUM
+}
+
 export interface ISpikes {
     x: number
     y: number

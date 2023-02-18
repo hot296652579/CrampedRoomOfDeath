@@ -8,6 +8,7 @@ import { IronMgr } from "../Enemy/Iron/IronMgr";
 import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
+import { SmokeMgr } from "../Smoke/SmokeMgr";
 import { SpikesMgr } from "../Spikes/SpikesMgr";
 // import { DataManager.Instance } from "../Runtime/DataManager";
 import { TileMapManager } from "../TileMap/TileMapManager";
@@ -20,6 +21,8 @@ const { ccclass, property } = _decorator;
 export class UIBattleScene extends Component {
     level: ILevel
     stage: Node
+    smokeLayer: Node
+
     start() {
         DataManager.Instance.levelIndex = 1
         this.generateStage()
@@ -29,11 +32,13 @@ export class UIBattleScene extends Component {
     onLoad() {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_NEXTLEVEL, this.nextLevelMap, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkArrived, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler, this)
     }
 
     onDestry() {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_NEXTLEVEL, this.nextLevelMap)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkArrived)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler)
     }
 
     initLevel() {
@@ -50,6 +55,7 @@ export class UIBattleScene extends Component {
         this.generateEnemies()
         this.generateSpikes()
         this.generateDoor()
+        this.generateSmokeLayer()
         this.generatePlayer()
         this.fitPos()
     }
@@ -71,6 +77,29 @@ export class UIBattleScene extends Component {
         if (playerX === doorX && playerY === doorY &&
             doorState === ENTITY_STATE_ENUM.DEATH) {
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_NEXTLEVEL)
+        }
+    }
+
+    async showSmokeHandler(x: number, y: number, direction: DIRECTION_ENUM) {
+        const smokeItem = DataManager.Instance.smokes.find(smoke => smoke.state === ENTITY_STATE_ENUM.DEATH)
+        if (smokeItem) {
+            smokeItem.x = x
+            smokeItem.y = y
+            smokeItem.direction = direction
+            smokeItem.node.setPosition(x * TILE_WIDTH - TILE_WIDTH * 1.5, -y * TILE_HEIGHT + TILE_HEIGHT * 1.5)
+        } else {
+            const smokeNode = createNewNode()
+            smokeNode.setParent(this.smokeLayer)
+            const smokeMgr = smokeNode.addComponent(SmokeMgr)
+            await smokeMgr.init({
+                x,
+                y,
+                state: ENTITY_STATE_ENUM.IDLE,
+                type: ENITIY_TYPE_ENUM.SMOKE,
+                direction
+            })
+
+            DataManager.Instance.smokes.push(smokeMgr)
         }
     }
 
@@ -136,6 +165,12 @@ export class UIBattleScene extends Component {
             DataManager.Instance.spikes.push(spikesManager)
         }
         await Promise.all(promises)
+    }
+
+    generateSmokeLayer() {
+        const node = createNewNode()
+        this.smokeLayer = node
+        node.setParent(this.stage)
     }
 
     async generateDoor() {

@@ -4,6 +4,7 @@ import Singleton from "../Base/Singleton"
 import { BurstMgr } from "../Burst/BurstMgr"
 import { DoorMgr } from "../Door/DoorMgr"
 import { PlayerMrg } from "../Player/PlayerMgr"
+import { SmokeMgr } from "../Smoke/SmokeMgr"
 import { SpikesMgr } from "../Spikes/SpikesMgr"
 import { TileManager } from "../TileMap/TileManager"
 
@@ -18,6 +19,7 @@ export default class DataManager extends Singleton {
     enemies: EnemyMgr[]
     bursts: BurstMgr[]
     spikes: SpikesMgr[]
+    smokes: SmokeMgr[]
 
     static get Instance() {
         // super()
@@ -32,6 +34,7 @@ export default class DataManager extends Singleton {
         this.enemies = []
         this.bursts = []
         this.spikes = []
+        this.smokes = []
         this.mapRowCount = 0
         this.mapColumCount = 0
     }

@@ -450,3 +450,284 @@ myProp = 0;
     at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
     at file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/7e/cce:/internal/x/prerequisite-imports:8:13
 2023-02-17T06:32:32.725Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'name')errorInfo.stack ? '/n ' : ''
+2023-02-17T12:46:07.210Z - error: getImSetting failed
+2023-02-17T15:32:45.116Z - error: [Preview]TypeError: Cannot destructure property 'value' of 'this.fsm.getParams(...)' as it is undefined.errorInfo.stack ? '/n ' : ''
+2023-02-17T15:41:35.464Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:41:35.498Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:41:35.499Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:41:35.499Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:41:35.500Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:49:10.172Z - warn: 
+2023-02-17T15:49:12.187Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.211Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.211Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.212Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.215Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-02-17T15:49:12.215Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-02-17T15:49:12.227Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.228Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.228Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.229Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.229Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.229Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.230Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.230Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.231Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.231Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.231Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.231Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.232Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.232Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.233Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.233Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.233Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.233Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.233Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.233Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-02-17T15:49:12.293Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-02-17T15:49:12.374Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-02-17T15:49:12.374Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-02-17T15:49:12.374Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-02-17T15:49:12.374Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-02-17T15:49:12.467Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-17T15:49:12.477Z - info: [Scene] [PHYSICS]: using builtin.
+2023-02-17T15:49:12.580Z - log: [Scene] Cocos Creator v3.6.0
+2023-02-17T15:49:12.580Z - info: [Scene] Forward render pipeline initialized.
+2023-02-17T15:49:12.944Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-02-17T15:50:07.522Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:50:07.525Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:50:07.526Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:50:07.527Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:50:07.529Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:55:07.662Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:55:07.666Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:55:07.667Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:55:07.668Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-17T15:55:07.668Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:23:33.873Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:23:33.876Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:23:33.878Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:23:33.879Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:23:33.880Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:24:11.171Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:24:11.179Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:24:11.180Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:24:11.183Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:24:11.184Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:25:25.567Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:25:25.581Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:25:25.582Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:25:25.583Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:25:25.583Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:27:04.920Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:27:04.923Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:27:04.924Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:27:04.926Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:27:04.927Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:28:11.686Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:28:11.693Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:28:11.695Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:28:11.696Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:28:11.697Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:29:39.410Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:29:39.424Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:29:39.425Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:29:39.425Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:29:39.425Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:30:28.313Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:30:28.316Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:30:28.318Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:30:28.319Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''
+2023-02-18T13:30:28.320Z - error: [Preview]falseerrorInfo.stack ? '/n ' : ''

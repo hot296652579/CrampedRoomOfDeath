@@ -10935,5 +10935,25 @@
   "eca5c7fc-943d-418d-9298-8427506bac68": {
     "url": "db://assets/Levels/level9.ts",
     "value": {}
+  },
+  "fb97e0a9-eee1-4658-985e-78582735558e": {
+    "url": "db://assets/Scripts/Smoke",
+    "value": {}
+  },
+  "b6169518-8642-403d-bca5-e23ddf865377": {
+    "url": "db://assets/Scripts/Smoke/IdleSubStateMachine.ts",
+    "value": {}
+  },
+  "01491f54-d4bc-4801-867c-581cc97235d4": {
+    "url": "db://assets/Scripts/Smoke/SmokeMgr.ts",
+    "value": {}
+  },
+  "7e756108-e75b-4553-b250-c41ebeee0e85": {
+    "url": "db://assets/Scripts/Smoke/SmokeStateMachine.ts",
+    "value": {}
+  },
+  "9e446435-8ed5-46e7-a00d-f3590f7e4dc3": {
+    "url": "db://assets/Scripts/Smoke/DeathSubStateMachine.ts",
+    "value": {}
   }
 }
