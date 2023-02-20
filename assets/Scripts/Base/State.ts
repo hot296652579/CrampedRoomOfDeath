@@ -6,13 +6,13 @@ import { sortSpriteFrame } from "../Utils";
 import { TEST } from "cc/env";
 // import { sortSpriteFrame } from "../Utils";
 
-const ANIMATION_SPEED = 1 / 8
+export const ANIMATION_SPEED = 1 / 8
 
 
 /**真正播动画的地方*/
 export default class State {
     animationClip: AnimationClip
-    constructor(private fsm: StateMachine, private path: string, private isLoop: AnimationClip.WrapMode = AnimationClip.WrapMode.Normal) {
+    constructor(private fsm: StateMachine, private path: string, private isLoop: AnimationClip.WrapMode = AnimationClip.WrapMode.Normal, private evts: any[] = []) {
         this.init()
     }
 
@@ -45,6 +45,10 @@ export default class State {
         this.animationClip.name = this.path
         this.animationClip.wrapMode = this.isLoop
         this.animationClip.duration = frams.length * ANIMATION_SPEED; // 整个动画剪辑的周期
+
+        for (const event of this.evts) {
+            this.animationClip.events.push(event)
+        }
     }
 
     run() {

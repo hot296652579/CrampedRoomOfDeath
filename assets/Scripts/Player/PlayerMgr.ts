@@ -936,4 +936,8 @@ export class PlayerMrg extends EnitiyMgr {
     onSmokeHandler(type: ENUM_BOTTOM_CONTROLLER) {
         EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHOW_SMOKE, this.x, this.y, type)
     }
+
+    onAttackShake(type: SHAKE_TYPE_ENUM) {
+        EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, type)
+    }
 }
