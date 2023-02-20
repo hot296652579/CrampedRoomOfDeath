@@ -877,3 +877,4 @@ Class ID: "e1f034VD2tNOLeMgY7cspIy"
     at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
     at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
     at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)
+2023-02-20T11:29:31.244Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'value')errorInfo.stack ? '/n ' : ''

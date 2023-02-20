@@ -11015,5 +11015,13 @@
   "e8b463ce-c04d-4bc8-8480-3bac819895f0": {
     "url": "db://assets/Scripts/Scene/UILoadingScene.ts",
     "value": {}
+  },
+  "590bb95c-d854-4c1c-b811-2a04632f0619": {
+    "url": "db://assets/Scripts/Player/BlockLeftSubStateMachine.ts",
+    "value": {}
+  },
+  "f8d7ee27-e927-4308-bad3-8de4ad94e548": {
+    "url": "db://assets/Scripts/Player/BlockRightSubStateMachine.ts",
+    "value": {}
   }
 }

@@ -20,7 +20,7 @@ export class LoadingManager extends Component {
             async err => {
                 if (err) {
                     await new Promise(rs => {
-                        setTimeout(rs, 2000)
+                        setTimeout(rs, 1000)
                     })
                     this.preLoad()
                     return
