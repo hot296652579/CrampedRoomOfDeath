@@ -80,8 +80,11 @@ export class PlayerMrg extends EnitiyMgr {
 
         const enemyId = this.willAttack(inputDirection)
         if (enemyId) {
+            this.state = ENTITY_STATE_ENUM.ATTACK
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_ENEMY_DEATH, enemyId)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_OPEN_DOOR)
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_RECORD_STEP)
             return
         }
 
@@ -877,7 +880,7 @@ export class PlayerMrg extends EnitiyMgr {
     }
 
     handlerMove(direction: ENUM_BOTTOM_CONTROLLER) {
-        console.log(DataManager.Instance.tileMgrInfo)
+        EventMgr.Instance.emit(ENUM_EVENT.ENUM_RECORD_STEP)
         switch (direction) {
             case ENUM_BOTTOM_CONTROLLER.TOP:
                 this.isMoving = true

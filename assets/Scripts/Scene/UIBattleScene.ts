@@ -35,12 +35,16 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_NEXTLEVEL, this.nextLevelMap, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkArrived, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RECORD_STEP, this.saveRecord, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord, this)
     }
 
     onDestry() {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_NEXTLEVEL, this.nextLevelMap)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkArrived)
-        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RECORD_STEP, this.saveRecord)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord)
     }
 
     async initLevel() {
@@ -203,7 +207,11 @@ export class UIBattleScene extends Component {
                 x: DataManager.Instance.playerInfo.x,
                 y: DataManager.Instance.playerInfo.y,
                 direction: DataManager.Instance.playerInfo.direction,
-                state: DataManager.Instance.playerInfo.state,
+                state: DataManager.Instance.playerInfo.state === ENTITY_STATE_ENUM.IDLE ||
+                    DataManager.Instance.playerInfo.state === ENTITY_STATE_ENUM.ATTACK ||
+                    DataManager.Instance.playerInfo.state === ENTITY_STATE_ENUM.DEATH
+                    ? DataManager.Instance.playerInfo.state : ENTITY_STATE_ENUM.IDLE
+                ,
                 type: DataManager.Instance.playerInfo._type,
             },
             door: {

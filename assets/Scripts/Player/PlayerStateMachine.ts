@@ -76,6 +76,8 @@ export class PlayerStateMachine extends StateMachine {
             case this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKFRONT):
             case this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKTURNLEFT):
             case this.stateMachine.get(PARAMS_NAME_TYPE.DEATH):
+            case this.stateMachine.get(PARAMS_NAME_TYPE.AIRDEATH):
+            case this.stateMachine.get(PARAMS_NAME_TYPE.ATTACK):
 
             case this.stateMachine.get(PARAMS_NAME_TYPE.IDLE):
                 if (this.params.get(PARAMS_NAME_TYPE.BLOCKFRONT).value) {

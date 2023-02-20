@@ -737,3 +737,47 @@ myProp = 0;
 2023-02-20T01:02:56.645Z - error: getImSetting failed
 2023-02-20T02:29:13.397Z - error: getImSetting failed
 2023-02-20T02:57:37.018Z - error: [Preview]TypeError: Cannot read properties of null (reading 'fadeIn')errorInfo.stack ? '/n ' : ''
+2023-02-20T07:51:43.261Z - error: [Preview]Cannot read properties of undefined (reading 'push')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'push')
+    at UIBattleScene.saveRecord (http://localhost:7456/scripting/x/chunks/2e/2e57ed1506c49b60d126f1695f9b7c30677ab9b4.js:613:60)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at PlayerMrg.handlerMove (http://localhost:7456/scripting/x/chunks/5c/5c293ac9ffcd7f4995a018c2ae593aa6bcba40ec.js:1416:46)
+    at PlayerMrg.inputHanlder (http://localhost:7456/scripting/x/chunks/5c/5c293ac9ffcd7f4995a018c2ae593aa6bcba40ec.js:366:16)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at BottomControl.handlerClickDirection (http://localhost:7456/scripting/x/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js:51:46)' : ''
+2023-02-20T07:51:43.605Z - error: [Preview]Cannot read properties of undefined (reading 'push')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'push')
+    at UIBattleScene.saveRecord (http://localhost:7456/scripting/x/chunks/2e/2e57ed1506c49b60d126f1695f9b7c30677ab9b4.js:613:60)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at PlayerMrg.handlerMove (http://localhost:7456/scripting/x/chunks/5c/5c293ac9ffcd7f4995a018c2ae593aa6bcba40ec.js:1416:46)
+    at PlayerMrg.inputHanlder (http://localhost:7456/scripting/x/chunks/5c/5c293ac9ffcd7f4995a018c2ae593aa6bcba40ec.js:366:16)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at BottomControl.handlerClickDirection (http://localhost:7456/scripting/x/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js:51:46)' : ''
+2023-02-20T07:52:22.885Z - error: [Preview]Cannot read properties of undefined (reading 'push')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'push')
+    at UIBattleScene.saveRecord (http://localhost:7456/scripting/x/chunks/2e/2e57ed1506c49b60d126f1695f9b7c30677ab9b4.js:613:60)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at PlayerMrg.handlerMove (http://localhost:7456/scripting/x/chunks/5c/5c293ac9ffcd7f4995a018c2ae593aa6bcba40ec.js:1416:46)
+    at PlayerMrg.inputHanlder (http://localhost:7456/scripting/x/chunks/5c/5c293ac9ffcd7f4995a018c2ae593aa6bcba40ec.js:366:16)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at BottomControl.handlerClickDirection (http://localhost:7456/scripting/x/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js:51:46)' : ''
+2023-02-20T07:52:57.940Z - error: [Preview]Cannot read properties of undefined (reading 'push')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'push')
+    at UIBattleScene.saveRecord (http://localhost:7456/scripting/x/chunks/2e/2e57ed1506c49b60d126f1695f9b7c30677ab9b4.js:613:60)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at PlayerMrg.handlerMove (http://localhost:7456/scripting/x/chunks/5c/5c293ac9ffcd7f4995a018c2ae593aa6bcba40ec.js:1416:46)
+    at PlayerMrg.inputHanlder (http://localhost:7456/scripting/x/chunks/5c/5c293ac9ffcd7f4995a018c2ae593aa6bcba40ec.js:366:16)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at BottomControl.handlerClickDirection (http://localhost:7456/scripting/x/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js:51:46)' : ''

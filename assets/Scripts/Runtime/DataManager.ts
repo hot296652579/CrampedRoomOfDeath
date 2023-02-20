@@ -22,7 +22,7 @@ export default class DataManager extends Singleton {
     bursts: BurstMgr[]
     spikes: SpikesMgr[]
     smokes: SmokeMgr[]
-    records: IRecord[]
+    records: IRecord[] = []
 
     static get Instance() {
         // super()
