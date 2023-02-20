@@ -8,6 +8,7 @@ import { IronMgr } from "../Enemy/Iron/IronMgr";
 import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
+import FadeMgr from "../Runtime/FadeMgr";
 import { SmokeMgr } from "../Smoke/SmokeMgr";
 import { SpikesMgr } from "../Spikes/SpikesMgr";
 // import { DataManager.Instance } from "../Runtime/DataManager";
@@ -41,7 +42,8 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler)
     }
 
-    initLevel() {
+    async initLevel() {
+        FadeMgr.Instance.fader.fadeIn()
         this.clearLevelMap()
         this.level = levels[`level${DataManager.Instance.levelIndex}`]
         if (this.level) {
@@ -50,14 +52,18 @@ export class UIBattleScene extends Component {
             DataManager.Instance.mapRowCount = this.level.mapInfo.length
         }
 
-        this.generateTileMap()
-        this.generateBurst()
-        this.generateEnemies()
-        this.generateSpikes()
-        this.generateDoor()
-        this.generateSmokeLayer()
-        this.generatePlayer()
-        this.fitPos()
+        await Promise.all([
+            this.generateTileMap(),
+            this.generateBurst(),
+            this.generateEnemies(),
+            this.generateSpikes(),
+            this.generateDoor(),
+            this.generateSmokeLayer(),
+            this.generatePlayer(),
+            this.fitPos()
+        ])
+
+        FadeMgr.Instance.fader.fadeOut()
     }
 
     nextLevelMap() {

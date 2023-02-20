@@ -10955,5 +10955,13 @@
   "9e446435-8ed5-46e7-a00d-f3590f7e4dc3": {
     "url": "db://assets/Scripts/Smoke/DeathSubStateMachine.ts",
     "value": {}
+  },
+  "a4b3080e-6441-4246-ad6a-955ee00ff0e9": {
+    "url": "db://assets/Scripts/Runtime/FadeMgr.ts",
+    "value": {}
+  },
+  "b0b66350-d181-4ceb-9418-bc7eee567c46": {
+    "url": "db://assets/Scripts/UI/DrawManager.ts",
+    "value": {}
   }
 }
