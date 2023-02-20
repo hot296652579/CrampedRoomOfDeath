@@ -781,3 +781,99 @@ myProp = 0;
     at Array.forEach (<anonymous>)
     at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
     at BottomControl.handlerClickDirection (http://localhost:7456/scripting/x/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js:51:46)' : ''
+2023-02-20T11:00:38.218Z - warn: [Scene] Missing class: e1f034VD2tNOLeMgY7cspIyError: [Scene] Missing class: e1f034VD2tNOLeMgY7cspIy
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:95421:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110765:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110706:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110914:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110740:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110712:29)
+2023-02-20T11:00:38.260Z - error: [Scene] Script "e1f034VD2tNOLeMgY7cspIy" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "e1f03e15-0f6b-4d38-b78c-818edcb29232"
+Class ID: "e1f034VD2tNOLeMgY7cspIy"
+Error: [Scene] Script "e1f034VD2tNOLeMgY7cspIy" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "e1f03e15-0f6b-4d38-b78c-818edcb29232"
+Class ID: "e1f034VD2tNOLeMgY7cspIy"
+
+    at report (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)
+2023-02-20T11:02:46.812Z - warn: [Scene] Missing class: a4cfb5Lk4FE0LKOiaKhBjZVError: [Scene] Missing class: a4cfb5Lk4FE0LKOiaKhBjZV
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:95421:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110765:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110706:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110914:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110740:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110712:29)
+2023-02-20T11:02:46.816Z - error: [Scene] Script "a4cfb5Lk4FE0LKOiaKhBjZV" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "a4cfbe4b-9381-44d0-b28e-89a2a1063655"
+Class ID: "a4cfb5Lk4FE0LKOiaKhBjZV"
+Error: [Scene] Script "a4cfb5Lk4FE0LKOiaKhBjZV" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "a4cfbe4b-9381-44d0-b28e-89a2a1063655"
+Class ID: "a4cfb5Lk4FE0LKOiaKhBjZV"
+
+    at report (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)
+2023-02-20T11:03:07.055Z - warn: [Scene] Missing class: a4cfb5Lk4FE0LKOiaKhBjZVError: [Scene] Missing class: a4cfb5Lk4FE0LKOiaKhBjZV
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:95421:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110765:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110706:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110914:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110740:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110712:29)
+2023-02-20T11:03:07.056Z - error: [Scene] Script "a4cfb5Lk4FE0LKOiaKhBjZV" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "a4cfbe4b-9381-44d0-b28e-89a2a1063655"
+Class ID: "a4cfb5Lk4FE0LKOiaKhBjZV"
+Error: [Scene] Script "a4cfb5Lk4FE0LKOiaKhBjZV" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "a4cfbe4b-9381-44d0-b28e-89a2a1063655"
+Class ID: "a4cfb5Lk4FE0LKOiaKhBjZV"
+
+    at report (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)
+2023-02-20T11:03:20.756Z - warn: [Scene] Missing class: e1f034VD2tNOLeMgY7cspIyError: [Scene] Missing class: e1f034VD2tNOLeMgY7cspIy
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:95421:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110765:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110706:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110914:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110740:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110712:29)
+2023-02-20T11:03:20.760Z - error: [Scene] Script "e1f034VD2tNOLeMgY7cspIy" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "e1f03e15-0f6b-4d38-b78c-818edcb29232"
+Class ID: "e1f034VD2tNOLeMgY7cspIy"
+Error: [Scene] Script "e1f034VD2tNOLeMgY7cspIy" attached to "Canvas" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Script UUID: "e1f03e15-0f6b-4d38-b78c-818edcb29232"
+Class ID: "e1f034VD2tNOLeMgY7cspIy"
+
+    at report (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)

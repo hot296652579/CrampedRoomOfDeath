@@ -137,3 +137,9 @@ export enum SHAKE_TYPE_ENUM {
     LEFT = 'LEFT',
     RIGHT = 'RIGHT',
 }
+
+export enum SCENE_ENUM {
+    START = 'Start',
+    BATTLE = 'Battle',
+    LOADING = 'Loading'
+}

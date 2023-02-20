@@ -29,5 +29,29 @@
       "0_1_2_5",
       "0_1_3"
     ]
+  },
+  "e65764a7-2973-4fdb-ab74-983e469e5421": {
+    "assetUuid": "e65764a7-2973-4fdb-ab74-983e469e5421",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "d8f75f86-ab5a-47cf-8f56-4ecc2408b44c": {
+    "assetUuid": "d8f75f86-ab5a-47cf-8f56-4ecc2408b44c",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0"
+    ]
+  },
+  "958cbe63-a4b1-4a85-8084-07a8de171c67": {
+    "assetUuid": "958cbe63-a4b1-4a85-8084-07a8de171c67",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_1",
+      "0_1_2"
+    ]
   }
 }
