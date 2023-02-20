@@ -130,8 +130,6 @@ export class PlayerMrg extends EnitiyMgr {
         const { x: doorX, y: doorY, state: doorState } = DataManager.Instance.doorInfo
         const enemies: EnemyMgr[] = DataManager.Instance.enemies.filter(enemy => enemy.state != ENTITY_STATE_ENUM.DEATH)
 
-        console.log('y', y)
-
         //先判断输入上时候
         if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP) {
             const playerNextY = y - 1
@@ -538,10 +536,11 @@ export class PlayerMrg extends EnitiyMgr {
 
             }
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
-            const playerNextY = y + 1
+            let playerNextY = y + 1
             //玩家方向——向上
             if (direction === DIRECTION_ENUM.TOP) {
-                if (playerNextY > mapColumCount - 1) {
+                console.log(playerNextY)
+                if (playerNextY >= mapColumCount - 1) {
                     this.state = ENTITY_STATE_ENUM.BLOCKBACK
                     return true
                 }

@@ -25,11 +25,15 @@ export class UIBattleScene extends Component {
     stage: Node
     smokeLayer: Node
     fadeInit = false
+    @property(Node)
+    menu: Node = null
 
     start() {
         DataManager.Instance.levelIndex = 1
         this.generateStage()
         this.initLevel()
+
+        this.menu.setSiblingIndex(10)
     }
 
     onLoad() {
@@ -133,6 +137,7 @@ export class UIBattleScene extends Component {
     async generateTileMap() {
         const tileMapNode = createNewNode()
         tileMapNode.setParent(this.stage)
+        console.log('tileMapNode.position', tileMapNode.position)
         const tileMapManager = tileMapNode.addComponent(TileMapManager)
         await tileMapManager.init()
     }
