@@ -24,6 +24,7 @@ export class UIBattleScene extends Component {
     level: ILevel
     stage: Node
     smokeLayer: Node
+    fadeInit = false
 
     start() {
         DataManager.Instance.levelIndex = 1
@@ -37,6 +38,7 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RECORD_STEP, this.saveRecord, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel, this)
     }
 
     onDestry() {
@@ -45,10 +47,16 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RECORD_STEP, this.saveRecord)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel)
     }
 
     async initLevel() {
-        FadeMgr.Instance.fader.fadeIn()
+        if (this.fadeInit) {
+            await FadeMgr.Instance.fader.fadeIn()
+        } else {
+            await FadeMgr.Instance.fader.mask()
+        }
+
         this.clearLevelMap()
         this.level = levels[`level${DataManager.Instance.levelIndex}`]
         if (this.level) {
@@ -69,6 +77,7 @@ export class UIBattleScene extends Component {
         ])
 
         FadeMgr.Instance.fader.fadeOut()
+        this.fadeInit = true
     }
 
     nextLevelMap() {

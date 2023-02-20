@@ -8,4 +8,8 @@ export class MenuMgr extends Component {
     handlerUndo() {
         EventMgr.Instance.emit(ENUM_EVENT.ENUM_REVOKE_STEP)
     }
+
+    handlerRestart() {
+        EventMgr.Instance.emit(ENUM_EVENT.ENUM_RESTART_GAME)
+    }
 }
