@@ -1,5 +1,5 @@
 import { Component, _decorator, Node, Sprite, UITransform, Animation, SpriteAtlas, AnimationClip, animation, SpriteFrame, Texture2D, math } from "cc";
-import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, PARAMS_NAME_TYPE } from "../../Enum";
+import { DIRECTION_ENUM, DIRECTION_ORDER_ENUM, ENITIY_TYPE_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, PARAMS_NAME_TYPE, SHAKE_TYPE_ENUM } from "../../Enum";
 import levels, { IEnitiy, ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import ResourceLoadMgr from "../Base/ResourceLoadMgr";
@@ -86,6 +86,31 @@ export class PlayerMrg extends EnitiyMgr {
         }
 
         if (this.willBlock(inputDirection)) {
+            if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.TOP)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.BOTTOM)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.LEFT) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.LEFT)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.RIGHT) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.RIGHT)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNLEFT && this.direction === DIRECTION_ENUM.TOP) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.LEFT)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNLEFT && this.direction === DIRECTION_ENUM.LEFT) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.BOTTOM)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNLEFT && this.direction === DIRECTION_ENUM.BOTTOM) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.RIGHT)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNLEFT && this.direction === DIRECTION_ENUM.RIGHT) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.TOP)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNRIGHT && this.direction === DIRECTION_ENUM.TOP) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.RIGHT)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNRIGHT && this.direction === DIRECTION_ENUM.LEFT) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.TOP)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNRIGHT && this.direction === DIRECTION_ENUM.BOTTOM) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.LEFT)
+            } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNRIGHT && this.direction === DIRECTION_ENUM.RIGHT) {
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_SHAKE_SCREEN, SHAKE_TYPE_ENUM.BOTTOM)
+            }
             return
         }
 

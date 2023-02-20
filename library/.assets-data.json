@@ -10963,5 +10963,9 @@
   "b0b66350-d181-4ceb-9418-bc7eee567c46": {
     "url": "db://assets/Scripts/UI/DrawManager.ts",
     "value": {}
+  },
+  "168533cf-965f-44ee-833d-bc3b9853fa0a": {
+    "url": "db://assets/Scripts/Runtime/ShakeManager.ts",
+    "value": {}
   }
 }

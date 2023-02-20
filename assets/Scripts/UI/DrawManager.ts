@@ -41,7 +41,7 @@ export class DrawManager extends Component {
 
     update() {
         const fadePercent = (game.totalTime - this.oldTime) / this.duration
-        console.log('fadePercent:', fadePercent)
+        // console.log('fadePercent:', fadePercent)
         switch (this.fadeStatus) {
             case FadeStatus.FADE_IN:
                 if (fadePercent < 1) {

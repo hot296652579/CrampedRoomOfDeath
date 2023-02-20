@@ -9,6 +9,7 @@ import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager from "../Runtime/DataManager";
 import FadeMgr from "../Runtime/FadeMgr";
+import { ShakeManager } from "../Runtime/ShakeManager";
 import { SmokeMgr } from "../Smoke/SmokeMgr";
 import { SpikesMgr } from "../Spikes/SpikesMgr";
 // import { DataManager.Instance } from "../Runtime/DataManager";
@@ -113,6 +114,7 @@ export class UIBattleScene extends Component {
         const stageNode = createNewNode()
         stageNode.setParent(this.node)
         this.stage = stageNode
+        this.stage.addComponent(ShakeManager)
     }
 
     async generateTileMap() {
@@ -191,6 +193,7 @@ export class UIBattleScene extends Component {
         const { mapColumCount, mapRowCount } = DataManager.Instance
         const disX = TILE_WIDTH * mapRowCount / 2
         const disY = TILE_HEIGHT * mapColumCount / 2 + 100
+        this.stage.getComponent(ShakeManager).stop()
         this.stage.setPosition(-disX, disY)
     }
 }
