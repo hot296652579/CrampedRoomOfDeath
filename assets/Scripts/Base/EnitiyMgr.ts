@@ -22,9 +22,9 @@ export class EnitiyMgr extends Component {
 
     fsm: StateMachine = null
 
-    private _direction: DIRECTION_ENUM
-    private _state: ENTITY_STATE_ENUM
-    private _type: ENITIY_TYPE_ENUM
+    _direction: DIRECTION_ENUM
+    _state: ENTITY_STATE_ENUM
+    _type: ENITIY_TYPE_ENUM
 
     get direction() {
         return this._direction
@@ -42,6 +42,13 @@ export class EnitiyMgr extends Component {
         this.fsm.setParams(this.state, true)
     }
 
+    get type() {
+        return this._type
+    }
+    set type(newType) {
+        this._type = newType
+    }
+
     async init(params: IEnitiy) {
         const sprite = this.addComponent(Sprite)
         sprite.sizeMode = Sprite.SizeMode.CUSTOM
@@ -52,7 +59,7 @@ export class EnitiyMgr extends Component {
         this.y = params.y
         this.direction = params.direction
         this.state = params.state
-        this._type = params.type
+        this.type = params.type
     }
 
     onLoad() {

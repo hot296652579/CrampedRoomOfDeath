@@ -45,6 +45,13 @@ export class SpikesMgr extends Component {
         this.fsm.setParams(PARAMS_NAME_TYPE.SPIKES_TOTAL_COUNT, newTotalCount)
     }
 
+    get type() {
+        return this._type
+    }
+    set type(newType) {
+        this._type = newType
+    }
+
     async init(params: ISpikes) {
         const sprite = this.addComponent(Sprite)
         sprite.sizeMode = Sprite.SizeMode.CUSTOM

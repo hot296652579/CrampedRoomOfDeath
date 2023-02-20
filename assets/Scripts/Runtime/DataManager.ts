@@ -8,6 +8,8 @@ import { SmokeMgr } from "../Smoke/SmokeMgr"
 import { SpikesMgr } from "../Spikes/SpikesMgr"
 import { TileManager } from "../TileMap/TileManager"
 
+export type IRecord = Omit<ILevel, 'mapInfo'>
+
 export default class DataManager extends Singleton {
     mapInfo: Array<Array<ITitle>>
     tileMgrInfo: Array<Array<TileManager>>
@@ -20,6 +22,7 @@ export default class DataManager extends Singleton {
     bursts: BurstMgr[]
     spikes: SpikesMgr[]
     smokes: SmokeMgr[]
+    records: IRecord[]
 
     static get Instance() {
         // super()
@@ -35,6 +38,7 @@ export default class DataManager extends Singleton {
         this.bursts = []
         this.spikes = []
         this.smokes = []
+
         this.mapRowCount = 0
         this.mapColumCount = 0
     }

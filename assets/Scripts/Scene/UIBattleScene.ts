@@ -7,7 +7,7 @@ import { DoorMgr } from "../Door/DoorMgr";
 import { IronMgr } from "../Enemy/Iron/IronMgr";
 import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
-import DataManager from "../Runtime/DataManager";
+import DataManager, { IRecord } from "../Runtime/DataManager";
 import FadeMgr from "../Runtime/FadeMgr";
 import { ShakeManager } from "../Runtime/ShakeManager";
 import { SmokeMgr } from "../Smoke/SmokeMgr";
@@ -195,5 +195,78 @@ export class UIBattleScene extends Component {
         const disY = TILE_HEIGHT * mapColumCount / 2 + 100
         this.stage.getComponent(ShakeManager).stop()
         this.stage.setPosition(-disX, disY)
+    }
+
+    saveRecord() {
+        const item: IRecord = {
+            player: {
+                x: DataManager.Instance.playerInfo.x,
+                y: DataManager.Instance.playerInfo.y,
+                direction: DataManager.Instance.playerInfo.direction,
+                state: DataManager.Instance.playerInfo.state,
+                type: DataManager.Instance.playerInfo._type,
+            },
+            door: {
+                x: DataManager.Instance.doorInfo.x,
+                y: DataManager.Instance.doorInfo.y,
+                direction: DataManager.Instance.doorInfo.direction,
+                state: DataManager.Instance.doorInfo.state,
+                type: DataManager.Instance.doorInfo._type,
+            },
+            enemies: DataManager.Instance.enemies.map(({ x, y, type, state, direction }) => ({
+                x, y, type, state, direction
+            })),
+            bursts: DataManager.Instance.bursts.map(({ x, y, type, state, direction }) => ({
+                x, y, type, state, direction
+            })),
+            spikes: DataManager.Instance.spikes.map(({ x, y, count, type }) => ({
+                x, y, count, type
+            })),
+        }
+
+        DataManager.Instance.records.push(item)
+    }
+
+    revokeRecord() {
+        const item = DataManager.Instance.records.pop()
+        if (item) {
+            DataManager.Instance.playerInfo.x = DataManager.Instance.playerInfo.tartgetX = item.player.x
+            DataManager.Instance.playerInfo.y = DataManager.Instance.playerInfo.tartgetY = item.player.y
+            DataManager.Instance.playerInfo.direction = item.player.direction
+            DataManager.Instance.playerInfo.state = item.player.state
+            DataManager.Instance.playerInfo.type = item.player.type
+
+            DataManager.Instance.doorInfo.x = item.door.x
+            DataManager.Instance.doorInfo.y = item.door.y
+            DataManager.Instance.doorInfo.direction = item.door.direction
+            DataManager.Instance.doorInfo.state = item.door.state
+            DataManager.Instance.doorInfo.type = item.door.type
+
+            for (let index = 0; index < DataManager.Instance.enemies.length; index++) {
+                const enemy = item.enemies[index];
+                DataManager.Instance.enemies[index].x = enemy.x
+                DataManager.Instance.enemies[index].y = enemy.y
+                DataManager.Instance.enemies[index].direction = enemy.direction
+                DataManager.Instance.enemies[index].state = enemy.state
+                DataManager.Instance.enemies[index].type = enemy.type
+            }
+
+            for (let index = 0; index < DataManager.Instance.bursts.length; index++) {
+                const burst = item.enemies[index];
+                DataManager.Instance.bursts[index].x = burst.x
+                DataManager.Instance.bursts[index].y = burst.y
+                DataManager.Instance.bursts[index].direction = burst.direction
+                DataManager.Instance.bursts[index].state = burst.state
+                DataManager.Instance.bursts[index].type = burst.type
+            }
+
+            for (let index = 0; index < DataManager.Instance.spikes.length; index++) {
+                const spike = item.spikes[index];
+                DataManager.Instance.spikes[index].x = spike.x
+                DataManager.Instance.spikes[index].y = spike.y
+                DataManager.Instance.spikes[index].count = spike.count
+                DataManager.Instance.spikes[index].type = spike.type
+            }
+        }
     }
 }
