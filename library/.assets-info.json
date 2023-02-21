@@ -2879,12 +2879,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene": {
-    "time": 1676890833814.5715,
+    "time": 1676961627201.3674,
     "uuid": "b0a4abb1-db32-49c3-9e09-a45b922a2094",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
-    "time": 1676892415666.5454,
+    "time": 1676962305701.7588,
     "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125",
     "missing": false
   },
@@ -2979,7 +2979,7 @@
     "time": 1675257364769.9006
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene/Battle.scene": {
-    "time": 1676959507325.8315,
+    "time": 1676959937782.8083,
     "uuid": "c326e8c1-9770-4ea8-808d-1fffa0c92930",
     "missing": false
   },
@@ -5635,7 +5635,7 @@
     "time": 1675737450764.051
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
-    "time": 1676959495743.4624,
+    "time": 1676959934316.9526,
     "uuid": "69201876-1da9-4a52-b678-87472f04db9f",
     "missing": false
   },
@@ -6222,7 +6222,7 @@
     "time": 1676861760488.8489
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime/FadeMgr.ts": {
-    "time": 1676861618350.5435,
+    "time": 1676961967339.6104,
     "uuid": "a4b3080e-6441-4246-ad6a-955ee00ff0e9",
     "missing": false
   },
@@ -6259,7 +6259,7 @@
     "time": 1675746903950.3196
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene/Loading.scene": {
-    "time": 1676891687047.116,
+    "time": 1676962043238.8733,
     "uuid": "958cbe63-a4b1-4a85-8084-07a8de171c67",
     "missing": false
   },
@@ -6267,7 +6267,7 @@
     "time": 1676891301775.5059
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIStartScene.ts": {
-    "time": 1676891377558.9094,
+    "time": 1676962266952.838,
     "uuid": "07b26541-495d-4de2-8199-0d1d835ccf7b",
     "missing": false
   },
@@ -6275,7 +6275,7 @@
     "time": 1676891656631.1348
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UILoadingScene.ts": {
-    "time": 1676896284543.4512,
+    "time": 1676962531587.6763,
     "uuid": "e8b463ce-c04d-4bc8-8480-3bac819895f0",
     "missing": false
   },

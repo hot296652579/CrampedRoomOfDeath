@@ -1,38 +1,38 @@
-2023-02-21T01:40:40.327Z - log: [Package] menu@1.0.0 enable
-2023-02-21T01:40:40.328Z - log: [Package] profile@1.0.0 enable
-2023-02-21T01:40:40.335Z - log: [Package] project@1.0.2 enable
-2023-02-21T01:40:40.339Z - log: [Package] messages@1.0.0 enable
-2023-02-21T01:40:40.341Z - log: [Package] program@1.0.0 enable
-2023-02-21T01:40:40.347Z - log: [Package] tester@1.0.0 enable
-2023-02-21T01:40:40.351Z - log: [Package] preferences@1.0.0 enable
-2023-02-21T01:40:42.326Z - log: [Package] engine@1.0.6 enable
-2023-02-21T01:40:42.890Z - log: [Package] programming@1.0.0 enable
-2023-02-21T01:40:42.939Z - warn: 
-2023-02-21T01:40:42.956Z - warn: 
-2023-02-21T01:40:43.164Z - log: [Package] device@1.0.1 enable
-2023-02-21T01:40:43.191Z - log: [Package] ui-kit@1.0.1 enable
-2023-02-21T01:40:43.214Z - log: [Package] engine-extends@1.0.0 enable
-2023-02-21T01:40:43.257Z - log: [Package] asset-db@1.0.0 enable
-2023-02-21T01:40:43.257Z - warn: 
-2023-02-21T01:40:43.286Z - log: [Package] scene@1.0.0 enable
-2023-02-21T01:40:43.381Z - log: [Package] server@1.0.0 enable
-2023-02-21T01:40:43.406Z - log: [Package] utils@1.0.0 enable
-2023-02-21T01:40:43.829Z - warn: Browserslist: caniuse-lite is outdated. Please run:
+2023-02-21T06:18:31.537Z - log: [Package] menu@1.0.0 enable
+2023-02-21T06:18:31.538Z - log: [Package] profile@1.0.0 enable
+2023-02-21T06:18:31.543Z - log: [Package] project@1.0.2 enable
+2023-02-21T06:18:31.546Z - log: [Package] messages@1.0.0 enable
+2023-02-21T06:18:31.547Z - log: [Package] program@1.0.0 enable
+2023-02-21T06:18:31.551Z - log: [Package] tester@1.0.0 enable
+2023-02-21T06:18:31.553Z - log: [Package] preferences@1.0.0 enable
+2023-02-21T06:18:33.530Z - log: [Package] engine@1.0.6 enable
+2023-02-21T06:18:34.098Z - log: [Package] programming@1.0.0 enable
+2023-02-21T06:18:34.147Z - warn: 
+2023-02-21T06:18:34.163Z - warn: 
+2023-02-21T06:18:34.355Z - log: [Package] device@1.0.1 enable
+2023-02-21T06:18:34.378Z - log: [Package] ui-kit@1.0.1 enable
+2023-02-21T06:18:34.399Z - log: [Package] engine-extends@1.0.0 enable
+2023-02-21T06:18:34.444Z - log: [Package] asset-db@1.0.0 enable
+2023-02-21T06:18:34.445Z - warn: 
+2023-02-21T06:18:34.474Z - log: [Package] scene@1.0.0 enable
+2023-02-21T06:18:34.569Z - log: [Package] server@1.0.0 enable
+2023-02-21T06:18:34.594Z - log: [Package] utils@1.0.0 enable
+2023-02-21T06:18:35.025Z - warn: Browserslist: caniuse-lite is outdated. Please run:
 npx browserslist@latest --update-db
 
 Why you should do it regularly:
 https://github.com/browserslist/browserslist#browsers-data-updating
-2023-02-21T01:40:45.654Z - warn: 
-2023-02-21T01:40:45.654Z - warn: 
-2023-02-21T01:40:45.654Z - warn: 
-2023-02-21T01:40:45.734Z - warn: 
-2023-02-21T01:40:45.734Z - warn: 
-2023-02-21T01:40:45.734Z - warn: 
-2023-02-21T01:40:46.429Z - warn: 
-2023-02-21T01:40:46.464Z - log: [Package] preview@1.0.1 enable
-2023-02-21T01:40:46.490Z - log: [Package] animator@1.0.0 enable
-2023-02-21T01:40:46.520Z - log: pluginManager init: 0.087ms
-2023-02-21T01:40:46.545Z - warn: [Programming] Browserslist: caniuse-lite is outdated. Please run:
+2023-02-21T06:18:36.603Z - warn: 
+2023-02-21T06:18:36.603Z - warn: 
+2023-02-21T06:18:36.603Z - warn: 
+2023-02-21T06:18:36.663Z - warn: 
+2023-02-21T06:18:36.664Z - warn: 
+2023-02-21T06:18:36.664Z - warn: 
+2023-02-21T06:18:37.356Z - warn: 
+2023-02-21T06:18:37.390Z - log: [Package] preview@1.0.1 enable
+2023-02-21T06:18:37.417Z - log: [Package] animator@1.0.0 enable
+2023-02-21T06:18:37.448Z - log: pluginManager init: 0.102ms
+2023-02-21T06:18:37.467Z - warn: [Programming] Browserslist: caniuse-lite is outdated. Please run:
   npx update-browserslist-db@latest
   Why you should do it regularly: https://github.com/browserslist/update-db#readme[Programming] Browserslist: caniuse-lite is outdated. Please run:
   npx update-browserslist-db@latest
@@ -45,75 +45,75 @@ at resolveTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Con
 at getTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/helper-compilation-targets/lib/index.js:210:27)  
 at getLocalTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/preset-env/lib/index.js:227:48)  
 at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/preset-env/lib/index.js:288:15
-2023-02-21T01:40:47.034Z - warn: 
-2023-02-21T01:40:47.034Z - warn: 
-2023-02-21T01:40:47.035Z - warn: 
-2023-02-21T01:40:47.157Z - log: [Package] builder@1.3.3 enable
-2023-02-21T01:40:47.184Z - log: [Package] shortcuts@1.0.1 enable
-2023-02-21T01:40:47.209Z - log: [Package] animation-graph@1.0.0 enable
-2023-02-21T01:40:47.235Z - log: [Package] about@1.0.0 enable
-2023-02-21T01:40:47.263Z - log: [Package] assets@1.0.0 enable
-2023-02-21T01:40:47.291Z - log: [Package] console@1.0.0 enable
-2023-02-21T01:40:47.393Z - log: [Package] extension@3.0.16 enable
-2023-02-21T01:40:47.418Z - log: [Package] hierarchy@1.0.0 enable
-2023-02-21T01:40:47.446Z - log: [Package] inspector@1.0.0 enable
-2023-02-21T01:40:47.473Z - log: [Package] lightmap@1.0.4 enable
-2023-02-21T01:40:47.701Z - log: [Package] localization-editor@1.0.0 enable
-2023-02-21T01:40:47.707Z - log: [Build-plugin] register pkg localization-editor: 4.332ms
-2023-02-21T01:40:47.728Z - log: [Package] node-library@1.0.1 enable
-2023-02-21T01:40:47.750Z - log: [Package] package-asset@1.0.0 enable
-2023-02-21T01:40:47.778Z - log: [Package] process@1.0.0 enable
-2023-02-21T01:40:47.807Z - log: [Package] reference-image@1.0.0 enable
-2023-02-21T01:40:47.830Z - log: [Package] alipay-mini-game@1.0.1 enable
-2023-02-21T01:40:47.831Z - log: [Build-plugin] register pkg alipay-mini-game: 0.569ms
-2023-02-21T01:40:47.858Z - log: [Package] android@1.0.1 enable
-2023-02-21T01:40:47.861Z - log: [Build-plugin] register pkg android: 2.78ms
-2023-02-21T01:40:47.887Z - log: [Package] baidu-mini-game@1.0.1 enable
-2023-02-21T01:40:47.889Z - log: [Build-plugin] register pkg baidu-mini-game: 1.727ms
-2023-02-21T01:40:47.932Z - log: [Package] bytedance-mini-game@1.0.2 enable
-2023-02-21T01:40:47.933Z - log: [Build-plugin] register pkg bytedance-mini-game: 1.146ms
-2023-02-21T01:40:47.956Z - log: [Package] certificate@1.0.0 enable
-2023-02-21T01:40:47.982Z - log: [Package] channel-upload-tools@1.0.0 enable
-2023-02-21T01:40:48.008Z - log: [Package] cocos-play@1.0.1 enable
-2023-02-21T01:40:48.011Z - log: [Build-plugin] register pkg cocos-play: 1.971ms
-2023-02-21T01:40:48.034Z - log: [Package] huawei-agc@1.0.0 enable
-2023-02-21T01:40:48.036Z - log: [Build-plugin] register pkg huawei-agc: 1.726ms
-2023-02-21T01:40:48.057Z - log: [Package] huawei-quick-game@1.0.1 enable
-2023-02-21T01:40:48.059Z - log: [Build-plugin] register pkg huawei-quick-game: 2.081ms
-2023-02-21T01:40:48.285Z - log: [Package] ios@1.0.0 enable
-2023-02-21T01:40:48.288Z - log: [Build-plugin] register pkg ios: 2.199ms
-2023-02-21T01:40:48.313Z - log: [Package] linux@1.0.0 enable
-2023-02-21T01:40:48.314Z - log: [Build-plugin] register pkg linux: 0.464ms
-2023-02-21T01:40:48.340Z - log: [Package] mac@1.0.0 enable
-2023-02-21T01:40:48.342Z - log: [Build-plugin] register pkg mac: 2.048ms
-2023-02-21T01:40:48.408Z - log: [Package] native@1.0.2 enable
-2023-02-21T01:40:48.410Z - log: [Build-plugin] register pkg native: 1.511ms
-2023-02-21T01:40:48.435Z - log: [Package] ohos@1.0.0 enable
-2023-02-21T01:40:48.437Z - log: [Build-plugin] register pkg ohos: 1.56ms
-2023-02-21T01:40:48.463Z - log: [Package] open-harmonyos@1.0.0 enable
-2023-02-21T01:40:48.464Z - log: [Build-plugin] register pkg open-harmonyos: 0.466ms
-2023-02-21T01:40:48.490Z - log: [Package] oppo-mini-game@1.0.1 enable
-2023-02-21T01:40:48.492Z - log: [Build-plugin] register pkg oppo-mini-game: 1.922ms
-2023-02-21T01:40:48.516Z - log: [Package] runtime-dev-tools@1.0.0 enable
-2023-02-21T01:40:48.541Z - log: [Package] vivo-mini-game@1.0.1 enable
-2023-02-21T01:40:48.543Z - log: [Build-plugin] register pkg vivo-mini-game: 1.944ms
-2023-02-21T01:40:48.575Z - log: [Package] web-desktop@1.0.1 enable
-2023-02-21T01:40:48.577Z - log: [Build-plugin] register pkg web-desktop: 1.561ms
-2023-02-21T01:40:48.603Z - log: [Package] web-mobile@1.0.1 enable
-2023-02-21T01:40:48.605Z - log: [Build-plugin] register pkg web-mobile: 1.573ms
-2023-02-21T01:40:48.631Z - log: [Package] wechatgame@1.0.2 enable
-2023-02-21T01:40:48.633Z - log: [Build-plugin] register pkg wechatgame: 1.678ms
-2023-02-21T01:40:48.655Z - log: [Package] windows@1.0.1 enable
-2023-02-21T01:40:48.656Z - log: [Build-plugin] register pkg windows: 1.46ms
-2023-02-21T01:40:48.683Z - log: [Package] xiaomi-quick-game@1.0.1 enable
-2023-02-21T01:40:48.685Z - log: [Build-plugin] register pkg xiaomi-quick-game: 1.782ms
-2023-02-21T01:40:48.863Z - log: [Package] cocos-service@3.0.5 enable
-2023-02-21T01:40:48.865Z - log: [Build-plugin] register pkg cocos-service: 0.925ms
-2023-02-21T01:40:48.890Z - log: [Package] importer@1.0.0 enable
-2023-02-21T01:40:49.029Z - log: [Im-plugin] Check im-plugin version.
-2023-02-21T01:40:49.032Z - log: [Package] im-plugin@3.0.9 enable
-2023-02-21T01:40:50.270Z - log: [Im-plugin] No online info of im-plugin.
-2023-02-21T01:40:51.002Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+2023-02-21T06:18:37.875Z - warn: 
+2023-02-21T06:18:37.875Z - warn: 
+2023-02-21T06:18:37.876Z - warn: 
+2023-02-21T06:18:38.049Z - log: [Package] builder@1.3.3 enable
+2023-02-21T06:18:38.075Z - log: [Package] shortcuts@1.0.1 enable
+2023-02-21T06:18:38.101Z - log: [Package] animation-graph@1.0.0 enable
+2023-02-21T06:18:38.125Z - log: [Package] about@1.0.0 enable
+2023-02-21T06:18:38.153Z - log: [Package] assets@1.0.0 enable
+2023-02-21T06:18:38.179Z - log: [Package] console@1.0.0 enable
+2023-02-21T06:18:38.281Z - log: [Package] extension@3.0.16 enable
+2023-02-21T06:18:38.305Z - log: [Package] hierarchy@1.0.0 enable
+2023-02-21T06:18:38.331Z - log: [Package] inspector@1.0.0 enable
+2023-02-21T06:18:38.355Z - log: [Package] lightmap@1.0.4 enable
+2023-02-21T06:18:38.586Z - log: [Package] localization-editor@1.0.0 enable
+2023-02-21T06:18:38.591Z - log: [Build-plugin] register pkg localization-editor: 2.644ms
+2023-02-21T06:18:38.615Z - log: [Package] node-library@1.0.1 enable
+2023-02-21T06:18:38.637Z - log: [Package] package-asset@1.0.0 enable
+2023-02-21T06:18:38.662Z - log: [Package] process@1.0.0 enable
+2023-02-21T06:18:38.686Z - log: [Package] reference-image@1.0.0 enable
+2023-02-21T06:18:38.710Z - log: [Package] alipay-mini-game@1.0.1 enable
+2023-02-21T06:18:38.711Z - log: [Build-plugin] register pkg alipay-mini-game: 0.462ms
+2023-02-21T06:18:38.733Z - log: [Package] android@1.0.1 enable
+2023-02-21T06:18:38.736Z - log: [Build-plugin] register pkg android: 2.821ms
+2023-02-21T06:18:38.762Z - log: [Package] baidu-mini-game@1.0.1 enable
+2023-02-21T06:18:38.764Z - log: [Build-plugin] register pkg baidu-mini-game: 1.915ms
+2023-02-21T06:18:38.809Z - log: [Package] bytedance-mini-game@1.0.2 enable
+2023-02-21T06:18:38.811Z - log: [Build-plugin] register pkg bytedance-mini-game: 1.162ms
+2023-02-21T06:18:38.833Z - log: [Package] certificate@1.0.0 enable
+2023-02-21T06:18:38.859Z - log: [Package] channel-upload-tools@1.0.0 enable
+2023-02-21T06:18:38.883Z - log: [Package] cocos-play@1.0.1 enable
+2023-02-21T06:18:38.885Z - log: [Build-plugin] register pkg cocos-play: 2.103ms
+2023-02-21T06:18:38.907Z - log: [Package] huawei-agc@1.0.0 enable
+2023-02-21T06:18:38.909Z - log: [Build-plugin] register pkg huawei-agc: 1.712ms
+2023-02-21T06:18:38.934Z - log: [Package] huawei-quick-game@1.0.1 enable
+2023-02-21T06:18:38.936Z - log: [Build-plugin] register pkg huawei-quick-game: 2.337ms
+2023-02-21T06:18:39.129Z - log: [Package] ios@1.0.0 enable
+2023-02-21T06:18:39.132Z - log: [Build-plugin] register pkg ios: 2.358ms
+2023-02-21T06:18:39.157Z - log: [Package] linux@1.0.0 enable
+2023-02-21T06:18:39.158Z - log: [Build-plugin] register pkg linux: 0.547ms
+2023-02-21T06:18:39.184Z - log: [Package] mac@1.0.0 enable
+2023-02-21T06:18:39.187Z - log: [Build-plugin] register pkg mac: 2.049ms
+2023-02-21T06:18:39.255Z - log: [Package] native@1.0.2 enable
+2023-02-21T06:18:39.257Z - log: [Build-plugin] register pkg native: 1.523ms
+2023-02-21T06:18:39.283Z - log: [Package] ohos@1.0.0 enable
+2023-02-21T06:18:39.285Z - log: [Build-plugin] register pkg ohos: 1.672ms
+2023-02-21T06:18:39.311Z - log: [Package] open-harmonyos@1.0.0 enable
+2023-02-21T06:18:39.312Z - log: [Build-plugin] register pkg open-harmonyos: 0.513ms
+2023-02-21T06:18:39.338Z - log: [Package] oppo-mini-game@1.0.1 enable
+2023-02-21T06:18:39.340Z - log: [Build-plugin] register pkg oppo-mini-game: 1.861ms
+2023-02-21T06:18:39.371Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2023-02-21T06:18:39.397Z - log: [Package] vivo-mini-game@1.0.1 enable
+2023-02-21T06:18:39.399Z - log: [Build-plugin] register pkg vivo-mini-game: 2.093ms
+2023-02-21T06:18:39.434Z - log: [Package] web-desktop@1.0.1 enable
+2023-02-21T06:18:39.436Z - log: [Build-plugin] register pkg web-desktop: 1.653ms
+2023-02-21T06:18:39.461Z - log: [Package] web-mobile@1.0.1 enable
+2023-02-21T06:18:39.463Z - log: [Build-plugin] register pkg web-mobile: 1.656ms
+2023-02-21T06:18:39.488Z - log: [Package] wechatgame@1.0.2 enable
+2023-02-21T06:18:39.490Z - log: [Build-plugin] register pkg wechatgame: 1.728ms
+2023-02-21T06:18:39.512Z - log: [Package] windows@1.0.1 enable
+2023-02-21T06:18:39.514Z - log: [Build-plugin] register pkg windows: 1.636ms
+2023-02-21T06:18:39.540Z - log: [Package] xiaomi-quick-game@1.0.1 enable
+2023-02-21T06:18:39.542Z - log: [Build-plugin] register pkg xiaomi-quick-game: 1.944ms
+2023-02-21T06:18:39.696Z - log: [Package] cocos-service@3.0.5 enable
+2023-02-21T06:18:39.698Z - log: [Build-plugin] register pkg cocos-service: 1.025ms
+2023-02-21T06:18:39.722Z - log: [Package] importer@1.0.0 enable
+2023-02-21T06:18:39.864Z - log: [Im-plugin] Check im-plugin version.
+2023-02-21T06:18:39.866Z - log: [Package] im-plugin@3.0.9 enable
+2023-02-21T06:18:40.575Z - log: [Im-plugin] No online info of im-plugin.
+2023-02-21T06:18:41.440Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
 
  
 // Before:
@@ -122,7 +122,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.016Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+2023-02-21T06:18:41.451Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
 
  
 // Before:
@@ -131,7 +131,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.016Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+2023-02-21T06:18:41.452Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
 
  
 // Before:
@@ -140,7 +140,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.016Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+2023-02-21T06:18:41.452Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
 
  
 // Before:
@@ -149,9 +149,9 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.018Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
-2023-02-21T01:40:51.018Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
-2023-02-21T01:40:51.026Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+2023-02-21T06:18:41.454Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-02-21T06:18:41.454Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-02-21T06:18:41.460Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
 
  
 // Before:
@@ -160,7 +160,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.026Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+2023-02-21T06:18:41.460Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
 
  
 // Before:
@@ -169,7 +169,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.026Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+2023-02-21T06:18:41.460Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
 
  
 // Before:
@@ -178,7 +178,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.026Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+2023-02-21T06:18:41.461Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
 
  
 // Before:
@@ -187,7 +187,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.027Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+2023-02-21T06:18:41.461Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
 
  
 // Before:
@@ -196,7 +196,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.027Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+2023-02-21T06:18:41.461Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
 
  
 // Before:
@@ -205,7 +205,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.027Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+2023-02-21T06:18:41.461Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
 
  
 // Before:
@@ -214,7 +214,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.027Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+2023-02-21T06:18:41.461Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
 
  
 // Before:
@@ -223,7 +223,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.027Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+2023-02-21T06:18:41.461Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
 
  
 // Before:
@@ -232,7 +232,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.027Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
 
  
 // Before:
@@ -241,7 +241,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.027Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
 
  
 // Before:
@@ -250,7 +250,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.027Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
 
  
 // Before:
@@ -259,7 +259,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.028Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
 
  
 // Before:
@@ -268,7 +268,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.028Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
 
  
 // Before:
@@ -277,7 +277,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.028Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
 
  
 // Before:
@@ -286,7 +286,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.028Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
 
  
 // Before:
@@ -295,7 +295,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.028Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
 
  
 // Before:
@@ -304,7 +304,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.028Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
 
  
 // Before:
@@ -313,7 +313,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.028Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
 
  
 // Before:
@@ -322,7 +322,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.028Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+2023-02-21T06:18:41.462Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
 
  
 // Before:
@@ -331,101 +331,119 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-02-21T01:40:51.047Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
-2023-02-21T01:40:51.069Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
-2023-02-21T01:40:51.069Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
-2023-02-21T01:40:51.069Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
-2023-02-21T01:40:51.069Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
-2023-02-21T01:40:51.127Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-02-21T01:40:51.134Z - info: [Scene] [PHYSICS]: using builtin.
-2023-02-21T01:40:51.196Z - log: [Scene] Cocos Creator v3.6.0
-2023-02-21T01:40:51.196Z - info: [Scene] Forward render pipeline initialized.
-2023-02-21T01:40:51.437Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
-2023-02-21T02:09:57.784Z - error: [Preview]Cannot set properties of null (setting 'clip')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'clip')
-    at http://localhost:7456/scripting/x/chunks/a5/a5fc8f0fa1f05306fff727f14fd047ed37236f37.js:47:36
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-02-21T02:10:17.547Z - error: [Preview]Cannot set properties of null (setting 'clip')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'clip')
-    at http://localhost:7456/scripting/x/chunks/a5/a5fc8f0fa1f05306fff727f14fd047ed37236f37.js:47:36
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-02-21T02:11:26.215Z - error: [Preview]Cannot set properties of null (setting 'clip')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'clip')
-    at http://localhost:7456/scripting/x/chunks/a5/a5fc8f0fa1f05306fff727f14fd047ed37236f37.js:47:36
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-02-21T02:11:42.661Z - error: [Preview]Cannot set properties of null (setting 'clip')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'clip')
-    at http://localhost:7456/scripting/x/chunks/a5/a5fc8f0fa1f05306fff727f14fd047ed37236f37.js:47:36
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-02-21T02:15:25.000Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T02:16:26.577Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T02:32:18.777Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T02:43:05.074Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T02:44:36.790Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T02:46:19.571Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T02:50:08.846Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T02:53:43.149Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T02:56:07.215Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:00:42.772Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:01:36.540Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:02:38.202Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:10:07.032Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:13:48.843Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:15:03.418Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:17:48.254Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:23:27.128Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'name')errorInfo.stack ? '/n ' : ''
-2023-02-21T03:24:09.452Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:42:51.966Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:49:41.231Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T03:58:34.751Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T05:44:44.772Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T05:46:49.201Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'bursts')errorInfo.stack ? '/n ' : ''
-2023-02-21T05:48:48.065Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T05:49:32.831Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T05:52:57.781Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T05:53:41.674Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T05:55:18.231Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T05:56:50.515Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T05:57:33.538Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T06:00:07.863Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T06:01:55.913Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T06:04:13.953Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T06:06:05.996Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T06:07:16.538Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T06:07:54.886Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
-2023-02-21T06:09:02.039Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
-    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T06:18:41.481Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-02-21T06:18:41.502Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-02-21T06:18:41.502Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-02-21T06:18:41.502Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-02-21T06:18:41.502Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-02-21T06:18:41.578Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:18:41.584Z - info: [Scene] [PHYSICS]: using builtin.
+2023-02-21T06:18:41.654Z - log: [Scene] Cocos Creator v3.6.0
+2023-02-21T06:18:41.654Z - info: [Scene] Forward render pipeline initialized.
+2023-02-21T06:18:41.870Z - info: [Scene] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:35:40.335Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:35:40.373Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:35:40.383Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:35:40.449Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:35:40.450Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:35:40.670Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:35:49.851Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:35:50.450Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:35:52.249Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:35:52.259Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:35:52.321Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:35:52.321Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:35:52.531Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:36:08.820Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:36:08.821Z - warn: [Preview] IPC message has been lost.Error: [Preview] IPC message has been lost.
+    at EventEmitter.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1564)
+    at EventEmitter.emit (events.js:315:20)
+    at Object.onMessage (electron/js2c/renderer_init.js:93:1117)
+2023-02-21T06:36:08.822Z - warn: [Preview] IPC message has been lost.Error: [Preview] IPC message has been lost.
+    at EventEmitter.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1564)
+    at EventEmitter.emit (events.js:315:20)
+    at Object.onMessage (electron/js2c/renderer_init.js:93:1117)
+2023-02-21T06:36:09.428Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:36:38.383Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:36:38.392Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:36:38.453Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:36:38.453Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:36:38.665Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:36:53.436Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:36:54.042Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:38:04.697Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:38:04.706Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:38:04.765Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:38:04.766Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:38:04.981Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:38:21.786Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:38:22.391Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:39:07.960Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:39:07.970Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:39:08.026Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:39:08.026Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:39:08.247Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:39:47.402Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:39:48.006Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:39:49.329Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:39:49.339Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:39:49.399Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:39:49.399Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:39:49.611Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:39:57.046Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:39:57.651Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:39:59.219Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:39:59.228Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:39:59.287Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:39:59.287Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:39:59.489Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:40:19.715Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:40:20.351Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:41:10.954Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:41:10.963Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:41:11.022Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:41:11.022Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:41:11.247Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:41:28.870Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:41:29.479Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:41:29.516Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:41:29.524Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:41:29.584Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:41:29.585Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:41:29.788Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:41:34.074Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:41:34.753Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:43:32.150Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:43:32.159Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:43:32.215Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:43:32.215Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:43:32.438Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:43:43.148Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:43:43.862Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:45:11.645Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:45:11.655Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:45:11.710Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:45:11.710Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:45:11.919Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:45:36.159Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:45:36.771Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:46:45.138Z - info: [Preview] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-02-21T06:46:45.148Z - info: [Preview] [PHYSICS]: using builtin.
+2023-02-21T06:46:45.210Z - log: [Preview] Cocos Creator v3.6.0
+2023-02-21T06:46:45.211Z - info: [Preview] Forward render pipeline initialized.
+2023-02-21T06:46:45.422Z - info: [Preview] [PHYSICS]: switch from builtin to bullet.
+2023-02-21T06:47:08.231Z - warn: Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: timer-util.ccc:1:1017
+2023-02-21T06:47:08.888Z - info: [Preview] 预览环境初始化完毕
+2023-02-21T06:57:03.250Z - error: [Preview]null is not an object (evaluating '_this9._audioBuffer.duration')errorInfo.stack ? '/n checkEnded@http://192.168.1.3:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:87' : ''

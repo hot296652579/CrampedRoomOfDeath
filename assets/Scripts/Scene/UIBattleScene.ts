@@ -33,7 +33,7 @@ export class UIBattleScene extends Component {
 
     start() {
         SoundMgr.Instance.playMusic('sound/bg', true)
-        DataManager.Instance.levelIndex = 9
+        DataManager.Instance.levelIndex = 1
         this.generateStage()
         this.initLevel()
 
@@ -91,6 +91,9 @@ export class UIBattleScene extends Component {
 
     nextLevelMap() {
         DataManager.Instance.levelIndex++
+        if (DataManager.Instance.levelIndex > 10) {
+            console.log('通关了！')
+        }
         this.initLevel()
     }
 

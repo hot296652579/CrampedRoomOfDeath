@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4088.7362079997547,
+      "mTimestamp": 3810.8834579996765,
       "chunkId": "d0b282b9748ef7fc7d2e7bd647d71b0f7e84da53",
       "imports": [
         {
@@ -556,7 +556,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 15855173.719666999,
+      "mTimestamp": 2226138.239875,
       "chunkId": "7fcba864faf159cf29df07da3350fd5109eb64ac",
       "imports": [
         {
@@ -2099,7 +2099,7 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
       "mTimestamp": {
-        "mtime": 1676892415666.5454,
+        "mtime": 1676962305701.7588,
         "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125"
       },
       "chunkId": "951201a9d1e2e58fdfab0168ed8392d5a85a089c",
@@ -2363,7 +2363,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1676943642402,
+      "mTimestamp": 1676960313606,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -2761,10 +2761,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
       "mTimestamp": {
-        "mtime": 1676959495743.4624,
+        "mtime": 1676959934316.9526,
         "uuid": "69201876-1da9-4a52-b678-87472f04db9f"
       },
-      "chunkId": "44f1c11b2e7e6112949bd4ea46f46a0030f4fcbd",
+      "chunkId": "6c86df18f97659e9fe37d57e8739b4e6b919b9ed",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -11211,10 +11211,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime/FadeMgr.ts": {
       "mTimestamp": {
-        "mtime": 1676861618350.5435,
+        "mtime": 1676961967339.6104,
         "uuid": "a4b3080e-6441-4246-ad6a-955ee00ff0e9"
       },
-      "chunkId": "38377795a1db141d397897f64fe7836dd636ea9a",
+      "chunkId": "761ffabaf04fe16288d8b9b1e2d7835116df80e8",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -11599,10 +11599,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIStartScene.ts": {
       "mTimestamp": {
-        "mtime": 1676891377558.9094,
+        "mtime": 1676962266952.838,
         "uuid": "07b26541-495d-4de2-8199-0d1d835ccf7b"
       },
-      "chunkId": "4c893b78ede3dfcc8ceecd86a366a88bb46b485b",
+      "chunkId": "aebf01717396e8a13c52f88380afd84525c3a128",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -11638,20 +11638,6 @@
             "end": {
               "line": 2,
               "column": 129
-            }
-          }
-        },
-        {
-          "value": "../Runtime/FadeMgr",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 11,
-              "column": 20
-            },
-            "end": {
-              "line": 11,
-              "column": 40
             }
           }
         }
@@ -11692,22 +11678,15 @@
             "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts"
           },
           "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime/FadeMgr.ts"
-          },
-          "messages": []
         }
       ]
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UILoadingScene.ts": {
       "mTimestamp": {
-        "mtime": 1676896284543.4512,
+        "mtime": 1676962531587.6763,
         "uuid": "e8b463ce-c04d-4bc8-8480-3bac819895f0"
       },
-      "chunkId": "5857bb40f976e28032b1212678c03c116a5f7bfa",
+      "chunkId": "80bc48dd1e575c9d5d6ba5870e6cf9d998bf8d14",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

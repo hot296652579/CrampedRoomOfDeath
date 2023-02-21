@@ -20,6 +20,7 @@ export default class FadeMgr extends Singleton {
         else {
             const root = createNewNode()
             root.addComponent(RenderRoot2D)
+            root.name = 'RenderRoot2D'
 
             const fadeNode = createNewNode()
             fadeNode.setParent(root)

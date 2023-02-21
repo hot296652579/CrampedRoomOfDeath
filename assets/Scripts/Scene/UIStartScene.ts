@@ -22,16 +22,16 @@ const { ccclass, property } = _decorator;
 @ccclass('UIStartScene')
 export class UIStartScene extends Component {
 
-    onLoad() {
-        director.preloadScene(SCENE_ENUM.BATTLE)
+    async onLoad() {
+        director.preloadScene(SCENE_ENUM.LOADING)
 
-        FadeMgr.Instance.fader.fadeOut(800)
+        // FadeMgr.Instance.fader.fadeOut(1000)
         this.node.once(Node.EventType.TOUCH_START, this.handlerStart, this)
     }
 
     async handlerStart() {
-        await FadeMgr.Instance.fader.fadeIn(300)
-        director.loadScene(SCENE_ENUM.BATTLE)
+        // await FadeMgr.Instance.fader.fadeIn(300)
+        director.loadScene(SCENE_ENUM.LOADING)
     }
 
     onDestry() {

@@ -7,11 +7,14 @@ export class LoadingManager extends Component {
     @property(ProgressBar)
     bar: ProgressBar
 
+    start() {
+
+    }
     onLoad() {
         this.preLoad()
     }
     preLoad() {
-        director.preloadScene(SCENE_ENUM.START)
+        director.preloadScene(SCENE_ENUM.BATTLE)
         resources.preloadDir(
             'texture',
             (cur, total) => {
@@ -25,8 +28,8 @@ export class LoadingManager extends Component {
                     this.preLoad()
                     return
                 }
-                await this.loadSoundRes()
-                director.loadScene(SCENE_ENUM.START)
+                // await this.loadSoundRes()
+                director.loadScene(SCENE_ENUM.BATTLE)
             },
         )
     }

@@ -11073,5 +11073,9 @@
     "value": {
       "depends": []
     }
+  },
+  "4e002e38-9218-41ec-856a-6a1f192b8cda": {
+    "url": "db://assets/scene/Test.scene",
+    "value": {}
   }
 }
