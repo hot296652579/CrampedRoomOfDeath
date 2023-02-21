@@ -57,6 +57,11 @@ export class EnitiyMgr extends Component {
 
         this.x = params.x
         this.y = params.y
+
+        if (params.type === ENITIY_TYPE_ENUM.PLAYER) {
+            console.log('初始化玩家y', this.y)
+        }
+
         this.direction = params.direction
         this.state = params.state
         this.type = params.type

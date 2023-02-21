@@ -31,7 +31,7 @@ export class UIBattleScene extends Component {
 
     start() {
         SoundMgr.Instance.playMusic('sound/bg', true)
-        DataManager.Instance.levelIndex = 1
+        DataManager.Instance.levelIndex = 3
         this.generateStage()
         this.initLevel()
 
@@ -160,8 +160,8 @@ export class UIBattleScene extends Component {
             const enemy = this.level.enemies[i]
             const node = createNewNode()
             node.setParent(this.stage)
-            const Manager = enemy.type === ENITIY_TYPE_ENUM.WOODEN ? WoodenMgr : IronMgr
-            const manager = node.addComponent(Manager)
+            const mgr = enemy.type === ENITIY_TYPE_ENUM.WOODEN ? WoodenMgr : IronMgr
+            const manager = node.addComponent(mgr)
             promises.push(manager.init(enemy))
             DataManager.Instance.enemies.push(manager)
         }

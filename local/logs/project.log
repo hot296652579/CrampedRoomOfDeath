@@ -363,3 +363,38 @@ myProp = 0;
     at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
 2023-02-21T02:32:18.777Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
     at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T02:43:05.074Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T02:44:36.790Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T02:46:19.571Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T02:50:08.846Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T02:53:43.149Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T02:56:07.215Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:00:42.772Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:01:36.540Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:02:38.202Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:10:07.032Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:13:48.843Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:15:03.418Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:17:48.254Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:23:27.128Z - error: [Preview]TypeError: Cannot read properties of undefined (reading 'name')errorInfo.stack ? '/n ' : ''
+2023-02-21T03:24:09.452Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:42:51.966Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:49:41.231Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T03:58:34.751Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
