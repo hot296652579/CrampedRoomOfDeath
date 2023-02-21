@@ -7,6 +7,7 @@ import { DoorMgr } from "../Door/DoorMgr";
 import { IronMgr } from "../Enemy/Iron/IronMgr";
 import { WoodenMgr } from "../Enemy/Wooden/WoodenMgr";
 import { PlayerMrg } from "../Player/PlayerMgr";
+import { AudioMgr } from "../Runtime/AudioMgr";
 import DataManager, { IRecord } from "../Runtime/DataManager";
 import FadeMgr from "../Runtime/FadeMgr";
 import { ShakeManager } from "../Runtime/ShakeManager";
@@ -33,6 +34,8 @@ export class UIBattleScene extends Component {
 
     start() {
         // SoundMgr.Instance.playMusic('sound/bg', true)
+        AudioMgr.inst.play('sound/bg', 1, true)
+
         DataManager.Instance.levelIndex = 1
         this.generateStage()
         this.initLevel()
@@ -260,8 +263,8 @@ export class UIBattleScene extends Component {
     revokeRecord() {
         const item = DataManager.Instance.records.pop()
         if (item) {
-            DataManager.Instance.playerInfo.x = DataManager.Instance.playerInfo.tartgetX = item.player.x
-            DataManager.Instance.playerInfo.y = DataManager.Instance.playerInfo.tartgetY = item.player.y
+            DataManager.Instance.playerInfo.x = DataManager.Instance.playerInfo.targetX = item.player.x
+            DataManager.Instance.playerInfo.y = DataManager.Instance.playerInfo.targetY = item.player.y
             DataManager.Instance.playerInfo.direction = item.player.direction
             DataManager.Instance.playerInfo.state = item.player.state
             DataManager.Instance.playerInfo.type = item.player.type

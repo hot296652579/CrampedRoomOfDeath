@@ -11077,5 +11077,9 @@
   "4e002e38-9218-41ec-856a-6a1f192b8cda": {
     "url": "db://assets/scene/Test.scene",
     "value": {}
+  },
+  "0aad10e6-97b5-4f55-88d2-8d609d919192": {
+    "url": "db://assets/Scripts/Runtime/AudioMgr.ts",
+    "value": {}
   }
 }

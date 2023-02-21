@@ -13,6 +13,7 @@ import { EnitiyMgr } from "../Base/EnitiyMgr";
 import { EnemyMgr } from "../Base/EnemyMgr";
 import { BurstMgr } from "../Burst/BurstMgr";
 import SoundMgr from "../Runtime/SoundMgr";
+import { AudioMgr } from "../Runtime/AudioMgr";
 
 export const MOVE_SPEED = 1 / 10
 
@@ -81,7 +82,7 @@ export class PlayerMrg extends EnitiyMgr {
 
         const enemyId = this.willAttack(inputDirection)
         if (enemyId) {
-            // SoundMgr.Instance.playSound('sound/attack')
+            AudioMgr.inst.playOneShot('sound/attack')
             this.state = ENTITY_STATE_ENUM.ATTACK
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_ENEMY_DEATH, enemyId)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_OPEN_DOOR)
@@ -124,7 +125,7 @@ export class PlayerMrg extends EnitiyMgr {
 
     onDeathHanlder(type: ENTITY_STATE_ENUM) {
         this.state = type
-        // SoundMgr.Instance.playSound('sound/death')
+        AudioMgr.inst.playOneShot('sound/atdeathtack')
     }
 
     willBlock(type: ENUM_BOTTOM_CONTROLLER) {
@@ -1163,25 +1164,25 @@ export class PlayerMrg extends EnitiyMgr {
                 this.isMoving = true
                 this.onSmokeHandler(direction)
                 this.targetY -= 1
-                // SoundMgr.Instance.playSound('sound/move')
+                AudioMgr.inst.playOneShot('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.BOTTOM:
                 this.isMoving = true
                 this.onSmokeHandler(direction)
                 this.targetY += 1
-                // SoundMgr.Instance.playSound('sound/move')
+                AudioMgr.inst.playOneShot('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.LEFT:
                 this.isMoving = true
                 this.onSmokeHandler(direction)
                 this.targetX -= 1
-                // SoundMgr.Instance.playSound('sound/move')
+                AudioMgr.inst.playOneShot('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.RIGHT:
                 this.isMoving = true
                 this.onSmokeHandler(direction)
                 this.targetX += 1
-                // SoundMgr.Instance.playSound('sound/move')
+                AudioMgr.inst.playOneShot('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.TURNLEFT:
                 // this.fsm.setParams(PARAMS_NAME_TYPE.TURNLEFT, true)
