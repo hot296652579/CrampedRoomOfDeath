@@ -20,8 +20,8 @@ const { ccclass, property } = _decorator;
 @ccclass('PlayerMrg')
 export class PlayerMrg extends EnitiyMgr {
 
-    tartgetX: number = 0
-    tartgetY: number = 0
+    targetX: number = 0
+    targetY: number = 0
     isMoving: boolean = false
 
     async init(params: IEnitiy) {
@@ -30,8 +30,8 @@ export class PlayerMrg extends EnitiyMgr {
 
         super.init(params)
 
-        this.tartgetX = this.x
-        this.tartgetY = this.y
+        this.targetX = this.x
+        this.targetY = this.y
     }
 
     onLoad() {
@@ -52,20 +52,20 @@ export class PlayerMrg extends EnitiyMgr {
     }
 
     updateXY() {
-        if (this.tartgetX < this.x) {
+        if (this.targetX < this.x) {
             this.x -= MOVE_SPEED
-        } else if (this.tartgetX > this.x) {
+        } else if (this.targetX > this.x) {
             this.x += MOVE_SPEED
-        } else if (this.tartgetY < this.y) {
+        } else if (this.targetY < this.y) {
             this.y -= MOVE_SPEED
-        } else if (this.tartgetY > this.y) {
+        } else if (this.targetY > this.y) {
             this.y += MOVE_SPEED
         }
 
-        if (Math.abs(this.tartgetX - this.x) <= 0.1 && Math.abs(this.tartgetY - this.y) <= 0.1 && this.isMoving) {
+        if (Math.abs(this.targetX - this.x) <= 0.1 && Math.abs(this.targetY - this.y) <= 0.1 && this.isMoving) {
             this.isMoving = false
-            this.x = this.tartgetX
-            this.y = this.tartgetY
+            this.x = this.targetX
+            this.y = this.targetY
 
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
         }
@@ -81,7 +81,7 @@ export class PlayerMrg extends EnitiyMgr {
 
         const enemyId = this.willAttack(inputDirection)
         if (enemyId) {
-            SoundMgr.Instance.playSound('sound/attack')
+            // SoundMgr.Instance.playSound('sound/attack')
             this.state = ENTITY_STATE_ENUM.ATTACK
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_ENEMY_DEATH, enemyId)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_OPEN_DOOR)
@@ -124,21 +124,26 @@ export class PlayerMrg extends EnitiyMgr {
 
     onDeathHanlder(type: ENTITY_STATE_ENUM) {
         this.state = type
-        SoundMgr.Instance.playSound('sound/death')
+        // SoundMgr.Instance.playSound('sound/death')
     }
 
-    willBlock(inputDirection: ENUM_BOTTOM_CONTROLLER) {
-        const { tartgetX: x, tartgetY: y, direction } = this
-        const { tileMgrInfo, mapColumCount, mapRowCount } = DataManager.Instance
-        const { x: doorX, y: doorY, state: doorState } = DataManager.Instance.doorInfo
-        const enemies: EnemyMgr[] = DataManager.Instance.enemies.filter(enemy => enemy.state != ENTITY_STATE_ENUM.DEATH)
-        console.log('mapColumCount', mapColumCount, 'mapRowCount', mapRowCount)
-        //先判断输入上时候
-        if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP) {
-            console.log('输入向上')
+    willBlock(type: ENUM_BOTTOM_CONTROLLER) {
+        const { targetX: x, targetY: y, direction } = this
+        const { tileMgrInfo } = DataManager.Instance
+        const enemies: EnemyMgr[] = DataManager.Instance.enemies.filter(
+            (enemy: EnemyMgr) => enemy.state !== ENTITY_STATE_ENUM.DEATH,
+        )
+        const { x: doorX, y: doorY, state: doorState } = DataManager.Instance.doorInfo || {}
+        const bursts: BurstMgr[] = DataManager.Instance.bursts.filter(
+            (burst: BurstMgr) => burst.state !== ENTITY_STATE_ENUM.DEATH,
+        )
+
+        const { mapRowCount: row, mapColumCount: column } = DataManager.Instance
+
+        //按钮方向——向上
+        if (type === ENUM_BOTTOM_CONTROLLER.TOP) {
             const playerNextY = y - 1
-            const playerNextX = x - 1
-            console.log('playerNextY', playerNextY)
+
             //玩家方向——向上
             if (direction === DIRECTION_ENUM.TOP) {
                 //判断是否超出地图
@@ -151,9 +156,33 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
 
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
+                //判断门
+                if (
+                    ((doorX === x && doorY === playerNextY) || (doorX === x && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                    return true
+                }
+
+                // 判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === x && enemyY === weaponNextY) || (enemyX === x && enemyY === playerNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === x && burst.y === playerNextY) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -162,15 +191,6 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKFRONT
                     return true
                 }
-
-                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
 
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
@@ -184,9 +204,33 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
 
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
+                //判断门
+                if (
+                    ((doorX === x && doorY === playerNextY) || (doorX === x && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if (enemyX === x && enemyY === playerNextY) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === x && burst.y === playerNextY) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -195,14 +239,6 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKBACK
                     return true
                 }
-
-                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
 
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
@@ -217,9 +253,33 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
+                //判断门
+                if (
+                    ((doorX === x && doorY === playerNextY) || (doorX === weaponNextX && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === x && enemyY === playerNextY) || (enemyX === weaponNextX && enemyY === weaponNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === x && burst.y === playerNextY) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -228,14 +288,6 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
                     return true
                 }
-
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKRIGHT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKRIGHT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
 
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
@@ -250,9 +302,183 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
+                //判断门
+                if (
+                    ((doorX === x && doorY === playerNextY) || (doorX === weaponNextX && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === x && enemyY === playerNextY) || (enemyX === weaponNextX && enemyY === weaponNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                        return true
+                    }
+                }
+
+                // 判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === x && burst.y === playerNextY) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
+
+                //最后判断地图元素
+                if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
+                    // empty
+                } else {
+                    this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                    return true
+                }
+            }
+
+            //按钮方向——向下
+        } else if (type === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
+            const playerNextY = y + 1
+
+            //玩家方向——向上
+            if (direction === DIRECTION_ENUM.TOP) {
+                if (playerNextY > column - 1) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKBACK
+
+                    return true
+                }
+
+                const weaponNextY = y
+                const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
+                const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
+
+                //判断门
+                if (
+                    ((doorX === x && doorY === playerNextY) || (doorX === x && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if (enemyX === x && enemyY === playerNextY) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                        return true
+                    }
+                }
+
+                // 判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === x && burst.y === playerNextY) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
+
+                //最后判断地图元素
+                if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
+                    // empty
+                } else {
+                    this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                    return true
+                }
+
+                //玩家方向——向下
+            } else if (direction === DIRECTION_ENUM.BOTTOM) {
+                if (playerNextY > column - 1) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+
+                    return true
+                }
+
+                const weaponNextY = y + 2
+                const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
+                const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
+
+                //判断门
+                if (
+                    ((doorX === x && doorY === playerNextY) || (doorX === x && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                    return true
+                }
+
+                // 判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === x && enemyY === weaponNextY) || (enemyX === x && enemyY === playerNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === x && burst.y === playerNextY) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
+
+                //最后判断地图元素
+                if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
+                    // empty
+                } else {
+                    this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                    return true
+                }
+
+                //玩家方向——向左
+            } else if (direction === DIRECTION_ENUM.LEFT) {
+                if (playerNextY > column - 1) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+
+                    return true
+                }
+
+                const weaponNextX = x - 1
+                const weaponNextY = y + 1
+                const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
+                const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
+
+                //判断门
+                if (
+                    ((doorX === x && doorY === playerNextY) || (doorX === weaponNextX && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === x && enemyY === playerNextY) || (enemyX === weaponNextX && enemyY === weaponNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === x && burst.y === playerNextY) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -262,18 +488,58 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
-                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
+                //玩家方向——向右
+            } else if (direction === DIRECTION_ENUM.RIGHT) {
+                if (playerNextY > column - 1) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
 
-                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
+                    return true
+                }
 
+                const weaponNextX = x + 1
+                const weaponNextY = y + 1
+                const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
+                const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
+
+                //判断门
+                if (
+                    ((doorX === x && doorY === playerNextY) || (doorX === weaponNextX && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === x && enemyY === playerNextY) || (enemyX === weaponNextX && enemyY === weaponNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === x && burst.y === playerNextY) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
+
+                //最后判断地图元素
+                if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
+                    // empty
+                } else {
+                    this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                    return true
+                }
             }
-        } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.LEFT) {
-            console.log('输入向走')
-            const playerNextY = y - 1
+
+            //按钮方向——向左
+        } else if (type === ENUM_BOTTOM_CONTROLLER.LEFT) {
             const playerNextX = x - 1
 
             //玩家方向——向上
@@ -290,6 +556,34 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
+                //判断门
+                if (
+                    ((doorX === playerNextX && doorY === y) || (doorX === weaponNextX && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === playerNextX && enemyY === y) || (enemyX === weaponNextX && enemyY === weaponNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === playerNextX && burst.y === y) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -297,18 +591,6 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKLEFT
                     return true
                 }
-
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
 
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
@@ -324,6 +606,34 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
+                //判断门
+                if (
+                    ((doorX === playerNextX && doorY === y) || (doorX === weaponNextX && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === playerNextX && enemyY === y) || (enemyX === weaponNextX && enemyY === weaponNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === playerNextX && burst.y === y) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -331,14 +641,6 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
                     return true
                 }
-
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
 
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
@@ -353,6 +655,34 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[y]
 
+                //判断门
+                if (
+                    ((doorX === playerNextX && doorY === y) || (doorX === weaponNextX && doorY === y)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === playerNextX && enemyY === y) || (enemyX === weaponNextX && enemyY === y)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === playerNextX && burst.y === y) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -360,17 +690,6 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKFRONT
                     return true
                 }
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
 
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
@@ -385,6 +704,34 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[y]
 
+                //判断门
+                if (
+                    ((doorX === playerNextX && doorY === y) || (doorX === weaponNextX && doorY === y)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if (enemyX === playerNextX && enemyY === y) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === playerNextX && burst.y === y) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -392,27 +739,15 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKBACK
                     return true
                 }
-
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
             }
 
-        } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.RIGHT) {
-            console.log('输入向右')
+            //按钮方向——向右
+        } else if (type === ENUM_BOTTOM_CONTROLLER.RIGHT) {
             const playerNextX = x + 1
 
             //玩家方向——向上
             if (direction === DIRECTION_ENUM.TOP) {
-                if (playerNextX > mapRowCount - 1) {
+                if (playerNextX > row - 1) {
                     this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
 
                     return true
@@ -423,9 +758,33 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
+                //判断门
+                if (
+                    ((doorX === playerNextX && doorY === y) || (doorX === weaponNextX && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === playerNextX && enemyY === y) || (enemyX === weaponNextX && enemyY === weaponNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === playerNextX && burst.y === y) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -434,17 +793,10 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
                     return true
                 }
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
 
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
-                if (playerNextX > mapRowCount - 1) {
+                if (playerNextX > row - 1) {
                     this.state = ENTITY_STATE_ENUM.BLOCKLEFT
 
                     return true
@@ -455,9 +807,33 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
+                //判断门
+                if (
+                    ((doorX === playerNextX && doorY === y) || (doorX === weaponNextX && doorY === weaponNextY)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === playerNextX && enemyY === y) || (enemyX === weaponNextX && enemyY === weaponNextY)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKLEFT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === playerNextX && burst.y === y) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -467,17 +843,9 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
-                if (playerNextX > mapRowCount - 1) {
+                if (playerNextX > row - 1) {
                     this.state = ENTITY_STATE_ENUM.BLOCKBACK
 
                     return true
@@ -487,9 +855,33 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[y]
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
+                //判断门
+                if (
+                    ((doorX === playerNextX && doorY === y) || (doorX === weaponNextX && doorY === y)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if (enemyX === playerNextX && enemyY === y) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKBACK
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === playerNextX && burst.y === y) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -499,16 +891,9 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
 
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
-                if (playerNextX > mapRowCount - 1) {
+                if (playerNextX > row - 1) {
                     this.state = ENTITY_STATE_ENUM.BLOCKFRONT
 
                     return true
@@ -518,9 +903,33 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[y]
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
+                //判断门
+                if (
+                    ((doorX === playerNextX && doorY === y) || (doorX === weaponNextX && doorY === y)) &&
+                    doorState !== ENTITY_STATE_ENUM.DEATH
+                ) {
+                    this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                    return true
+                }
+
+                //判断敌人
+                for (let i = 0; i < enemies.length; i++) {
+                    const enemy = enemies[i]
+                    const { x: enemyX, y: enemyY } = enemy
+
+                    if ((enemyX === playerNextX && enemyY === y) || (enemyX === weaponNextX && enemyY === y)) {
+                        this.state = ENTITY_STATE_ENUM.BLOCKFRONT
+                        return true
+                    }
+                }
+
+                //判断地裂陷阱
+                if (
+                    bursts.some(burst => burst.x === playerNextX && burst.y === y) &&
+                    (!nextWeaponTile || nextWeaponTile.canTurn)
+                ) {
+                    return false
+                }
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -529,153 +938,10 @@ export class PlayerMrg extends EnitiyMgr {
                     this.state = ENTITY_STATE_ENUM.BLOCKFRONT
                     return true
                 }
-
-                const checkDoor = this.checkCollisionDoor(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
-            }
-        } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
-            console.log('输入向下')
-            let playerNextY = y + 1
-
-            console.log('playerNextY', playerNextY)
-            //玩家方向——向上
-            if (direction === DIRECTION_ENUM.TOP) {
-                if (playerNextY > mapColumCount - 1) {
-                    this.state = ENTITY_STATE_ENUM.BLOCKBACK
-                    return true
-                }
-
-                const weaponNextY = y
-                const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
-                const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
-
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
-                //最后判断地图元素
-                if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
-                    // empty
-                } else {
-                    this.state = ENTITY_STATE_ENUM.BLOCKBACK
-                    return true
-                }
-
-                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
-                //玩家方向——向下
-            } else if (direction === DIRECTION_ENUM.BOTTOM) {
-                if (playerNextY > mapColumCount - 1) {
-                    this.state = ENTITY_STATE_ENUM.BLOCKFRONT
-
-                    return true
-                }
-
-                const weaponNextY = y + 2
-                const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
-                const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
-
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
-
-                //最后判断地图元素
-                if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
-                    // empty
-                } else {
-                    this.state = ENTITY_STATE_ENUM.BLOCKFRONT
-                    return true
-                }
-
-                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
-                //玩家方向——向左
-            } else if (direction === DIRECTION_ENUM.LEFT) {
-                if (playerNextY > mapColumCount - 1) {
-                    this.state = ENTITY_STATE_ENUM.BLOCKLEFT
-
-                    return true
-                }
-
-                const weaponNextX = x - 1
-                const weaponNextY = y + 1
-                const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
-                const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
-
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
-                //最后判断地图元素
-                if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
-                    // empty
-                } else {
-                    this.state = ENTITY_STATE_ENUM.BLOCKLEFT
-                    return true
-                }
-
-                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (!checkEnemy)
-                    return checkEnemy
-
-                //玩家方向——向右
-            } else if (direction === DIRECTION_ENUM.RIGHT) {
-                if (playerNextY > mapColumCount - 1) {
-                    this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
-
-                    return true
-                }
-
-                const weaponNextX = x + 1
-                const weaponNextY = y + 1
-                const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
-                const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
-
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
-                //最后判断地图元素
-                if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
-                    // empty
-                } else {
-                    this.state = ENTITY_STATE_ENUM.BLOCKRIGHT
-                    return true
-                }
-                const checkDoor = this.checkCollisionDoor(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkDoor)
-                    return checkDoor
-
-                const checkEnemy = this.checkCollisionEnenies(playerNextY, weaponNextY, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
-                if (checkEnemy)
-                    return checkEnemy
-
             }
 
-        } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNLEFT) {
+            //按钮方向——左转
+        } else if (type === ENUM_BOTTOM_CONTROLLER.TURNLEFT) {
             let nextY, nextX
             if (direction === DIRECTION_ENUM.TOP) {
                 //朝上左转的话，左上角三个tile都必须turnable为true，并且没有敌人
@@ -734,7 +1000,9 @@ export class PlayerMrg extends EnitiyMgr {
                 this.state = ENTITY_STATE_ENUM.BLOCKTURNLEFT
                 return true
             }
-        } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNRIGHT) {
+
+            //按钮方向——右转
+        } else if (type === ENUM_BOTTOM_CONTROLLER.TURNRIGHT) {
             let nextX, nextY
             if (direction === DIRECTION_ENUM.TOP) {
                 //朝上右转的话，右上角三个tile都必须turnable为true
@@ -793,77 +1061,76 @@ export class PlayerMrg extends EnitiyMgr {
                 this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
                 return true
             }
-
         }
 
         return false
     }
 
-    checkCollisionDoor(playerNext, weaponNext, state: ENTITY_STATE_ENUM, inputDirection: ENUM_BOTTOM_CONTROLLER) {
-        const { tartgetX: x, tartgetY: y, direction } = this
-        const { x: doorX, y: doorY, state: doorState } = DataManager.Instance.doorInfo
+    // checkCollisionDoor(playerNext, weaponNext, state: ENTITY_STATE_ENUM, inputDirection: ENUM_BOTTOM_CONTROLLER) {
+    //     const { targetX: x, targetY: y, direction } = this
+    //     const { x: doorX, y: doorY, state: doorState } = DataManager.Instance.doorInfo
 
-        if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP || inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
-            //判断上下门
-            if (
-                ((doorX === x && doorY === playerNext) || (doorX === x && doorY === weaponNext)) &&
-                doorState !== ENTITY_STATE_ENUM.DEATH
-            ) {
-                this.state = state
-                console.log('撞到了门')
-                return true
-            }
-        } else {
-            //判断左右门
-            if (
-                ((doorX === playerNext && doorY === y) || (doorX === weaponNext && doorY === weaponNext)) &&
-                doorState !== ENTITY_STATE_ENUM.DEATH
-            ) {
-                this.state = state
-                console.log('撞到了门')
-                return true
-            }
-        }
+    //     if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP || inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
+    //         //判断上下门
+    //         if (
+    //             ((doorX === x && doorY === playerNext) || (doorX === x && doorY === weaponNext)) &&
+    //             doorState !== ENTITY_STATE_ENUM.DEATH
+    //         ) {
+    //             this.state = state
+    //             console.log('撞到了门')
+    //             return true
+    //         }
+    //     } else {
+    //         //判断左右门
+    //         if (
+    //             ((doorX === playerNext && doorY === y) || (doorX === weaponNext && doorY === weaponNext)) &&
+    //             doorState !== ENTITY_STATE_ENUM.DEATH
+    //         ) {
+    //             this.state = state
+    //             console.log('撞到了门')
+    //             return true
+    //         }
+    //     }
 
 
 
-        return false
-    }
+    //     return false
+    // }
 
-    checkCollisionEnenies(playerNext, weaponNext, state: ENTITY_STATE_ENUM, inputDirection: ENUM_BOTTOM_CONTROLLER) {
-        const { tartgetX: x, tartgetY: y, direction } = this
-        const enemies: EnemyMgr[] = DataManager.Instance.enemies.filter(enemy => enemy.state != ENTITY_STATE_ENUM.DEATH)
+    // checkCollisionEnenies(playerNext, weaponNext, state: ENTITY_STATE_ENUM, inputDirection: ENUM_BOTTOM_CONTROLLER) {
+    //     const { targetX: x, targetY: y, direction } = this
+    //     const enemies: EnemyMgr[] = DataManager.Instance.enemies.filter(enemy => enemy.state != ENTITY_STATE_ENUM.DEATH)
 
-        if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP || inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
-            for (let i = 0; i < enemies.length; i++) {
-                const enemy = enemies[i]
-                const { x: enemyX, y: enemyY } = enemy
+    //     if (inputDirection === ENUM_BOTTOM_CONTROLLER.TOP || inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
+    //         for (let i = 0; i < enemies.length; i++) {
+    //             const enemy = enemies[i]
+    //             const { x: enemyX, y: enemyY } = enemy
 
-                if ((enemyX === x && enemyY === weaponNext) || (enemyX === x && enemyY === playerNext)) {
-                    this.state = state
-                    console.log('撞到了敌人')
-                    return true
-                }
-            }
-        }
+    //             if ((enemyX === x && enemyY === weaponNext) || (enemyX === x && enemyY === playerNext)) {
+    //                 this.state = state
+    //                 console.log('撞到了敌人')
+    //                 return true
+    //             }
+    //         }
+    //     }
 
-        return false
-    }
+    //     return false
+    // }
 
-    //判断地裂陷阱
-    checkBurstCollision(playerNext, nextWeaponTile, inputDirection: ENUM_BOTTOM_CONTROLLER) {
-        const { tartgetX: x, tartgetY: y, direction } = this
-        const bursts: BurstMgr[] = DataManager.Instance.bursts.filter(
-            (burst: BurstMgr) => burst.state !== ENTITY_STATE_ENUM.DEATH,
-        )
+    // //判断地裂陷阱
+    // checkBurstCollision(playerNext, nextWeaponTile, inputDirection: ENUM_BOTTOM_CONTROLLER) {
+    //     const { targetX: x, targetY: y, direction } = this
+    //     const bursts: BurstMgr[] = DataManager.Instance.bursts.filter(
+    //         (burst: BurstMgr) => burst.state !== ENTITY_STATE_ENUM.DEATH,
+    //     )
 
-        if (
-            bursts.some(burst => burst.x === x && burst.y === playerNext) &&
-            (!nextWeaponTile || nextWeaponTile.canTurn)
-        ) {
-            return false
-        }
-    }
+    //     if (
+    //         bursts.some(burst => burst.x === x && burst.y === playerNext) &&
+    //         (!nextWeaponTile || nextWeaponTile.canTurn)
+    //     ) {
+    //         return false
+    //     }
+    // }
 
     willAttack(inputDirection: ENUM_BOTTOM_CONTROLLER) {
         // let enemies = DataManager.Instance.enemies.filter(enemy => enemy.state != ENTITY_STATE_ENUM.DEATH)
@@ -895,26 +1162,26 @@ export class PlayerMrg extends EnitiyMgr {
             case ENUM_BOTTOM_CONTROLLER.TOP:
                 this.isMoving = true
                 this.onSmokeHandler(direction)
-                this.tartgetY -= 1
-                SoundMgr.Instance.playSound('sound/move')
+                this.targetY -= 1
+                // SoundMgr.Instance.playSound('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.BOTTOM:
                 this.isMoving = true
                 this.onSmokeHandler(direction)
-                this.tartgetY += 1
-                SoundMgr.Instance.playSound('sound/move')
+                this.targetY += 1
+                // SoundMgr.Instance.playSound('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.LEFT:
                 this.isMoving = true
                 this.onSmokeHandler(direction)
-                this.tartgetX -= 1
-                SoundMgr.Instance.playSound('sound/move')
+                this.targetX -= 1
+                // SoundMgr.Instance.playSound('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.RIGHT:
                 this.isMoving = true
                 this.onSmokeHandler(direction)
-                this.tartgetX += 1
-                SoundMgr.Instance.playSound('sound/move')
+                this.targetX += 1
+                // SoundMgr.Instance.playSound('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.TURNLEFT:
                 // this.fsm.setParams(PARAMS_NAME_TYPE.TURNLEFT, true)

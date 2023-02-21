@@ -32,7 +32,7 @@ export class UIBattleScene extends Component {
     bottom: Node = null
 
     start() {
-        SoundMgr.Instance.playMusic('sound/bg', true)
+        // SoundMgr.Instance.playMusic('sound/bg', true)
         DataManager.Instance.levelIndex = 1
         this.generateStage()
         this.initLevel()
@@ -70,8 +70,8 @@ export class UIBattleScene extends Component {
         this.level = levels[`level${DataManager.Instance.levelIndex}`]
         if (this.level) {
             DataManager.Instance.mapInfo = this.level.mapInfo
-            DataManager.Instance.mapColumCount = this.level.mapInfo[0].length //列
-            DataManager.Instance.mapRowCount = this.level.mapInfo.length
+            DataManager.Instance.mapColumCount = this.level.mapInfo[0]?.length || 0//列
+            DataManager.Instance.mapRowCount = this.level.mapInfo.length || 0
         }
 
         await Promise.all([

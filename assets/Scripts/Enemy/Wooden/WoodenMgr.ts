@@ -7,7 +7,6 @@ import { EnitiyMgr } from "../../Base/EnitiyMgr";
 import EventMgr from "../../Base/EventMgr";
 import { PlayerStateMachine } from "../../Player/PlayerStateMachine";
 import DataManager from "../../Runtime/DataManager";
-import SoundMgr from "../../Runtime/SoundMgr";
 import { WoodenStateMachine } from "./WoodenStateMachine";
 
 export const MOVE_SPEED = 1 / 10
