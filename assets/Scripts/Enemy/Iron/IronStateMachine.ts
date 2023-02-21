@@ -4,6 +4,7 @@ import { ENUM_EVENT, ENUM_BOTTOM_CONTROLLER, FSM_PARAMS_TYPE_ENUM, PARAMS_NAME_T
 import { EnitiyMgr } from "../../Base/EnitiyMgr";
 import { getParamsInitNumber, getParamsInitTrigger, StateMachine } from "../../Base/SateMachine";
 import State from "../../Base/State";
+import SoundMgr from "../../Runtime/SoundMgr";
 import DeathIronSubStateMachine from "./DeathIronSubStateMachine";
 import IdleIronSubStateMachine from "./IdleIronSubStateMachine";
 
@@ -44,6 +45,7 @@ export class IronStateMachine extends StateMachine {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDLE)
                 } else if (this.params.get(PARAMS_NAME_TYPE.DEATH).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.DEATH)
+                    SoundMgr.Instance.playSound('sound/enemyDeath')
                 }
                 else {
                     this.currentSate = this.currentSate

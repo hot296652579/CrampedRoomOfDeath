@@ -1,4 +1,4 @@
-import { _decorator, Component, director, ProgressBar, resources } from 'cc'
+import { _decorator, Component, director, ProgressBar, resources, AudioClip } from 'cc'
 import { SCENE_ENUM } from '../../Enum'
 const { ccclass, property } = _decorator
 
@@ -25,9 +25,18 @@ export class LoadingManager extends Component {
                     this.preLoad()
                     return
                 }
-
+                await this.loadSoundRes()
                 director.loadScene(SCENE_ENUM.START)
             },
         )
+    }
+
+    async loadSoundRes() {
+        return new Promise((rs) => {
+            resources.preloadDir('sound', AudioClip, () => {
+                console.log('音频资源预加载完成')
+                rs(null)
+            })
+        })
     }
 }

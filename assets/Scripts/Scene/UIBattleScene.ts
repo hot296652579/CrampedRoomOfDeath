@@ -1,4 +1,4 @@
-import { Component, _decorator, Node } from "cc";
+import { Component, _decorator, Node, AudioSource } from "cc";
 import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENITIY_TYPE_SPIKES_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
@@ -10,6 +10,7 @@ import { PlayerMrg } from "../Player/PlayerMgr";
 import DataManager, { IRecord } from "../Runtime/DataManager";
 import FadeMgr from "../Runtime/FadeMgr";
 import { ShakeManager } from "../Runtime/ShakeManager";
+import SoundMgr from "../Runtime/SoundMgr";
 import { SmokeMgr } from "../Smoke/SmokeMgr";
 import { SpikesMgr } from "../Spikes/SpikesMgr";
 // import { DataManager.Instance } from "../Runtime/DataManager";
@@ -29,6 +30,7 @@ export class UIBattleScene extends Component {
     menu: Node = null
 
     start() {
+        SoundMgr.Instance.playMusic('sound/bg', true)
         DataManager.Instance.levelIndex = 1
         this.generateStage()
         this.initLevel()

@@ -11023,5 +11023,55 @@
   "f8d7ee27-e927-4308-bad3-8de4ad94e548": {
     "url": "db://assets/Scripts/Player/BlockRightSubStateMachine.ts",
     "value": {}
+  },
+  "36c19d35-c1de-4e09-901c-1bd19d398de9": {
+    "url": "db://assets/resources/sound",
+    "value": {}
+  },
+  "e8d2b3d3-d976-458e-bf0f-6ba321db45b5": {
+    "url": "db://assets/resources/sound/attack.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "54c26292-7978-4932-8fb9-67b35fb45de3": {
+    "url": "db://assets/resources/sound/bg.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "03930018-596f-4440-be09-23230fa105c8": {
+    "url": "db://assets/resources/sound/death.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "3c4230ac-9465-4b5c-94c2-359fdc030782": {
+    "url": "db://assets/resources/sound/door.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "42645347-2b93-45d7-b110-1a84122de4dc": {
+    "url": "db://assets/resources/sound/enemyDeath.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "a7107357-8524-4f17-a555-f39a9564d02a": {
+    "url": "db://assets/resources/sound/wingame.mp3",
+    "value": {
+      "depends": []
+    }
+  },
+  "3d4868cf-2171-46c3-a794-123a183385c7": {
+    "url": "db://assets/Scripts/Runtime/SoundMgr.ts",
+    "value": {}
+  },
+  "2e66900f-cf9e-4cd1-91e0-4c07ad6b0bb3": {
+    "url": "db://assets/resources/sound/move.mp3",
+    "value": {
+      "depends": []
+    }
   }
 }

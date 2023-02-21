@@ -2979,7 +2979,7 @@
     "time": 1675257364769.9006
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene/Battle.scene": {
-    "time": 1676894437125.1296,
+    "time": 1676896300686.765,
     "uuid": "c326e8c1-9770-4ea8-808d-1fffa0c92930",
     "missing": false
   },
@@ -3385,7 +3385,7 @@
     "time": 1675087721065.8706
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources": {
-    "time": 1675737511365.768,
+    "time": 1676894549100.061,
     "uuid": "3c9829bc-e06b-423b-9715-fb5471806b34",
     "missing": false
   },
@@ -5635,7 +5635,7 @@
     "time": 1675737450764.051
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
-    "time": 1676894403314.601,
+    "time": 1676945300677.7542,
     "uuid": "69201876-1da9-4a52-b678-87472f04db9f",
     "missing": false
   },
@@ -5678,7 +5678,7 @@
     "time": 1675774560595.5845
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime": {
-    "time": 1676868687034.4805,
+    "time": 1676944542991.7227,
     "uuid": "3ab2933c-6c73-4148-a44b-200f5c0b3902",
     "missing": false
   },
@@ -5755,7 +5755,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1676892913238.0745,
+    "time": 1676947200287.1477,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
@@ -5966,12 +5966,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Wooden/WoodenMgr.ts": {
-    "time": 1676535418425.4824,
+    "time": 1676947147282.672,
     "uuid": "12a30731-c52f-4694-8f99-27844b01e426",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Wooden/WoodenStateMachine.ts": {
-    "time": 1676520431991.58,
+    "time": 1676947053850.0051,
     "uuid": "f3faa662-0b98-4191-ab83-1c196fa2da4d",
     "missing": false
   },
@@ -6003,7 +6003,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Iron/IronStateMachine.ts": {
-    "time": 1676525485601.7346,
+    "time": 1676947111199.3545,
     "uuid": "af322d52-0e72-4c8c-82aa-9f85dfb2cc55",
     "missing": false
   },
@@ -6251,7 +6251,7 @@
     "time": 1675746903951.6077
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene/Start.scene": {
-    "time": 1676891386596.3672,
+    "time": 1676946995914.2532,
     "uuid": "d8f75f86-ab5a-47cf-8f56-4ecc2408b44c",
     "missing": false
   },
@@ -6275,7 +6275,7 @@
     "time": 1676891656631.1348
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UILoadingScene.ts": {
-    "time": 1676892174767.3162,
+    "time": 1676896284543.4512,
     "uuid": "e8b463ce-c04d-4bc8-8480-3bac819895f0",
     "missing": false
   },
@@ -6293,6 +6293,78 @@
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/BlockRightSubStateMachine.ts": {
     "time": 1676892507890.7969,
     "uuid": "f8d7ee27-e927-4308-bad3-8de4ad94e548",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound.meta": {
+    "time": 1676894549101.403
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound": {
+    "time": 1676946995426.1,
+    "uuid": "36c19d35-c1de-4e09-901c-1bd19d398de9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/attack.mp3.meta": {
+    "time": 1676895996981.217
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/bg.mp3.meta": {
+    "time": 1676895996981.7554
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/death.mp3.meta": {
+    "time": 1676895996982.2058
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/door.mp3.meta": {
+    "time": 1676895996982.0188
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/wingame.mp3.meta": {
+    "time": 1676895996988.227
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/attack.mp3": {
+    "time": 1676894870636.49,
+    "uuid": "e8d2b3d3-d976-458e-bf0f-6ba321db45b5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/bg.mp3": {
+    "time": 1676946421051.1567,
+    "uuid": "54c26292-7978-4932-8fb9-67b35fb45de3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/door.mp3": {
+    "time": 1676895211795.7527,
+    "uuid": "3c4230ac-9465-4b5c-94c2-359fdc030782",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/death.mp3": {
+    "time": 1676895325552.514,
+    "uuid": "03930018-596f-4440-be09-23230fa105c8",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/wingame.mp3": {
+    "time": 1676895784089.0586,
+    "uuid": "a7107357-8524-4f17-a555-f39a9564d02a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime/SoundMgr.ts.meta": {
+    "time": 1676944542993.1672
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Runtime/SoundMgr.ts": {
+    "time": 1676945628304.817,
+    "uuid": "3d4868cf-2171-46c3-a794-123a183385c7",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/move.mp3.meta": {
+    "time": 1676946648556.9858
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/move.mp3": {
+    "time": 1676946534078.4773,
+    "uuid": "2e66900f-cf9e-4cd1-91e0-4c07ad6b0bb3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/enemyDeath.mp3.meta": {
+    "time": 1676895996981.5657
+  },
+  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/sound/enemyDeath.mp3": {
+    "time": 1676894791294.8538,
+    "uuid": "42645347-2b93-45d7-b110-1a84122de4dc",
     "missing": false
   }
 }
