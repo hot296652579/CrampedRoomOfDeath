@@ -1,0 +1,19 @@
+{
+  "common": {
+    "outputName": "wechatgame",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "wechatgame",
+    "name": "ComeOnVicky"
+  },
+  "options": {
+    "wechatgame": {
+      "startSceneAssetBundle": false,
+      "orientation": "portrait",
+      "appid": "wxa2f4fc3b2f5d99de",
+      "separateEngine": false,
+      "wasm": "wasm",
+      "enabelWebGL2": "off",
+      "__version__": "1.0.2"
+    }
+  }
+}

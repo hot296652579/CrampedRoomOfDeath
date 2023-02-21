@@ -38,6 +38,8 @@ export class IronStateMachine extends StateMachine {
         switch (this.currentSate) {
             case this.stateMachine.get(PARAMS_NAME_TYPE.TURNLEFT):
             case this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKFRONT):
+            case this.stateMachine.get(PARAMS_NAME_TYPE.DEATH):
+            case this.stateMachine.get(PARAMS_NAME_TYPE.ATTACK):
             case this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKTURNLEFT):
 
             case this.stateMachine.get(PARAMS_NAME_TYPE.IDLE):

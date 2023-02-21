@@ -453,3 +453,164 @@ Function provided here: timer-util.ccc:1:1017
     at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
 2023-02-21T07:31:52.704Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
     at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T08:09:43.828Z - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2023-02-21T08:09:43.828Z - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2023-02-21T08:10:58.528Z - warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db[Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Object.oldDataWarning (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/browserslist/node.js:351:15)  
+at browserslist (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/browserslist/index.js:431:7)  
+at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/core-js-compat/targets-parser.js:39:18  
+at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/core-js-compat/compat.js:28:25  
+at Object.default (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/core-js-builder/index.js:35:26)
+2023-02-21T08:10:58.677Z - warn: [Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating[Build] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating  
+at Object.encode (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Object.oldDataWarning (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@babel/helper-compilation-targets/node_modules/browserslist/node.js:373:15)  
+at browserslist (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@babel/helper-compilation-targets/node_modules/browserslist/index.js:432:7)  
+at resolveTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@babel/helper-compilation-targets/lib/index.js:174:20)  
+at getTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@babel/helper-compilation-targets/lib/index.js:214:27)  
+at resolveTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@babel/core/lib/config/resolve-targets.js:58:50)
+2023-02-21T08:11:08.998Z - warn: [Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+[Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/worker-pools/sub-process-manager.ccc:1:2640)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T08:11:09.112Z - warn: [Build] [build-script]Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+[Build] [build-script]Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+  
+  
+at Object.encode (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/worker-pools/sub-process-manager.ccc:1:2640)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T08:11:13.043Z - warn: [Build] [build-engine]Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+[Build] [build-engine]Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+  
+  
+at Object.encode (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/node_modules/v-stacks/index.js:14:17)  
+at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-worker/static/script.ccc:1:531)  
+at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/worker-pools/sub-process-manager.ccc:1:2640)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T08:12:08.483Z - warn: [Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+[Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/worker-pools/sub-process-manager.ccc:1:2640)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T08:12:15.766Z - error: [Build] - initialize
+
+[Build] - initialize
+
+  
+at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at NewConsole.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1200)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/wechatgame/dist/hooks.ccc:1:11857)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T08:12:15.767Z - error: [Build] ✖ initialize
+
+[Build] ✖ initialize
+
+  
+at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at NewConsole.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1200)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/wechatgame/dist/hooks.ccc:1:11857)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T08:13:08.235Z - error: [Build] - initialize
+
+[Build] - initialize
+
+  
+at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at NewConsole.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1200)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/wechatgame/dist/hooks.ccc:1:11857)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T08:13:08.240Z - error: [Build] ✖ initialize
+
+[Build] ✖ initialize
+
+  
+at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)  
+at Object.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
+at NewConsole.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1200)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/modules/platform-extensions/extensions/wechatgame/dist/hooks.ccc:1:11857)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T08:27:27.156Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIBattleScene.saveRecord (http://localhost:7456/scripting/x/chunks/5d/5db615873702007f7f0b94cdf91e57a658a51569.js:566:67)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at PlayerMrg.handlerMove (http://localhost:7456/scripting/x/chunks/39/392b83e7b387eb87c2f866fdaf9043387c76daff.js:1666:46)
+    at PlayerMrg.inputHanlder (http://localhost:7456/scripting/x/chunks/39/392b83e7b387eb87c2f866fdaf9043387c76daff.js:375:16)
+    at http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:75:25
+    at Array.forEach (<anonymous>)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/f4/f41515c7d197f50ef0d14db6ea1b9565db9145af.js:70:36)
+    at BottomControl.handlerClickDirection (http://localhost:7456/scripting/x/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js:51:46)' : ''

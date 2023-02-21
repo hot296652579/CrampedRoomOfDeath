@@ -95,7 +95,7 @@ export class UIBattleScene extends Component {
     nextLevelMap() {
         DataManager.Instance.levelIndex++
         if (DataManager.Instance.levelIndex > 10) {
-            console.log('通关了！')
+            DataManager.Instance.levelIndex = 1
         }
         this.initLevel()
     }
@@ -227,6 +227,9 @@ export class UIBattleScene extends Component {
     }
 
     saveRecord() {
+        if (!DataManager.Instance.playerInfo)
+            return
+
         const item: IRecord = {
             player: {
                 x: DataManager.Instance.playerInfo.x,
