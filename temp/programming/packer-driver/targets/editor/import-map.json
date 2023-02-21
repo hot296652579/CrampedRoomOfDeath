@@ -76,7 +76,7 @@
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts": "./chunks/f0/f0ff86a8c08be10fd2d16c21cc8c260e73c92958.js",
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIWinMgr.ts": "./chunks/92/923fa366b58f6e6e97c88b2765decc953bfefd55.js",
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": "./chunks/99/999c6377e7b7f6beca8822d973f484eb259ee654.js",
-    "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": "./chunks/5f/5f870fc6da936380d579dc56918f0f60e615afb7.js"
+    "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": "./chunks/8f/8fadad3015ea3573f56f32672f2bde5d2f7f0092.js"
   },
   "scopes": {
     "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js": {
@@ -157,7 +157,7 @@
       "__unresolved_51": "./chunks/fa/fa25fb2477c25d8ba1d629bb93f838362f37bb0a.js",
       "__unresolved_52": "./chunks/d1/d1335a17095a24a724babfcef092b5a4e1dbfde9.js",
       "__unresolved_53": "./chunks/dc/dce70eb8289d94a89c58a189a37781cec40b1ac5.js",
-      "__unresolved_54": "./chunks/5f/5f870fc6da936380d579dc56918f0f60e615afb7.js",
+      "__unresolved_54": "./chunks/8f/8fadad3015ea3573f56f32672f2bde5d2f7f0092.js",
       "__unresolved_55": "./chunks/ea/ea1cd70f2e096e754c05615855f759ffbc76a6f4.js",
       "__unresolved_56": "./chunks/31/31a6d18023842c39820f5b2bc6563dbfc1aebc73.js",
       "__unresolved_57": "./chunks/92/923fa366b58f6e6e97c88b2765decc953bfefd55.js",
@@ -383,7 +383,7 @@
       "__unresolved_1": "./chunks/99/999c6377e7b7f6beca8822d973f484eb259ee654.js",
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
     },
-    "./chunks/5f/5f870fc6da936380d579dc56918f0f60e615afb7.js": {
+    "./chunks/8f/8fadad3015ea3573f56f32672f2bde5d2f7f0092.js": {
       "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
       "__unresolved_1": "./chunks/99/999c6377e7b7f6beca8822d973f484eb259ee654.js",
       "__unresolved_10": "./chunks/2b/2b16969e9fb7fe34feb50ad59a6c319de4d3a28c.js",

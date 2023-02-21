@@ -38,7 +38,7 @@ export class UIBattleScene extends Component {
         // SoundMgr.Instance.playMusic('sound/bg', true)
         AudioMgr.inst.play('sound/bg', 1, true)
 
-        DataManager.Instance.levelIndex = 10
+        DataManager.Instance.levelIndex = 1
         this.generateStage()
         this.initLevel()
 

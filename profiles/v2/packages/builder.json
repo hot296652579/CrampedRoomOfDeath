@@ -30,13 +30,13 @@
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1676970305464": {
+      "1676980373475": {
         "type": "build",
-        "id": "1676970305464",
+        "id": "1676980373475",
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "2023-2-21 18:20 Build success in 33242 ms!",
+        "message": "2023-2-21 19:55 Build success in 16141 ms!",
         "options": {
           "name": "ComeOnVicky",
           "platform": "wechatgame",
@@ -84,7 +84,7 @@
             "wechatgame": {
               "startSceneAssetBundle": false,
               "orientation": "portrait",
-              "appid": "wxa2f4fc3b2f5d99de",
+              "appid": "wxb6870525acf8e0a0",
               "separateEngine": false,
               "wasm": "js",
               "enabelWebGL2": "off",
@@ -93,7 +93,7 @@
           },
           "__version__": "1.3.3"
         },
-        "time": "2023-2-21 18:19",
+        "time": "2023-2-21 19:54",
         "dirty": false
       }
     }

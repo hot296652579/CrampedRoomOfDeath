@@ -283,7 +283,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 10375910.561708,
+      "mTimestamp": 10628661.041582998,
       "chunkId": "14166acc12a0b317150a94085e08c5e54197d508",
       "imports": [
         {
@@ -2530,10 +2530,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
       "mTimestamp": {
-        "mtime": 1676980236578.057,
+        "mtime": 1676980487946.3643,
         "uuid": "69201876-1da9-4a52-b678-87472f04db9f"
       },
-      "chunkId": "3b0917723872f1de36642de8bf5084c7b11b59f2",
+      "chunkId": "52bf5d29e57db1befc9be5a1e5c1c6dcc28cc7c5",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

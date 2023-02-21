@@ -799,3 +799,28 @@ at Socket.emit (events.js:315:20)
 at addChunk (internal/streams/readable.js:309:12)  
 at readableAddChunk (internal/streams/readable.js:284:9)  
 at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T11:52:37.590Z - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2023-02-21T11:52:37.590Z - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2023-02-21T11:52:58.450Z - warn: [Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+[Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/worker-pools/sub-process-manager.ccc:1:2640)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)
+2023-02-21T11:55:10.351Z - warn: [Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+[Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/worker-pools/sub-process-manager.ccc:1:2640)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)

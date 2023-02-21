@@ -26,7 +26,7 @@
     "wechatgame": {
       "startSceneAssetBundle": false,
       "orientation": "portrait",
-      "appid": "wxa2f4fc3b2f5d99de",
+      "appid": "wxb6870525acf8e0a0",
       "separateEngine": false,
       "wasm": "js",
       "enabelWebGL2": "off",
