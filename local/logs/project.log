@@ -398,3 +398,5 @@ myProp = 0;
     at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
 2023-02-21T03:58:34.751Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
     at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
+2023-02-21T05:44:44.772Z - error: [Preview]Cannot read properties of null (reading 'duration')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'duration')
+    at checkEnded (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:202652:88)' : ''
