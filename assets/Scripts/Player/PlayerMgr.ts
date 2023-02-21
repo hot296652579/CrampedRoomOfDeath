@@ -125,7 +125,7 @@ export class PlayerMrg extends EnitiyMgr {
 
     onDeathHanlder(type: ENTITY_STATE_ENUM) {
         this.state = type
-        AudioMgr.inst.playOneShot('sound/atdeathtack')
+        AudioMgr.inst.playOneShot('sound/death')
     }
 
     willBlock(type: ENUM_BOTTOM_CONTROLLER) {
