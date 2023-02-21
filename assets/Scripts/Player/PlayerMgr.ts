@@ -151,6 +151,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
 
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -167,9 +171,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
 
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
@@ -182,6 +183,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const weaponNextY = y
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
+
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -199,10 +204,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 //判断是否超出地图
@@ -215,6 +216,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const weaponNextY = y - 1
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
+
+                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -232,10 +237,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
                 //判断是否超出地图
@@ -249,6 +250,9 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
+                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -266,9 +270,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
             }
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.LEFT) {
             console.log('输入向走')
@@ -422,6 +423,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
+                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -437,10 +442,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
                 if (playerNextX > mapRowCount - 1) {
@@ -454,6 +455,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
+                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -470,10 +475,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 if (playerNextX > mapRowCount - 1) {
@@ -486,6 +487,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[y]
 
+                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -501,11 +506,6 @@ export class PlayerMrg extends EnitiyMgr {
                 const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
                 if (checkEnemy)
                     return checkEnemy
-
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
                 //玩家方向——向右
             } else if (direction === DIRECTION_ENUM.RIGHT) {
                 if (playerNextX > mapRowCount - 1) {
@@ -517,6 +517,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const weaponNextX = x + 2
                 const nextPlayerTile = tileMgrInfo[playerNextX]?.[y]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[y]
+
+                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -533,10 +537,6 @@ export class PlayerMrg extends EnitiyMgr {
                 const checkEnemy = this.checkCollisionEnenies(playerNextX, weaponNextX, ENTITY_STATE_ENUM.BLOCKFRONT, inputDirection)
                 if (checkEnemy)
                     return checkEnemy
-
-                const checkBurst = this.checkBurstCollision(playerNextX, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
 
             }
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.BOTTOM) {
@@ -555,6 +555,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
 
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -571,10 +575,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
                 //玩家方向——向下
             } else if (direction === DIRECTION_ENUM.BOTTOM) {
                 if (playerNextY > mapColumCount - 1) {
@@ -586,6 +586,11 @@ export class PlayerMrg extends EnitiyMgr {
                 const weaponNextY = y + 2
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[x]?.[weaponNextY]
+
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
+
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -603,12 +608,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
-
-
-
                 //玩家方向——向左
             } else if (direction === DIRECTION_ENUM.LEFT) {
                 if (playerNextY > mapColumCount - 1) {
@@ -621,6 +620,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const weaponNextY = y + 1
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
+
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
 
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
@@ -651,6 +654,10 @@ export class PlayerMrg extends EnitiyMgr {
                 const nextPlayerTile = tileMgrInfo[x]?.[playerNextY]
                 const nextWeaponTile = tileMgrInfo[weaponNextX]?.[weaponNextY]
 
+                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
+                if (!checkBurst)
+                    return checkBurst
+
                 //最后判断地图元素
                 if (nextPlayerTile && nextPlayerTile.canMove && (!nextWeaponTile || nextWeaponTile.canTurn)) {
                     // empty
@@ -666,9 +673,6 @@ export class PlayerMrg extends EnitiyMgr {
                 if (checkEnemy)
                     return checkEnemy
 
-                const checkBurst = this.checkBurstCollision(playerNextY, nextWeaponTile, inputDirection)
-                if (!checkBurst)
-                    return checkBurst
             }
 
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNLEFT) {
@@ -688,18 +692,6 @@ export class PlayerMrg extends EnitiyMgr {
                 nextX = x + 1
             }
 
-            //最后判断地图元素
-            if (
-                (!tileMgrInfo[x]?.[nextY] || tileMgrInfo[x]?.[nextY].canTurn) &&
-                (!tileMgrInfo[nextX]?.[y] || tileMgrInfo[nextX]?.[y].canTurn) &&
-                (!tileMgrInfo[nextX]?.[nextY] || tileMgrInfo[nextX]?.[nextY].canTurn)
-            ) {
-                // empty
-            } else {
-                this.state = ENTITY_STATE_ENUM.BLOCKTURNLEFT
-                return true
-            }
-
             //判断门
             if (
                 ((doorX === x && doorY === nextY) ||
@@ -729,6 +721,18 @@ export class PlayerMrg extends EnitiyMgr {
 
                     return true
                 }
+            }
+
+            //最后判断地图元素
+            if (
+                (!tileMgrInfo[x]?.[nextY] || tileMgrInfo[x]?.[nextY].canTurn) &&
+                (!tileMgrInfo[nextX]?.[y] || tileMgrInfo[nextX]?.[y].canTurn) &&
+                (!tileMgrInfo[nextX]?.[nextY] || tileMgrInfo[nextX]?.[nextY].canTurn)
+            ) {
+                // empty
+            } else {
+                this.state = ENTITY_STATE_ENUM.BLOCKTURNLEFT
+                return true
             }
         } else if (inputDirection === ENUM_BOTTOM_CONTROLLER.TURNRIGHT) {
             let nextX, nextY
@@ -747,18 +751,6 @@ export class PlayerMrg extends EnitiyMgr {
                 nextX = x + 1
             }
 
-            //最后判断地图元素
-            if (
-                (!tileMgrInfo[x]?.[nextY] || tileMgrInfo[x]?.[nextY].canTurn) &&
-                (!tileMgrInfo[nextX]?.[y] || tileMgrInfo[nextX]?.[y].canTurn) &&
-                (!tileMgrInfo[nextX]?.[nextY] || tileMgrInfo[nextX]?.[nextY].canTurn)
-            ) {
-                // empty
-            } else {
-                this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
-                return true
-            }
-
             //判断门
             if (
                 ((doorX === x && doorY === nextY) ||
@@ -789,6 +781,19 @@ export class PlayerMrg extends EnitiyMgr {
                     return true
                 }
             }
+
+            //最后判断地图元素
+            if (
+                (!tileMgrInfo[x]?.[nextY] || tileMgrInfo[x]?.[nextY].canTurn) &&
+                (!tileMgrInfo[nextX]?.[y] || tileMgrInfo[nextX]?.[y].canTurn) &&
+                (!tileMgrInfo[nextX]?.[nextY] || tileMgrInfo[nextX]?.[nextY].canTurn)
+            ) {
+                // empty
+            } else {
+                this.state = ENTITY_STATE_ENUM.BLOCKTURNRIGHT
+                return true
+            }
+
         }
 
         return false

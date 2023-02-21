@@ -28,14 +28,17 @@ export class UIBattleScene extends Component {
     fadeInit = false
     @property(Node)
     menu: Node = null
+    @property(Node)
+    bottom: Node = null
 
     start() {
         SoundMgr.Instance.playMusic('sound/bg', true)
-        DataManager.Instance.levelIndex = 3
+        DataManager.Instance.levelIndex = 9
         this.generateStage()
         this.initLevel()
 
         this.menu.setSiblingIndex(10)
+        this.bottom.setSiblingIndex(11)
     }
 
     onLoad() {
