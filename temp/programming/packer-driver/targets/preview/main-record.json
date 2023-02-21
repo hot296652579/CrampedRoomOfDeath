@@ -283,8 +283,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4253.354000002146,
-      "chunkId": "c01295ab7e74aea46fbe4de70a54564305147acc",
+      "mTimestamp": 10375910.561708,
+      "chunkId": "14166acc12a0b317150a94085e08c5e54197d508",
       "imports": [
         {
           "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts",
@@ -1085,7 +1085,7 @@
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/DeathSubStateMachine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIWinMgr.ts",
           "resolved": "__unresolved_57",
           "loc": {
             "start": {
@@ -1094,12 +1094,12 @@
             },
             "end": {
               "line": 61,
-              "column": 118
+              "column": 106
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/IdleSubStateMachine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/DeathSubStateMachine.ts",
           "resolved": "__unresolved_58",
           "loc": {
             "start": {
@@ -1108,12 +1108,12 @@
             },
             "end": {
               "line": 62,
-              "column": 117
+              "column": 118
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/SmokeMgr.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/IdleSubStateMachine.ts",
           "resolved": "__unresolved_59",
           "loc": {
             "start": {
@@ -1122,12 +1122,12 @@
             },
             "end": {
               "line": 63,
-              "column": 106
+              "column": 117
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/SmokeStateMachine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/SmokeMgr.ts",
           "resolved": "__unresolved_60",
           "loc": {
             "start": {
@@ -1136,12 +1136,12 @@
             },
             "end": {
               "line": 64,
-              "column": 115
+              "column": 106
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/SmokeStateMachine.ts",
           "resolved": "__unresolved_61",
           "loc": {
             "start": {
@@ -1150,12 +1150,12 @@
             },
             "end": {
               "line": 65,
-              "column": 116
+              "column": 115
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesFourStateMahine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts",
           "resolved": "__unresolved_62",
           "loc": {
             "start": {
@@ -1164,12 +1164,12 @@
             },
             "end": {
               "line": 66,
-              "column": 120
+              "column": 116
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesFourStateMahine.ts",
           "resolved": "__unresolved_63",
           "loc": {
             "start": {
@@ -1178,12 +1178,12 @@
             },
             "end": {
               "line": 67,
-              "column": 108
+              "column": 120
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesOneSubStateMachine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts",
           "resolved": "__unresolved_64",
           "loc": {
             "start": {
@@ -1192,12 +1192,12 @@
             },
             "end": {
               "line": 68,
-              "column": 123
+              "column": 108
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesSubStateMahine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesOneSubStateMachine.ts",
           "resolved": "__unresolved_65",
           "loc": {
             "start": {
@@ -1206,12 +1206,12 @@
             },
             "end": {
               "line": 69,
-              "column": 119
+              "column": 123
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesThreeStateMachine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesSubStateMahine.ts",
           "resolved": "__unresolved_66",
           "loc": {
             "start": {
@@ -1220,12 +1220,12 @@
             },
             "end": {
               "line": 70,
-              "column": 122
+              "column": 119
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesTwoSubStateMachine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesThreeStateMachine.ts",
           "resolved": "__unresolved_67",
           "loc": {
             "start": {
@@ -1234,12 +1234,12 @@
             },
             "end": {
               "line": 71,
-              "column": 123
+              "column": 122
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/TileMap/TileManager.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesTwoSubStateMachine.ts",
           "resolved": "__unresolved_68",
           "loc": {
             "start": {
@@ -1248,12 +1248,12 @@
             },
             "end": {
               "line": 72,
-              "column": 111
+              "column": 123
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/TileMap/TileMapManager.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/TileMap/TileManager.ts",
           "resolved": "__unresolved_69",
           "loc": {
             "start": {
@@ -1262,12 +1262,12 @@
             },
             "end": {
               "line": 73,
-              "column": 114
+              "column": 111
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/UI/BottomControl.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/TileMap/TileMapManager.ts",
           "resolved": "__unresolved_70",
           "loc": {
             "start": {
@@ -1276,12 +1276,12 @@
             },
             "end": {
               "line": 74,
-              "column": 108
+              "column": 114
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/UI/DrawManager.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/UI/BottomControl.ts",
           "resolved": "__unresolved_71",
           "loc": {
             "start": {
@@ -1290,12 +1290,12 @@
             },
             "end": {
               "line": 75,
-              "column": 106
+              "column": 108
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/UI/MenuMgr.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/UI/DrawManager.ts",
           "resolved": "__unresolved_72",
           "loc": {
             "start": {
@@ -1304,12 +1304,12 @@
             },
             "end": {
               "line": 76,
-              "column": 102
+              "column": 106
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Utils/index.ts",
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/UI/MenuMgr.ts",
           "resolved": "__unresolved_73",
           "loc": {
             "start": {
@@ -1318,6 +1318,20 @@
             },
             "end": {
               "line": 77,
+              "column": 102
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Utils/index.ts",
+          "resolved": "__unresolved_74",
+          "loc": {
+            "start": {
+              "line": 78,
+              "column": 7
+            },
+            "end": {
+              "line": 78,
               "column": 103
             }
           }
@@ -1727,6 +1741,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIWinMgr.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Smoke/DeathSubStateMachine.ts"
           },
           "messages": []
@@ -1847,10 +1868,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
       "mTimestamp": {
-        "mtime": 1676962305701.7588,
+        "mtime": 1676979474485.4556,
         "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125"
       },
-      "chunkId": "951201a9d1e2e58fdfab0168ed8392d5a85a089c",
+      "chunkId": "999c6377e7b7f6beca8822d973f484eb259ee654",
       "imports": [
         {
           "value": "cc"
@@ -2509,10 +2530,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
       "mTimestamp": {
-        "mtime": 1676968199796.057,
+        "mtime": 1676980236578.057,
         "uuid": "69201876-1da9-4a52-b678-87472f04db9f"
       },
-      "chunkId": "96f6dd3cc318e9c3cbad2958aeca1003a50e0289",
+      "chunkId": "3b0917723872f1de36642de8bf5084c7b11b59f2",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -9324,7 +9345,7 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts": {
       "mTimestamp": {
-        "mtime": 1676876937005.4197,
+        "mtime": 1676979219192.3594,
         "uuid": "1e98f3da-8415-4a6b-b505-46ad307f4fdf"
       },
       "chunkId": "36a49921f611cae540ee588537a264c94d742461",
@@ -9343,11 +9364,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 1,
+              "line": 2,
               "column": 145
             },
             "end": {
-              "line": 1,
+              "line": 2,
               "column": 149
             }
           }
@@ -9357,11 +9378,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 2,
+              "line": 3,
               "column": 203
             },
             "end": {
-              "line": 2,
+              "line": 3,
               "column": 215
             }
           }
@@ -9371,11 +9392,11 @@
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 4,
+              "line": 5,
               "column": 21
             },
             "end": {
-              "line": 4,
+              "line": 5,
               "column": 39
             }
           }
@@ -9385,11 +9406,11 @@
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 7,
               "column": 24
             },
             "end": {
-              "line": 6,
+              "line": 7,
               "column": 48
             }
           }
@@ -9399,11 +9420,11 @@
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
-              "line": 7,
+              "line": 8,
               "column": 40
             },
             "end": {
-              "line": 7,
+              "line": 8,
               "column": 64
             }
           }
@@ -9413,11 +9434,11 @@
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
-              "line": 10,
+              "line": 11,
               "column": 47
             },
             "end": {
-              "line": 10,
+              "line": 11,
               "column": 57
             }
           }
@@ -9427,11 +9448,11 @@
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
-              "line": 13,
+              "line": 14,
               "column": 34
             },
             "end": {
-              "line": 13,
+              "line": 14,
               "column": 55
             }
           }
@@ -10022,10 +10043,10 @@
     },
     "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Levels/level10.ts": {
       "mTimestamp": {
-        "mtime": 1676958248136.4517,
+        "mtime": 1676979249825.0107,
         "uuid": "77600f1e-7592-494c-ab6a-46fa2f10b25d"
       },
-      "chunkId": "2709b12c47a514023668a38cb12fc0cdf79bab7f",
+      "chunkId": "9c86055da3b933223912e00ba63a9fd38331f3e1",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -11856,6 +11877,111 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIWinMgr.ts": {
+      "mTimestamp": {
+        "mtime": 1676979497442.2375,
+        "uuid": "5171e538-1bb3-41b8-8953-4130e6ecaca2"
+      },
+      "chunkId": "38f509f990bc8a9dbf58545d4bb2194802ef9b9f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../../Enum",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 117
+            },
+            "end": {
+              "line": 2,
+              "column": 129
+            }
+          }
+        },
+        {
+          "value": "../Base/EventMgr",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 21
+            },
+            "end": {
+              "line": 4,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/EventMgr.ts"
           },
           "messages": []
         }

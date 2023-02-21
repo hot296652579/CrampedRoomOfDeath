@@ -31,17 +31,20 @@ export class UIBattleScene extends Component {
     menu: Node = null
     @property(Node)
     bottom: Node = null
+    @property(Node)
+    win: Node = null
 
     start() {
         // SoundMgr.Instance.playMusic('sound/bg', true)
         AudioMgr.inst.play('sound/bg', 1, true)
 
-        DataManager.Instance.levelIndex = 1
+        DataManager.Instance.levelIndex = 10
         this.generateStage()
         this.initLevel()
 
         this.menu.setSiblingIndex(10)
         this.bottom.setSiblingIndex(11)
+        this.win.setSiblingIndex(12)
     }
 
     onLoad() {
@@ -51,6 +54,7 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RECORD_STEP, this.saveRecord, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_WIN_RESTART_GAME, this.winRestartGame, this)
     }
 
     onDestry() {
@@ -60,6 +64,7 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RECORD_STEP, this.saveRecord)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_WIN_RESTART_GAME, this.winRestartGame)
     }
 
     async initLevel() {
@@ -92,10 +97,17 @@ export class UIBattleScene extends Component {
         this.fadeInit = true
     }
 
+    winRestartGame() {
+        this.win.active = false
+        DataManager.Instance.levelIndex = 1
+        this.initLevel()
+    }
+
     nextLevelMap() {
         DataManager.Instance.levelIndex++
         if (DataManager.Instance.levelIndex > 10) {
-            DataManager.Instance.levelIndex = 1
+            this.win.active = true
+            return
         }
         this.initLevel()
     }

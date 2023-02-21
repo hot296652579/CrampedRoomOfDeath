@@ -8757,6 +8757,13 @@
         "0d4bbcc3-f346-4cac-9424-63144a385768@eb528",
         "0d4bbcc3-f346-4cac-9424-63144a385768@11e18",
         "0d4bbcc3-f346-4cac-9424-63144a385768@11e18",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "0d4bbcc3-f346-4cac-9424-63144a385768@11e18",
+        "0d4bbcc3-f346-4cac-9424-63144a385768@11e18",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "e158bf54-7c7e-407d-aed1-979354be8f55@f9941",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
@@ -11080,6 +11087,32 @@
   },
   "0aad10e6-97b5-4f55-88d2-8d609d919192": {
     "url": "db://assets/Scripts/Runtime/AudioMgr.ts",
+    "value": {}
+  },
+  "e158bf54-7c7e-407d-aed1-979354be8f55": {
+    "url": "db://assets/resources/texture/dog.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "e158bf54-7c7e-407d-aed1-979354be8f55@6c48a": {
+    "url": "db://assets/resources/texture/dog.jpg@6c48a",
+    "value": {
+      "depends": [
+        "e158bf54-7c7e-407d-aed1-979354be8f55"
+      ]
+    }
+  },
+  "e158bf54-7c7e-407d-aed1-979354be8f55@f9941": {
+    "url": "db://assets/resources/texture/dog.jpg@f9941",
+    "value": {
+      "depends": [
+        "e158bf54-7c7e-407d-aed1-979354be8f55@6c48a"
+      ]
+    }
+  },
+  "5171e538-1bb3-41b8-8953-4130e6ecaca2": {
+    "url": "db://assets/Scripts/Scene/UIWinMgr.ts",
     "value": {}
   }
 }

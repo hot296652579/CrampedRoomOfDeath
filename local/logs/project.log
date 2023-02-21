@@ -789,3 +789,13 @@ myProp = 0;
 2023-02-21T10:15:26.569Z - info: [Scene] [PHYSICS]: using builtin.
 2023-02-21T10:15:26.626Z - log: [Scene] Cocos Creator v3.6.0
 2023-02-21T10:15:26.626Z - info: [Scene] Forward render pipeline initialized.
+2023-02-21T10:19:50.457Z - warn: [Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+[Build] [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
+  
+at Object.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1260)  
+at NewConsole.warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/console.ccc:1:1306)  
+at Socket.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/worker-pools/sub-process-manager.ccc:1:2640)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)

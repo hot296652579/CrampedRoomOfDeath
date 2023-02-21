@@ -285,13 +285,13 @@ const enemies: Array<IEnitiy> = [
         state: ENTITY_STATE_ENUM.IDLE,
         type: ENITIY_TYPE_ENUM.WOODEN,
     },
-    {
-        x: 2,
-        y: 4,
-        direction: DIRECTION_ENUM.BOTTOM,
-        state: ENTITY_STATE_ENUM.IDLE,
-        type: ENITIY_TYPE_ENUM.WOODEN,
-    },
+    // {
+    //     x: 2,
+    //     y: 4,
+    //     direction: DIRECTION_ENUM.BOTTOM,
+    //     state: ENTITY_STATE_ENUM.IDLE,
+    //     type: ENITIY_TYPE_ENUM.WOODEN,
+    // },
     {
         x: 5,
         y: 5,
@@ -305,7 +305,7 @@ const spikes: Array<ISpikes> = [
     {
         x: 4,
         y: 3,
-        type: ENITIY_TYPE_SPIKES_ENUM.SPIKES_THREE,
+        type: ENITIY_TYPE_SPIKES_ENUM.SPIKES_FOUR,
         count: 0,
     },
 ];
