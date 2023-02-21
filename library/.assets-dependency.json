@@ -503,14 +503,8 @@
     "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/death/left/death.plist": [
       "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/death/left/death.png"
     ],
-    "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/bottom/idle.plist": [
-      "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/bottom/idle.png"
-    ],
     "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/death/top/death.plist": [
       "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/death/top/death.png"
-    ],
-    "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/left/idle.plist": [
-      "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/left/idle.png"
     ],
     "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/right/idle.plist": [
       "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/right/idle.png"
@@ -646,6 +640,12 @@
     ],
     "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/tile/tile.plist": [
       "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/tile/tile.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/bottom/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/bottom/idle.png"
+    ],
+    "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/left/idle.plist": [
+      "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/left/idle.png"
     ]
   }
 }

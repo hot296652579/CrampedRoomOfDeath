@@ -2979,16 +2979,8 @@
     "time": 1675257364769.9006
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene/Battle.scene": {
-    "time": 1676959937782.8083,
+    "time": 1676974586010.6487,
     "uuid": "c326e8c1-9770-4ea8-808d-1fffa0c92930",
-    "missing": false
-  },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Prefab.meta": {
-    "time": 1675735742395.8801
-  },
-  "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Prefab": {
-    "time": 1675735742392.9062,
-    "uuid": "5d50ed37-5bb9-410d-9f76-1222bd7019da",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources.meta": {
@@ -3810,12 +3802,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/bottom": {
-    "time": 1675087721043.5815,
+    "time": 1676968566646.1887,
     "uuid": "0c251cb4-7c8f-4f38-a996-6f0239a6eeca",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/left": {
-    "time": 1675087721044.025,
+    "time": 1676968601422.7952,
     "uuid": "30ea9f17-6510-493c-91f7-88a1ecc3849a",
     "missing": false
   },
@@ -5148,12 +5140,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/bottom/idle.png": {
-    "time": 1675087721043.5442,
+    "time": 1676939750000,
     "uuid": "c185edc2-c3a7-4bed-b43b-9b8626335cb4",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/resources/texture/player/idle/left/idle.png": {
-    "time": 1675087721043.9907,
+    "time": 1676939794000,
     "uuid": "4587d893-cdca-4964-b6cd-5e3d6c4ed5c1",
     "missing": false
   },
@@ -5848,7 +5840,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy": {
-    "time": 1676520504466.1885,
+    "time": 1676968798768.7092,
     "uuid": "8f92a0a4-c57a-428c-88a4-8c783c1b9e1f",
     "missing": false
   },
@@ -6259,7 +6251,7 @@
     "time": 1675746903950.3196
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/scene/Loading.scene": {
-    "time": 1676965962756.1938,
+    "time": 1676968238381.6416,
     "uuid": "958cbe63-a4b1-4a85-8084-07a8de171c67",
     "missing": false
   },

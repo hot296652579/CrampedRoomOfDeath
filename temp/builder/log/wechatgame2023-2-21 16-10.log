@@ -1,1096 +1,0 @@
-2023-2-21 16:10-debug: =================================== Build Task (wechatgame) Start ================================
-2023-2-21 16:10-debug: // ---- cocos-service:(onBeforeBuild) ----
-2023-2-21 16:10-debug: Process: heapTotal 214.80MB heapUsed 188.16MB rss 202.31MB
-2023-2-21 16:10-debug: Start build task, options:{"name":"ComeOnVicky","platform":"wechatgame","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","replaceSplashScreen":false,"compressTexture":true,"packAutoAtlas":true,"startScene":"c326e8c1-9770-4ea8-808d-1fffa0c92930","outputName":"wechatgame","scenes":[{"url":"db://assets/scene/Battle.scene","uuid":"c326e8c1-9770-4ea8-808d-1fffa0c92930","inBundle":false},{"url":"db://assets/scene/Loading.scene","uuid":"958cbe63-a4b1-4a85-8084-07a8de171c67","inBundle":false},{"url":"db://assets/scene/Start.scene","uuid":"d8f75f86-ab5a-47cf-8f56-4ecc2408b44c","inBundle":false}],"web-desktop":[],"packages":{"cocos-service":{"configID":"13a932","services":[]},"wechatgame":{"startSceneAssetBundle":false,"orientation":"portrait","appid":"wxa2f4fc3b2f5d99de","separateEngine":false,"wasm":"wasm","enabelWebGL2":"off","__version__":"1.0.2"}},"__version__":"1.3.3","wechatgame":[]}
-2023-2-21 16:10-debug: Build with Cocos Creator 3.6.0
-2023-2-21 16:10-debug: cocos-service:(onBeforeBuild) start...0%
-2023-2-21 16:10-debug: // ---- cocos-service:(onBeforeBuild) success ----
-2023-2-21 16:10-debug: Query all assets info in project
-2023-2-21 16:10-debug: cocos-service:(onBeforeBuild)2%
-2023-2-21 16:10-debug: init custom config: keepNodeUuid: false, useCache: true
-2023-2-21 16:10-debug: BuildAssetLibrary query-assets with assets 595
-2023-2-21 16:10-debug:   Number of other assets: 1901
-2023-2-21 16:10-debug: wechatgame:(onAfterInit) start...2%
-2023-2-21 16:10-debug: // ---- wechatgame:(onAfterInit) ----
-2023-2-21 16:10-debug:   Number of all scripts: 74
-2023-2-21 16:10-debug:   Number of all scenes: 3
-2023-2-21 16:10-debug: Process: heapTotal 212.61MB heapUsed 184.44MB rss 214.84MB
-2023-2-21 16:10-debug: BuildAssetLibrary initialized with asset 1342!
-2023-2-21 16:10-debug: // ---- wechatgame:(onAfterInit) success ----
-2023-2-21 16:10-debug: Process: heapTotal 212.61MB heapUsed 184.48MB rss 214.89MB
-2023-2-21 16:10-debug: cocos-service:(onAfterInit) start...4%
-2023-2-21 16:10-debug: // ---- cocos-service:(onAfterInit) ----
-2023-2-21 16:10-debug: wechatgame:(onAfterInit)4%
-2023-2-21 16:10-debug: // ---- cocos-service:(onAfterInit) success ----
-2023-2-21 16:10-debug: Process: heapTotal 212.61MB heapUsed 184.52MB rss 214.92MB
-2023-2-21 16:10-debug: localization-editor:(onAfterInit) start...7%
-2023-2-21 16:10-debug: // ---- localization-editor:(onAfterInit) ----
-2023-2-21 16:10-debug: cocos-service:(onAfterInit)7%
-2023-2-21 16:10-debug: // ---- localization-editor:(onAfterInit) success ----
-2023-2-21 16:10-debug: Process: heapTotal 212.61MB heapUsed 184.55MB rss 214.94MB
-2023-2-21 16:10-debug: reload all scripts.
-2023-2-21 16:10-log: // ---- 加载刷新项目脚本 ----
-2023-2-21 16:10-debug: 加载刷新项目脚本 start9%
-2023-2-21 16:10-debug: localization-editor:(onAfterInit)9%
-2023-2-21 16:10-debug: Incremental keys: 
-2023-2-21 16:10-debug: Set detail map pack:///resolution-detail-map.json: {}
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js" loaded.
-2023-2-21 16:10-debug: Invalidating 'pack:///chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js'
-2023-2-21 16:10-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/10/10ea03a41c9fd05abc5a4deb175d0bac1438a8ec.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/10/10ea03a41c9fd05abc5a4deb175d0bac1438a8ec.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/10/10ea03a41c9fd05abc5a4deb175d0bac1438a8ec.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/95/951201a9d1e2e58fdfab0168ed8392d5a85a089c.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/95/951201a9d1e2e58fdfab0168ed8392d5a85a089c.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/95/951201a9d1e2e58fdfab0168ed8392d5a85a089c.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/45/459872c59ff40182f50e2ebab7ad7d100420fe8b.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/45/459872c59ff40182f50e2ebab7ad7d100420fe8b.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b2/b27a32a3dfbdf3e8654cddf0848357934e836f00.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b2/b27a32a3dfbdf3e8654cddf0848357934e836f00.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/53/533db371f38589219aec1ec0b836dc5b19a114c6.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/53/533db371f38589219aec1ec0b836dc5b19a114c6.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/5e/5e0fd654666127dc61950ee2c8320768727c2af8.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/5e/5e0fd654666127dc61950ee2c8320768727c2af8.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/43/43f7a5959f8ca40d56365fd2261a5e3ffb7f3f94.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/43/43f7a5959f8ca40d56365fd2261a5e3ffb7f3f94.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/34/3469d93ce18d6e2f8893f9ce1d938b17d79b46e0.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/34/3469d93ce18d6e2f8893f9ce1d938b17d79b46e0.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/9b/9bacda2fbe41b5a7da9242b29c4c1b0d5f96219e.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/9b/9bacda2fbe41b5a7da9242b29c4c1b0d5f96219e.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b4/b49ec5d28e03938d07b7d0dbaf12f4d86c8ad7cc.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b4/b49ec5d28e03938d07b7d0dbaf12f4d86c8ad7cc.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ab/ab97aaa1618637615369fbade526ebb5862cd420.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ab/ab97aaa1618637615369fbade526ebb5862cd420.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/c2/c298828ac935168caf7d5cec516513497eb91893.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/c2/c298828ac935168caf7d5cec516513497eb91893.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/27/2709b12c47a514023668a38cb12fc0cdf79bab7f.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/27/2709b12c47a514023668a38cb12fc0cdf79bab7f.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/5e/5e0fd654666127dc61950ee2c8320768727c2af8.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/53/533db371f38589219aec1ec0b836dc5b19a114c6.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/43/43f7a5959f8ca40d56365fd2261a5e3ffb7f3f94.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/34/3469d93ce18d6e2f8893f9ce1d938b17d79b46e0.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/9b/9bacda2fbe41b5a7da9242b29c4c1b0d5f96219e.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/b4/b49ec5d28e03938d07b7d0dbaf12f4d86c8ad7cc.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/c2/c298828ac935168caf7d5cec516513497eb91893.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/45/459872c59ff40182f50e2ebab7ad7d100420fe8b.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/27/2709b12c47a514023668a38cb12fc0cdf79bab7f.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ab/ab97aaa1618637615369fbade526ebb5862cd420.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/b2/b27a32a3dfbdf3e8654cddf0848357934e836f00.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/6e/6ee965063df12a8094f86f02aecc75fbfcc285a2.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/6e/6ee965063df12a8094f86f02aecc75fbfcc285a2.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/e9/e929419e76393823bb83356f4b9f18e3c5ce0b88.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/e9/e929419e76393823bb83356f4b9f18e3c5ce0b88.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register SubStateMachine
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/e9/e929419e76393823bb83356f4b9f18e3c5ce0b88.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/6e/6ee965063df12a8094f86f02aecc75fbfcc285a2.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ff/ff7c09134c07cb92125d2f31dfab84b138ee7143.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ff/ff7c09134c07cb92125d2f31dfab84b138ee7143.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/15/151bb3b3754fb3bfd217766e1f1b12fe675efeee.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/15/151bb3b3754fb3bfd217766e1f1b12fe675efeee.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/34/34162010f98ce6639bdbb4fa15ed7a6aa9ea327b.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/34/34162010f98ce6639bdbb4fa15ed7a6aa9ea327b.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/2b/2b16969e9fb7fe34feb50ad59a6c319de4d3a28c.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/2b/2b16969e9fb7fe34feb50ad59a6c319de4d3a28c.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/e4/e459f7f4347a2051041e04fb443a0d876a31d458.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/e4/e459f7f4347a2051041e04fb443a0d876a31d458.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/17/173c46979f3043b86ec8851fc3494f12bfabc8c9.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/17/173c46979f3043b86ec8851fc3494f12bfabc8c9.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register TileManager
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ae/aee4f2dfc97cdbe625228b5ec761f65b76c916de.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/17/173c46979f3043b86ec8851fc3494f12bfabc8c9.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register EnitiyMgr
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/34/34162010f98ce6639bdbb4fa15ed7a6aa9ea327b.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/15/151bb3b3754fb3bfd217766e1f1b12fe675efeee.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register EnemyMgr
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ff/ff7c09134c07cb92125d2f31dfab84b138ee7143.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/2b/2b16969e9fb7fe34feb50ad59a6c319de4d3a28c.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ae/aee4f2dfc97cdbe625228b5ec761f65b76c916de.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ae/aee4f2dfc97cdbe625228b5ec761f65b76c916de.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/e4/e459f7f4347a2051041e04fb443a0d876a31d458.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/bb/bbed8d9f0275ab1c051f06f6237c30cb392bf7a5.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/bb/bbed8d9f0275ab1c051f06f6237c30cb392bf7a5.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/bb/bbed8d9f0275ab1c051f06f6237c30cb392bf7a5.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/0d/0db7d82612d774a02a8ba0fc236f19f70a4a858e.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/0d/0db7d82612d774a02a8ba0fc236f19f70a4a858e.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register StateMachine
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/0d/0db7d82612d774a02a8ba0fc236f19f70a4a858e.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/0d/0d1a61e79885b58c9fc54e7f8086871716e3d057.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/0d/0d1a61e79885b58c9fc54e7f8086871716e3d057.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/0d/0d1a61e79885b58c9fc54e7f8086871716e3d057.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ef/efa55c907b4f3974e43f3530526974748040f5d8.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ef/efa55c907b4f3974e43f3530526974748040f5d8.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/e1/e19e2d809846c114a666ff50fdaab1b95df0ffb8.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/e1/e19e2d809846c114a666ff50fdaab1b95df0ffb8.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register BurstStateMachine
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ef/efa55c907b4f3974e43f3530526974748040f5d8.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register BurstMgr
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/e1/e19e2d809846c114a666ff50fdaab1b95df0ffb8.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/d3/d3aa55fd487cc9159fb8369011f8ed93f09e7c64.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/d3/d3aa55fd487cc9159fb8369011f8ed93f09e7c64.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/d3/d3aa55fd487cc9159fb8369011f8ed93f09e7c64.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/c4/c47395df5017f584f62ce68afd72dbf5b77ea17f.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/c4/c47395df5017f584f62ce68afd72dbf5b77ea17f.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1a/1aadd222d7d9a171c0d8b66e5db1dc4c0eff4624.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1a/1aadd222d7d9a171c0d8b66e5db1dc4c0eff4624.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/86/863b6c917e23809aab4767d60b5512d203f586f6.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/86/863b6c917e23809aab4767d60b5512d203f586f6.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register DoorMgr
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/c4/c47395df5017f584f62ce68afd72dbf5b77ea17f.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register DoorStateMachine
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/86/863b6c917e23809aab4767d60b5512d203f586f6.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/1a/1aadd222d7d9a171c0d8b66e5db1dc4c0eff4624.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/65/65a8ddf87c1e8598f9600236a69904f265e75835.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/65/65a8ddf87c1e8598f9600236a69904f265e75835.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/65/65a8ddf87c1e8598f9600236a69904f265e75835.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/13/13499d52e399b93f4bd2b9bb8b0b3fa29466c50f.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/13/13499d52e399b93f4bd2b9bb8b0b3fa29466c50f.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/13/13499d52e399b93f4bd2b9bb8b0b3fa29466c50f.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/58/5804cf5fc85e18c4496c663523c75be9e3d8a1ae.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/58/5804cf5fc85e18c4496c663523c75be9e3d8a1ae.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/39/395a050763277c52128f509fdc3e248e0a98f178.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/39/395a050763277c52128f509fdc3e248e0a98f178.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/64/642eb05e90c42b3ae6026b2d3d82d386658fce10.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/64/642eb05e90c42b3ae6026b2d3d82d386658fce10.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/64/642eb05e90c42b3ae6026b2d3d82d386658fce10.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/58/5804cf5fc85e18c4496c663523c75be9e3d8a1ae.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/39/395a050763277c52128f509fdc3e248e0a98f178.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register IronMgr
-2023-2-21 16:10-debug: [[Executor]] Register IronStateMachine
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b2/b2e11dd401a5e3f3e55cf46f46accef3107ad369.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b2/b2e11dd401a5e3f3e55cf46f46accef3107ad369.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/b2/b2e11dd401a5e3f3e55cf46f46accef3107ad369.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/43/438cc47712a529145a3f06e2894d15ce677c115f.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/43/438cc47712a529145a3f06e2894d15ce677c115f.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/43/438cc47712a529145a3f06e2894d15ce677c115f.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/69/69f4d67fb49e9320ffa7d6857b289543484b2c0a.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/69/69f4d67fb49e9320ffa7d6857b289543484b2c0a.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/69/69f4d67fb49e9320ffa7d6857b289543484b2c0a.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/d6/d673708a0ec459f13c04c4057895b8d1e1cd7558.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/d6/d673708a0ec459f13c04c4057895b8d1e1cd7558.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/6a/6a62e6014d1142ccd516574cf3e94840d54dffe4.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/6a/6a62e6014d1142ccd516574cf3e94840d54dffe4.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/6a/6a62e6014d1142ccd516574cf3e94840d54dffe4.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register WoodenMgr
-2023-2-21 16:10-debug: [[Executor]] Register WoodenStateMachine
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/d6/d673708a0ec459f13c04c4057895b8d1e1cd7558.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/18/18f825a6462c2d82d48a7247411d061c1f0b9b0b.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/18/18f825a6462c2d82d48a7247411d061c1f0b9b0b.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/18/18f825a6462c2d82d48a7247411d061c1f0b9b0b.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/4d/4da7101ac939695ba5c2f13cc091934a05a87640.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/4d/4da7101ac939695ba5c2f13cc091934a05a87640.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/4d/4da7101ac939695ba5c2f13cc091934a05a87640.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/33/334cc55d5d700396aee584fa816eae377a0d38fb.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/33/334cc55d5d700396aee584fa816eae377a0d38fb.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/33/334cc55d5d700396aee584fa816eae377a0d38fb.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b4/b42958d3ce9c507c1483cdfffdfe0d6999f91e13.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b4/b42958d3ce9c507c1483cdfffdfe0d6999f91e13.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/b4/b42958d3ce9c507c1483cdfffdfe0d6999f91e13.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/09/09471a7a3f30d67a9783841a09a51f247980897f.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/09/09471a7a3f30d67a9783841a09a51f247980897f.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/09/09471a7a3f30d67a9783841a09a51f247980897f.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/0d/0d9c0c279cec26e781334d25ac88baa3213f1f47.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/0d/0d9c0c279cec26e781334d25ac88baa3213f1f47.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/0d/0d9c0c279cec26e781334d25ac88baa3213f1f47.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b3/b3a6fc68d09bf0a1e7ead0583794cca849cf17ca.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b3/b3a6fc68d09bf0a1e7ead0583794cca849cf17ca.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/b3/b3a6fc68d09bf0a1e7ead0583794cca849cf17ca.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/07/07c149a97e7bdb19db86e5656c203b857708167b.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/07/07c149a97e7bdb19db86e5656c203b857708167b.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/07/07c149a97e7bdb19db86e5656c203b857708167b.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/8f/8f9c76e32353998f86d317499b5dcb78ac8dda42.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/8f/8f9c76e32353998f86d317499b5dcb78ac8dda42.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/8f/8f9c76e32353998f86d317499b5dcb78ac8dda42.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1e/1e39938c5796b111754ed9130514ab918bd8c391.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/1e/1e39938c5796b111754ed9130514ab918bd8c391.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/43/43725c330dee9de5c33b024efdbc77b9121ed3a5.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/43/43725c330dee9de5c33b024efdbc77b9121ed3a5.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/76/76bbabcfa9aed41518da6d1e816b4fb7dc09efda.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/76/76bbabcfa9aed41518da6d1e816b4fb7dc09efda.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/9e/9e0a09868d11a8108710ab2f418270fe21c498d7.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/9e/9e0a09868d11a8108710ab2f418270fe21c498d7.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/43/43725c330dee9de5c33b024efdbc77b9121ed3a5.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register PlayerMrg
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/1e/1e39938c5796b111754ed9130514ab918bd8c391.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/9e/9e0a09868d11a8108710ab2f418270fe21c498d7.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/76/76bbabcfa9aed41518da6d1e816b4fb7dc09efda.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register PlayerStateMachine
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/fa/fa25fb2477c25d8ba1d629bb93f838362f37bb0a.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/fa/fa25fb2477c25d8ba1d629bb93f838362f37bb0a.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/33/33d62553541899912500f8e5063d5f5c59b545c2.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/33/33d62553541899912500f8e5063d5f5c59b545c2.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register DrawManager
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/33/33d62553541899912500f8e5063d5f5c59b545c2.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/fa/fa25fb2477c25d8ba1d629bb93f838362f37bb0a.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/d1/d1335a17095a24a724babfcef092b5a4e1dbfde9.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/d1/d1335a17095a24a724babfcef092b5a4e1dbfde9.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register ShakeManager
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/d1/d1335a17095a24a724babfcef092b5a4e1dbfde9.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/dc/dce70eb8289d94a89c58a189a37781cec40b1ac5.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/dc/dce70eb8289d94a89c58a189a37781cec40b1ac5.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/dc/dce70eb8289d94a89c58a189a37781cec40b1ac5.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/75/7596f82cd41c1f974c36851ff36c22e5784e48a7.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/75/7596f82cd41c1f974c36851ff36c22e5784e48a7.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/dc/dc1ad910666cbaea6c61928b656582716f481539.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/dc/dc1ad910666cbaea6c61928b656582716f481539.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/f0/f0ff86a8c08be10fd2d16c21cc8c260e73c92958.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/f0/f0ff86a8c08be10fd2d16c21cc8c260e73c92958.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/63/632eee09378baf7066592747f438422a9e9b4246.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/63/632eee09378baf7066592747f438422a9e9b4246.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ef/efc18c77923f632f4016dbd2d46c3e6a16b61260.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ef/efc18c77923f632f4016dbd2d46c3e6a16b61260.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/46/46218c85ff0dfd1d46e1888307a76c8cc75b831d.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/46/46218c85ff0dfd1d46e1888307a76c8cc75b831d.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b4/b497cc9520556fe5cb857f1060b9565bf9159f89.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/b4/b497cc9520556fe5cb857f1060b9565bf9159f89.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/72/722b6d52a9132ca22a0e12c331e89a97ef8328e1.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/72/722b6d52a9132ca22a0e12c331e89a97ef8328e1.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ee/eea7210ae2640497a200508432771fdcffc8694e.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ee/eea7210ae2640497a200508432771fdcffc8694e.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/c6/c6cadf87486c57d13eac81ed9b29c65438215002.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/c6/c6cadf87486c57d13eac81ed9b29c65438215002.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/36/36a41ed7f8918be94eac9192a1e9507f0854949f.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/36/36a41ed7f8918be94eac9192a1e9507f0854949f.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/e1/e19a505c88c2dd960552cff570fa52f83bd850e9.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/e1/e19a505c88c2dd960552cff570fa52f83bd850e9.js is not in module cache!
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ac/ac663647a56c081f13974821d18006ff439f667e.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ac/ac663647a56c081f13974821d18006ff439f667e.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ef/efc18c77923f632f4016dbd2d46c3e6a16b61260.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register SmokeMgr
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/dc/dc1ad910666cbaea6c61928b656582716f481539.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ac/ac663647a56c081f13974821d18006ff439f667e.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/e1/e19a505c88c2dd960552cff570fa52f83bd850e9.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/b4/b497cc9520556fe5cb857f1060b9565bf9159f89.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/c6/c6cadf87486c57d13eac81ed9b29c65438215002.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/36/36a41ed7f8918be94eac9192a1e9507f0854949f.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register SpikeStateMachine
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/46/46218c85ff0dfd1d46e1888307a76c8cc75b831d.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register SpikesMgr
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/f0/f0ff86a8c08be10fd2d16c21cc8c260e73c92958.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register TileMapManager
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/63/632eee09378baf7066592747f438422a9e9b4246.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register UIBattleScene
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/75/7596f82cd41c1f974c36851ff36c22e5784e48a7.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/72/722b6d52a9132ca22a0e12c331e89a97ef8328e1.js" loaded.
-2023-2-21 16:10-debug: [[Executor]] Register SmokeStateMachine
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ee/eea7210ae2640497a200508432771fdcffc8694e.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ea/ea1cd70f2e096e754c05615855f759ffbc76a6f4.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/ea/ea1cd70f2e096e754c05615855f759ffbc76a6f4.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register LoadingManager
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/ea/ea1cd70f2e096e754c05615855f759ffbc76a6f4.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/31/31a6d18023842c39820f5b2bc6563dbfc1aebc73.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/31/31a6d18023842c39820f5b2bc6563dbfc1aebc73.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register UIStartScene
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/31/31a6d18023842c39820f5b2bc6563dbfc1aebc73.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Register BottomControl
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js" loaded.
-2023-2-21 16:10-debug: /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/89/89e40f2330de28d8c5da621501a6715a91efc604.js resolved to /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/temp/programming/packer-driver/targets/editor/chunks/89/89e40f2330de28d8c5da621501a6715a91efc604.js is not in module cache!
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/10/10ea03a41c9fd05abc5a4deb175d0bac1438a8ec.js" loaded.
-2023-2-21 16:10-debug: 查询 Asset Bundle start10%
-2023-2-21 16:10-log: // ---- 查询 Asset Bundle ----
-2023-2-21 16:10-debug: 加载刷新项目脚本 √10%
-2023-2-21 16:10-debug: [[Executor]] Module "pack:///chunks/89/89e40f2330de28d8c5da621501a6715a91efc604.js" loaded.
-2023-2-21 16:10-debug: Process: heapTotal 211.95MB heapUsed 187.37MB rss 222.11MB
-2023-2-21 16:10-debug: [[Executor]] Register MenuMgr
-2023-2-21 16:10-debug: 查询 Asset Bundle √11%
-2023-2-21 16:10-debug: 查询使用的资源以及资源包配置 start11%
-2023-2-21 16:10-log: // ---- 查询使用的资源以及资源包配置 ----
-2023-2-21 16:10-debug: Process: heapTotal 211.95MB heapUsed 187.41MB rss 222.16MB
-2023-2-21 16:10-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,1baf0fc9-befa-459c-8bdd-af1a450a0319,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,620b6bf3-0369-4560-837f-2a2c00b73c26,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,1d08ef62-a503-4ce2-8b9a-46c90873f7d3
-2023-2-21 16:10-debug: Number of scenes: 3
-2023-2-21 16:10-debug: Number of assets: 925
-2023-2-21 16:10-debug: Number of asset bundle: 3
-2023-2-21 16:10-debug: 查询使用的资源以及资源包配置 √13%
-2023-2-21 16:10-debug: 整理脚本分组与脚本数据 start13%
-2023-2-21 16:10-log: // ---- 整理脚本分组与脚本数据 ----
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 188.67MB rss 232.23MB
-2023-2-21 16:10-debug: sort script group...
-2023-2-21 16:10-debug: 整理脚本分组与脚本数据 √14%
-2023-2-21 16:10-debug: 整理纹理压缩任务 start14%
-2023-2-21 16:10-log: // ---- 整理纹理压缩任务 ----
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 188.73MB rss 232.23MB
-2023-2-21 16:10-debug: Number of image-compress task: 0
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 189.46MB rss 233.44MB
-2023-2-21 16:10-debug: Number of json group: 199
-2023-2-21 16:10-debug: 初步划分 JSON 合并分组 √16%
-2023-2-21 16:10-debug: 整理合并压缩 Texture2D 的 JSON 数据 start16%
-2023-2-21 16:10-log: // ---- 整理合并压缩 Texture2D 的 JSON 数据 ----
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 191.37MB rss 233.45MB
-2023-2-21 16:10-debug: 整理合并压缩 Texture2D 的 JSON 数据 √18%
-2023-2-21 16:10-log: // ---- 初步划分 JSON 合并分组 ----
-2023-2-21 16:10-log: // ---- 收集 importMap 信息 ----
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 191.68MB rss 233.55MB
-2023-2-21 16:10-debug: 收集 importMap 信息 √19%
-2023-2-21 16:10-debug: localization-editor:(onBeforeBuildAssets) start...19%
-2023-2-21 16:10-debug: // ---- localization-editor:(onBeforeBuildAssets) ----
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 191.70MB rss 233.56MB
-2023-2-21 16:10-debug: 初步划分 JSON 合并分组 start15%
-2023-2-21 16:10-debug: 整理纹理压缩任务 √15%
-2023-2-21 16:10-debug: 收集 importMap 信息 start18%
-2023-2-21 16:10-debug: // ---- localization-editor:(onBeforeBuildAssets) success ----
-2023-2-21 16:10-debug: localization-editor:(onBeforeBuildAssets)21%
-2023-2-21 16:10-debug: 构建自动图集 √28%
-2023-2-21 16:10-debug: 图片拷贝压缩任务 start28%
-2023-2-21 16:10-log: // ---- 图片拷贝压缩任务 ----
-2023-2-21 16:10-log: // ---- 构建自动图集 ----
-2023-2-21 16:10-debug: 图片拷贝压缩任务 √34%
-2023-2-21 16:10-log: // ---- 将资源拷贝到指定位置 ----
-2023-2-21 16:10-debug: 将资源拷贝到指定位置 start34%
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 191.82MB rss 233.59MB
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 191.81MB rss 233.59MB
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 191.76MB rss 233.58MB
-2023-2-21 16:10-debug: Asset Bundle(internal) handle assets: 36
-2023-2-21 16:10-debug: 构建自动图集 start21%
-2023-2-21 16:10-debug: Asset Bundle(resources) handle assets: 859
-2023-2-21 16:10-debug: Asset Bundle(main) handle assets: 39
-2023-2-21 16:10-debug: 将资源拷贝到指定位置 √41%
-2023-2-21 16:10-debug: 将分组后的 json 与散文件构建到指定位置 start41%
-2023-2-21 16:10-log: // ---- 将分组后的 json 与散文件构建到指定位置 ----
-2023-2-21 16:10-debug: Process: heapTotal 213.45MB heapUsed 188.78MB rss 233.88MB
-2023-2-21 16:10-debug: Json group(06efdbec0) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(023553547) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(01a13f320) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0259b89b8) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(061939916) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(03606f95b) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(065fd02c0) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(060c25673) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0d70a7af2) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0dcbb7dbd) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(02c06e9f8) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0261f6045) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0be23bf7a) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0ee77b66e) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0234e5941) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(01a1b7d61) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(019ddae5c) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(01c02a8c3) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0f74375da) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0666c64da) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0e899ae8b) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0c0d5706c) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0c68645b1) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(08ef929f5) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(09dd6654a) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0a907f20e) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0d7020bdd) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0dfd96528) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0ceee8efd) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(06da2ba0d) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(07dfa89b0) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0f3647d60) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0df98e834) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0621a3d84) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0e20a2d7a) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0175b369a) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(05f2532c0) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(026e81c78) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0664edb35) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(06f9d0f56) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0efe9518c) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0a9e98174) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(01ddffdf0) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0b0839190) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(01f26a8ae) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0512022a1) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0d874b09d) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0cd4ecf94) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(041dbb25c) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(04b18d0c8) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(097d5c8fd) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0ce485ed2) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(084f5bc51) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(014ae813c) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(07a84a36a) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(097954597) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(042757e5e) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(058480b34) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0593e8d71) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(082949b41) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0d957d7d9) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0b5873f76) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(061e3aaab) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0c05cb880) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(095448b95) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(03c8e88e5) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0d5242098) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(04a3910fb) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(065a9f7b8) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(03a9b57ac) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0dc92f792) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0b1e06c8a) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0b1cd6595) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(077d08952) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(046336510) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0292380c3) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0ce9aad24) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(04fc28d05) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(095df9851) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(09f81e11c) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(099c6ea00) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0cc90bc0f) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(02e0b1645) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0b14e3a20) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0a8ff2a4f) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0fe999bce) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0338e6b4a) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0bd8e30a4) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0e892f6b2) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0ce6653c3) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(05b1f1b42) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(04d585d30) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(078284e26) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0d312f8f0) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(051fc3087) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0dd70f351) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0f85a57f7) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0ce73b2f7) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(08bcac0c8) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(0a5a406e4) compile success，json number: 6
-2023-2-21 16:10-debug: Json group(05c6df333) compile success，json number: 6
-2023-2-21 16:10-debug: Process: heapTotal 214.20MB heapUsed 188.55MB rss 239.48MB
-2023-2-21 16:10-debug: 压缩 Zip Bundle √54%
-2023-2-21 16:10-debug: 打包脚本 start54%
-2023-2-21 16:10-log: // ---- 打包脚本 ----
-2023-2-21 16:10-debug: Process: heapTotal 214.20MB heapUsed 188.56MB rss 239.48MB
-2023-2-21 16:10-log: // ---- 压缩 Zip Bundle ----
-2023-2-21 16:10-debug: 将分组后的 json 与散文件构建到指定位置 √48%
-2023-2-21 16:10-debug: 压缩 Zip Bundle start48%
-2023-2-21 16:10-warn: Browserslist: caniuse-lite is outdated. Please run:npx browserslist@latest --update-db
-2023-2-21 16:10-warn: Browserslist: caniuse-lite is outdated. Please run:npx browserslist@latest --update-dbWhy you should do it regularly:https://github.com/browserslist/browserslist#browsers-data-updating
-2023-2-21 16:11-debug: 构建项目脚本 start...54%
-2023-2-21 16:11-debug: Process: heapTotal 228.89MB heapUsed 212.40MB rss 126.81MB
-2023-2-21 16:11-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2023-2-21 16:11-log: [build-script]enter sub process 15736, /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
-2023-2-21 16:11-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
-2023-2-21 16:11-warn: [build-script]Browserslist: caniuse-lite is outdated. Please run:npx browserslist@latest --update-dbWhy you should do it regularly:https://github.com/browserslist/browserslist#browsers-data-updating
-2023-2-21 16:11-debug: excute-script over with build-script 4722ms
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 206.75MB rss 79.09MB
-2023-2-21 16:11-debug: 构建项目脚本 in (9641 ms) √54%
-2023-2-21 16:11-debug: 构建引擎脚本 start...54%
-2023-2-21 16:11-debug: Copy externalScripts success!
-2023-2-21 16:11-debug: Engine cache ({link(/var/folders/5x/phqgtt8x6791x7yz8y3v4xsh0000gp/T/CocosCreator/3.6.0/builder/engine/2e3b48627ec3e2e270fd84289c19e8e2)}) does not exist.
-2023-2-21 16:11-log: Run build task(build-engine) in child, see: chrome://inspect/#devices
-2023-2-21 16:11-log: [build-engine]enter sub process 15748, /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
-2023-2-21 16:11-log: [build-engine]Build-engine options: {  "engine": "/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine",  "platform": "WECHAT",  "moduleFormat": 2,  "compress": true,  "split": false,  "ammoJsWasm": true,  "assetURLFormat": "relative-from-out",  "noDeprecatedFeatures": false,  "engineName": "cocos-js",  "sourceMaps": false,  "features": [    "2d",    "3d",    "animation",    "audio",    "base",    "dragon-bones",    "gfx-webgl",    "intersection-2d",    "marionette",    "particle",    "particle-2d",    "physics-2d-box2d",    "physics-ammo",    "primitive",    "profiler",    "skeletal-animation",    "spine",    "terrain",    "tiled-map",    "tween",    "ui",    "video",    "webview"  ],  "loose": true,  "mode": "BUILD",  "flags": {    "DEBUG": false,    "UI_GPU_DRIVEN": false  },  "name": "cocos-js",  "incremental": "/var/folders/5x/phqgtt8x6791x7yz8y3v4xsh0000gp/T/CocosCreator/3.6.0/builder/engine/2e3b48627ec3e2e270fd84289c19e8e2.watch-files.json",  "out": "/var/folders/5x/phqgtt8x6791x7yz8y3v4xsh0000gp/T/CocosCreator/3.6.0/builder/engine/2e3b48627ec3e2e270fd84289c19e8e2",  "buildTimeConstants": {    "HTML5": false,    "NATIVE": false,    "WECHAT": true,    "BAIDU": false,    "XIAOMI": false,    "ALIPAY": false,    "BYTEDANCE": false,    "OPPO": false,    "VIVO": false,    "HUAWEI": false,    "COCOSPLAY": false,    "QTT": false,    "LINKSURE": false,    "EDITOR": false,    "PREVIEW": false,    "BUILD": true,    "TEST": false,    "DEBUG": false,    "SERVER_MODE": false,    "DEV": false,    "MINIGAME": true,    "RUNTIME_BASED": false,    "SUPPORT_JIT": false,    "JSB": false,    "NOT_PACK_PHYSX_LIBS": false,    "NET_MODE": 0  },  "metaFile": "/var/folders/5x/phqgtt8x6791x7yz8y3v4xsh0000gp/T/CocosCreator/3.6.0/builder/engine/2e3b48627ec3e2e270fd84289c19e8e2.meta/meta.json"}
-2023-2-21 16:11-log: [build-engine]Module source "internal-constants":function tryDefineGlobal (name, value) {    const _global = typeof window === 'undefined' ? global : window;    if (typeof _global[name] === 'undefined') {        return (_global[name] = value);    } else {        // eslint-disable-next-line @typescript-eslint/no-unsafe-return        return _global[name];    }}export const HTML5 = false;export const NATIVE = false;export const WECHAT = true;tryDefineGlobal('CC_WECHAT', true);export const BAIDU = false;tryDefineGlobal('CC_BAIDU', false);export const XIAOMI = false;tryDefineGlobal('CC_XIAOMI', false);export const ALIPAY = false;tryDefineGlobal('CC_ALIPAY', false);export const BYTEDANCE = false;tryDefineGlobal('CC_BYTEDANCE', false);export const OPPO = false;tryDefineGlobal('CC_OPPO', false);export const VIVO = false;tryDefineGlobal('CC_VIVO', false);export const HUAWEI = false;tryDefineGlobal('CC_HUAWEI', false);export const COCOSPLAY = false;tryDefineGlobal('CC_COCOSPLAY', false);export const QTT = false;tryDefineGlobal('CC_QTT', false);export const LINKSURE = false;tryDefineGlobal('CC_LINKSURE', false);export const EDITOR = false;tryDefineGlobal('CC_EDITOR', false);export const PREVIEW = false;tryDefineGlobal('CC_PREVIEW', false);export const BUILD = true;tryDefineGlobal('CC_BUILD', true);export const TEST = false;tryDefineGlobal('CC_TEST', false);export const DEBUG = false;tryDefineGlobal('CC_DEBUG', false);export const SERVER_MODE = false;export const DEV = false;tryDefineGlobal('CC_DEV', false);export const MINIGAME = true;tryDefineGlobal('CC_MINIGAME', true);export const RUNTIME_BASED = false;tryDefineGlobal('CC_RUNTIME_BASED', false);export const SUPPORT_JIT = false;tryDefineGlobal('CC_SUPPORT_JIT', false);export const JSB = false;tryDefineGlobal('CC_JSB', false);export const NOT_PACK_PHYSX_LIBS = false;export const NET_MODE = 0;
-2023-2-21 16:11-log: [build-engine]Module source "cc":export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/2d.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/3d.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/animation.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/audio.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/base.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/dragon-bones.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/gfx-webgl.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/intersection-2d.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/particle.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/particle-2d.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-2d-box2d.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-2d-framework.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-ammo.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/physics-framework.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/primitive.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/profiler.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/skeletal-animation.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/spine.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/terrain.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/tiled-map.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/tween.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/ui.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/video.ts';export * from '/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/exports/webview.ts';
-2023-2-21 16:11-warn: [build-engine]Browserslist: caniuse-lite is outdated. Please run:npx browserslist@latest --update-dbWhy you should do it regularly:https://github.com/browserslist/browserslist#browsers-data-updating
-2023-2-21 16:11-log: [build-engine]Redirect module internal:native to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/native-binding/impl.ts
-2023-2-21 16:11-log: [build-engine]Redirect module pal/system-info to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/system-info/minigame/system-info.tsRedirect module pal/env to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/env/minigame/env.ts
-2023-2-21 16:11-log: [build-engine]Redirect module pal/pacer to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/pacer/pacer-minigame.ts
-2023-2-21 16:11-log: [build-engine]Redirect module pal/input to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/input/minigame/index.ts
-2023-2-21 16:11-log: [build-engine]Redirect module pal/audio to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/audio/minigame/player.ts
-2023-2-21 16:11-log: [build-engine]Redirect module pal/screen-adapter to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/screen-adapter/minigame/screen-adapter.ts
-2023-2-21 16:11-log: [build-engine]Redirect module pal/minigame to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/pal/minigame/wechat.ts
-2023-2-21 16:11-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/spine/lib/spine-core.js
-2023-2-21 16:11-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/spine/lib/spine-core.js
-2023-2-21 16:11-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/@cocos/dragonbones-js/out/dragonBones.js
-2023-2-21 16:11-log: [build-engine]Rollup warning 'THIS_IS_UNDEFINED' is omitted for /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/@cocos/dragonbones-js/out/dragonBones.js
-2023-2-21 16:11-log: [build-engine]Redirect module /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/renderer/native-2d.ts to /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/cocos/2d/renderer/native-2d-empty.ts
-2023-2-21 16:11-log: [build-engine]==== Performance ===={"# BUILD":[24634.858333,311991080,408311580],"## generate module graph":[23318.117542,789880924,886204484],"- plugin 0 (@cocos/build-engine|code-asset) - resolveId":[403.83564900000096,569580,885310676],"- plugin 1 (@cocos/build-engine|load-asset) - resolveId":[401.1435390000003,1035952,885314036],"- plugin 1 (@cocos/build-engine|load-asset) - resolveId (async)":[1953.7528060000013,3722684,885314736],"- plugin 2 (@cocos/build-engine|module-overrides) - resolveId":[401.3980989999996,534688,885316696],"- plugin 3 (virtual) - resolveId":[407.4808980000002,6559712,885325460],"- plugin 4 (ts-paths) - resolveId":[378.0432119999995,538152,885327028],"- plugin 5 (node-resolve) - resolveId":[393.47924200000006,-4608084,885340728],"- plugin 5 (node-resolve) - resolveId (async)":[130817.62472300012,-3770880112,886148168],"load modules":[197972.52958299994,9359196424,882115616],"- plugin 0 (@cocos/build-engine|code-asset) - load":[74.37503600000004,288404,875877188],"- plugin 0 (@cocos/build-engine|code-asset) - load (async)":[72.39004100000001,191104,875877472],"- plugin 1 (@cocos/build-engine|load-asset) - load":[72.19647099999995,205492,875878028],"- plugin 1 (@cocos/build-engine|load-asset) - load (async)":[74.12711500000002,580212,875878312],"- plugin 2 (@cocos/build-engine|module-overrides) - load":[72.77191799999997,71680,875878704],"- plugin 3 (virtual) - load":[71.57304899999998,63312,875879096],"- plugin 6 (json) - transform":[81.52039300000007,629176,882120616],"- plugin 7 (commonjs) - transform":[391.00519799999995,14860196,882123800],"- plugin 8 (babel) - transform":[215.1583659999999,4838100,882156628],"generate ast":[646.937119,25562484,884634180],"analyse ast":[659.8328000000005,63667092,885296736],"- plugin 5 (node-resolve) - load":[71.477682,62376,875879528],"- plugin 7 (commonjs) - load":[72.63323400000004,103364,875880008],"- plugin 8 (babel) - load":[214.71962600000003,4397476,875880400],"- plugin 8 (babel) - transform (async)":[13006.820022999993,801265724,883957900],"- plugin 7 (commonjs) - resolveId":[45.441466999999975,44172,881385868],"- plugin 8 (babel) - resolveId":[43.50786900000002,27816,881386260],"- plugin 7 (commonjs) - resolveId (async)":[4275.238083,124865496,851719392],"- plugin 7 (commonjs) - load (async)":[1206.157125,42867784,716472876],"## sort modules":[217.677459,13127988,899332912],"## mark included statements":[1098.302958,-491022832,408310468],"treeshaking pass 1":[600.387042,-491350188,406719968],"treeshaking pass 2":[175.744,-51980,406668368],"treeshaking pass 3":[85.431458,-4008424,402660324],"treeshaking pass 4":[57.777833,4569488,407230192],"treeshaking pass 5":[42.887833,2175832,409406404],"treeshaking pass 6":[40.608584,-103684,409303100],"treeshaking pass 7":[39.8015,-465548,408837932],"treeshaking pass 8":[40.152833,-528216,408310096]}====             ====
-2023-2-21 16:11-debug: excute-script over with build-engine 38196ms
-2023-2-21 16:11-debug: 构建引擎脚本 in (38321 ms) √54%
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.10MB rss 50.69MB
-2023-2-21 16:11-debug: 给所有的资源加上 MD5 后缀 √71%
-2023-2-21 16:11-debug: 初始化 settings.json 与 config.json start71%
-2023-2-21 16:11-log: // ---- 初始化 settings.json 与 config.json ----
-2023-2-21 16:11-debug: 打包脚本 √61%
-2023-2-21 16:11-debug: 初始化 settings.json 与 config.json √72%
-2023-2-21 16:11-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
-2023-2-21 16:11-debug: builder.tasks.settings.macro start72%
-2023-2-21 16:11-log: // ---- builder.tasks.settings.macro ----
-2023-2-21 16:11-debug: 给所有的资源加上 MD5 后缀 start61%
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.15MB rss 62.03MB
-2023-2-21 16:11-log: // ---- 给所有的资源加上 MD5 后缀 ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.11MB rss 57.97MB
-2023-2-21 16:11-debug: builder.tasks.settings.macro √72%
-2023-2-21 16:11-debug: 整理部分构建选项内数据到 settings.json start72%
-2023-2-21 16:11-log: // ---- 整理部分构建选项内数据到 settings.json ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.20MB rss 64.19MB
-2023-2-21 16:11-debug: 整理部分构建选项内数据到 settings.json √73%
-2023-2-21 16:11-debug: custom joint texture layouts start73%
-2023-2-21 16:11-log: // ---- custom joint texture layouts ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.25MB rss 65.30MB
-2023-2-21 16:11-debug: custom joint texture layouts √73%
-2023-2-21 16:11-log: // ---- custom joint physics ----
-2023-2-21 16:11-debug: 填充脚本数据到 settings.json start74%
-2023-2-21 16:11-log: // ---- 填充脚本数据到 settings.json ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.29MB rss 65.53MB
-2023-2-21 16:11-debug: 填充脚本数据到 settings.json √74%
-2023-2-21 16:11-debug: 填充场景数据到 settings.json start74%
-2023-2-21 16:11-log: // ---- 填充场景数据到 settings.json ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.30MB rss 65.72MB
-2023-2-21 16:11-debug: 填充场景数据到 settings.json √75%
-2023-2-21 16:11-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start75%
-2023-2-21 16:11-log: // ---- 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.32MB rss 66.06MB
-2023-2-21 16:11-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 √76%
-2023-2-21 16:11-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start76%
-2023-2-21 16:11-log: // ---- 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 208.06MB rss 82.64MB
-2023-2-21 16:11-debug: options.md5Cache is false.
-2023-2-21 16:11-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json √76%
-2023-2-21 16:11-debug: wechatgame:(onBeforeCompressSettings) start...76%
-2023-2-21 16:11-debug: // ---- wechatgame:(onBeforeCompressSettings) ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 208.08MB rss 82.88MB
-2023-2-21 16:11-debug: // ---- wechatgame:(onBeforeCompressSettings) success ----
-2023-2-21 16:11-debug: wechatgame:(onBeforeCompressSettings)78%
-2023-2-21 16:11-debug: cocos-service:(onBeforeCompressSettings) start...78%
-2023-2-21 16:11-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 207.28MB rss 65.42MB
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 208.09MB rss 83.02MB
-2023-2-21 16:11-debug: custom joint physics start73%
-2023-2-21 16:11-debug: custom joint physics √74%
-2023-2-21 16:11-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
-2023-2-21 16:11-debug: 生成 import-map.json start81%
-2023-2-21 16:11-debug: Process: heapTotal 229.98MB heapUsed 208.20MB rss 83.66MB
-2023-2-21 16:11-debug: cocos-service:(onBeforeCompressSettings)81%
-2023-2-21 16:11-log: // ---- 生成 import-map.json ----
-2023-2-21 16:11-debug: 生成 import-map.json √82%
-2023-2-21 16:11-debug: 压缩 config.json 与 settings.json start82%
-2023-2-21 16:11-debug: 压缩 config.json 与 settings.json √83%
-2023-2-21 16:11-log: // ---- 压缩 config.json 与 settings.json ----
-2023-2-21 16:11-debug: Process: heapTotal 230.23MB heapUsed 211.12MB rss 103.70MB
-2023-2-21 16:11-debug: 保存 config.json √84%
-2023-2-21 16:11-debug: Process: heapTotal 230.23MB heapUsed 210.32MB rss 100.34MB
-2023-2-21 16:11-log: // ---- 保存 settings.json ----
-2023-2-21 16:11-debug: Process: heapTotal 230.23MB heapUsed 211.38MB rss 104.25MB
-2023-2-21 16:11-debug: 保存 settings.json √85%
-2023-2-21 16:11-debug: 整理静态模板文件 start85%
-2023-2-21 16:11-log: // ---- 整理静态模板文件 ----
-2023-2-21 16:11-debug: Process: heapTotal 230.23MB heapUsed 211.50MB rss 104.50MB
-2023-2-21 16:11-debug: 保存 settings.json start84%
-2023-2-21 16:11-debug: 保存 config.json start83%
-2023-2-21 16:11-log: // ---- 保存 config.json ----
-2023-2-21 16:11-debug: 整理静态模板文件 √86%
-2023-2-21 16:11-debug: // ---- cocos-service:(onAfterCompressSettings) ----
-2023-2-21 16:11-debug: Process: heapTotal 217.48MB heapUsed 208.61MB rss 119.98MB
-2023-2-21 16:11-debug: cocos-service:(onAfterCompressSettings) start...86%
-2023-2-21 16:11-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
-2023-2-21 16:11-debug: Process: heapTotal 216.73MB heapUsed 208.14MB rss 123.83MB
-2023-2-21 16:11-debug: wechatgame:(onAfterBuild) start...88%
-2023-2-21 16:11-debug: // ---- wechatgame:(onAfterBuild) ----
-2023-2-21 16:11-debug: cocos-service:(onAfterCompressSettings)88%
-2023-2-21 16:11-debug: // ---- wechatgame:(onAfterBuild) success ----
-2023-2-21 16:11-debug: cocos-service:(onAfterBuild) start...90%
-2023-2-21 16:11-debug: // ---- cocos-service:(onAfterBuild) ----
-2023-2-21 16:11-debug: Process: heapTotal 216.73MB heapUsed 208.32MB rss 124.17MB
-2023-2-21 16:11-debug: wechatgame:(onAfterBuild)90%
-2023-2-21 16:11-debug: // ---- cocos-service:(onAfterBuild) success ----
-2023-2-21 16:11-debug: cocos-service:(onAfterBuild)92%
-2023-2-21 16:11-debug: builder:build-project-total (55306ms)
-2023-2-21 16:11-debug: build success in 55306 ms!
-2023-2-21 16:11-debug: ================================ Build Task (wechatgame) Finished ================================
-2023-2-21 16:12-debug: =================================== Build Task (wechatgame) Start ================================
-2023-2-21 16:12-debug: cocos-service:(onBeforeBuild) start...0%
-2023-2-21 16:12-debug: Process: heapTotal 216.73MB heapUsed 208.54MB rss 124.88MB
-2023-2-21 16:12-debug: Build with Cocos Creator 3.6.0
-2023-2-21 16:12-debug: // ---- cocos-service:(onBeforeBuild) ----
-2023-2-21 16:12-debug: Start build task, options:{"name":"ComeOnVicky","platform":"wechatgame","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","replaceSplashScreen":false,"compressTexture":true,"packAutoAtlas":true,"startScene":"c326e8c1-9770-4ea8-808d-1fffa0c92930","outputName":"wechatgame","scenes":[{"url":"db://assets/scene/Battle.scene","uuid":"c326e8c1-9770-4ea8-808d-1fffa0c92930","inBundle":false},{"url":"db://assets/scene/Loading.scene","uuid":"958cbe63-a4b1-4a85-8084-07a8de171c67","inBundle":false},{"url":"db://assets/scene/Start.scene","uuid":"d8f75f86-ab5a-47cf-8f56-4ecc2408b44c","inBundle":false}],"web-desktop":[],"packages":{"cocos-service":{"configID":"13a932","services":[]},"wechatgame":{"startSceneAssetBundle":false,"orientation":"portrait","appid":"wxa2f4fc3b2f5d99de","separateEngine":false,"wasm":"wasm","enabelWebGL2":"off","__version__":"1.0.2"}},"__version__":"1.3.3","wechatgame":[]}
-2023-2-21 16:12-debug: // ---- cocos-service:(onBeforeBuild) success ----
-2023-2-21 16:12-debug: cocos-service:(onBeforeBuild)2%
-2023-2-21 16:12-debug: Query all assets info in project
-2023-2-21 16:12-debug: init custom config: keepNodeUuid: false, useCache: true
-2023-2-21 16:12-debug: BuildAssetLibrary query-assets with assets 595
-2023-2-21 16:12-debug: BuildAssetLibrary initialized with asset 1342!
-2023-2-21 16:12-debug: wechatgame:(onAfterInit) start...2%
-2023-2-21 16:12-debug: // ---- wechatgame:(onAfterInit) ----
-2023-2-21 16:12-debug: Process: heapTotal 218.58MB heapUsed 210.82MB rss 130.25MB
-2023-2-21 16:12-debug:   Number of all scenes: 3
-2023-2-21 16:12-debug:   Number of all scripts: 74
-2023-2-21 16:12-debug:   Number of other assets: 1901
-2023-2-21 16:12-debug: // ---- wechatgame:(onAfterInit) success ----
-2023-2-21 16:12-debug: Process: heapTotal 219.08MB heapUsed 211.12MB rss 131.22MB
-2023-2-21 16:12-debug: cocos-service:(onAfterInit) start...4%
-2023-2-21 16:12-debug: // ---- cocos-service:(onAfterInit) ----
-2023-2-21 16:12-debug: wechatgame:(onAfterInit)4%
-2023-2-21 16:12-debug: // ---- cocos-service:(onAfterInit) success ----
-2023-2-21 16:12-debug: cocos-service:(onAfterInit)7%
-2023-2-21 16:12-debug: Process: heapTotal 219.08MB heapUsed 211.16MB rss 131.22MB
-2023-2-21 16:12-debug: localization-editor:(onAfterInit) start...7%
-2023-2-21 16:12-debug: // ---- localization-editor:(onAfterInit) ----
-2023-2-21 16:12-debug: // ---- localization-editor:(onAfterInit) success ----
-2023-2-21 16:12-debug: 加载刷新项目脚本 start9%
-2023-2-21 16:12-log: // ---- 加载刷新项目脚本 ----
-2023-2-21 16:12-debug: reload all scripts.
-2023-2-21 16:12-debug: localization-editor:(onAfterInit)9%
-2023-2-21 16:12-debug: Process: heapTotal 219.08MB heapUsed 211.19MB rss 131.25MB
-2023-2-21 16:12-debug: Incremental keys: 
-2023-2-21 16:12-debug: Set detail map pack:///resolution-detail-map.json: {}
-2023-2-21 16:12-debug: Unregister EnemyMgr
-2023-2-21 16:12-debug: Unregister StateMachine
-2023-2-21 16:12-debug: Unregister BurstStateMachine
-2023-2-21 16:12-debug: Unregister DoorStateMachine
-2023-2-21 16:12-debug: Unregister BurstMgr
-2023-2-21 16:12-debug: Unregister DoorMgr
-2023-2-21 16:12-debug: Unregister IronStateMachine
-2023-2-21 16:12-debug: Unregister IronMgr
-2023-2-21 16:12-debug: Unregister WoodenStateMachine
-2023-2-21 16:12-debug: Unregister WoodenMgr
-2023-2-21 16:12-debug: Unregister TileManager
-2023-2-21 16:12-debug: Unregister PlayerMrg
-2023-2-21 16:12-debug: Unregister DrawManager
-2023-2-21 16:12-debug: Unregister ShakeManager
-2023-2-21 16:12-debug: Unregister SmokeStateMachine
-2023-2-21 16:12-debug: Unregister SmokeMgr
-2023-2-21 16:12-debug: Unregister SpikeStateMachine
-2023-2-21 16:12-debug: Unregister EnitiyMgr
-2023-2-21 16:12-debug: Unregister TileMapManager
-2023-2-21 16:12-debug: Unregister UIBattleScene
-2023-2-21 16:12-debug: Unregister LoadingManager
-2023-2-21 16:12-debug: Unregister UIStartScene
-2023-2-21 16:12-debug: Unregister BottomControl
-2023-2-21 16:12-debug: Unregister MenuMgr
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/10/10ea03a41c9fd05abc5a4deb175d0bac1438a8ec.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/95/951201a9d1e2e58fdfab0168ed8392d5a85a089c.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/45/459872c59ff40182f50e2ebab7ad7d100420fe8b.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/53/533db371f38589219aec1ec0b836dc5b19a114c6.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/43/43f7a5959f8ca40d56365fd2261a5e3ffb7f3f94.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/5e/5e0fd654666127dc61950ee2c8320768727c2af8.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/b2/b27a32a3dfbdf3e8654cddf0848357934e836f00.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/34/3469d93ce18d6e2f8893f9ce1d938b17d79b46e0.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/9b/9bacda2fbe41b5a7da9242b29c4c1b0d5f96219e.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/b4/b49ec5d28e03938d07b7d0dbaf12f4d86c8ad7cc.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/c2/c298828ac935168caf7d5cec516513497eb91893.js'
-2023-2-21 16:12-debug: Unregister PlayerStateMachine
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ab/ab97aaa1618637615369fbade526ebb5862cd420.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/27/2709b12c47a514023668a38cb12fc0cdf79bab7f.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/6e/6ee965063df12a8094f86f02aecc75fbfcc285a2.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/e9/e929419e76393823bb83356f4b9f18e3c5ce0b88.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ff/ff7c09134c07cb92125d2f31dfab84b138ee7143.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/15/151bb3b3754fb3bfd217766e1f1b12fe675efeee.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/34/34162010f98ce6639bdbb4fa15ed7a6aa9ea327b.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/2b/2b16969e9fb7fe34feb50ad59a6c319de4d3a28c.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/e4/e459f7f4347a2051041e04fb443a0d876a31d458.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/17/173c46979f3043b86ec8851fc3494f12bfabc8c9.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ae/aee4f2dfc97cdbe625228b5ec761f65b76c916de.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/bb/bbed8d9f0275ab1c051f06f6237c30cb392bf7a5.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/0d/0db7d82612d774a02a8ba0fc236f19f70a4a858e.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/0d/0d1a61e79885b58c9fc54e7f8086871716e3d057.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ef/efa55c907b4f3974e43f3530526974748040f5d8.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/e1/e19e2d809846c114a666ff50fdaab1b95df0ffb8.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/d3/d3aa55fd487cc9159fb8369011f8ed93f09e7c64.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/1a/1aadd222d7d9a171c0d8b66e5db1dc4c0eff4624.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/c4/c47395df5017f584f62ce68afd72dbf5b77ea17f.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/86/863b6c917e23809aab4767d60b5512d203f586f6.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/65/65a8ddf87c1e8598f9600236a69904f265e75835.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/58/5804cf5fc85e18c4496c663523c75be9e3d8a1ae.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/13/13499d52e399b93f4bd2b9bb8b0b3fa29466c50f.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/39/395a050763277c52128f509fdc3e248e0a98f178.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/64/642eb05e90c42b3ae6026b2d3d82d386658fce10.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/43/438cc47712a529145a3f06e2894d15ce677c115f.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/69/69f4d67fb49e9320ffa7d6857b289543484b2c0a.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/d6/d673708a0ec459f13c04c4057895b8d1e1cd7558.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/6a/6a62e6014d1142ccd516574cf3e94840d54dffe4.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/18/18f825a6462c2d82d48a7247411d061c1f0b9b0b.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/33/334cc55d5d700396aee584fa816eae377a0d38fb.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/b4/b42958d3ce9c507c1483cdfffdfe0d6999f91e13.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/09/09471a7a3f30d67a9783841a09a51f247980897f.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/4d/4da7101ac939695ba5c2f13cc091934a05a87640.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/0d/0d9c0c279cec26e781334d25ac88baa3213f1f47.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/b3/b3a6fc68d09bf0a1e7ead0583794cca849cf17ca.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/07/07c149a97e7bdb19db86e5656c203b857708167b.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/8f/8f9c76e32353998f86d317499b5dcb78ac8dda42.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/1e/1e39938c5796b111754ed9130514ab918bd8c391.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/43/43725c330dee9de5c33b024efdbc77b9121ed3a5.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/76/76bbabcfa9aed41518da6d1e816b4fb7dc09efda.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/fa/fa25fb2477c25d8ba1d629bb93f838362f37bb0a.js'
-2023-2-21 16:12-debug: Unregister SubStateMachine
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/9e/9e0a09868d11a8108710ab2f418270fe21c498d7.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/d1/d1335a17095a24a724babfcef092b5a4e1dbfde9.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/dc/dce70eb8289d94a89c58a189a37781cec40b1ac5.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/dc/dc1ad910666cbaea6c61928b656582716f481539.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/f0/f0ff86a8c08be10fd2d16c21cc8c260e73c92958.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/75/7596f82cd41c1f974c36851ff36c22e5784e48a7.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/63/632eee09378baf7066592747f438422a9e9b4246.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ef/efc18c77923f632f4016dbd2d46c3e6a16b61260.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/46/46218c85ff0dfd1d46e1888307a76c8cc75b831d.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/b4/b497cc9520556fe5cb857f1060b9565bf9159f89.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ee/eea7210ae2640497a200508432771fdcffc8694e.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/72/722b6d52a9132ca22a0e12c331e89a97ef8328e1.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/33/33d62553541899912500f8e5063d5f5c59b545c2.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/e1/e19a505c88c2dd960552cff570fa52f83bd850e9.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/36/36a41ed7f8918be94eac9192a1e9507f0854949f.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ac/ac663647a56c081f13974821d18006ff439f667e.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/ea/ea1cd70f2e096e754c05615855f759ffbc76a6f4.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/31/31a6d18023842c39820f5b2bc6563dbfc1aebc73.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js'
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/89/89e40f2330de28d8c5da621501a6715a91efc604.js'
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/10/10ea03a41c9fd05abc5a4deb175d0bac1438a8ec.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/95/951201a9d1e2e58fdfab0168ed8392d5a85a089c.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/5e/5e0fd654666127dc61950ee2c8320768727c2af8.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/b2/b27a32a3dfbdf3e8654cddf0848357934e836f00.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/53/533db371f38589219aec1ec0b836dc5b19a114c6.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/43/43f7a5959f8ca40d56365fd2261a5e3ffb7f3f94.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/34/3469d93ce18d6e2f8893f9ce1d938b17d79b46e0.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/9b/9bacda2fbe41b5a7da9242b29c4c1b0d5f96219e.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ab/ab97aaa1618637615369fbade526ebb5862cd420.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/b4/b49ec5d28e03938d07b7d0dbaf12f4d86c8ad7cc.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/c2/c298828ac935168caf7d5cec516513497eb91893.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/27/2709b12c47a514023668a38cb12fc0cdf79bab7f.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/45/459872c59ff40182f50e2ebab7ad7d100420fe8b.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register SubStateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/e9/e929419e76393823bb83356f4b9f18e3c5ce0b88.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/6e/6ee965063df12a8094f86f02aecc75fbfcc285a2.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/e4/e459f7f4347a2051041e04fb443a0d876a31d458.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/2b/2b16969e9fb7fe34feb50ad59a6c319de4d3a28c.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register TileManager
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/17/173c46979f3043b86ec8851fc3494f12bfabc8c9.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ae/aee4f2dfc97cdbe625228b5ec761f65b76c916de.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register EnitiyMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/34/34162010f98ce6639bdbb4fa15ed7a6aa9ea327b.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/15/151bb3b3754fb3bfd217766e1f1b12fe675efeee.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register EnemyMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ff/ff7c09134c07cb92125d2f31dfab84b138ee7143.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/bb/bbed8d9f0275ab1c051f06f6237c30cb392bf7a5.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register StateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/0d/0db7d82612d774a02a8ba0fc236f19f70a4a858e.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/0d/0d1a61e79885b58c9fc54e7f8086871716e3d057.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register BurstStateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/e1/e19e2d809846c114a666ff50fdaab1b95df0ffb8.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register BurstMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ef/efa55c907b4f3974e43f3530526974748040f5d8.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/d3/d3aa55fd487cc9159fb8369011f8ed93f09e7c64.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/86/863b6c917e23809aab4767d60b5512d203f586f6.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register DoorStateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/1a/1aadd222d7d9a171c0d8b66e5db1dc4c0eff4624.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register DoorMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/c4/c47395df5017f584f62ce68afd72dbf5b77ea17f.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/65/65a8ddf87c1e8598f9600236a69904f265e75835.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/13/13499d52e399b93f4bd2b9bb8b0b3fa29466c50f.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/64/642eb05e90c42b3ae6026b2d3d82d386658fce10.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register IronStateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/39/395a050763277c52128f509fdc3e248e0a98f178.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/58/5804cf5fc85e18c4496c663523c75be9e3d8a1ae.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register IronMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/b2/b2e11dd401a5e3f3e55cf46f46accef3107ad369.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/43/438cc47712a529145a3f06e2894d15ce677c115f.js" loaded.
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/c6/c6cadf87486c57d13eac81ed9b29c65438215002.js'
-2023-2-21 16:12-debug: Unregister SpikesMgr
-2023-2-21 16:12-debug: Invalidating 'pack:///chunks/b2/b2e11dd401a5e3f3e55cf46f46accef3107ad369.js'
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/69/69f4d67fb49e9320ffa7d6857b289543484b2c0a.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register WoodenStateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/6a/6a62e6014d1142ccd516574cf3e94840d54dffe4.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register WoodenMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/d6/d673708a0ec459f13c04c4057895b8d1e1cd7558.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/18/18f825a6462c2d82d48a7247411d061c1f0b9b0b.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/4d/4da7101ac939695ba5c2f13cc091934a05a87640.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/33/334cc55d5d700396aee584fa816eae377a0d38fb.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/b4/b42958d3ce9c507c1483cdfffdfe0d6999f91e13.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/09/09471a7a3f30d67a9783841a09a51f247980897f.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/0d/0d9c0c279cec26e781334d25ac88baa3213f1f47.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/b3/b3a6fc68d09bf0a1e7ead0583794cca849cf17ca.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/07/07c149a97e7bdb19db86e5656c203b857708167b.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/8f/8f9c76e32353998f86d317499b5dcb78ac8dda42.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/9e/9e0a09868d11a8108710ab2f418270fe21c498d7.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/76/76bbabcfa9aed41518da6d1e816b4fb7dc09efda.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register PlayerStateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/43/43725c330dee9de5c33b024efdbc77b9121ed3a5.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register PlayerMrg
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/1e/1e39938c5796b111754ed9130514ab918bd8c391.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register DrawManager
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/33/33d62553541899912500f8e5063d5f5c59b545c2.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/fa/fa25fb2477c25d8ba1d629bb93f838362f37bb0a.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register ShakeManager
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/d1/d1335a17095a24a724babfcef092b5a4e1dbfde9.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/dc/dce70eb8289d94a89c58a189a37781cec40b1ac5.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ee/eea7210ae2640497a200508432771fdcffc8694e.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/72/722b6d52a9132ca22a0e12c331e89a97ef8328e1.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register SmokeStateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ef/efc18c77923f632f4016dbd2d46c3e6a16b61260.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register SmokeMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/dc/dc1ad910666cbaea6c61928b656582716f481539.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ac/ac663647a56c081f13974821d18006ff439f667e.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/e1/e19a505c88c2dd960552cff570fa52f83bd850e9.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/b4/b497cc9520556fe5cb857f1060b9565bf9159f89.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/c6/c6cadf87486c57d13eac81ed9b29c65438215002.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/36/36a41ed7f8918be94eac9192a1e9507f0854949f.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register SpikeStateMachine
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/46/46218c85ff0dfd1d46e1888307a76c8cc75b831d.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register SpikesMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/f0/f0ff86a8c08be10fd2d16c21cc8c260e73c92958.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register TileMapManager
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/63/632eee09378baf7066592747f438422a9e9b4246.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register UIBattleScene
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/75/7596f82cd41c1f974c36851ff36c22e5784e48a7.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register LoadingManager
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/ea/ea1cd70f2e096e754c05615855f759ffbc76a6f4.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register UIStartScene
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/31/31a6d18023842c39820f5b2bc6563dbfc1aebc73.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register BottomControl
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/83/833e369a86c4fb0527daa1d93c33ccb4b6d45906.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Register MenuMgr
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/89/89e40f2330de28d8c5da621501a6715a91efc604.js" loaded.
-2023-2-21 16:12-debug: [[Executor]] Module "pack:///chunks/10/10ea03a41c9fd05abc5a4deb175d0bac1438a8ec.js" loaded.
-2023-2-21 16:12-debug: 加载刷新项目脚本 √10%
-2023-2-21 16:12-debug: 查询 Asset Bundle start10%
-2023-2-21 16:12-log: // ---- 查询 Asset Bundle ----
-2023-2-21 16:12-debug: Process: heapTotal 219.83MB heapUsed 211.82MB rss 137.20MB
-2023-2-21 16:12-debug: 查询 Asset Bundle √11%
-2023-2-21 16:12-debug: Process: heapTotal 219.83MB heapUsed 211.99MB rss 137.64MB
-2023-2-21 16:12-log: // ---- 查询使用的资源以及资源包配置 ----
-2023-2-21 16:12-debug: 查询使用的资源以及资源包配置 start11%
-2023-2-21 16:12-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,1baf0fc9-befa-459c-8bdd-af1a450a0319,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,620b6bf3-0369-4560-837f-2a2c00b73c26,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,d1346436-ac96-4271-b863-1f4fdead95b0,971bdb23-3ff6-43eb-b422-1c30165a3663,17debcc3-0a6b-4b8a-b00b-dc58b885581e,711ebe11-f673-4cd9-9a83-63c60ba54c5b,c0143906-9aed-447e-9436-2ae8512d1b6e,14da1725-c4c2-42b4-ab08-ee0aeb6898b3,081cab31-dccd-428e-8652-f2404cc81c47,78e0584a-4343-4727-8f37-e14e65c2a2db,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,1d08ef62-a503-4ce2-8b9a-46c90873f7d3
-2023-2-21 16:12-debug: Number of scenes: 3
-2023-2-21 16:12-debug: Number of assets: 925
-2023-2-21 16:12-log: // ---- 整理脚本分组与脚本数据 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.27MB heapUsed 221.64MB rss 162.25MB
-2023-2-21 16:12-debug: sort script group...
-2023-2-21 16:12-debug: 整理脚本分组与脚本数据 start13%
-2023-2-21 16:12-debug: 整理纹理压缩任务 start14%
-2023-2-21 16:12-log: // ---- 整理纹理压缩任务 ----
-2023-2-21 16:12-debug: Number of asset bundle: 3
-2023-2-21 16:12-debug: 查询使用的资源以及资源包配置 √13%
-2023-2-21 16:12-debug: 整理脚本分组与脚本数据 √14%
-2023-2-21 16:12-debug: Process: heapTotal 244.27MB heapUsed 221.70MB rss 162.27MB
-2023-2-21 16:12-debug: Number of image-compress task: 0
-2023-2-21 16:12-debug: Process: heapTotal 244.27MB heapUsed 222.43MB rss 162.39MB
-2023-2-21 16:12-debug: Number of json group: 199
-2023-2-21 16:12-debug: 初步划分 JSON 合并分组 start15%
-2023-2-21 16:12-debug: 整理纹理压缩任务 √15%
-2023-2-21 16:12-log: // ---- 整理合并压缩 Texture2D 的 JSON 数据 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.27MB heapUsed 224.24MB rss 162.39MB
-2023-2-21 16:12-debug: 整理合并压缩 Texture2D 的 JSON 数据 √18%
-2023-2-21 16:12-log: // ---- 初步划分 JSON 合并分组 ----
-2023-2-21 16:12-log: // ---- 收集 importMap 信息 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.52MB heapUsed 224.85MB rss 162.58MB
-2023-2-21 16:12-debug: 收集 importMap 信息 √19%
-2023-2-21 16:12-debug: localization-editor:(onBeforeBuildAssets) start...19%
-2023-2-21 16:12-debug: // ---- localization-editor:(onBeforeBuildAssets) ----
-2023-2-21 16:12-debug: Process: heapTotal 244.52MB heapUsed 224.88MB rss 162.58MB
-2023-2-21 16:12-debug: 初步划分 JSON 合并分组 √16%
-2023-2-21 16:12-debug: 整理合并压缩 Texture2D 的 JSON 数据 start16%
-2023-2-21 16:12-debug: 收集 importMap 信息 start18%
-2023-2-21 16:12-debug: // ---- localization-editor:(onBeforeBuildAssets) success ----
-2023-2-21 16:12-debug: localization-editor:(onBeforeBuildAssets)21%
-2023-2-21 16:12-debug: 构建自动图集 start21%
-2023-2-21 16:12-log: // ---- 构建自动图集 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.52MB heapUsed 224.93MB rss 162.58MB
-2023-2-21 16:12-debug: 构建自动图集 √28%
-2023-2-21 16:12-debug: 图片拷贝压缩任务 start28%
-2023-2-21 16:12-log: // ---- 图片拷贝压缩任务 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.52MB heapUsed 224.98MB rss 162.61MB
-2023-2-21 16:12-debug: 图片拷贝压缩任务 √34%
-2023-2-21 16:12-debug: 将资源拷贝到指定位置 start34%
-2023-2-21 16:12-log: // ---- 将资源拷贝到指定位置 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.52MB heapUsed 224.99MB rss 162.63MB
-2023-2-21 16:12-debug: Asset Bundle(internal) handle assets: 36
-2023-2-21 16:12-debug: Asset Bundle(resources) handle assets: 859
-2023-2-21 16:12-debug: Asset Bundle(main) handle assets: 39
-2023-2-21 16:12-debug: 将资源拷贝到指定位置 √41%
-2023-2-21 16:12-debug: 将分组后的 json 与散文件构建到指定位置 start41%
-2023-2-21 16:12-log: // ---- 将分组后的 json 与散文件构建到指定位置 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.52MB heapUsed 221.69MB rss 163.05MB
-2023-2-21 16:12-debug: Json group(06efdbec0) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(023553547) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(01a13f320) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0259b89b8) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(061939916) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(03606f95b) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(065fd02c0) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(060c25673) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0d70a7af2) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0dcbb7dbd) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(02c06e9f8) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0261f6045) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0be23bf7a) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0ee77b66e) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0234e5941) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(01a1b7d61) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(019ddae5c) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(01c02a8c3) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0f74375da) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0666c64da) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0e899ae8b) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0c0d5706c) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0c68645b1) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(08ef929f5) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(09dd6654a) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0a907f20e) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0d7020bdd) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0dfd96528) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0ceee8efd) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(06da2ba0d) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(07dfa89b0) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0f3647d60) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0df98e834) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0621a3d84) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0e20a2d7a) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0175b369a) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(05f2532c0) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(026e81c78) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0664edb35) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(06f9d0f56) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0efe9518c) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0a9e98174) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(01ddffdf0) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0b0839190) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(01f26a8ae) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0512022a1) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0d874b09d) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0cd4ecf94) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(041dbb25c) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(04b18d0c8) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(097d5c8fd) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0ce485ed2) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(084f5bc51) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(014ae813c) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(07a84a36a) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(097954597) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(042757e5e) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(058480b34) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0593e8d71) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(082949b41) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0d957d7d9) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0b5873f76) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(061e3aaab) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0c05cb880) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(095448b95) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(03c8e88e5) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0d5242098) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(04a3910fb) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(065a9f7b8) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(03a9b57ac) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0dc92f792) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0b1e06c8a) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0b1cd6595) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(077d08952) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(046336510) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0292380c3) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0ce9aad24) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(04fc28d05) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(095df9851) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(09f81e11c) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(099c6ea00) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0cc90bc0f) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(02e0b1645) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0b14e3a20) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0a8ff2a4f) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0fe999bce) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0338e6b4a) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0bd8e30a4) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0e892f6b2) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0ce6653c3) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(05b1f1b42) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(04d585d30) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(078284e26) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0d312f8f0) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(051fc3087) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0dd70f351) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0f85a57f7) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0ce73b2f7) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(08bcac0c8) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(0a5a406e4) compile success，json number: 6
-2023-2-21 16:12-debug: Json group(05c6df333) compile success，json number: 6
-2023-2-21 16:12-debug: 将分组后的 json 与散文件构建到指定位置 √48%
-2023-2-21 16:12-log: // ---- 压缩 Zip Bundle ----
-2023-2-21 16:12-debug: 压缩 Zip Bundle start48%
-2023-2-21 16:12-debug: Process: heapTotal 244.41MB heapUsed 202.63MB rss 246.11MB
-2023-2-21 16:12-debug: 打包脚本 start54%
-2023-2-21 16:12-debug: Process: heapTotal 244.41MB heapUsed 202.64MB rss 246.11MB
-2023-2-21 16:12-log: // ---- 打包脚本 ----
-2023-2-21 16:12-debug: 压缩 Zip Bundle √54%
-2023-2-21 16:12-debug: 构建项目脚本 start...54%
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 211.90MB rss 95.80MB
-2023-2-21 16:12-log: Run build task(build-script) in child, see: chrome://inspect/#devices
-2023-2-21 16:12-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikeStateMachine.ts -> file:///Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Spikes/SpikesMgr.ts
-2023-2-21 16:12-debug: excute-script over with build-script 2608ms
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 212.27MB rss 97.23MB
-2023-2-21 16:12-debug: 构建项目脚本 in (2621 ms) √54%
-2023-2-21 16:12-debug: 构建引擎脚本 start...54%
-2023-2-21 16:12-debug: Copy externalScripts success!
-2023-2-21 16:12-debug: Use cache engine: {link(/var/folders/5x/phqgtt8x6791x7yz8y3v4xsh0000gp/T/CocosCreator/3.6.0/builder/engine/2e3b48627ec3e2e270fd84289c19e8e2)}
-2023-2-21 16:12-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","animation","audio","base","dragon-bones","gfx-webgl","intersection-2d","marionette","particle","particle-2d","physics-2d-box2d","physics-ammo","primitive","profiler","skeletal-animation","spine","terrain","tiled-map","tween","ui","video","webview"],"engineVersion":"3.6.0","platform":"WECHAT","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"skip":false,"ammoJsWasm":true,"assetURLFormat":"relative-from-out","flags":{"DEBUG":false},"entry":"/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine"}
-2023-2-21 16:12-debug: 构建引擎脚本 in (41 ms) √54%
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.59MB rss 118.55MB
-2023-2-21 16:12-debug: 给所有的资源加上 MD5 后缀 √71%
-2023-2-21 16:12-debug: 初始化 settings.json 与 config.json start71%
-2023-2-21 16:12-log: // ---- 给所有的资源加上 MD5 后缀 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.60MB rss 118.64MB
-2023-2-21 16:12-debug: 初始化 settings.json 与 config.json √72%
-2023-2-21 16:12-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
-2023-2-21 16:12-debug: builder.tasks.settings.macro start72%
-2023-2-21 16:12-log: // ---- builder.tasks.settings.macro ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.64MB rss 120.70MB
-2023-2-21 16:12-debug: 给所有的资源加上 MD5 后缀 start61%
-2023-2-21 16:12-log: // ---- 初始化 settings.json 与 config.json ----
-2023-2-21 16:12-debug: 打包脚本 √61%
-2023-2-21 16:12-debug: builder.tasks.settings.macro √72%
-2023-2-21 16:12-log: // ---- 整理部分构建选项内数据到 settings.json ----
-2023-2-21 16:12-debug: 整理部分构建选项内数据到 settings.json start72%
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.68MB rss 120.88MB
-2023-2-21 16:12-debug: 整理部分构建选项内数据到 settings.json √73%
-2023-2-21 16:12-debug: custom joint texture layouts start73%
-2023-2-21 16:12-log: // ---- custom joint texture layouts ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.74MB rss 121.22MB
-2023-2-21 16:12-debug: custom joint texture layouts √73%
-2023-2-21 16:12-debug: custom joint physics √74%
-2023-2-21 16:12-debug: 填充脚本数据到 settings.json start74%
-2023-2-21 16:12-log: // ---- 填充脚本数据到 settings.json ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.77MB rss 121.31MB
-2023-2-21 16:12-debug: 填充脚本数据到 settings.json √74%
-2023-2-21 16:12-debug: 填充场景数据到 settings.json start74%
-2023-2-21 16:12-log: // ---- 填充场景数据到 settings.json ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.79MB rss 121.36MB
-2023-2-21 16:12-debug: 填充场景数据到 settings.json √75%
-2023-2-21 16:12-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start75%
-2023-2-21 16:12-log: // ---- 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.80MB rss 121.45MB
-2023-2-21 16:12-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 √76%
-2023-2-21 16:12-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start76%
-2023-2-21 16:12-log: // ---- 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 210.29MB rss 124.72MB
-2023-2-21 16:12-debug: options.md5Cache is false.
-2023-2-21 16:12-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json √76%
-2023-2-21 16:12-debug: wechatgame:(onBeforeCompressSettings) start...76%
-2023-2-21 16:12-debug: // ---- wechatgame:(onBeforeCompressSettings) ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 210.31MB rss 124.78MB
-2023-2-21 16:12-debug: // ---- wechatgame:(onBeforeCompressSettings) success ----
-2023-2-21 16:12-debug: wechatgame:(onBeforeCompressSettings)78%
-2023-2-21 16:12-log: // ---- custom joint physics ----
-2023-2-21 16:12-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 210.32MB rss 124.86MB
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 209.76MB rss 121.27MB
-2023-2-21 16:12-debug: custom joint physics start73%
-2023-2-21 16:12-debug: cocos-service:(onBeforeCompressSettings) start...78%
-2023-2-21 16:12-debug: cocos-service:(onBeforeCompressSettings)81%
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 210.43MB rss 125.16MB
-2023-2-21 16:12-debug: 生成 import-map.json start81%
-2023-2-21 16:12-log: // ---- 生成 import-map.json ----
-2023-2-21 16:12-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
-2023-2-21 16:12-debug: 生成 import-map.json √82%
-2023-2-21 16:12-debug: 压缩 config.json 与 settings.json start82%
-2023-2-21 16:12-log: // ---- 压缩 config.json 与 settings.json ----
-2023-2-21 16:12-debug: 保存 config.json start83%
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 212.89MB rss 136.41MB
-2023-2-21 16:12-debug: 保存 config.json √84%
-2023-2-21 16:12-log: // ---- 保存 config.json ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 212.08MB rss 134.34MB
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 213.13MB rss 136.77MB
-2023-2-21 16:12-debug: 保存 settings.json start84%
-2023-2-21 16:12-debug: 整理静态模板文件 start85%
-2023-2-21 16:12-log: // ---- 整理静态模板文件 ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 213.25MB rss 136.89MB
-2023-2-21 16:12-log: // ---- 保存 settings.json ----
-2023-2-21 16:12-debug: 压缩 config.json 与 settings.json √83%
-2023-2-21 16:12-debug: 保存 settings.json √85%
-2023-2-21 16:12-debug: 整理静态模板文件 √86%
-2023-2-21 16:12-debug: cocos-service:(onAfterCompressSettings) start...86%
-2023-2-21 16:12-debug: // ---- cocos-service:(onAfterCompressSettings) ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 215.53MB rss 141.14MB
-2023-2-21 16:12-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
-2023-2-21 16:12-debug: cocos-service:(onAfterCompressSettings)88%
-2023-2-21 16:12-debug: wechatgame:(onAfterBuild) start...88%
-2023-2-21 16:12-debug: // ---- wechatgame:(onAfterBuild) ----
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 211.24MB rss 142.88MB
-2023-2-21 16:12-debug: // ---- wechatgame:(onAfterBuild) success ----
-2023-2-21 16:12-debug: cocos-service:(onAfterBuild) start...90%
-2023-2-21 16:12-debug: Process: heapTotal 244.91MB heapUsed 211.44MB rss 143.28MB
-2023-2-21 16:12-debug: wechatgame:(onAfterBuild)90%
-2023-2-21 16:12-debug: // ---- cocos-service:(onAfterBuild) ----
-2023-2-21 16:12-debug: // ---- cocos-service:(onAfterBuild) success ----
-2023-2-21 16:12-debug: build success in 8215 ms!
-2023-2-21 16:12-debug: builder:build-project-total (8215ms)
-2023-2-21 16:12-debug: cocos-service:(onAfterBuild)92%
-2023-2-21 16:12-debug: ================================ Build Task (wechatgame) Finished ================================
-2023-2-21 16:12-debug: init options success
-2023-2-21 16:12-debug: wechatgame:(run) start...
-2023-2-21 16:12-debug: // ---- wechatgame:(run) ----
-2023-2-21 16:12-log: Run command : -o /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/build/wechatgame -f cocos
-2023-2-21 16:12-debug: // ---- wechatgame:(run) success ----
-2023-2-21 16:12-debug: builder:run-build-stage-run (96ms)
-2023-2-21 16:12-log: [task:run]: success!
-2023-2-21 16:12-debug: wechatgame:(run) √
-2023-2-21 16:13-debug: init options success
-2023-2-21 16:13-debug: wechatgame:(run) start...
-2023-2-21 16:13-debug: // ---- wechatgame:(run) ----
-2023-2-21 16:13-log: Run command : -o /Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/build/wechatgame -f cocos
-2023-2-21 16:13-debug: wechatgame:(run) √
-2023-2-21 16:13-debug: builder:run-build-stage-run (152ms)
-2023-2-21 16:13-log: [task:run]: success!
-2023-2-21 16:13-debug: // ---- wechatgame:(run) success ----

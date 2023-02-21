@@ -6,8 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var _default = {
   "imports": {
-    "cc": "./../cocos-js/cc.js",
-    "wait-for-ammo-instantiation": "./../cocos-js/wait-for-ammo-instantiation.js"
+    "cc": "./../cocos-js/cc.js"
   }
 };
 exports["default"] = _default;

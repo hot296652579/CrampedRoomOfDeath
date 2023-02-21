@@ -3,7 +3,24 @@
     "outputName": "wechatgame",
     "mainBundleCompressionType": "merge_dep",
     "platform": "wechatgame",
-    "name": "ComeOnVicky"
+    "name": "ComeOnVicky",
+    "scenes": [
+      {
+        "url": "db://assets/scene/Battle.scene",
+        "uuid": "c326e8c1-9770-4ea8-808d-1fffa0c92930",
+        "inBundle": false
+      },
+      {
+        "url": "db://assets/scene/Start.scene",
+        "uuid": "d8f75f86-ab5a-47cf-8f56-4ecc2408b44c",
+        "inBundle": false
+      },
+      {
+        "url": "db://assets/scene/Loading.scene",
+        "uuid": "958cbe63-a4b1-4a85-8084-07a8de171c67"
+      }
+    ],
+    "startScene": "d8f75f86-ab5a-47cf-8f56-4ecc2408b44c"
   },
   "options": {
     "wechatgame": {
@@ -11,7 +28,7 @@
       "orientation": "portrait",
       "appid": "wxa2f4fc3b2f5d99de",
       "separateEngine": false,
-      "wasm": "wasm",
+      "wasm": "js",
       "enabelWebGL2": "off",
       "__version__": "1.0.2"
     }
