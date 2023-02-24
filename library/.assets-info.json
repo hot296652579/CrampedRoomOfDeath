@@ -2884,7 +2884,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Enum/index.ts": {
-    "time": 1677206557917.029,
+    "time": 1677207999399.9429,
     "uuid": "41c2c5c5-08f5-47f6-b9b6-b70e60be5125",
     "missing": false
   },
@@ -5627,7 +5627,7 @@
     "time": 1675737450764.051
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Scene/UIBattleScene.ts": {
-    "time": 1677206158928.3276,
+    "time": 1677219978561.8794,
     "uuid": "69201876-1da9-4a52-b678-87472f04db9f",
     "missing": false
   },
@@ -5747,7 +5747,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Player/PlayerMgr.ts": {
-    "time": 1677206844858.5193,
+    "time": 1677208085061.4236,
     "uuid": "6761177b-5cea-42f0-a394-ceabfe6d7548",
     "missing": false
   },
@@ -5803,7 +5803,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/EnitiyMgr.ts": {
-    "time": 1677206083985.959,
+    "time": 1677210020743.389,
     "uuid": "694a631e-90ac-4d5e-9010-9d1dea03e4b0",
     "missing": false
   },
@@ -5958,12 +5958,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Wooden/WoodenMgr.ts": {
-    "time": 1677206855361.832,
+    "time": 1677219877117.7024,
     "uuid": "12a30731-c52f-4694-8f99-27844b01e426",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Enemy/Wooden/WoodenStateMachine.ts": {
-    "time": 1677205044504.2507,
+    "time": 1677217891660.6875,
     "uuid": "f3faa662-0b98-4191-ab83-1c196fa2da4d",
     "missing": false
   },
@@ -5971,7 +5971,7 @@
     "time": 1676524657292.6619
   },
   "/Users/super_javan/cocoscreator/CrampedRoomOfDeathDungeon/assets/Scripts/Base/EnemyMgr.ts": {
-    "time": 1677206114653.5999,
+    "time": 1677220074068.6926,
     "uuid": "86a899b4-6fcb-4a9b-a26c-527072cfdcd6",
     "missing": false
   },

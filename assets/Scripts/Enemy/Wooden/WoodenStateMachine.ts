@@ -49,10 +49,10 @@ export class WoodenStateMachine extends StateMachine {
     }
 
     run() {
+        console.log('this.currentSate', this.currentSate)
         switch (this.currentSate) {
             case this.stateMachine.get(PARAMS_NAME_TYPE.ATTACK):
             case this.stateMachine.get(PARAMS_NAME_TYPE.IDLE):
-
             case this.stateMachine.get(PARAMS_NAME_TYPE.DEATH):
                 if (this.params.get(PARAMS_NAME_TYPE.DEATH).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.DEATH)

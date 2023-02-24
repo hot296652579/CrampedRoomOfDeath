@@ -30,6 +30,7 @@ export class EnitiyMgr extends Component {
         return this._direction
     }
     set direction(newDirection) {
+        console.log('newDirection', newDirection)
         this._direction = newDirection
         this.fsm.setParams(PARAMS_NAME_TYPE.DIRECTION, DIRECTION_ORDER_ENUM[this._direction])
     }

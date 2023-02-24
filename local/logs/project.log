@@ -342,3 +342,6 @@ myProp = 0;
 2023-02-24T02:11:41.173Z - log: [Scene] Cocos Creator v3.6.0
 2023-02-24T02:11:41.173Z - info: [Scene] Forward render pipeline initialized.
 2023-02-24T02:33:15.978Z - error: [Preview]TypeError: (intermediate value).onDestroy is not a functionerrorInfo.stack ? '/n ' : ''
+2023-02-24T02:57:28.403Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-02-24T02:57:28.403Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277

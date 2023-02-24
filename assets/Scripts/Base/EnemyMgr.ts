@@ -16,7 +16,7 @@ export class EnemyMgr extends EnitiyMgr {
     /***
      * 根据玩家在敌人的象限改变敌人的朝向
      */
-    onChangeDirection() {
+    onChangeDirection(init = false) {
         if (!DataManager.Instance.playerInfo)
             return
         if (this.state === ENTITY_STATE_ENUM.DEATH || !DataManager.Instance.playerInfo)
@@ -26,14 +26,26 @@ export class EnemyMgr extends EnitiyMgr {
         const disX = Math.abs(this.x - playerX)
         const disY = Math.abs(this.y - playerY)
 
+        //确保敌人在初始化的时候调整一次direction
+        if (disX === disY && !init) {
+            return
+        }
+        console.log('改变方向 朝向!!!!')
+        //第一象限
         if (playerX >= this.x && playerY <= this.y) {
-            disY > disX ? this.direction = DIRECTION_ENUM.TOP : this.direction = DIRECTION_ENUM.RIGHT
+            this.direction = disX >= disY ? DIRECTION_ENUM.RIGHT : DIRECTION_ENUM.TOP
+
+            //第二象限
         } else if (playerX <= this.x && playerY <= this.y) {
-            disY > disX ? this.direction = DIRECTION_ENUM.TOP : this.direction = DIRECTION_ENUM.LEFT
-        } else if (playerX <= this.x && this.y >= playerY) {
-            disY > disX ? this.direction = DIRECTION_ENUM.BOTTOM : this.direction = DIRECTION_ENUM.LEFT
-        } else if (playerX >= this.x && this.y >= playerY) {
-            disY > disX ? this.direction = DIRECTION_ENUM.BOTTOM : this.direction = DIRECTION_ENUM.RIGHT
+            this.direction = disX >= disY ? DIRECTION_ENUM.LEFT : DIRECTION_ENUM.TOP
+
+            //第三象限
+        } else if (playerX <= this.x && playerY >= this.y) {
+            this.direction = disX >= disY ? DIRECTION_ENUM.LEFT : DIRECTION_ENUM.BOTTOM
+
+            //第四象限
+        } else if (playerX >= this.x && playerY >= this.y) {
+            this.direction = disX >= disY ? DIRECTION_ENUM.RIGHT : DIRECTION_ENUM.BOTTOM
         }
     }
 
@@ -49,14 +61,14 @@ export class EnemyMgr extends EnitiyMgr {
     onLoad() {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.onChangeDirection, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.onChangeDirection, this)
-        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_ENEMY_DEATH, this.onDeath, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_ATTACK_ENEMY, this.onDeath, this)
     }
 
     onDestroy() {
         super.onDestroy()
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.onChangeDirection)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.onChangeDirection)
-        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_ENEMY_DEATH, this.onDeath)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_ATTACK_ENEMY, this.onDeath)
     }
 
 

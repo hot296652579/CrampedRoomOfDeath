@@ -82,11 +82,10 @@ export class PlayerMrg extends EnitiyMgr {
         if (enemyId) {
             AudioMgr.inst.playOneShot('sound/attack')
             this.state = ENTITY_STATE_ENUM.ATTACK
-            EventMgr.Instance.emit(ENUM_EVENT.ENUM_ENEMY_DEATH, enemyId)
+            EventMgr.Instance.emit(ENUM_EVENT.ENUM_ATTACK_ENEMY, enemyId)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_OPEN_DOOR)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_RECORD_STEP)
-            console.log('发送移动事件...')
             return
         }
 

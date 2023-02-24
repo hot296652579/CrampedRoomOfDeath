@@ -65,6 +65,8 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_WIN_RESTART_GAME, this.winRestartGame)
+
+        EventMgr.Instance.clearDir()
     }
 
     async initLevel() {
@@ -170,7 +172,7 @@ export class UIBattleScene extends Component {
         const playerManager = playerNode.addComponent(PlayerMrg)
         await playerManager.init(this.level.player)
         DataManager.Instance.playerInfo = playerManager
-        EventMgr.Instance.emit(ENUM_EVENT.ENUM_PLAYER_BORN)
+        EventMgr.Instance.emit(ENUM_EVENT.ENUM_PLAYER_BORN, true)
     }
 
     async generateEnemies() {
