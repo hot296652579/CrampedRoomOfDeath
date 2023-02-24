@@ -15,6 +15,6 @@ export class BottomControl extends Component {
     }
 
     handlerClickDirection(evt: Event, data: ENUM_BOTTOM_CONTROLLER) {
-        EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_PLAYER, data)
+        EventMgr.Instance.emit(ENUM_EVENT.ENUM_CTRL_CLICK, data)
     }
 }

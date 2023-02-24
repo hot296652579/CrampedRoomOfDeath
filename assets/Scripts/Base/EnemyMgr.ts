@@ -13,8 +13,10 @@ export class EnemyMgr extends EnitiyMgr {
     async init(params: IEnitiy) {
         super.init(params)
     }
-
-    handlerPlayerMoveEnd() {
+    /***
+     * 根据玩家在敌人的象限改变敌人的朝向
+     */
+    onChangeDirection() {
         if (!DataManager.Instance.playerInfo)
             return
         if (this.state === ENTITY_STATE_ENUM.DEATH || !DataManager.Instance.playerInfo)
@@ -36,20 +38,24 @@ export class EnemyMgr extends EnitiyMgr {
     }
 
     onDeath(id: string) {
+        if (this.state === ENTITY_STATE_ENUM.DEATH) {
+            return
+        }
         if (this.id === id) {
             this.state = ENTITY_STATE_ENUM.DEATH
         }
     }
 
     onLoad() {
-        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.handlerPlayerMoveEnd, this)
-        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.handlerPlayerMoveEnd, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.onChangeDirection, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.onChangeDirection, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_ENEMY_DEATH, this.onDeath, this)
     }
 
-    onDestry() {
-        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.handlerPlayerMoveEnd)
-        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.handlerPlayerMoveEnd)
+    onDestroy() {
+        super.onDestroy()
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.onChangeDirection)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_PLAYER_BORN, this.onChangeDirection)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_ENEMY_DEATH, this.onDeath)
     }
 

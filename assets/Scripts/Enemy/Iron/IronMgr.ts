@@ -20,12 +20,4 @@ export class IronMgr extends EnemyMgr {
         await this.fsm.init()
         super.init(params)
     }
-
-    onLoad() {
-        super.onLoad()
-    }
-
-    onDestry() {
-        super.onDestry()
-    }
 }

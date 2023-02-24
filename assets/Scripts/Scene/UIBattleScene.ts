@@ -38,7 +38,7 @@ export class UIBattleScene extends Component {
         // SoundMgr.Instance.playMusic('sound/bg', true)
         AudioMgr.inst.play('sound/bg', 1, true)
 
-        DataManager.Instance.levelIndex = 1
+        DataManager.Instance.levelIndex = 2
         this.generateStage()
         this.initLevel()
 
@@ -89,10 +89,9 @@ export class UIBattleScene extends Component {
             this.generateSpikes(),
             this.generateDoor(),
             this.generateSmokeLayer(),
-            this.generatePlayer(),
             this.fitPos()
         ])
-
+        await this.generatePlayer()
         FadeMgr.Instance.fader.fadeOut()
         this.fadeInit = true
     }

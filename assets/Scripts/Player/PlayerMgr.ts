@@ -36,14 +36,13 @@ export class PlayerMrg extends EnitiyMgr {
     }
 
     onLoad() {
-        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_PLAYER, this.inputHanlder, this)
-        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_ATTACK_PLAYER, this.onDeathHanlder, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_CTRL_CLICK, this.inputHanlder, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_PLAYER_DEATH, this.onDeathHanlder, this)
     }
 
     onDestry() {
-        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_PLAYER, this.inputHanlder)
-        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_ATTACK_PLAYER, this.onDeathHanlder)
+        super.onDestroy()
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_CTRL_CLICK, this.inputHanlder)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_PLAYER_DEATH, this.onDeathHanlder)
     }
 
@@ -63,11 +62,10 @@ export class PlayerMrg extends EnitiyMgr {
             this.y += MOVE_SPEED
         }
 
-        if (Math.abs(this.targetX - this.x) <= 0.1 && Math.abs(this.targetY - this.y) <= 0.1 && this.isMoving) {
-            this.isMoving = false
+        if (Math.abs(this.targetX - this.x) <= 0.01 && Math.abs(this.targetY - this.y) <= 0.01 && this.isMoving) {
             this.x = this.targetX
             this.y = this.targetY
-
+            this.isMoving = false
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
         }
     }
@@ -88,6 +86,7 @@ export class PlayerMrg extends EnitiyMgr {
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_OPEN_DOOR)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
             EventMgr.Instance.emit(ENUM_EVENT.ENUM_RECORD_STEP)
+            console.log('发送移动事件...')
             return
         }
 
@@ -1185,8 +1184,6 @@ export class PlayerMrg extends EnitiyMgr {
                 AudioMgr.inst.playOneShot('sound/move')
                 break;
             case ENUM_BOTTOM_CONTROLLER.TURNLEFT:
-                // this.fsm.setParams(PARAMS_NAME_TYPE.TURNLEFT, true)
-
                 if (this.direction === DIRECTION_ENUM.TOP) {
                     this.direction = DIRECTION_ENUM.LEFT
                 } else if (this.direction === DIRECTION_ENUM.BOTTOM) {
@@ -1211,9 +1208,6 @@ export class PlayerMrg extends EnitiyMgr {
                 }
                 this.state = ENTITY_STATE_ENUM.TURNRIGHT
                 EventMgr.Instance.emit(ENUM_EVENT.ENUM_MOVE_END)
-                break;
-
-            default:
                 break;
         }
     }

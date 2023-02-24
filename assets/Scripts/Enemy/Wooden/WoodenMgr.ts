@@ -45,8 +45,8 @@ export class WoodenMgr extends EnemyMgr {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkAttack, this)
     }
 
-    onDestry() {
-        super.onDestry()
+    onDestroy() {
+        super.onDestroy()
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.checkAttack)
     }
 

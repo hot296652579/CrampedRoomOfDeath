@@ -31,7 +31,7 @@ export class BurstMgr extends EnitiyMgr {
         } else if (this.state === ENTITY_STATE_ENUM.ATTACK) {
             this.state = ENTITY_STATE_ENUM.DEATH
             if (this.x === playerX && this.y === playerY) {
-                EventMgr.Instance.emit(ENUM_EVENT.ENUM_ATTACK_PLAYER, ENTITY_STATE_ENUM.AIRDEATH)
+                EventMgr.Instance.emit(ENUM_EVENT.ENUM_PLAYER_DEATH, ENTITY_STATE_ENUM.AIRDEATH)
                 console.log('陷阱攻击敌人')
             }
         }
@@ -46,6 +46,7 @@ export class BurstMgr extends EnitiyMgr {
     }
 
     onDestry() {
+        super.onDestroy()
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_MOVE_END, this.onAttack)
     }
 

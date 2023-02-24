@@ -50,20 +50,17 @@ export class WoodenStateMachine extends StateMachine {
 
     run() {
         switch (this.currentSate) {
-            case this.stateMachine.get(PARAMS_NAME_TYPE.TURNLEFT):
-            case this.stateMachine.get(PARAMS_NAME_TYPE.DEATH):
             case this.stateMachine.get(PARAMS_NAME_TYPE.ATTACK):
-            case this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKFRONT):
-            case this.stateMachine.get(PARAMS_NAME_TYPE.BLOCKTURNLEFT):
-
             case this.stateMachine.get(PARAMS_NAME_TYPE.IDLE):
-                if (this.params.get(PARAMS_NAME_TYPE.IDLE).value) {
-                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDLE)
-                } else if (this.params.get(PARAMS_NAME_TYPE.ATTACK).value) {
-                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.ATTACK)
-                } else if (this.params.get(PARAMS_NAME_TYPE.DEATH).value) {
+
+            case this.stateMachine.get(PARAMS_NAME_TYPE.DEATH):
+                if (this.params.get(PARAMS_NAME_TYPE.DEATH).value) {
                     this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.DEATH)
                     AudioMgr.inst.playOneShot('sound/enemyDeath')
+                } else if (this.params.get(PARAMS_NAME_TYPE.ATTACK).value) {
+                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.ATTACK)
+                } else if (this.params.get(PARAMS_NAME_TYPE.IDLE).value) {
+                    this.currentSate = this.stateMachine.get(PARAMS_NAME_TYPE.IDLE)
                 }
                 else {
                     this.currentSate = this.currentSate

@@ -31,6 +31,7 @@ export class DoorMgr extends EnitiyMgr {
     }
 
     onDestry() {
+        super.onDestroy()
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_OPEN_DOOR, this.onOpen)
     }
 
