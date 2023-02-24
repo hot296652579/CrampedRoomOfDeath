@@ -12,6 +12,8 @@ export class EnemyMgr extends EnitiyMgr {
 
     async init(params: IEnitiy) {
         super.init(params)
+
+        this.onChangeDirection(true)
     }
     /***
      * 根据玩家在敌人的象限改变敌人的朝向

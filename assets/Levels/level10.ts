@@ -285,13 +285,13 @@ const enemies: Array<IEnitiy> = [
         state: ENTITY_STATE_ENUM.IDLE,
         type: ENITIY_TYPE_ENUM.WOODEN,
     },
-    // {
-    //     x: 2,
-    //     y: 4,
-    //     direction: DIRECTION_ENUM.BOTTOM,
-    //     state: ENTITY_STATE_ENUM.IDLE,
-    //     type: ENITIY_TYPE_ENUM.WOODEN,
-    // },
+    {
+        x: 2,
+        y: 4,
+        direction: DIRECTION_ENUM.BOTTOM,
+        state: ENTITY_STATE_ENUM.IDLE,
+        type: ENITIY_TYPE_ENUM.IRON,
+    },
     {
         x: 5,
         y: 5,

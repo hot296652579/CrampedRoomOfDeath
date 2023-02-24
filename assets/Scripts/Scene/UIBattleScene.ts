@@ -1,5 +1,5 @@
-import { Component, _decorator, Node, AudioSource } from "cc";
-import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENITIY_TYPE_SPIKES_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT } from "../../Enum";
+import { Component, _decorator, Node, AudioSource, director } from "cc";
+import { DIRECTION_ENUM, ENITIY_TYPE_ENUM, ENITIY_TYPE_SPIKES_ENUM, ENTITY_STATE_ENUM, ENUM_EVENT, SCENE_ENUM } from "../../Enum";
 import levels, { ILevel } from "../../Levels";
 import EventMgr from "../Base/EventMgr";
 import { BurstMgr } from "../Burst/BurstMgr";
@@ -35,16 +35,11 @@ export class UIBattleScene extends Component {
     win: Node = null
 
     start() {
-        // SoundMgr.Instance.playMusic('sound/bg', true)
         AudioMgr.inst.play('sound/bg', 1, true)
 
-        DataManager.Instance.levelIndex = 2
+        // DataManager.Instance.levelIndex = 10
         this.generateStage()
         this.initLevel()
-
-        this.menu.setSiblingIndex(10)
-        this.bottom.setSiblingIndex(11)
-        this.win.setSiblingIndex(12)
     }
 
     onLoad() {
@@ -53,7 +48,8 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RECORD_STEP, this.saveRecord, this)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord, this)
-        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel, this)
+        // EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel, this)
+        EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.restartLoadSence)
         EventMgr.Instance.addEventListen(ENUM_EVENT.ENUM_WIN_RESTART_GAME, this.winRestartGame, this)
     }
 
@@ -63,10 +59,17 @@ export class UIBattleScene extends Component {
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_SHOW_SMOKE, this.showSmokeHandler)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RECORD_STEP, this.saveRecord)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_REVOKE_STEP, this.revokeRecord)
-        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel)
+        // EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.initLevel)
+        EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_RESTART_GAME, this.restartLoadSence)
         EventMgr.Instance.unEventListen(ENUM_EVENT.ENUM_WIN_RESTART_GAME, this.winRestartGame)
 
         EventMgr.Instance.clearDir()
+    }
+
+    private restartLoadSence() {
+        DataManager.Instance.reset()
+        EventMgr.Instance.clearDir()
+        director.loadScene(SCENE_ENUM.BATTLE)
     }
 
     async initLevel() {
@@ -155,6 +158,7 @@ export class UIBattleScene extends Component {
         const stageNode = createNewNode()
         stageNode.setParent(this.node)
         this.stage = stageNode
+        this.stage.setSiblingIndex(2)
         this.stage.addComponent(ShakeManager)
     }
 

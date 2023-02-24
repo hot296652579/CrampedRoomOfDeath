@@ -185,9 +185,9 @@ const mapInfo = [
 ];
 
 const player: IEnitiy = {
-    x: 1,
-    y: 2,
-    direction: DIRECTION_ENUM.RIGHT,
+    x: 2,
+    y: 0,
+    direction: DIRECTION_ENUM.BOTTOM,
     state: ENTITY_STATE_ENUM.IDLE,
     type: ENITIY_TYPE_ENUM.PLAYER,
 };
@@ -200,13 +200,13 @@ const enemies: Array<IEnitiy> = [
         state: ENTITY_STATE_ENUM.IDLE,
         type: ENITIY_TYPE_ENUM.WOODEN,
     },
-    // {
-    //     x: 4,
-    //     y: 3,
-    //     direction: DIRECTION_ENUM.TOP,
-    //     state: ENTITY_STATE_ENUM.IDLE,
-    //     type: ENITIY_TYPE_ENUM.WOODEN,
-    // },
+    {
+        x: 4,
+        y: 3,
+        direction: DIRECTION_ENUM.TOP,
+        state: ENTITY_STATE_ENUM.IDLE,
+        type: ENITIY_TYPE_ENUM.WOODEN,
+    },
 ];
 
 const spikes: Array<ISpikes> = [];
